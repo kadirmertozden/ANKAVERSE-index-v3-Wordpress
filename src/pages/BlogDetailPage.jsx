@@ -6,15 +6,18 @@ import { motion } from 'framer-motion';
 import { Calendar, Clock, User, Tag, Share2, ArrowLeft, Facebook, Twitter, Linkedin, ChevronRight, Loader2 } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { getBlogPostById, getBlogPosts } from '@/services/api';
+import { getBlogPostById, getBlogPosts, getCategories } from '@/services/api';
+import { calculateReadTime, stripHtml } from '@/lib/utils';
 
 const BlogDetailPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [post, setPost] = useState(null);
   const [relatedPosts, setRelatedPosts] = useState([]);
+  const [categories, setCategories] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     const fetchPostData = async () => {
@@ -27,12 +30,12 @@ const BlogDetailPage = () => {
           id: postData.id,
           title: postData.title.rendered,
           content: postData.content.rendered,
-          excerpt: postData.excerpt.rendered.replace(/<[^>]+>/g, ''),
+          excerpt: stripHtml(postData.excerpt.rendered),
           image: postData._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/1200x600?text=No+Image',
           date: new Date(postData.date).toLocaleDateString('tr-TR'),
-          category: postData._embedded?.['wp:term']?.[0]?.[0]?.name || 'Genel',
-          readTime: '5 dk', // Placeholder
-          tags: postData._embedded?.['wp:term']?.[1]?.map(tag => tag.name) || [], // Getting tags from embedded terms
+          category: postData._embedded?.['wp:term']?.flat().find(term => term.taxonomy === 'category')?.name || 'Genel',
+          readTime: calculateReadTime(postData.content.rendered),
+          tags: postData._embedded?.['wp:term']?.flat().filter(term => term.taxonomy === 'post_tag').map(tag => tag.name) || [],
           author: {
             name: postData._embedded?.author?.[0]?.name || 'Admin',
             role: 'Yazar', // Placeholder or from user meta
@@ -43,7 +46,7 @@ const BlogDetailPage = () => {
         setPost(formattedPost);
 
         // Fetch related posts (simple implementation: just get latest posts excluding current)
-        const allPosts = await getBlogPosts();
+        const allPosts = await getBlogPosts(1, 3); // Fetch 3 to ensure we have enough after filtering
         const related = allPosts
           .filter(p => p.id !== parseInt(id))
           .slice(0, 2)
@@ -54,6 +57,10 @@ const BlogDetailPage = () => {
             image: p._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/150x150?text=No+Image'
           }));
         setRelatedPosts(related);
+
+        // Fetch categories
+        const cats = await getCategories();
+        setCategories(cats);
 
       } catch (err) {
         console.error('Error fetching blog post:', err);
@@ -66,6 +73,13 @@ const BlogDetailPage = () => {
     fetchPostData();
     window.scrollTo(0, 0);
   }, [id, navigate]);
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      navigate(`/blog?search=${encodeURIComponent(searchQuery)}`);
+    }
+  };
 
   if (loading) {
     return (
@@ -219,30 +233,32 @@ const BlogDetailPage = () => {
               {/* Search Widget (Visual Only) */}
               <div className="bg-[#25262b] p-6 rounded-2xl border border-white/5 shadow-lg">
                 <h3 className="text-lg font-bold text-white mb-4 border-b border-white/10 pb-2">Arama</h3>
-                <div className="relative">
-                  <input 
-                    type="text" 
-                    placeholder="Blogda ara..." 
+                <form onSubmit={handleSearch} className="relative">
+                  <input
+                    type="text"
+                    placeholder="Blogda ara..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
                     className="w-full bg-black/20 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#d4af37] transition-colors"
                   />
-                  <div className="absolute right-3 top-3 text-gray-500">
+                  <button type="submit" className="absolute right-3 top-3 text-gray-500 hover:text-[#d4af37]">
                      <ChevronRight className="w-5 h-5 rotate-90" />
-                  </div>
-                </div>
+                  </button>
+                </form>
               </div>
 
               {/* Categories Widget */}
               <div className="bg-[#25262b] p-6 rounded-2xl border border-white/5 shadow-lg">
                 <h3 className="text-lg font-bold text-white mb-4 border-b border-white/10 pb-2">Kategoriler</h3>
                 <ul className="space-y-3">
-                  {["Teknoloji", "E-Ticaret", "Siber Güvenlik", "Yapay Zeka", "Dijital Pazarlama"].map((cat, idx) => (
-                    <li key={idx}>
-                      <a href="#" className="flex items-center justify-between text-gray-400 hover:text-[#d4af37] transition-colors group">
-                        <span>{cat}</span>
+                  {categories.map((cat) => (
+                    <li key={cat.id}>
+                      <Link to={`/blog?category=${cat.id}`} className="flex items-center justify-between text-gray-400 hover:text-[#d4af37] transition-colors group">
+                        <span>{cat.name}</span>
                         <span className="bg-white/5 text-xs px-2 py-1 rounded-full group-hover:bg-[#d4af37] group-hover:text-black transition-colors">
-                          {Math.floor(Math.random() * 10) + 1}
+                          {cat.count}
                         </span>
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>

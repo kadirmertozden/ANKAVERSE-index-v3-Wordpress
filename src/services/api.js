@@ -55,8 +55,8 @@ export const getServices = async () => {
  * Fetch Blog Posts
  * @returns {Promise<Array>}
  */
-export const getBlogPosts = async () => {
-  return fetchFromAPI('posts', { _embed: true, per_page: 10 });
+export const getBlogPosts = async (page = 1, per_page = 9, params = {}) => {
+  return fetchFromAPI('posts', { _embed: true, per_page, page, ...params });
 };
 
 /**
@@ -85,4 +85,12 @@ export const getPageBySlug = async (slug) => {
  */
 export const getMediaById = async (id) => {
   return fetchFromAPI(`media/${id}`);
+};
+
+/**
+ * Fetch Categories
+ * @returns {Promise<Array>}
+ */
+export const getCategories = async () => {
+  return fetchFromAPI('categories', { per_page: 100 });
 };
