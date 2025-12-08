@@ -77,3 +77,12 @@ export const getPageBySlug = async (slug) => {
   const pages = await fetchFromAPI('pages', { slug, _embed: true });
   return pages.length > 0 ? pages[0] : null;
 };
+
+/**
+ * Fetch Media by ID
+ * @param {number} id
+ * @returns {Promise<object>}
+ */
+export const getMediaById = async (id) => {
+  return fetchFromAPI(`media/${id}`);
+};

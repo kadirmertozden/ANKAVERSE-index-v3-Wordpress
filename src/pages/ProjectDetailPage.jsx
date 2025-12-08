@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, User, Code2, Loader2 } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { getProjectById } from '@/services/api';
+import { getProjectById, getMediaById } from '@/services/api';
 
 const ProjectDetailPage = () => {
   const { id } = useParams();
@@ -22,6 +22,24 @@ const ProjectDetailPage = () => {
         const data = await getProjectById(id);
         console.log('Project Detail API Response:', data); // Debug log
         
+        // Handle secondary image (ACF might return ID or URL depending on settings)
+        let secondaryImageUrl = null;
+        if (data.acf?.ikincil_gorsel) {
+          if (typeof data.acf.ikincil_gorsel === 'string') {
+            secondaryImageUrl = data.acf.ikincil_gorsel;
+          } else if (typeof data.acf.ikincil_gorsel === 'number') {
+            // If ID is returned, fetch the media URL
+            try {
+              const mediaData = await getMediaById(data.acf.ikincil_gorsel);
+              secondaryImageUrl = mediaData.source_url;
+            } catch (e) {
+              console.error('Error fetching secondary image:', e);
+            }
+          } else if (data.acf.ikincil_gorsel.url) {
+            secondaryImageUrl = data.acf.ikincil_gorsel.url;
+          }
+        }
+
         // Map API data to component format
         const formattedProject = {
           id: data.id,
@@ -37,10 +55,7 @@ const ProjectDetailPage = () => {
             new Date(data.date).toLocaleDateString('tr-TR'),
           // Split technologies by comma or newline
           technologies: data.acf?.teknolojiler ? data.acf.teknolojiler.split(/,|\r\n|\n|\r/).map(t => t.trim()).filter(t => t !== '') : [],
-          // Handle secondary image (ACF might return ID or URL depending on settings)
-          // Ideally, set ACF return format to 'Image URL' in WordPress
-          secondaryImage: typeof data.acf?.ikincil_gorsel === 'string' ? data.acf.ikincil_gorsel :
-                          (data.acf?.ikincil_gorsel?.url || null)
+          secondaryImage: secondaryImageUrl
         };
         
         setProject(formattedProject);
