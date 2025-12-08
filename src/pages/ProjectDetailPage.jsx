@@ -136,23 +136,25 @@ const ProjectDetailPage = () => {
                 className="bg-[#25262b] p-8 rounded-2xl border border-white/5 shadow-xl"
               >
                 <h2 className="text-2xl font-bold mb-6 text-white">Proje Görselleri</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className={`grid grid-cols-1 ${project.secondaryImage ? 'md:grid-cols-2' : ''} gap-4`}>
                    <div className="rounded-lg overflow-hidden h-64 bg-gray-800">
-                      <img 
-                        src={project.image} 
-                        className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" 
+                      <img
+                        src={project.image}
+                        className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                         alt={`${project.title} - Ana Görsel`}
-                        loading="lazy" 
-                      />
-                   </div>
-                   <div className="rounded-lg overflow-hidden h-64 bg-gray-800">
-                      <img 
-                        src={project.secondaryImage || project.image} 
-                        className="w-full h-full object-cover hover:scale-110 transition-transform duration-500" 
-                        alt={`Detailed view of ${project.title}`}
                         loading="lazy"
                       />
                    </div>
+                   {project.secondaryImage && (
+                     <div className="rounded-lg overflow-hidden h-64 bg-gray-800">
+                        <img
+                          src={project.secondaryImage}
+                          className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                          alt={`Detailed view of ${project.title}`}
+                          loading="lazy"
+                        />
+                     </div>
+                   )}
                 </div>
               </motion.div>
             </div>
