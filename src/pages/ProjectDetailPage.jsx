@@ -25,15 +25,22 @@ const ProjectDetailPage = () => {
         // Map API data to component format
         const formattedProject = {
           id: data.id,
-          title: data.title.rendered,
-          description: data.content.rendered.replace(/<[^>]+>/g, ''), // Strip HTML tags for now, or use dangerouslySetInnerHTML
-          summary: data.excerpt.rendered.replace(/<[^>]+>/g, ''),
+          title: data.title?.rendered || 'Başlıksız Proje',
+          description: data.content?.rendered ? data.content.rendered.replace(/<[^>]+>/g, '') : '', // Strip HTML tags for now, or use dangerouslySetInnerHTML
+          summary: data.excerpt?.rendered ? data.excerpt.rendered.replace(/<[^>]+>/g, '') : '',
           image: data._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/1200x600?text=No+Image',
           category: data.acf?.kategori || 'Genel',
           client: data.acf?.musteri || 'Gizli',
-          date: data.acf?.tarih || new Date(data.date).toLocaleDateString('tr-TR'),
-          technologies: data.acf?.teknolojiler ? data.acf.teknolojiler.split(',') : [], // Assuming comma-separated string or array
-          secondaryImage: data.acf?.ikincil_gorsel || null
+          // Format date from YYYYMMDD to DD.MM.YYYY
+          date: data.acf?.tarih ?
+            `${data.acf.tarih.substring(6, 8)}.${data.acf.tarih.substring(4, 6)}.${data.acf.tarih.substring(0, 4)}` :
+            new Date(data.date).toLocaleDateString('tr-TR'),
+          // Split technologies by comma or newline
+          technologies: data.acf?.teknolojiler ? data.acf.teknolojiler.split(/,|\r\n|\n|\r/).map(t => t.trim()).filter(t => t !== '') : [],
+          // Handle secondary image (ACF might return ID or URL depending on settings)
+          // Ideally, set ACF return format to 'Image URL' in WordPress
+          secondaryImage: typeof data.acf?.ikincil_gorsel === 'string' ? data.acf.ikincil_gorsel :
+                          (data.acf?.ikincil_gorsel?.url || null)
         };
         
         setProject(formattedProject);

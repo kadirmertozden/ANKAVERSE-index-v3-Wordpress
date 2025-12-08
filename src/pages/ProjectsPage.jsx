@@ -26,8 +26,8 @@ const ProjectsPage = () => {
           
           return {
             id: item.id,
-            title: item.title.rendered,
-            summary: item.acf?.proje_kisa_aciklamasi || item.excerpt?.rendered?.replace(/<[^>]+>/g, '') || '',
+            title: item.title?.rendered || 'Başlıksız Proje',
+            summary: item.acf?.proje_kisa_aciklamasi || (item.excerpt?.rendered ? item.excerpt.rendered.replace(/<[^>]+>/g, '') : ''),
             image: item._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/800x600?text=No+Image',
             category: item.acf?.kategori || 'Genel' // Assuming you might add a category field or use standard WP categories
           };
