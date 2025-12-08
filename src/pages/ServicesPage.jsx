@@ -1,93 +1,75 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
-import { 
-  Code2, 
-  Workflow, 
-  ShoppingCart, 
-  BrainCircuit, 
+import {
+  Code2,
+  Workflow,
+  ShoppingCart,
+  BrainCircuit,
   Box,
-  CheckCircle2
+  CheckCircle2,
+  Loader2,
+  Server,
+  ShieldCheck,
+  Activity,
+  Database,
+  Layers
 } from 'lucide-react';
+import { getServices } from '@/services/api';
+
+// Helper to map icon string names to components
+const IconMap = {
+  'Code2': Code2,
+  'Workflow': Workflow,
+  'ShoppingCart': ShoppingCart,
+  'BrainCircuit': BrainCircuit,
+  'Box': Box,
+  'Server': Server,
+  'ShieldCheck': ShieldCheck,
+  'Activity': Activity,
+  'Database': Database,
+  'Layers': Layers
+};
 
 const ServicesPage = () => {
-  const services = [
-    {
-      id: "yazilim",
-      icon: <Code2 className="h-12 w-12 text-[#d4af37]" />,
-      title: 'Yazılım Geliştirme',
-      description: 'Modern teknolojilerle ölçeklenebilir ve güvenli kurumsal yazılım çözümleri sunuyoruz.',
-      features: [
-        'API tabanlı kurumsal çözümler',
-        'Web ve yönetim paneli geliştirme',
-        'Gelişmiş veri doğrulama mekanizmaları',
-        'Python / Node.js / .NET altyapıları',
-        'MSSQL / PostgreSQL / Redis veritabanı yönetimi',
-        'Docker ve mikro servis mimarileri'
-      ]
-    },
-    {
-      id: "otomasyon",
-      icon: <Workflow className="h-12 w-12 text-[#d4af37]" />,
-      title: 'Otomasyon & Entegrasyon',
-      description: 'İş süreçlerinizi hızlandıran akıllı otomasyonlar ve kesintisiz entegrasyon sistemleri.',
-      features: [
-        'n8n workflow otomasyonları',
-        'Cron tabanlı periyodik veri işleme',
-        'Telegram bot ve tetikleyici entegrasyonları',
-        'XML / CSV veri ayrıştırma ve işleme',
-        'Pazaryeri API entegrasyonları',
-        'Veri akışı optimizasyonu ve sunucu performansı'
-      ]
-    },
-    {
-      id: "eticaret",
-      icon: <ShoppingCart className="h-12 w-12 text-[#d4af37]" />,
-      title: 'E-Ticaret Teknolojileri',
-      description: 'Büyük ölçekli e-ticaret operasyonları için veri yönetimi ve altyapı çözümleri.',
-      features: [
-        'Büyük ölçekli ürün veri yönetimi',
-        '10.000+ SKU için optimize edilmiş pipeline',
-        'HTML açıklama ve içerik otomasyonu',
-        'Görsel standartlaştırma süreçleri',
-        'Hepsiburada / Trendyol tam uyumluluk',
-        'N8N + AI hibrit sistem entegrasyonları'
-      ]
-    },
-    {
-      id: "yapayzeka",
-      icon: <BrainCircuit className="h-12 w-12 text-[#d4af37]" />,
-      title: 'Yapay Zekâ Çözümleri',
-      description: 'İşletmenize özel yapay zeka modelleri ile verimliliği artıran akıllı analizler.',
-      features: [
-        'Domain-specific Türkçe NLP modelleri',
-        'Otomatik içerik doğrulama sistemleri',
-        'Akıllı ürün varyant tespit algoritmaları',
-        'Büyük veri temizleme ve düzenleme',
-        'LLM tabanlı derinlemesine analiz',
-        'AI destekli operasyonel otomasyon'
-      ]
-    },
-    {
-      id: "3dmodel",
-      icon: <Box className="h-12 w-12 text-[#d4af37]" />,
-      title: '3D Modelleme & Dijital Üretim',
-      description: 'Endüstriyel tasarım ve görselleştirme ihtiyaçlarınız için profesyonel 3D çözümler.',
-      features: [
-        'Endüstriyel ürün modellemeleri',
-        'Profesyonel CAD teknik çizimleri',
-        'Fotorealistik render ve animasyon',
-        'Prototip üretim dosyaları hazırlama',
-        'Simülasyon ve tasarım doğrulama analizleri',
-        'Üretime hazır dijital modelleme',
-        '3D Mimari Görselleştirme'
-      ]
-    }
-  ];
+  const [services, setServices] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchServices = async () => {
+      try {
+        const data = await getServices();
+        
+        // Map WordPress API data to component format
+        const formattedServices = data.map(service => {
+          // Get icon component or default to Code2
+          const IconComponent = IconMap[service.acf?.ikon_adi] || Code2;
+          
+          return {
+            id: service.slug, // Use slug as ID for anchor links
+            icon: <IconComponent className="h-12 w-12 text-[#d4af37]" />,
+            title: service.title.rendered,
+            description: service.content.rendered.replace(/<[^>]+>/g, ''), // Strip HTML
+            features: service.acf?.ozellikler ? service.acf.ozellikler.split('\n').filter(f => f.trim() !== '') : [] // Assuming features are newline separated in a textarea
+          };
+        });
+        
+        setServices(formattedServices);
+      } catch (err) {
+        console.error('Error fetching services:', err);
+        setError('Hizmetler yüklenirken bir hata oluştu.');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchServices();
+  }, []);
 
   return (
     <>
@@ -117,58 +99,68 @@ const ServicesPage = () => {
                 </p>
              </motion.div>
 
-             <div className="space-y-24">
-                {services.map((service, index) => (
-                  <motion.div 
-                    key={service.id}
-                    id={service.id}
-                    initial={{ opacity: 0, y: 40 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, margin: "-100px" }}
-                    transition={{ duration: 0.7 }}
-                    className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-12 items-center`}
-                  >
-                    {/* Icon & Image Area */}
-                    <div className="w-full lg:w-1/2">
-                      <div className="relative group">
-                        <div className="absolute inset-0 bg-[#d4af37]/10 rounded-2xl transform rotate-3 group-hover:rotate-6 transition-transform duration-300"></div>
-                        <div className="relative bg-[#25262b] p-10 rounded-2xl border border-[#333] shadow-2xl hover:border-[#d4af37]/30 transition-colors">
-                          <div className="bg-[#1a1b1e] w-20 h-20 rounded-xl flex items-center justify-center mb-6 border border-[#333] group-hover:border-[#d4af37]/50 transition-colors">
-                            {service.icon}
+             {loading ? (
+               <div className="flex justify-center items-center min-h-[400px]">
+                 <Loader2 className="w-16 h-16 text-[#d4af37] animate-spin" />
+               </div>
+             ) : error ? (
+               <div className="text-center text-red-500 py-10 text-xl">
+                 {error}
+               </div>
+             ) : (
+               <div className="space-y-24">
+                  {services.map((service, index) => (
+                    <motion.div
+                      key={service.id}
+                      id={service.id}
+                      initial={{ opacity: 0, y: 40 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true, margin: "-100px" }}
+                      transition={{ duration: 0.7 }}
+                      className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-12 items-center`}
+                    >
+                      {/* Icon & Image Area */}
+                      <div className="w-full lg:w-1/2">
+                        <div className="relative group">
+                          <div className="absolute inset-0 bg-[#d4af37]/10 rounded-2xl transform rotate-3 group-hover:rotate-6 transition-transform duration-300"></div>
+                          <div className="relative bg-[#25262b] p-10 rounded-2xl border border-[#333] shadow-2xl hover:border-[#d4af37]/30 transition-colors">
+                            <div className="bg-[#1a1b1e] w-20 h-20 rounded-xl flex items-center justify-center mb-6 border border-[#333] group-hover:border-[#d4af37]/50 transition-colors">
+                              {service.icon}
+                            </div>
+                            <h3 className="text-3xl font-bold mb-4">{service.title}</h3>
+                            <p className="text-gray-400 text-lg leading-relaxed">{service.description}</p>
                           </div>
-                          <h3 className="text-3xl font-bold mb-4">{service.title}</h3>
-                          <p className="text-gray-400 text-lg leading-relaxed">{service.description}</p>
                         </div>
                       </div>
-                    </div>
 
-                    {/* Features List */}
-                    <div className="w-full lg:w-1/2">
-                      <div className="pl-0 lg:pl-8">
-                        <h4 className="text-xl font-semibold text-[#d4af37] mb-6 flex items-center gap-2">
-                          <span className="h-px w-8 bg-[#d4af37]"></span>
-                          Neler Sunuyoruz?
-                        </h4>
-                        <ul className="space-y-4">
-                          {service.features.map((feature, fIndex) => (
-                            <motion.li 
-                              key={fIndex}
-                              className="flex items-start gap-3"
-                              initial={{ opacity: 0, x: 20 }}
-                              whileInView={{ opacity: 1, x: 0 }}
-                              viewport={{ once: true }}
-                              transition={{ duration: 0.3, delay: fIndex * 0.1 }}
-                            >
-                              <CheckCircle2 className="h-6 w-6 text-[#d4af37] shrink-0 mt-0.5" />
-                              <span className="text-gray-300 text-lg">{feature}</span>
-                            </motion.li>
-                          ))}
-                        </ul>
+                      {/* Features List */}
+                      <div className="w-full lg:w-1/2">
+                        <div className="pl-0 lg:pl-8">
+                          <h4 className="text-xl font-semibold text-[#d4af37] mb-6 flex items-center gap-2">
+                            <span className="h-px w-8 bg-[#d4af37]"></span>
+                            Neler Sunuyoruz?
+                          </h4>
+                          <ul className="space-y-4">
+                            {service.features.map((feature, fIndex) => (
+                              <motion.li
+                                key={fIndex}
+                                className="flex items-start gap-3"
+                                initial={{ opacity: 0, x: 20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.3, delay: fIndex * 0.1 }}
+                              >
+                                <CheckCircle2 className="h-6 w-6 text-[#d4af37] shrink-0 mt-0.5" />
+                                <span className="text-gray-300 text-lg">{feature}</span>
+                              </motion.li>
+                            ))}
+                          </ul>
+                        </div>
                       </div>
-                    </div>
-                  </motion.div>
-                ))}
-             </div>
+                    </motion.div>
+                  ))}
+               </div>
+             )}
            </div>
         </section>
 

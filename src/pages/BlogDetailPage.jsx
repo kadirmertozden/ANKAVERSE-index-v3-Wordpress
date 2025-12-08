@@ -1,27 +1,91 @@
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
-import { Calendar, Clock, User, Tag, Share2, ArrowLeft, Facebook, Twitter, Linkedin, ChevronRight } from 'lucide-react';
+import { Calendar, Clock, User, Tag, Share2, ArrowLeft, Facebook, Twitter, Linkedin, ChevronRight, Loader2 } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { blogPosts } from '@/data/blogPosts';
+import { getBlogPostById, getBlogPosts } from '@/services/api';
 
 const BlogDetailPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const post = blogPosts.find(p => p.id === parseInt(id));
-  const relatedPosts = blogPosts.filter(p => p.id !== parseInt(id)).slice(0, 2);
+  const [post, setPost] = useState(null);
+  const [relatedPosts, setRelatedPosts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    if (!post) {
-      navigate('/blog');
-    }
-    window.scrollTo(0, 0);
-  }, [id, post, navigate]);
+    const fetchPostData = async () => {
+      try {
+        setLoading(true);
+        const postData = await getBlogPostById(id);
+        
+        // Map API data to component format
+        const formattedPost = {
+          id: postData.id,
+          title: postData.title.rendered,
+          content: postData.content.rendered,
+          excerpt: postData.excerpt.rendered.replace(/<[^>]+>/g, ''),
+          image: postData._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/1200x600?text=No+Image',
+          date: new Date(postData.date).toLocaleDateString('tr-TR'),
+          category: postData._embedded?.['wp:term']?.[0]?.[0]?.name || 'Genel',
+          readTime: '5 dk', // Placeholder
+          tags: postData._embedded?.['wp:term']?.[1]?.map(tag => tag.name) || [], // Getting tags from embedded terms
+          author: {
+            name: postData._embedded?.author?.[0]?.name || 'Admin',
+            role: 'Yazar', // Placeholder or from user meta
+            avatar: postData._embedded?.author?.[0]?.avatar_urls?.['96'] || 'https://via.placeholder.com/96'
+          }
+        };
+        
+        setPost(formattedPost);
 
-  if (!post) return null;
+        // Fetch related posts (simple implementation: just get latest posts excluding current)
+        const allPosts = await getBlogPosts();
+        const related = allPosts
+          .filter(p => p.id !== parseInt(id))
+          .slice(0, 2)
+          .map(p => ({
+            id: p.id,
+            title: p.title.rendered,
+            date: new Date(p.date).toLocaleDateString('tr-TR'),
+            image: p._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/150x150?text=No+Image'
+          }));
+        setRelatedPosts(related);
+
+      } catch (err) {
+        console.error('Error fetching blog post:', err);
+        setError('Yazı bulunamadı veya yüklenirken bir hata oluştu.');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchPostData();
+    window.scrollTo(0, 0);
+  }, [id, navigate]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-[#1a1b1e] flex items-center justify-center">
+        <Loader2 className="w-12 h-12 text-[#d4af37] animate-spin" />
+      </div>
+    );
+  }
+
+  if (error || !post) {
+    return (
+      <div className="min-h-screen bg-[#1a1b1e] flex flex-col items-center justify-center text-white">
+        <h2 className="text-2xl font-bold mb-4">Hata</h2>
+        <p className="text-gray-400 mb-6">{error || 'Yazı bulunamadı.'}</p>
+        <Link to="/blog" className="text-[#d4af37] hover:underline">
+          Blog Listesine Dön
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <>

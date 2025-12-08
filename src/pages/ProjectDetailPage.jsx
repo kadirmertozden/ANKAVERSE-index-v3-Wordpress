@@ -1,26 +1,72 @@
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, User, Code2 } from 'lucide-react';
+import { ArrowLeft, Calendar, User, Code2, Loader2 } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { projects } from '@/data/projects';
+import { getProjectById } from '@/services/api';
 
 const ProjectDetailPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const project = projects.find(p => p.id === parseInt(id));
+  const [project, setProject] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    if (!project) {
-      navigate('/projeler');
-    }
-    window.scrollTo(0, 0);
-  }, [id, project, navigate]);
+    const fetchProject = async () => {
+      try {
+        const data = await getProjectById(id);
+        
+        // Map API data to component format
+        const formattedProject = {
+          id: data.id,
+          title: data.title.rendered,
+          description: data.content.rendered.replace(/<[^>]+>/g, ''), // Strip HTML tags for now, or use dangerouslySetInnerHTML
+          summary: data.excerpt.rendered.replace(/<[^>]+>/g, ''),
+          image: data._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/1200x600?text=No+Image',
+          category: data.acf?.kategori || 'Genel',
+          client: data.acf?.musteri || 'Gizli',
+          date: data.acf?.tarih || new Date(data.date).toLocaleDateString('tr-TR'),
+          technologies: data.acf?.teknolojiler ? data.acf.teknolojiler.split(',') : [], // Assuming comma-separated string or array
+          secondaryImage: data.acf?.ikincil_gorsel || null
+        };
+        
+        setProject(formattedProject);
+      } catch (err) {
+        console.error('Error fetching project:', err);
+        setError('Proje bulunamadı veya yüklenirken bir hata oluştu.');
+        // navigate('/projeler'); // Optional: redirect on error
+      } finally {
+        setLoading(false);
+      }
+    };
 
-  if (!project) return null;
+    fetchProject();
+    window.scrollTo(0, 0);
+  }, [id, navigate]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-[#1a1b1e] flex items-center justify-center">
+        <Loader2 className="w-12 h-12 text-[#d4af37] animate-spin" />
+      </div>
+    );
+  }
+
+  if (error || !project) {
+    return (
+      <div className="min-h-screen bg-[#1a1b1e] flex flex-col items-center justify-center text-white">
+        <h2 className="text-2xl font-bold mb-4">Hata</h2>
+        <p className="text-gray-400 mb-6">{error || 'Proje bulunamadı.'}</p>
+        <Link to="/projeler" className="text-[#d4af37] hover:underline">
+          Projelere Dön
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <>
