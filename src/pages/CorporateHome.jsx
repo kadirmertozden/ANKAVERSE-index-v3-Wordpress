@@ -18,39 +18,72 @@ import {
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+import { useState, useEffect } from 'react';
+import { getServices } from '@/services/api';
+
+// Helper to map icon string names to components
+const IconMap = {
+  'Code': Code,
+  'Code2': Code, // Map Code2 to Code for consistency if needed, or import Code2
+  'Workflow': Workflow,
+  'ShoppingCart': ShoppingCart,
+  'BrainCircuit': BrainCircuit,
+  'Box': Box,
+  'Server': Server,
+  'ShieldCheck': ShieldCheck,
+  'Activity': Activity,
+  'Database': Database,
+  'Layers': Layers
+};
+
+// Helper function to decode HTML entities
+const decodeHtml = (html) => {
+  const txt = document.createElement("textarea");
+  txt.innerHTML = html;
+  return txt.value;
+};
+
 const CorporateHome = () => {
+  const [services, setServices] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchServices = async () => {
+      try {
+        const data = await getServices();
+        
+        // Map WordPress API data to component format
+        const formattedServices = data.map(service => {
+          const iconName = service.acf?.ikon_adi ? service.acf.ikon_adi.trim() : 'Code';
+          // Handle Code2 mapping if necessary, or ensure IconMap has all keys
+          const IconComponent = IconMap[iconName] || IconMap['Code2'] || Code;
+          
+          return {
+            id: service.id,
+            icon: <IconComponent className="h-8 w-8" />,
+            title: decodeHtml(service.title.rendered),
+            desc: service.content.rendered.replace(/<[^>]+>/g, '').replace(/\n/g, '').substring(0, 150) + (service.content.rendered.length > 150 ? '...' : '') // Truncate description
+          };
+        });
+        
+        // If no services from API, fallback to static (optional, or just show empty)
+        if (formattedServices.length > 0) {
+           setServices(formattedServices.slice(0, 6)); // Limit to 6 services for home page
+        }
+      } catch (err) {
+        console.error('Error fetching services for home:', err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchServices();
+  }, []);
+
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0 }
   };
-
-  const services = [
-    {
-      icon: <Code className="h-8 w-8" />,
-      title: "Yazılım Geliştirme",
-      desc: "İşletmenizin ihtiyaçlarına özel, yüksek performanslı, güvenli ve ölçeklenebilir web, mobil ve masaüstü yazılım çözümleri."
-    },
-    {
-      icon: <Workflow className="h-8 w-8" />,
-      title: "Otomasyon & Entegrasyon",
-      desc: "İş süreçlerinizi hızlandıran, insan hatasını minimize eden otomasyon sistemleri ve karmaşık API entegrasyonları."
-    },
-    {
-      icon: <ShoppingCart className="h-8 w-8" />,
-      title: "E-Ticaret Teknolojileri",
-      desc: "Modern, kullanıcı dostu ve dönüşüm odaklı e-ticaret altyapıları ile dijital satış kanallarınızı güçlendiriyoruz."
-    },
-    {
-      icon: <BrainCircuit className="h-8 w-8" />,
-      title: "Yapay Zekâ Uygulamaları",
-      desc: "Veri analizi, makine öğrenimi ve doğal dil işleme teknolojileriyle işinize akıl katan geleceğin çözümleri."
-    },
-    {
-      icon: <Box className="h-8 w-8" />,
-      title: "3D Modelleme",
-      desc: "Ürün görselleştirme, oyun geliştirme ve sanal gerçeklik projeleri için profesyonel 3D modelleme hizmetleri."
-    }
-  ];
 
   const whyUsPoints = [
     {
