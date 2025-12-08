@@ -55,7 +55,7 @@ const ServicesPage = () => {
             icon: <IconComponent className="h-12 w-12 text-[#d4af37]" />,
             title: service.title.rendered,
             description: service.content.rendered.replace(/<[^>]+>/g, ''), // Strip HTML
-            features: service.acf?.ozellikler ? service.acf.ozellikler.split(/\r\n|\r|\n/).filter(f => f.trim() !== '') : [] // Handle all types of line breaks
+            features: service.acf?.ozellikler ? service.acf.ozellikler.replace(/\\r\\n/g, '\n').split('\n').filter(f => f.trim() !== '') : [] // Handle escaped newlines from WP API
           };
         });
         
