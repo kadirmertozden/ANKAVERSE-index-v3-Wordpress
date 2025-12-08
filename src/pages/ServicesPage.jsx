@@ -44,9 +44,11 @@ const ServicesPage = () => {
     const fetchServices = async () => {
       try {
         const data = await getServices();
+        console.log('API Response:', data); // Debugging log
         
         // Map WordPress API data to component format
         const formattedServices = data.map(service => {
+          console.log('Service ACF:', service.acf); // Debugging log for individual service ACF
           // Get icon component or default to Code2
           // Get icon component or default to Code2
           // Ensure we trim whitespace from the icon name to avoid mismatches
