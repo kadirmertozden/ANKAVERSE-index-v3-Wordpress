@@ -18,14 +18,20 @@ const ProjectsPage = () => {
     const fetchProjects = async () => {
       try {
         const data = await getProjects();
+        console.log('Projects API Response:', data); // Debug log
+
         // Map WordPress API data to component format
-        const formattedProjects = data.map(item => ({
-          id: item.id,
-          title: item.title.rendered,
-          summary: item.acf?.proje_kisa_aciklamasi || item.excerpt?.rendered?.replace(/<[^>]+>/g, '') || '',
-          image: item._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/800x600?text=No+Image',
-          category: item.acf?.kategori || 'Genel' // Assuming you might add a category field or use standard WP categories
-        }));
+        const formattedProjects = data.map(item => {
+          console.log(`Project ID ${item.id} Media:`, item._embedded?.['wp:featuredmedia']); // Debug log for media
+          
+          return {
+            id: item.id,
+            title: item.title.rendered,
+            summary: item.acf?.proje_kisa_aciklamasi || item.excerpt?.rendered?.replace(/<[^>]+>/g, '') || '',
+            image: item._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/800x600?text=No+Image',
+            category: item.acf?.kategori || 'Genel' // Assuming you might add a category field or use standard WP categories
+          };
+        });
         setProjects(formattedProjects);
       } catch (err) {
         console.error('Error fetching projects:', err);

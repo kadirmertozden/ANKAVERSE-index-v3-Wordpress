@@ -18,7 +18,9 @@ const ProjectDetailPage = () => {
   useEffect(() => {
     const fetchProject = async () => {
       try {
+        console.log('Fetching project with ID:', id); // Debug log
         const data = await getProjectById(id);
+        console.log('Project Detail API Response:', data); // Debug log
         
         // Map API data to component format
         const formattedProject = {
