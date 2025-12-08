@@ -25,5 +25,19 @@ export function calculateReadTime(content) {
  */
 export function stripHtml(html) {
    if (!html) return "";
-   return html.replace(/<[^>]+>/g, '');
+   const tmp = document.createElement("DIV");
+   tmp.innerHTML = html;
+   return tmp.textContent || tmp.innerText || "";
+}
+
+/**
+ * Decode HTML entities
+ * @param {string} html
+ * @returns {string}
+ */
+export function decodeHtml(html) {
+    if (!html) return "";
+    const txt = document.createElement("textarea");
+    txt.innerHTML = html;
+    return txt.value;
 }

@@ -7,7 +7,7 @@ import { Calendar, Clock, User, Tag, Share2, ArrowLeft, Facebook, Twitter, Linke
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { getBlogPostById, getBlogPosts, getCategories } from '@/services/api';
-import { calculateReadTime, stripHtml } from '@/lib/utils';
+import { calculateReadTime, stripHtml, decodeHtml } from '@/lib/utils';
 
 const BlogDetailPage = () => {
   const { id } = useParams();
@@ -28,9 +28,9 @@ const BlogDetailPage = () => {
         // Map API data to component format
         const formattedPost = {
           id: postData.id,
-          title: postData.title.rendered,
-          content: postData.content.rendered,
-          excerpt: stripHtml(postData.excerpt.rendered),
+          title: decodeHtml(postData.title.rendered),
+          content: postData.content.rendered.replace(/\{"parts":\[.*\]\}/g, ''), // Basic cleanup for JSON artifacts
+          excerpt: stripHtml(postData.excerpt.rendered).replace(/\{"parts":\[.*\]\}/g, ''),
           image: postData._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/1200x600?text=No+Image',
           date: new Date(postData.date).toLocaleDateString('tr-TR'),
           category: postData._embedded?.['wp:term']?.flat().find(term => term.taxonomy === 'category')?.name || 'Genel',
@@ -52,7 +52,7 @@ const BlogDetailPage = () => {
           .slice(0, 2)
           .map(p => ({
             id: p.id,
-            title: p.title.rendered,
+            title: decodeHtml(p.title.rendered),
             date: new Date(p.date).toLocaleDateString('tr-TR'),
             image: p._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/150x150?text=No+Image'
           }));

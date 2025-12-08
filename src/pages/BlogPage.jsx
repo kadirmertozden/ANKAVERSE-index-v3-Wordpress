@@ -6,7 +6,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { ArrowRight, Calendar, Clock, Loader2, ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { getBlogPosts } from '@/services/api';
-import { calculateReadTime, stripHtml } from '@/lib/utils';
+import { calculateReadTime, stripHtml, decodeHtml } from '@/lib/utils';
 
 const BlogPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -32,8 +32,8 @@ const BlogPage = () => {
         // Map WordPress API data to component format
         const formattedPosts = data.map(post => ({
           id: post.id,
-          title: post.title.rendered,
-          excerpt: stripHtml(post.excerpt.rendered),
+          title: decodeHtml(post.title.rendered),
+          excerpt: stripHtml(post.excerpt.rendered).replace(/\{"parts":\[.*\]\}/g, ''), // Basic cleanup for JSON artifacts if visible
           image: post._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/800x600?text=No+Image',
           date: new Date(post.date).toLocaleDateString('tr-TR'),
           category: post._embedded?.['wp:term']?.flat().find(term => term.taxonomy === 'category')?.name || 'Genel',
