@@ -35,6 +35,13 @@ const IconMap = {
   'Layers': Layers
 };
 
+// Helper function to decode HTML entities
+const decodeHtml = (html) => {
+  const txt = document.createElement("textarea");
+  txt.innerHTML = html;
+  return txt.value;
+};
+
 const ServicesPage = () => {
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -70,7 +77,7 @@ const ServicesPage = () => {
           return {
             id: service.slug, // Use slug as ID for anchor links
             icon: <IconComponent className="h-12 w-12 text-[#d4af37]" />,
-            title: service.title.rendered,
+            title: decodeHtml(service.title.rendered), // Decode HTML entities in title
             description: service.content.rendered.replace(/<[^>]+>/g, '').replace(/\n/g, ''), // Strip HTML and newlines from description
             features: features
           };
