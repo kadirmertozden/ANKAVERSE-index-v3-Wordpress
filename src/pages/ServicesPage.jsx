@@ -48,14 +48,29 @@ const ServicesPage = () => {
         // Map WordPress API data to component format
         const formattedServices = data.map(service => {
           // Get icon component or default to Code2
-          const IconComponent = IconMap[service.acf?.ikon_adi] || Code2;
+          // Get icon component or default to Code2
+          // Ensure we trim whitespace from the icon name to avoid mismatches
+          const iconName = service.acf?.ikon_adi ? service.acf.ikon_adi.trim() : 'Code2';
+          const IconComponent = IconMap[iconName] || Code2;
           
+          // Robust feature parsing: handle various newline formats and potential HTML entities
+          let features = [];
+          if (service.acf?.ozellikler) {
+             features = service.acf.ozellikler
+              .replace(/\\r\\n/g, '\n') // Handle escaped newlines
+              .replace(/\r\n/g, '\n')   // Handle Windows newlines
+              .replace(/\r/g, '\n')     // Handle Mac newlines
+              .split('\n')
+              .map(f => f.trim())
+              .filter(f => f !== '');
+          }
+
           return {
             id: service.slug, // Use slug as ID for anchor links
             icon: <IconComponent className="h-12 w-12 text-[#d4af37]" />,
             title: service.title.rendered,
-            description: service.content.rendered.replace(/<[^>]+>/g, ''), // Strip HTML
-            features: service.acf?.ozellikler ? service.acf.ozellikler.replace(/\\r\\n/g, '\n').split('\n').filter(f => f.trim() !== '') : [] // Handle escaped newlines from WP API
+            description: service.content.rendered.replace(/<[^>]+>/g, '').replace(/\n/g, ''), // Strip HTML and newlines from description
+            features: features
           };
         });
         
