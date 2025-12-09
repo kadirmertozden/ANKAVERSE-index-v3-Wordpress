@@ -104,6 +104,16 @@ Verilerin doğru çekilebilmesi için ilgili yazı türlerine aşağıdaki alanl
 *   `ikon_adi` (Text - Örn: 'Code2', 'Workflow' vb. Lucide icon isimleri)
 *   `ozellikler` (Textarea - Her satıra bir özellik)
 
+### Blog Sistemi Yapılandırması
+Blog bölümü standart WordPress "Yazılar" (Posts) altyapısını kullanır.
+
+*   **Yazılar (Posts):** Haberler ve blog içerikleri için standart WordPress yazılarını kullanın.
+*   **Kategoriler:** "Teknoloji", "Yapay Zeka" gibi kategoriler oluşturun ve yazılara atayın. Frontend bu kategorileri otomatik olarak çeker ve filtreleme için kullanır.
+*   **Etiketler (Tags):** Yazı detay sayfasında gösterilecek etiketleri ekleyin.
+*   **Öne Çıkan Görsel (Featured Image):** Yazı listelerinde ve detay sayfasında başlık görseli olarak kullanılır. Mutlaka eklenmelidir.
+*   **İçerik:** Standart WordPress editörü (Gutenberg veya Klasik) ile oluşturulan içerik, frontend tarafında HTML olarak işlenir ve gösterilir.
+*   **Yazar:** Yazıyı oluşturan kullanıcı yazar olarak gösterilir. Yazarın Gravatar görseli otomatik çekilir.
+
 ## 🤖 Otomasyon ve Entegrasyonlar (n8n)
 
 Sistem, **n8n** gibi otomasyon araçlarıyla entegre çalışabilir. Özellikle blog içeriklerinin yapay zeka tarafından üretilip otomatik olarak WordPress'e eklenmesi senaryolarında:
