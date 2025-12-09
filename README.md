@@ -1,81 +1,134 @@
-# ANKAVERSE - Headless WordPress & React Entegrasyonu
+# ANKAVERSE - Headless WordPress & React Entegrasyonu V3
 
-Bu proje, modern bir React ön yüzü (frontend) ile güçlü bir WordPress arka yüzünü (backend) birleştiren "Headless CMS" mimarisi üzerine kurulmuştur.
+Bu proje, modern bir React ön yüzü (frontend) ile güçlü bir WordPress arka yüzünü (backend) birleştiren **Headless CMS** mimarisi üzerine kurulmuştur. Kullanıcılar web sitesinde React ile oluşturulmuş hızlı ve modern bir arayüzle karşılaşırken, tüm içerik yönetimi tanıdık WordPress paneli üzerinden yapılmaktadır.
 
 ## 🚀 Proje Hakkında
 
-ANKAVERSE web sitesi, kullanıcılarına hızlı ve etkileşimli bir deneyim sunmak için React ile geliştirilmiştir. İçerik yönetimi ise (blog yazıları, projeler, hizmetler) WordPress paneli üzerinden yapılmaktadır.
+ANKAVERSE web sitesi, performans, güvenlik ve ölçeklenebilirlik odaklı modern bir web uygulamasıdır. İçerik güncellemeleri, blog yazıları, projeler ve hizmetler tamamen WordPress üzerinden yönetilir ve API aracılığıyla anlık olarak siteye yansır.
+
+### Temel Özellikler
+*   **Headless Mimari:** Frontend ve Backend tamamen birbirinden bağımsız çalışır.
+*   **Modern Teknoloji Yığını:** React 19, Vite, Tailwind CSS ve Framer Motion.
+*   **Dinamik İçerik Yönetimi:** WordPress REST API entegrasyonu.
+*   **Blog Sistemi:** Kategori filtreleme, arama fonksiyonu, ilgili yazılar ve detaylı blog görüntüleme.
+*   **Proje ve Hizmet Yönetimi:** Özel Post Tipleri (Custom Post Types) ile özelleştirilmiş içerik alanları.
+*   **Responsive Tasarım:** Tüm cihazlarda kusursuz görünüm.
 
 ### Kullanılan Teknolojiler
 
-*   **Frontend:** React 19, Vite, Tailwind CSS, Framer Motion
-*   **Backend (CMS):** WordPress (Headless modunda)
-*   **API:** WordPress REST API
-*   **Eklentiler:** Advanced Custom Fields (ACF), Custom Post Type UI (CPT UI)
+**Frontend:**
+*   **React 19:** Kullanıcı arayüzü kütüphanesi.
+*   **Vite:** Hızlı geliştirme ve build aracı.
+*   **Tailwind CSS:** Hızlı ve esnek stillendirme.
+*   **Framer Motion:** Animasyon kütüphanesi.
+*   **React Router:** Sayfa yönlendirmeleri (SPA).
+*   **Lucide React:** Modern ikon seti.
 
-## 🛠️ Kurulum ve Çalıştırma
+**Backend (CMS):**
+*   **WordPress:** İçerik yönetim sistemi (Headless modda).
+*   **REST API:** Veri iletişimi.
+*   **Eklentiler:**
+    *   **Advanced Custom Fields (ACF):** İçeriklere özel veri alanları eklemek için.
+    *   **Custom Post Type UI (CPT UI):** Özel içerik türleri (Projeler, Hizmetler) oluşturmak için.
+    *   **WP REST API Controller (Opsiyonel):** API çıktılarını özelleştirmek için.
 
-Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+## 📂 Proje Yapısı
 
-1.  **Depoyu Klonlayın:**
-    ```bash
-    git clone https://github.com/kadirmertozden/ANKAVERSE-index-v3-Wordpress.git
-    cd ANKAVERSE-index-v3-Wordpress
-    ```
+```bash
+src/
+├── components/      # Tekrar kullanılabilir UI bileşenleri (Navbar, Footer, Button vb.)
+├── components/ui/   # Temel UI elementleri (Toast vb.)
+├── data/            # Sabit veriler (gerekirse)
+├── lib/             # Yardımcı fonksiyonlar (utils.js vb.)
+├── pages/           # Sayfa bileşenleri (Anasayfa, Blog, Projeler vb.)
+├── services/        # API servisleri ve konfigürasyonu (api.js)
+├── App.jsx          # Ana uygulama bileşeni ve Router yapısı
+└── main.jsx         # Uygulama giriş noktası
+```
 
-2.  **Bağımlılıkları Yükleyin:**
-    ```bash
-    npm install
-    ```
+## 🛠️ Kurulum ve Geliştirme
 
-3.  **Çevre Değişkenlerini Ayarlayın:**
-    Kök dizinde `.env` dosyası oluşturun ve WordPress API adresinizi ekleyin:
-    ```env
-    VITE_WORDPRESS_API_URL=https://wordpress.ankaverse.com.tr/wp-json/wp/v2
-    ```
+Projeyi yerel ortamınızda çalıştırmak ve geliştirmek için aşağıdaki adımları izleyin:
 
-4.  **Geliştirme Sunucusunu Başlatın:**
-    ```bash
-    npm run dev
-    ```
+### 1. Gereksinimler
+*   Node.js (v18 veya üzeri önerilir)
+*   Git
 
-## 📝 WordPress Yapılandırması
+### 2. Kurulum
+Depoyu klonlayın ve bağımlılıkları yükleyin:
 
-Bu projenin doğru çalışabilmesi için WordPress tarafında aşağıdaki yapılandırmaların yapılması gerekmektedir:
+```bash
+git clone https://github.com/kadirmertozden/ANKAVERSE-index-v3-Wordpress.git
+cd ANKAVERSE-index-v3-Wordpress
+npm install
+```
+
+### 3. Çevre Değişkenleri (.env)
+Kök dizinde `.env` dosyası oluşturun (veya mevcut olanı düzenleyin) ve WordPress API adresinizi ekleyin:
+
+```env
+VITE_WORDPRESS_API_URL=https://wordpress.ankaverse.com.tr/wp-json/wp/v2
+```
+
+### 4. Çalıştırma
+Geliştirme sunucusunu başlatın:
+
+```bash
+npm run dev
+```
+Tarayıcınızda `http://localhost:3000` adresine gidin.
+
+## 📝 WordPress Yapılandırması (Backend)
+
+Bu projenin backend tarafında doğru çalışabilmesi için WordPress'te aşağıdaki yapılandırmaların yapılması gerekir.
 
 ### Gerekli Eklentiler
-*   **Custom Post Type UI (CPT UI):** Özel içerik türleri oluşturmak için.
-*   **Advanced Custom Fields (ACF):** İçeriklere özel veri alanları eklemek için.
+1.  **Custom Post Type UI (CPT UI):** Özel içerik türleri oluşturmak için.
+2.  **Advanced Custom Fields (ACF):** İçeriklere özel veri alanları eklemek için.
 
 ### Özel Yazı Türleri (Custom Post Types)
-*   **Projeler (`project`):** Portfolyo projeleri için.
-*   **Hizmetler (`service`):** Sunulan hizmetler için.
+*   **slug:** `project` (Projeler için)
+*   **slug:** `service` (Hizmetler için)
 
 ### Özel Alanlar (ACF Fields)
+Verilerin doğru çekilebilmesi için ilgili yazı türlerine aşağıdaki alanları ekleyin:
 
-**Proje Detayları (Grup):**
-*   `proje_kisa_aciklamasi` (Metin Alanı)
-*   `musteri` (Metin)
-*   `tarih` (Tarih Seçici)
-*   `teknolojiler` (Metin Alanı - Virgülle ayrılmış)
-*   `ikincil_gorsel` (Görsel)
+**Projeler (`project`) için:**
+*   `proje_kisa_aciklamasi` (Text/Textarea)
+*   `musteri` (Text)
+*   `tarih` (Date Picker)
+*   `teknolojiler` (Text - Virgülle ayrılmış)
+*   `ikincil_gorsel` (Image)
 
-**Hizmet Detayları (Grup):**
-*   `ikon_adi` (Metin - Örn: Code2, Workflow)
-*   `ozellikler` (Metin Alanı - Her satıra bir özellik)
+**Hizmetler (`service`) için:**
+*   `ikon_adi` (Text - Örn: 'Code2', 'Workflow' vb. Lucide icon isimleri)
+*   `ozellikler` (Textarea - Her satıra bir özellik)
 
-## 🤖 Otomasyon (n8n)
+## 🤖 Otomasyon ve Entegrasyonlar (n8n)
 
-Blog yazılarının otomatik olarak eklenmesi için n8n entegrasyonu desteklenmektedir. WordPress tarafında "Uygulama Şifreleri" (Application Passwords) kullanılarak güvenli bir API bağlantısı kurulabilir.
+Sistem, **n8n** gibi otomasyon araçlarıyla entegre çalışabilir. Özellikle blog içeriklerinin yapay zeka tarafından üretilip otomatik olarak WordPress'e eklenmesi senaryolarında:
+
+1.  **WordPress Application Passwords:** WordPress kullanıcı profilinizden bir uygulama şifresi oluşturun.
+2.  **n8n WordPress Node:** Oluşturduğunuz şifreyi ve kullanıcı adını kullanarak n8n'i WordPress'e bağlayın.
+3.  **Otomatik İçerik:** n8n workflow'ları ile üretilen içerikleri `posts` endpoint'ine göndererek blog yazılarını otomatikleştirin.
 
 ## 📦 Canlıya Alma (Deployment)
 
-Proje, Vercel veya Netlify gibi platformlarda kolayca yayınlanabilir.
+Proje statik bir site olarak derlenir ve Vercel, Netlify, Cloudflare Pages gibi platformlarda kolayca barındırılabilir.
 
-1.  GitHub deposunu Vercel/Netlify'a bağlayın.
-2.  Build komutu: `npm run build`
-3.  Output dizini: `dist`
-4.  Environment Variable olarak `VITE_WORDPRESS_API_URL` eklemeyi unutmayın.
+Build komutu:
+```bash
+npm run build
+```
+Oluşan `dist` klasörünü sunucunuza yükleyin.
+
+## 🤝 Katkıda Bulunma
+
+1.  Bu depoyu "Fork"layın.
+2.  Yeni bir özellik dalı (branch) oluşturun (`git checkout -b ozellik/yeni-ozellik`).
+3.  Değişikliklerinizi kaydedin (`git commit -m 'Yeni özellik eklendi'`).
+4.  Dalınızı uzak sunucuya gönderin (`git push origin ozellik/yeni-ozellik`).
+5.  Bir "Pull Request" oluşturun.
 
 ---
 © 2025 ANKAVERSE. Tüm hakları saklıdır.
