@@ -1,5 +1,5 @@
 // WordPress API Configuration
-const API_URL = import.meta.env.VITE_WORDPRESS_API_URL || 'https://your-wordpress-site.com/wp-json/wp/v2';
+const API_URL = import.meta.env.VITE_WORDPRESS_API_URL || 'https://wordpress.ankaverse.com.tr/wp-json/wp/v2';
 
 /**
  * Generic fetch function for WordPress API
