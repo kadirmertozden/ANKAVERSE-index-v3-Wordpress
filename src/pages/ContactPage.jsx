@@ -1,10 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { MapPin, Phone, Zap } from 'lucide-react';
 
 const ContactPage = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const subject = `İletişim Formu: ${formData.name}`;
+    const body = `Gönderen: ${formData.name} (${formData.email})\n\nMesaj:\n${formData.message}`;
+    const mailtoLink = `mailto:info@ankaverse.com.tr?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoLink;
+  };
+
   return (
     <>
       <Helmet>
@@ -69,20 +91,44 @@ const ContactPage = () => {
 
                 {/* Form */}
                 <div className="p-10 lg:p-12 bg-[#1f2024]">
-                  <form className="space-y-6">
+                  <form className="space-y-6" onSubmit={handleSubmit}>
                     <div>
                       <label className="block text-sm font-medium text-gray-400 mb-2">Adınız Soyadınız</label>
-                      <input type="text" className="w-full bg-[#1a1b1e] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#d4af37] transition-colors" placeholder="Örn: Ahmet Yılmaz" />
+                      <input
+                        type="text"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleInputChange}
+                        required
+                        className="w-full bg-[#1a1b1e] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#d4af37] transition-colors"
+                        placeholder="Örn: Ahmet Yılmaz"
+                      />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-400 mb-2">E-Posta Adresiniz</label>
-                      <input type="email" className="w-full bg-[#1a1b1e] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#d4af37] transition-colors" placeholder="orn@sirket.com" />
+                      <input
+                        type="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleInputChange}
+                        required
+                        className="w-full bg-[#1a1b1e] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#d4af37] transition-colors"
+                        placeholder="orn@sirket.com"
+                      />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-400 mb-2">Mesajınız</label>
-                      <textarea rows="4" className="w-full bg-[#1a1b1e] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#d4af37] transition-colors" placeholder="Projenizden bahsedin..."></textarea>
+                      <textarea
+                        rows="4"
+                        name="message"
+                        value={formData.message}
+                        onChange={handleInputChange}
+                        required
+                        className="w-full bg-[#1a1b1e] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#d4af37] transition-colors"
+                        placeholder="Projenizden bahsedin..."
+                      ></textarea>
                     </div>
-                    <button type="button" className="w-full bg-[#d4af37] text-black font-bold py-4 rounded-lg hover:bg-white transition-colors shadow-lg">
+                    <button type="submit" className="w-full bg-[#d4af37] text-black font-bold py-4 rounded-lg hover:bg-white transition-colors shadow-lg">
                       Gönder
                     </button>
                   </form>
