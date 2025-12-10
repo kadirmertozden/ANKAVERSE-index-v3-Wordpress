@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { MapPin, Phone, Zap } from 'lucide-react';
+import { MapPin, Phone, Zap, Loader2 } from 'lucide-react';
+import { submitContactForm } from '@/services/api';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -10,6 +11,8 @@ const ContactPage = () => {
     email: '',
     message: ''
   });
+  const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState(null);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -19,12 +22,35 @@ const ContactPage = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const subject = `İletişim Formu: ${formData.name}`;
-    const body = `Gönderen: ${formData.name} (${formData.email})\n\nMesaj:\n${formData.message}`;
-    const mailtoLink = `mailto:info@ankaverse.com.tr?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailtoLink;
+    setLoading(true);
+    setStatus(null);
+
+    // TODO: AŞAĞIDAKİ FORM ID'Yİ WORDPRESS CONTACT FORM 7 ID'Sİ İLE GÜNCELLEYİN
+    const FORM_ID = 1234;
+
+    try {
+      const data = {
+        'your-name': formData.name,
+        'your-email': formData.email,
+        'your-message': formData.message
+      };
+      
+      const result = await submitContactForm(FORM_ID, data);
+      
+      if (result.status === 'mail_sent') {
+        setStatus({ type: 'success', message: 'Mesajınız başarıyla gönderildi.' });
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        setStatus({ type: 'error', message: result.message || 'Bir hata oluştu. Lütfen tekrar deneyin.' });
+      }
+    } catch (err) {
+      console.error(err);
+      setStatus({ type: 'error', message: 'Sunucu hatası oluştu. Lütfen daha sonra tekrar deneyin.' });
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -128,8 +154,25 @@ const ContactPage = () => {
                         placeholder="Projenizden bahsedin..."
                       ></textarea>
                     </div>
-                    <button type="submit" className="w-full bg-[#d4af37] text-black font-bold py-4 rounded-lg hover:bg-white transition-colors shadow-lg">
-                      Gönder
+                    {status && (
+                      <div className={`p-4 rounded-lg mb-4 ${status.type === 'success' ? 'bg-green-500/10 text-green-500' : 'bg-red-500/10 text-red-500'}`}>
+                        {status.message}
+                      </div>
+                    )}
+
+                    <button
+                      type="submit"
+                      disabled={loading}
+                      className="w-full bg-[#d4af37] text-black font-bold py-4 rounded-lg hover:bg-white transition-colors shadow-lg disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                    >
+                      {loading ? (
+                        <>
+                          <Loader2 className="w-5 h-5 animate-spin" />
+                          Gönderiliyor...
+                        </>
+                      ) : (
+                        'Gönder'
+                      )}
                     </button>
                   </form>
                 </div>

@@ -94,3 +94,32 @@ export const getMediaById = async (id) => {
 export const getCategories = async () => {
   return fetchFromAPI('categories', { per_page: 100 });
 };
+
+/**
+ * Submit Contact Form 7
+ * @param {number} formId
+ * @param {object} data
+ * @returns {Promise<object>}
+ */
+export const submitContactForm = async (formId, data) => {
+  // Base URL construction (replacing wp/v2 with contact-form-7 namespace)
+  const baseUrl = API_URL.replace('/wp/v2', '');
+  const url = `${baseUrl}/contact-form-7/v1/contact-forms/${formId}/feedback`;
+
+  const formData = new FormData();
+  Object.keys(data).forEach(key => formData.append(key, data[key]));
+
+  try {
+    const response = await fetch(url, {
+      method: 'POST',
+      body: formData
+    });
+    
+    // Note: CF7 returns 200 even for validation errors, we need to check response status in JSON
+    const result = await response.json();
+    return result;
+  } catch (error) {
+    console.error('Contact Form Error:', error);
+    throw error;
+  }
+};
