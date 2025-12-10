@@ -9,6 +9,7 @@ const ContactPage = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    subject: '',
     message: ''
   });
   const [loading, setLoading] = useState(false);
@@ -34,6 +35,7 @@ const ContactPage = () => {
       const data = {
         'your-name': formData.name,
         'your-email': formData.email,
+        'your-subject': formData.subject,
         'your-message': formData.message
       };
       
@@ -140,6 +142,18 @@ const ContactPage = () => {
                         required
                         className="w-full bg-[#1a1b1e] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#d4af37] transition-colors"
                         placeholder="orn@sirket.com"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium text-gray-400 mb-2">Konu</label>
+                      <input
+                        type="text"
+                        name="subject"
+                        value={formData.subject}
+                        onChange={handleInputChange}
+                        required
+                        className="w-full bg-[#1a1b1e] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#d4af37] transition-colors"
+                        placeholder="Mesajınızın konusu"
                       />
                     </div>
                     <div>
