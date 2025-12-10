@@ -5,7 +5,7 @@ const API_URL = import.meta.env.VITE_WORDPRESS_API_URL || 'https://wordpress.ank
  * Generic fetch function for WordPress API
  * @param {string} endpoint - The API endpoint (e.g., 'posts', 'pages')
  * @param {object} params - Query parameters
- * @returns {Promise<any>} - The JSON response
+ * @returns {Promise<any>} - The JSON response 
  */
 export const fetchFromAPI = async (endpoint, params = {}) => {
   const url = new URL(`${API_URL}/${endpoint}`);
