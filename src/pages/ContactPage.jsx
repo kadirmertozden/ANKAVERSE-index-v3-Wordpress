@@ -27,8 +27,8 @@ const ContactPage = () => {
     setLoading(true);
     setStatus(null);
 
-    // TODO: AŞAĞIDAKİ FORM ID'Yİ WORDPRESS CONTACT FORM 7 ID'Sİ İLE GÜNCELLEYİN
-    const FORM_ID = 1234;
+    // WordPress Contact Form 7 ID
+    const FORM_ID = '7c6127c';
 
     try {
       const data = {
