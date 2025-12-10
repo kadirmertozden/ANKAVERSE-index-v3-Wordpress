@@ -107,8 +107,16 @@ export const submitContactForm = async (formId, data) => {
   const url = `${baseUrl}/contact-form-7/v1/contact-forms/${formId}/feedback`;
 
   const formData = new FormData();
+  
+  // Add user data
   Object.keys(data).forEach(key => formData.append(key, data[key]));
 
+  // Add CF7 internal fields (required for validation in some versions)
+  formData.append('_wpcf7', formId);
+  formData.append('_wpcf7_unit_tag', `wpcf7-f${formId}-p0-o1`);
+  formData.append('_wpcf7_locale', 'tr_TR');
+  formData.append('_wpcf7_version', '5.7'); // Example version
+  
   try {
     const response = await fetch(url, {
       method: 'POST',
