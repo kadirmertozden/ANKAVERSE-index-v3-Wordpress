@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { Calendar, Clock, User, Tag, Share2, ArrowLeft, Facebook, Twitter, Linkedin, ChevronRight, Loader2 } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { getBlogPostById, getBlogPosts, getCategories } from '@/services/api';
+import { getBlogPostById, getBlogPosts, getCategories, submitContactForm } from '@/services/api';
 import { calculateReadTime, stripHtml, decodeHtml } from '@/lib/utils';
 
 const BlogDetailPage = () => {
@@ -18,6 +18,11 @@ const BlogDetailPage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
+  
+  // Newsletter state
+  const [subEmail, setSubEmail] = useState('');
+  const [subLoading, setSubLoading] = useState(false);
+  const [subStatus, setSubStatus] = useState(null);
 
   useEffect(() => {
     const fetchPostData = async () => {
@@ -78,6 +83,27 @@ const BlogDetailPage = () => {
     e.preventDefault();
     if (searchQuery.trim()) {
       navigate(`/blog?search=${encodeURIComponent(searchQuery)}`);
+    }
+  };
+
+  const handleSubscribe = async () => {
+    if (!subEmail) return;
+    setSubLoading(true);
+    setSubStatus(null);
+    try {
+      // Form ID 206 for Newsletter
+      const result = await submitContactForm(206, { 'your-email': subEmail });
+      
+      if (result.status === 'mail_sent') {
+        setSubStatus({ type: 'success', message: 'Başarıyla abone oldunuz!' });
+        setSubEmail('');
+      } else {
+        setSubStatus({ type: 'error', message: 'Bir hata oluştu.' });
+      }
+    } catch (e) {
+      setSubStatus({ type: 'error', message: 'Sunucu hatası.' });
+    } finally {
+      setSubLoading(false);
     }
   };
 
@@ -292,13 +318,26 @@ const BlogDetailPage = () => {
               <div className="bg-gradient-to-br from-[#d4af37]/20 to-[#25262b] p-6 rounded-2xl border border-[#d4af37]/20 shadow-lg text-center">
                 <h3 className="text-lg font-bold text-white mb-2">Bültene Abone Olun</h3>
                 <p className="text-sm text-gray-400 mb-4">En yeni teknoloji haberleri ve içgörüler e-posta kutunuza gelsin.</p>
-                <input 
-                  type="email" 
-                  placeholder="E-posta adresiniz" 
+                
+                {subStatus && (
+                  <div className={`text-xs mb-3 p-2 rounded ${subStatus.type === 'success' ? 'bg-green-500/20 text-green-400' : 'bg-red-500/20 text-red-400'}`}>
+                    {subStatus.message}
+                  </div>
+                )}
+                
+                <input
+                  type="email"
+                  placeholder="E-posta adresiniz"
+                  value={subEmail}
+                  onChange={(e) => setSubEmail(e.target.value)}
                   className="w-full bg-black/30 border border-white/10 rounded-lg px-4 py-2 text-white text-sm focus:outline-none focus:border-[#d4af37] mb-3"
                 />
-                <button className="w-full py-2 bg-[#d4af37] text-black font-bold text-sm rounded-lg hover:bg-[#c4a030] transition-colors">
-                  Abone Ol
+                <button
+                  onClick={handleSubscribe}
+                  disabled={subLoading}
+                  className="w-full py-2 bg-[#d4af37] text-black font-bold text-sm rounded-lg hover:bg-[#c4a030] transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                >
+                  {subLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : 'Abone Ol'}
                 </button>
               </div>
 
