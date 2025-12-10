@@ -9,6 +9,7 @@ const ContactPage = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
     subject: '',
     message: ''
   });
@@ -35,6 +36,7 @@ const ContactPage = () => {
       const data = {
         'your-name': formData.name,
         'your-email': formData.email,
+        'your-phone': formData.phone,
         'your-subject': formData.subject,
         'your-message': formData.message
       };
@@ -142,6 +144,17 @@ const ContactPage = () => {
                         required
                         className="w-full bg-[#1a1b1e] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#d4af37] transition-colors"
                         placeholder="orn@sirket.com"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium text-gray-400 mb-2">Telefon Numarası</label>
+                      <input
+                        type="tel"
+                        name="phone"
+                        value={formData.phone}
+                        onChange={handleInputChange}
+                        className="w-full bg-[#1a1b1e] border border-[#333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[#d4af37] transition-colors"
+                        placeholder="05XX XXX XX XX"
                       />
                     </div>
                     <div>
