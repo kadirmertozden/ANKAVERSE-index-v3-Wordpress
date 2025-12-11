@@ -186,128 +186,108 @@ const CorporateHome = () => {
           </div>
         </section>
 
-        {/* SERVICES SECTION */}
-        <section className="py-24 bg-[#111] relative">
-          <div className="container mx-auto px-4 relative z-10">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Hizmet Alanlarımız</h2>
-              <div className="h-1 w-24 bg-[#d4af37] mx-auto rounded-full"></div>
-              <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-                Uçtan uca dijital çözümlerle işinizi büyütüyoruz.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 justify-center">
-              {services.map((service, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="group bg-[#1a1b1e] p-8 rounded-2xl border border-[#333] hover:border-[#d4af37] transition-all duration-300 hover:shadow-[0_0_30px_rgba(212,175,55,0.1)]"
-                >
-                  <div className="h-14 w-14 bg-[#25262b] rounded-xl flex items-center justify-center text-[#d4af37] mb-6 group-hover:scale-110 transition-transform duration-300 border border-[#333] group-hover:border-[#d4af37]/30">
-                    {service.icon}
-                  </div>
-                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#d4af37] transition-colors">
-                    {service.title}
-                  </h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">
-                    {service.desc}
-                  </p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
 
         {/* WHY ANKAVERSE SECTION */}
-        <section className="py-24 bg-[#1a1b1e] relative overflow-hidden">
-          {/* Decorative BG */}
-          <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-[#d4af37]/5 to-transparent pointer-events-none"></div>
-          
-          <div className="container mx-auto px-4 relative z-10">
-            <div className="flex flex-col lg:flex-row gap-16 items-center">
+        <section className="py-24 bg-[#1a1b1e] relative">
+          <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#d4af37]/30 to-transparent"></div>
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid lg:grid-cols-2 gap-16 items-start">
               
-              {/* Left Content */}
-              <div className="w-full lg:w-1/2">
-                <motion.div
-                  initial={{ opacity: 0, x: -30 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.6 }}
-                >
-                  <span className="text-[#d4af37] font-bold tracking-wider text-sm uppercase mb-2 block">Neden Biz?</span>
-                  <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
-                    Neden <span className="text-[#d4af37]">ANKAVERSE?</span>
+              {/* Left Column: Why Us Points */}
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+              >
+                <div style={{ opacity: 1, transform: 'none' }}>
+                  <h2 className="text-[#d4af37] font-semibold tracking-wider uppercase mb-3 text-sm">
+                    Neden ANKAVERSE?
                   </h2>
-                  <p className="text-gray-400 mb-10 text-lg leading-relaxed">
-                    Teknoloji dünyasında fark yaratmak için sadece kod yazmak yetmez. Biz, sürdürülebilir, güvenli ve yüksek performanslı sistemler inşa ediyoruz.
+                  <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">
+                    Teknolojiye Sadece Kod Olarak Bakmıyoruz
+                  </h3>
+                  <p className="text-gray-400 mb-8 leading-relaxed">
+                    Geleneksel barındırma hizmetlerinin ötesine geçerek, işletmenizin büyümesine doğrudan katkı sağlayan stratejik teknoloji ortağınız oluyoruz. Başarımızı, sunduğumuz sunucu kapasitesiyle değil, yarattığımız katma değerle ölçüyoruz.
                   </p>
-
-                  <div className="space-y-6">
-                    {whyUsPoints.map((point, index) => (
-                      <motion.div 
-                        key={index}
-                        initial={{ opacity: 0, x: -20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.4, delay: index * 0.1 }}
-                        className="flex items-start gap-4 p-4 rounded-xl hover:bg-white/5 transition-colors border border-transparent hover:border-[#333]"
-                      >
-                        <div className="mt-1 text-[#d4af37] bg-[#d4af37]/10 p-2 rounded-lg">
-                          {point.icon}
-                        </div>
-                        <div>
-                          <h4 className="text-white font-bold text-lg mb-1">{point.title}</h4>
-                          <p className="text-gray-400 text-sm">{point.desc}</p>
-                        </div>
-                      </motion.div>
-                    ))}
+                </div>
+                
+                <div className="space-y-6">
+                  {/* Point 1 */}
+                  <div className="flex gap-4 p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors border border-white/5 hover:border-[#d4af37]/30" style={{ opacity: 1, transform: 'none' }}>
+                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#d4af37]/10 flex items-center justify-center text-[#d4af37]">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-database w-6 h-6">
+                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                        <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
+                        <path d="M3 12A9 3 0 0 0 21 12"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="text-white font-semibold mb-1">Veri Odaklı Çözümler</h4>
+                      <p className="text-sm text-gray-400">Kararlarımızı ve tasarımlarımızı varsayımlara değil, somut verilere ve analitik içgörülere dayandırıyoruz.</p>
+                    </div>
                   </div>
-                </motion.div>
-              </div>
-
-              {/* Right Image/Visual */}
-              <div className="w-full lg:w-1/2 relative">
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8 }}
-                  className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border border-[#333] group"
-                >
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent z-10"></div>
-                  <img 
-                    src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop" 
-                    alt="Advanced Technology Server Room" 
-                    className="w-full h-auto transform group-hover:scale-105 transition-transform duration-700"
-                  />
                   
-                  {/* Floating Card Overlay */}
-                  <div className="absolute bottom-8 left-8 right-8 z-20 bg-[#1a1b1e]/90 backdrop-blur-md p-6 rounded-xl border border-[#d4af37]/30">
-                    <div className="flex items-center justify-between mb-2">
-                      <span className="text-white font-bold">Sistem Durumu</span>
-                      <span className="flex h-2 w-2">
-                        <span className="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-green-400 opacity-75"></span>
-                        <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-                      </span>
+                  {/* Point 2 */}
+                  <div className="flex gap-4 p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors border border-white/5 hover:border-[#d4af37]/30" style={{ opacity: 1, transform: 'none' }}>
+                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#d4af37]/10 flex items-center justify-center text-[#d4af37]">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-layers w-6 h-6">
+                        <path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path>
+                        <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path>
+                        <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path>
+                      </svg>
                     </div>
-                    <div className="w-full bg-gray-700 rounded-full h-2 mb-4">
-                      <div className="bg-[#d4af37] h-2 rounded-full" style={{ width: '98%' }}></div>
-                    </div>
-                    <div className="flex justify-between text-xs text-gray-400">
-                      <span>Uptime: %99.9</span>
-                      <span>Performans: Optimum</span>
+                    <div>
+                      <h4 className="text-white font-semibold mb-1">Teknik Mükemmeliyet</h4>
+                      <p className="text-sm text-gray-400">Kod kalitesi, güvenlik ve performans konularında endüstri standartlarının ötesini hedefliyoruz.</p>
                     </div>
                   </div>
-                </motion.div>
+                  
+                  {/* Point 3 */}
+                  <div className="flex gap-4 p-4 rounded-lg bg-white/5 hover:bg-white/10 transition-colors border border-white/5 hover:border-[#d4af37]/30" style={{ opacity: 1, transform: 'none' }}>
+                    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#d4af37]/10 flex items-center justify-center text-[#d4af37]">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-shield w-6 h-6">
+                        <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="text-white font-semibold mb-1">Sürdürülebilir Mimari</h4>
+                      <p className="text-sm text-gray-400">Bugünün ihtiyaçlarını karşılarken yarının teknolojilerine uyumlu, esnek ve uzun ömürlü sistemler inşa ediyoruz.</p>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
 
-                {/* Decorative background elements */}
-                <div className="absolute -top-10 -right-10 w-40 h-40 bg-[#d4af37]/20 rounded-full blur-3xl animate-pulse"></div>
-                <div className="absolute -bottom-10 -left-10 w-56 h-56 bg-blue-500/10 rounded-full blur-3xl"></div>
+              {/* Right Column: Services Grid (Mapped from State) */}
+              <div className="relative">
+                <div className="absolute -inset-4 bg-gradient-to-r from-[#d4af37]/20 to-purple-500/20 blur-3xl opacity-30 rounded-full"></div>
+                <div className="relative grid sm:grid-cols-2 gap-4">
+                  {services.length > 0 ? services.map((service, index) => (
+                    <div
+                      key={service.id}
+                      className={`p-6 rounded-2xl bg-[#222] border border-gray-800 hover:border-[#d4af37]/50 transition-all duration-300 group ${index === services.length - 1 && services.length % 2 !== 0 ? 'sm:col-span-2' : ''}`}
+                      style={{ opacity: 1, transform: 'none' }}
+                    >
+                      <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300 text-[#d4af37]">
+                        {/* Clone the icon element to add classes if needed, or wrap it */}
+                        <div className="w-8 h-8 text-[#d4af37]">
+                          {service.icon}
+                        </div>
+                      </div>
+                      <h4 className="text-lg font-bold text-white mb-2 group-hover:text-[#d4af37] transition-colors">
+                        {service.title}
+                      </h4>
+                      <p className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors">
+                        {service.desc}
+                      </p>
+                    </div>
+                  )) : (
+                    // Optional fallback if no services
+                    <div className="col-span-2 text-center text-gray-500">Hizmetler yükleniyor...</div>
+                  )}
+                </div>
               </div>
+
             </div>
           </div>
         </section>
