@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { getServices } from '@/services/api';
+import { decodeHtml } from '@/lib/utils';
 
 const Footer = () => {
   const [services, setServices] = useState([]);
@@ -61,7 +62,7 @@ const Footer = () => {
                 services.map(service => (
                   <li key={service.id}>
                     <Link to={`/hizmetler/${service.slug}`} className="text-gray-400 hover:text-[#d4af37] transition-colors">
-                      {service.title.rendered}
+                      {decodeHtml(service.title.rendered)}
                     </Link>
                   </li>
                 ))
