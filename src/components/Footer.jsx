@@ -61,7 +61,7 @@ const Footer = () => {
               {services.length > 0 ? (
                 services.map(service => (
                   <li key={service.id}>
-                    <Link to={`/hizmetler/${service.slug}`} className="text-gray-400 hover:text-[#d4af37] transition-colors">
+                    <Link to={`/hizmetler#${service.slug}`} className="text-gray-400 hover:text-[#d4af37] transition-colors">
                       {decodeHtml(service.title.rendered)}
                     </Link>
                   </li>
