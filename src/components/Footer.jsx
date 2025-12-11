@@ -1,9 +1,26 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { getServices } from '@/services/api';
 
 const Footer = () => {
+  const [services, setServices] = useState([]);
+
+  useEffect(() => {
+    const fetchServices = async () => {
+      try {
+        const data = await getServices();
+        if (data && data.length > 0) {
+          setServices(data.slice(0, 5));
+        }
+      } catch (err) {
+        console.error('Footer services fetch error:', err);
+      }
+    };
+    fetchServices();
+  }, []);
+
   return (
     <footer className="bg-[#111] border-t border-[#333] pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -40,11 +57,23 @@ const Footer = () => {
           <div>
             <span className="block text-white font-bold text-lg mb-6 border-l-4 border-[#d4af37] pl-3">Hizmetlerimiz</span>
             <ul className="space-y-3">
-              <li><Link to="/hizmetler#yazilim" className="text-gray-400 hover:text-[#d4af37] transition-colors">Yazılım Geliştirme</Link></li>
-              <li><Link to="/hizmetler#otomasyon" className="text-gray-400 hover:text-[#d4af37] transition-colors">Otomasyon & Entegrasyon</Link></li>
-              <li><Link to="/hizmetler#eticaret" className="text-gray-400 hover:text-[#d4af37] transition-colors">E-Ticaret Teknolojileri</Link></li>
-              <li><Link to="/hizmetler#yapayzeka" className="text-gray-400 hover:text-[#d4af37] transition-colors">Yapay Zekâ Çözümleri</Link></li>
-              <li><Link to="/hizmetler#3dmodel" className="text-gray-400 hover:text-[#d4af37] transition-colors">3D Modelleme & Üretim</Link></li>
+              {services.length > 0 ? (
+                services.map(service => (
+                  <li key={service.id}>
+                    <Link to={`/hizmetler/${service.slug}`} className="text-gray-400 hover:text-[#d4af37] transition-colors">
+                      {service.title.rendered}
+                    </Link>
+                  </li>
+                ))
+              ) : (
+                <>
+                  <li><Link to="/hizmetler#yazilim" className="text-gray-400 hover:text-[#d4af37] transition-colors">Yazılım Geliştirme</Link></li>
+                  <li><Link to="/hizmetler#otomasyon" className="text-gray-400 hover:text-[#d4af37] transition-colors">Otomasyon & Entegrasyon</Link></li>
+                  <li><Link to="/hizmetler#eticaret" className="text-gray-400 hover:text-[#d4af37] transition-colors">E-Ticaret Teknolojileri</Link></li>
+                  <li><Link to="/hizmetler#yapayzeka" className="text-gray-400 hover:text-[#d4af37] transition-colors">Yapay Zekâ Çözümleri</Link></li>
+                  <li><Link to="/hizmetler#3dmodel" className="text-gray-400 hover:text-[#d4af37] transition-colors">3D Modelleme & Üretim</Link></li>
+                </>
+              )}
             </ul>
           </div>
 
