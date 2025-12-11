@@ -268,7 +268,7 @@ const CorporateHome = () => {
                       className={`p-6 rounded-2xl bg-[#222] border border-gray-800 hover:border-[#d4af37]/50 transition-all duration-300 group ${index === services.length - 1 && services.length % 2 !== 0 ? 'sm:col-span-2' : ''}`}
                       style={{ opacity: 1, transform: 'none' }}
                     >
-                      <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300 text-[#d4af37]">
+                      <div className="mb-4 transform group-hover:scale-105 transition-transform duration-300 text-[#d4af37]">
                         {/* Clone the icon element to add classes if needed, or wrap it */}
                         <div className="w-8 h-8 text-[#d4af37]">
                           {service.icon}
