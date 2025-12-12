@@ -118,8 +118,8 @@ const Footer = () => {
           </p>
           <div className="flex gap-6 text-sm text-gray-500">
             {/* These policy links are placeholders */}
-            <a href="#" onClick={() => alert("🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀")} className="hover:text-white transition-colors">Gizlilik Politikası</a>
-            <a href="#" onClick={() => alert("🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀")} className="hover:text-white transition-colors">Kullanım Şartları</a>
+            <Link to="/gizlilik-politikasi" className="hover:text-white transition-colors">Gizlilik Politikası</Link>
+            <Link to="/kullanim-sartlari" className="hover:text-white transition-colors">Kullanım Şartları</Link>
           </div>
         </div>
       </div>

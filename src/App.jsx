@@ -10,6 +10,8 @@ import ProjectDetailPage from '@/pages/ProjectDetailPage';
 import BlogPage from '@/pages/BlogPage';
 import BlogDetailPage from '@/pages/BlogDetailPage';
 import ContactPage from '@/pages/ContactPage';
+import PrivacyPolicyPage from '@/pages/PrivacyPolicyPage';
+import TermsOfUsePage from '@/pages/TermsOfUsePage';
 import { Toaster } from "@/components/ui/toaster";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
@@ -31,6 +33,8 @@ function App() {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:id" element={<BlogDetailPage />} />
         <Route path="/iletisim" element={<ContactPage />} />
+        <Route path="/gizlilik-politikasi" element={<PrivacyPolicyPage />} />
+        <Route path="/kullanim-sartlari" element={<TermsOfUsePage />} />
         {/* Redirect any unknown paths to root */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
