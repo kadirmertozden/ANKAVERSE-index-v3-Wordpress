@@ -18,11 +18,12 @@ function App() {
     <Router>
       <ScrollToTop />
       <Routes>
-        {/* Landing Page removed/replaced by CorporateHome as root */}
-        <Route path="/" element={<CorporateHome />} />
-        {/* Redirect legacy paths to root */}
-        <Route path="/giris.html" element={<Navigate to="/" replace />} />
-        <Route path="/kurumsal" element={<Navigate to="/" replace />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/giris" element={<CorporateHome />} />
+        
+        {/* Redirect legacy paths */}
+        <Route path="/giris.html" element={<Navigate to="/giris" replace />} />
+        <Route path="/kurumsal" element={<Navigate to="/giris" replace />} />
         <Route path="/hakkimizda" element={<AboutPage />} />
         <Route path="/hizmetler" element={<ServicesPage />} />
         <Route path="/projeler" element={<ProjectsPage />} />

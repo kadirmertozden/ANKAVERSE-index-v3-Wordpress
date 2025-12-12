@@ -46,7 +46,7 @@ const Footer = () => {
           <div>
             <span className="block text-white font-bold text-lg mb-6 border-l-4 border-[#d4af37] pl-3">Hızlı Bağlantılar</span>
             <ul className="space-y-3">
-              <li><Link to="/" className="text-gray-400 hover:text-[#d4af37] transition-colors">Ana Sayfa</Link></li>
+              <li><Link to="/giris" className="text-gray-400 hover:text-[#d4af37] transition-colors">Ana Sayfa</Link></li>
               <li><Link to="/hakkimizda" className="text-gray-400 hover:text-[#d4af37] transition-colors">Hakkımızda</Link></li>
               <li><Link to="/hizmetler" className="text-gray-400 hover:text-[#d4af37] transition-colors">Hizmetler</Link></li>
               <li><Link to="/projeler" className="text-gray-400 hover:text-[#d4af37] transition-colors">Projeler</Link></li>

@@ -16,7 +16,7 @@ const Navbar = () => {
   }
 
   const menuItems = [
-    { title: 'Ana Sayfa', path: '/' },
+    { title: 'Ana Sayfa', path: '/giris' },
     { title: 'Hakkımızda', path: '/hakkimizda' },
     { 
       title: 'Hizmetler', 
