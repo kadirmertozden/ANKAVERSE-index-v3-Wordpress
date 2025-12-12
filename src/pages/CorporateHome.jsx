@@ -116,8 +116,8 @@ const CorporateHome = () => {
   return (
     <>
       <Helmet>
-        <title>ANKAVERSE® – Yazılım, Otomasyon, Yapay Zekâ ve E-Ticaret Teknolojileri</title>
-        <meta name="description" content="ANKAVERSE® kurumsal ana sayfası. Yazılım geliştirme, otomasyon, yapay zeka ve e-ticaret çözümleri ile işletmenizi geleceğe taşıyın." />
+        <title>ANKAVERSE – Yazılım, Otomasyon, Yapay Zekâ ve E-Ticaret Teknolojileri</title>
+        <meta name="description" content="ANKAVERSE kurumsal ana sayfası. Yazılım geliştirme, otomasyon, yapay zeka ve e-ticaret çözümleri ile işletmenizi geleceğe taşıyın." />
       </Helmet>
 
       <Navbar />
@@ -155,16 +155,16 @@ const CorporateHome = () => {
               </motion.div>
 
               <motion.h1 variants={fadeIn} className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight tracking-tight">
-                ANKAVERSE® <br/>
+                ANKAVERSE <br/>
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400">
-                  Yazılım, Otomasyon, Yapay Zekâ ve 
+                  Yazılım, Otomasyon, Yapay Zekâ ve
                 </span>
                 <span className="block text-[#d4af37] mt-2">E-Ticaret Teknolojileri</span>
               </motion.h1>
 
               <motion.p variants={fadeIn} className="text-lg md:text-xl text-gray-400 mb-10 max-w-3xl mx-auto leading-relaxed">
-                ANKAVERSE®, dijital dönüşümün öncüsü olarak işletmelere özel teknolojik çözümler sunar. 
-                Güçlü mühendislik altyapımız ve yenilikçi vizyonumuzla, iş süreçlerinizi modernize ediyor, 
+                ANKAVERSE, dijital dönüşümün öncüsü olarak işletmelere özel teknolojik çözümler sunar.
+                Güçlü mühendislik altyapımız ve yenilikçi vizyonumuzla, iş süreçlerinizi modernize ediyor,
                 verimliliğinizi artırıyor ve markanızı global standartlara taşıyoruz.
               </motion.p>
 

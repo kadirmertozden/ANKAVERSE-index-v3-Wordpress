@@ -12,12 +12,11 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const isActive = (path) => {
-    if (path === '/kurumsal' && location.pathname === '/giris.html') return true;
     return location.pathname === path;
   }
 
   const menuItems = [
-    { title: 'Ana Sayfa', path: '/kurumsal' },
+    { title: 'Ana Sayfa', path: '/' },
     { title: 'Hakkımızda', path: '/hakkimizda' },
     { 
       title: 'Hizmetler', 

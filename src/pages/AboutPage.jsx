@@ -28,7 +28,7 @@ const AboutPage = () => {
     { label: "Vergi Dairesi", value: "Göztepe", icon: <Landmark className="h-4 w-4" /> },
     { label: "Kuruluş Tarihi", value: "09.07.2025", icon: <Calendar className="h-4 w-4" /> },
     { label: "Adres", value: "Kadıköy / İstanbul", icon: <MapPin className="h-4 w-4" /> },
-    { label: "Marka Durumu", value: "ANKAVERSE® (Tescil Başvurusunda)", icon: <Award className="h-4 w-4" /> },
+    { label: "Marka Durumu", value: "ANKAVERSE", icon: <Award className="h-4 w-4" /> },
   ];
 
   return (
