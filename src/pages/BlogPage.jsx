@@ -39,7 +39,7 @@ const BlogPage = () => {
           category: post._embedded?.['wp:term']?.flat().find(term => term.taxonomy === 'category')?.name || 'Genel',
           readTime: calculateReadTime(post.content.rendered),
           author: {
-            name: post._embedded?.author?.[0]?.name || 'Admin',
+            name: post._embedded?.author?.[0]?.name === 'kadirmertozden' ? 'Kadir Mert Özden' : (post._embedded?.author?.[0]?.name || 'Admin'),
             avatar: post._embedded?.author?.[0]?.avatar_urls?.['48'] || 'https://via.placeholder.com/48'
           }
         }));

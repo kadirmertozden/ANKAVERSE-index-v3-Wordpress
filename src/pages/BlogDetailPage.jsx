@@ -42,7 +42,7 @@ const BlogDetailPage = () => {
           readTime: calculateReadTime(postData.content.rendered),
           tags: postData._embedded?.['wp:term']?.flat().filter(term => term.taxonomy === 'post_tag').map(tag => tag.name) || [],
           author: {
-            name: postData._embedded?.author?.[0]?.name || 'Admin',
+            name: postData._embedded?.author?.[0]?.name === 'kadirmertozden' ? 'Kadir Mert Özden' : (postData._embedded?.author?.[0]?.name || 'Admin'),
             role: 'Yazar', // Placeholder or from user meta
             avatar: postData._embedded?.author?.[0]?.avatar_urls?.['96'] || 'https://via.placeholder.com/96'
           }
