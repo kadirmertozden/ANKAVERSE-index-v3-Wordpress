@@ -23,9 +23,11 @@ const AboutPage = () => {
 
   const officialInfo = [
     { label: "Unvan", value: "ANKAVERSE E-Ticaret ve Teknoloji Ltd. Şti.", icon: <Building2 className="h-4 w-4" /> },
-    { label: "MERSİS No", value: "00701216668800001", icon: <Hash className="h-4 w-4" /> },
-    { label: "Vergi No", value: "0701216688", icon: <FileText className="h-4 w-4" /> },
-    { label: "Vergi Dairesi", value: "Göztepe", icon: <Landmark className="h-4 w-4" /> },
+    { label: "MERSİS No", value: "0070121668800001", icon: <Hash className="h-4 w-4" /> },
+    { label: "Ticaret Sicil No / Dosya No", value: "1089705", icon: <FileText className="h-4 w-4" /> },
+    { label: "Vergi Dairesi / No", value: "GÖZTEPE VERGİ DAİRESİ / 0701216688", icon: <Landmark className="h-4 w-4" /> },
+    { label: "Ticaret Sicili Müdürlüğü", value: "İSTANBUL TİCARET SİCİLİ MÜDÜRLÜĞÜ", icon: <Landmark className="h-4 w-4" /> },
+    { label: "Firma Türü", value: "ORTAK SAYISI BİRDEN FAZLA LİMİTED ŞİRKET", icon: <Building2 className="h-4 w-4" /> },
     { label: "Kuruluş Tarihi", value: "09.07.2025", icon: <Calendar className="h-4 w-4" /> },
     { label: "Adres", value: "Kadıköy / İstanbul", icon: <MapPin className="h-4 w-4" /> },
     { label: "Marka Durumu", value: "ANKAVERSE", icon: <Award className="h-4 w-4" /> },
