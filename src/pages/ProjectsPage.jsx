@@ -60,7 +60,7 @@ const ProjectsPage = () => {
               <span className="text-[#d4af37] font-bold tracking-wider text-sm uppercase mb-4 block">Portfolyo</span>
               <h1 className="text-4xl md:text-6xl font-bold mb-6">Başarı Hikayelerimiz</h1>
               <p className="text-xl text-gray-400 leading-relaxed">
-                BU SAYFA YAKINDA GÜNCELLENECEKTİR. ŞU ANKİ PROJELER DENEME AMAÇLI KONULMUŞTUR.
+                YAPMIŞ OLDUĞUMUZ VE DEVAM EDEN PROJELERİ KEŞFEDİN. HER BİR PROJE, YARATICILIĞIMIZIN VE TEKNOLOJİK UZMANLIĞIMIZIN BİR YANSIMASIDIR.
                 
               </p> 
             </div>
