@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { motion } from 'framer-motion';
-import { ArrowLeft, Calendar, User, Code2, Loader2 } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion'; // AnimatePresence eklendi
+import { ArrowLeft, Calendar, User, Code2, Loader2, X } from 'lucide-react'; // X ikonu eklendi
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { getProjectById, getMediaById } from '@/services/api';
@@ -13,24 +13,21 @@ const ProjectDetailPage = () => {
   const [project, setProject] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  
+  // Lightbox için state
+  const [selectedImage, setSelectedImage] = useState(null);
 
   useEffect(() => {
     const fetchProject = async () => {
       try {
-        // API çağrısı (Not: getProjectById fonksiyonunda URL sonuna '?_embed' eklendiğinden emin olmalısın)
         const data = await getProjectById(id);
-        
-        // ACF verilerinin güvenli kontrolü (Boş gelirse boş obje ata)
         const acf = data.acf || {};
 
-        // İkincil görsel işlemleri
         let secondaryImageUrl = null;
         if (acf.ikincil_gorsel) {
           if (typeof acf.ikincil_gorsel === 'string') {
-            // URL olarak geliyorsa direkt al
             secondaryImageUrl = acf.ikincil_gorsel;
           } else if (typeof acf.ikincil_gorsel === 'number') {
-            // ID olarak geliyorsa fetch et
             try {
               const mediaData = await getMediaById(acf.ikincil_gorsel);
               secondaryImageUrl = mediaData.source_url;
@@ -38,31 +35,24 @@ const ProjectDetailPage = () => {
               console.error('İkincil görsel çekilemedi:', e);
             }
           } else if (acf.ikincil_gorsel.url) {
-            // Obje olarak geliyorsa url'i al
             secondaryImageUrl = acf.ikincil_gorsel.url;
           }
         }
 
-        // Teknolojiler alanının işlenmesi (String veya Array gelebilir)
         let technologiesArray = [];
         if (acf.teknolojiler) {
           if (Array.isArray(acf.teknolojiler)) {
-             // Zaten dizi ise (Checkbox vb.)
              technologiesArray = acf.teknolojiler;
           } else if (typeof acf.teknolojiler === 'string') {
-             // String ise virgül veya yeni satıra göre böl
              technologiesArray = acf.teknolojiler.split(/,|\r\n|\n|\r/).map(t => t.trim()).filter(t => t !== '');
           }
         }
 
-        // Tarih formatlama
         let formattedDate = new Date(data.date).toLocaleDateString('tr-TR');
         if (acf.tarih && acf.tarih.length === 8) {
-          // YYYYMMDD formatı gelirse
           formattedDate = `${acf.tarih.substring(6, 8)}.${acf.tarih.substring(4, 6)}.${acf.tarih.substring(0, 4)}`;
         }
 
-        // HTML İçeriği Temizleme (Excerpt için)
         const summaryText = data.excerpt?.rendered 
           ? data.excerpt.rendered.replace(/<[^>]+>/g, '') 
           : '';
@@ -70,10 +60,8 @@ const ProjectDetailPage = () => {
         const formattedProject = {
           id: data.id,
           title: data.title?.rendered || 'Başlıksız Proje',
-          // Content'i olduğu gibi HTML olarak saklıyoruz, render ederken kullanacağız
           contentHtml: data.content?.rendered || '', 
           summary: summaryText,
-          // Görsel yoksa placeholder kullan
           image: data._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/1200x600?text=Gorsel+Yok',
           category: acf.kategori || 'Genel',
           client: acf.musteri || 'Belirtilmedi',
@@ -96,6 +84,15 @@ const ProjectDetailPage = () => {
       window.scrollTo(0, 0);
     }
   }, [id]);
+
+  // Escape tuşuna basınca görseli kapat
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') setSelectedImage(null);
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   if (loading) {
     return (
@@ -124,17 +121,56 @@ const ProjectDetailPage = () => {
         <meta name="description" content={project.summary} />
       </Helmet>
       <Navbar />
+
+      {/* --- LIGHTBOX (BÜYÜK RESİM GÖRÜNTÜLEYİCİ) --- */}
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelectedImage(null)} // Arka plana tıklayınca kapat
+            className="fixed inset-0 z-[100] bg-black/95 backdrop-blur-sm flex items-center justify-center p-4 cursor-zoom-out"
+          >
+            {/* Kapat Butonu */}
+            <button 
+              className="absolute top-6 right-6 p-2 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors z-[101]"
+              onClick={() => setSelectedImage(null)}
+            >
+              <X size={32} />
+            </button>
+
+            {/* Büyük Resim */}
+            <motion.img 
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              transition={{ type: "spring", damping: 25, stiffness: 300 }}
+              src={selectedImage}
+              alt="Tam Ekran"
+              className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl cursor-default"
+              onClick={(e) => e.stopPropagation()} // Resme tıklayınca kapanmasın
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
+      {/* ------------------------------------------- */}
+
       <main className="bg-[#1a1b1e] text-white pt-20 min-h-screen">
         {/* Hero Section */}
-        <div className="relative h-[60vh] w-full overflow-hidden bg-gray-900">
-          <div className="absolute inset-0 bg-black/60 z-10" />
+        <div className="relative h-[60vh] w-full overflow-hidden bg-gray-900 group">
+          <div className="absolute inset-0 bg-black/60 z-10 pointer-events-none" />
+          
+          {/* Tıklanabilir Hero Resmi */}
           <img 
             src={project.image} 
             alt={project.title}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover cursor-zoom-in transition-transform duration-700 group-hover:scale-105"
             loading="eager"
+            onClick={() => setSelectedImage(project.image)}
           />
-          <div className="absolute inset-0 z-20 flex flex-col justify-center items-center text-center px-4">
+
+          <div className="absolute inset-0 z-20 flex flex-col justify-center items-center text-center px-4 pointer-events-none">
             <motion.span 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -164,9 +200,6 @@ const ProjectDetailPage = () => {
                 className="bg-[#25262b] p-8 rounded-2xl border border-white/5 shadow-2xl"
               >
                 <h2 className="text-2xl font-bold mb-6 text-white border-b border-white/10 pb-4">Proje Detayları</h2>
-                
-                {/* HTML İçeriği Güvenli Şekilde Yazdırma */}
-                {/* WordPress içeriği genellikle p etiketleriyle gelir, o yüzden stil veriyoruz */}
                 <div 
                   className="text-gray-300 leading-relaxed text-lg prose prose-invert max-w-none prose-p:mb-4 prose-a:text-[#d4af37]"
                   dangerouslySetInnerHTML={{ __html: project.contentHtml }}
@@ -181,7 +214,15 @@ const ProjectDetailPage = () => {
               >
                 <h2 className="text-2xl font-bold mb-6 text-white">Proje Görselleri</h2>
                 <div className={`grid grid-cols-1 ${project.secondaryImage ? 'md:grid-cols-2' : ''} gap-6`}>
-                   <div className="rounded-xl overflow-hidden h-72 bg-gray-800 border border-white/10 group">
+                   
+                   {/* Birinci Görsel (Tıklanabilir) */}
+                   <div 
+                     className="rounded-xl overflow-hidden h-72 bg-gray-800 border border-white/10 group cursor-zoom-in relative"
+                     onClick={() => setSelectedImage(project.image)}
+                   >
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors z-10 flex items-center justify-center">
+                        <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity bg-black/50 px-3 py-1 rounded-full text-sm backdrop-blur-sm">Büyüt</span>
+                      </div>
                       <img
                         src={project.image}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -189,8 +230,16 @@ const ProjectDetailPage = () => {
                         loading="lazy"
                       />
                    </div>
+
+                   {/* İkincil Görsel (Tıklanabilir) */}
                    {project.secondaryImage && (
-                     <div className="rounded-xl overflow-hidden h-72 bg-gray-800 border border-white/10 group">
+                     <div 
+                       className="rounded-xl overflow-hidden h-72 bg-gray-800 border border-white/10 group cursor-zoom-in relative"
+                       onClick={() => setSelectedImage(project.secondaryImage)}
+                     >
+                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors z-10 flex items-center justify-center">
+                          <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity bg-black/50 px-3 py-1 rounded-full text-sm backdrop-blur-sm">Büyüt</span>
+                        </div>
                         <img
                           src={project.secondaryImage}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
