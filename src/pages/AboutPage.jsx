@@ -3,16 +3,17 @@ import { Helmet } from 'react-helmet';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { motion } from 'framer-motion';
-import { 
-  Building2, 
-  FileText, 
-  Target, 
-  Compass, 
-  MapPin, 
-  Calendar, 
-  Hash, 
+import {
+  Building2,
+  FileText,
+  Target,
+  Compass,
+  MapPin,
+  Calendar,
+  Hash,
   Award,
-  Landmark
+  Landmark,
+  Crown
 } from 'lucide-react';
 
 const AboutPage = () => {
@@ -29,6 +30,8 @@ const AboutPage = () => {
     { label: "Ticaret Sicili Müdürlüğü", value: "İSTANBUL TİCARET SİCİLİ MÜDÜRLÜĞÜ", icon: <Landmark className="h-4 w-4" /> },
     { label: "Firma Türü", value: "ORTAK SAYISI BİRDEN FAZLA LİMİTED ŞİRKET", icon: <Building2 className="h-4 w-4" /> },
     { label: "Kuruluş Tarihi", value: "09.07.2025", icon: <Calendar className="h-4 w-4" /> },
+    { label: "Şirket Müdürü / Büyük Ortak", value: "Kadir Mert ÖZDEN", icon: <Crown className="h-4 w-4" /> },
+    { label: "Müdürler Kurulu Başkanı / Ortak", value: "Ramazan TANRISEVEN", icon: <Crown className="h-4 w-4" /> },
     { label: "Adres", value: "Kadıköy / İstanbul", icon: <MapPin className="h-4 w-4" /> },
     { label: "Marka Durumu", value: "ANKAVERSE", icon: <Award className="h-4 w-4" /> },
   ];
@@ -41,28 +44,28 @@ const AboutPage = () => {
       </Helmet>
       <Navbar />
       <main className="bg-[#1a1b1e] text-white pt-20 min-h-screen flex flex-col">
-        
+
         {/* Header Section */}
         <section className="relative py-20 bg-[#111] overflow-hidden">
-           <div className="absolute inset-0 bg-cover bg-center opacity-10">
-              <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop" alt="Corporate Architecture" className="w-full h-full object-cover" />
-           </div>
-           <div className="absolute inset-0 bg-gradient-to-t from-[#111] to-transparent"></div>
-           <div className="container mx-auto px-4 relative z-10 text-center">
-             <motion.div initial="hidden" animate="visible" variants={fadeIn} transition={{ duration: 0.6 }}>
-               <span className="text-[#d4af37] font-bold tracking-widest text-sm uppercase mb-3 block">Kurumsal</span>
-               <h1 className="text-4xl md:text-5xl font-bold mb-6">Hakkımızda</h1>
-               <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-                 Teknoloji ve inovasyonun kesişim noktasında, işletmeleri geleceğe taşıyoruz.
-               </p>
-             </motion.div>
-           </div>
+          <div className="absolute inset-0 bg-cover bg-center opacity-10">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop" alt="Corporate Architecture" className="w-full h-full object-cover" />
+          </div>
+          <div className="absolute inset-0 bg-gradient-to-t from-[#111] to-transparent"></div>
+          <div className="container mx-auto px-4 relative z-10 text-center">
+            <motion.div initial="hidden" animate="visible" variants={fadeIn} transition={{ duration: 0.6 }}>
+              <span className="text-[#d4af37] font-bold tracking-widest text-sm uppercase mb-3 block">Kurumsal</span>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">Hakkımızda</h1>
+              <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+                Teknoloji ve inovasyonun kesişim noktasında, işletmeleri geleceğe taşıyoruz.
+              </p>
+            </motion.div>
+          </div>
         </section>
 
         {/* Company Profile */}
         <section className="py-20">
           <div className="container mx-auto px-4">
-            <motion.div 
+            <motion.div
               className="w-full text-center" /* Added text-center here */
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -90,82 +93,176 @@ const AboutPage = () => {
 
         {/* Vision & Mission */}
         <section className="py-20 bg-[#25262b] relative">
-           <div className="container mx-auto px-4">
-             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-               {/* Vision */}
-               <motion.div 
-                 className="bg-[#1a1b1e] p-8 md:p-10 rounded-2xl border border-[#333] hover:border-[#d4af37]/50 transition-all duration-300 group relative overflow-hidden"
-                 initial={{ opacity: 0, y: 20 }}
-                 whileInView={{ opacity: 1, y: 0 }}
-                 viewport={{ once: true }}
-                 transition={{ duration: 0.5 }}
-               >
-                 <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity">
-                    <Compass className="w-32 h-32 text-[#d4af37]" />
-                 </div>
-                 <div className="relative z-10">
-                   <div className="w-14 h-14 bg-[#d4af37]/10 rounded-xl flex items-center justify-center text-[#d4af37] mb-6 border border-[#d4af37]/20">
-                     <Compass className="h-7 w-7" />
-                   </div>
-                   <h3 className="text-2xl font-bold mb-4 text-white">Vizyonumuz</h3>
-                   <p className="text-gray-400 leading-relaxed">
-                     Teknoloji dünyasında global standartları belirleyen, sürdürülebilir ve insan odaklı çözümlerle geleceği şekillendiren, Türkiye'den dünyaya açılan lider bir teknoloji markası olmak. Sınırsız inovasyon anlayışımızla dijital sınırları zorlayarak ekosisteme yön vermek.
-                   </p>
-                 </div>
-               </motion.div>
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Vision */}
+              <motion.div
+                className="bg-[#1a1b1e] p-8 md:p-10 rounded-2xl border border-[#333] hover:border-[#d4af37]/50 transition-all duration-300 group relative overflow-hidden"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+              >
+                <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity">
+                  <Compass className="w-32 h-32 text-[#d4af37]" />
+                </div>
+                <div className="relative z-10">
+                  <div className="w-14 h-14 bg-[#d4af37]/10 rounded-xl flex items-center justify-center text-[#d4af37] mb-6 border border-[#d4af37]/20">
+                    <Compass className="h-7 w-7" />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-4 text-white">Vizyonumuz</h3>
+                  <p className="text-gray-400 leading-relaxed">
+                    Teknoloji dünyasında global standartları belirleyen, sürdürülebilir ve insan odaklı çözümlerle geleceği şekillendiren, Türkiye'den dünyaya açılan lider bir teknoloji markası olmak. Sınırsız inovasyon anlayışımızla dijital sınırları zorlayarak ekosisteme yön vermek.
+                  </p>
+                </div>
+              </motion.div>
 
-               {/* Mission */}
-               <motion.div 
-                 className="bg-[#1a1b1e] p-8 md:p-10 rounded-2xl border border-[#333] hover:border-[#d4af37]/50 transition-all duration-300 group relative overflow-hidden"
-                 initial={{ opacity: 0, y: 20 }}
-                 whileInView={{ opacity: 1, y: 0 }}
-                 viewport={{ once: true }}
-                 transition={{ duration: 0.5, delay: 0.2 }}
-               >
-                 <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity">
-                    <Target className="w-32 h-32 text-[#d4af37]" />
-                 </div>
-                 <div className="relative z-10">
-                   <div className="w-14 h-14 bg-[#d4af37]/10 rounded-xl flex items-center justify-center text-[#d4af37] mb-6 border border-[#d4af37]/20">
-                     <Target className="h-7 w-7" />
-                   </div>
-                   <h3 className="text-2xl font-bold mb-4 text-white">Misyonumuz</h3>
-                   <p className="text-gray-400 leading-relaxed">
-                     Müşterilerimizin dijital potansiyellerini en üst seviyeye çıkarmak için güvenilir, yenilikçi ve yüksek performanslı teknoloji çözümleri üretmek. Etik değerlere bağlı kalarak, iş ortaklarımızın büyümesine katkı sağlamak ve topluma katma değer sunan projeler geliştirmek.
-                   </p>
-                 </div>
-               </motion.div>
-             </div>
-           </div>
+              {/* Mission */}
+              <motion.div
+                className="bg-[#1a1b1e] p-8 md:p-10 rounded-2xl border border-[#333] hover:border-[#d4af37]/50 transition-all duration-300 group relative overflow-hidden"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity">
+                  <Target className="w-32 h-32 text-[#d4af37]" />
+                </div>
+                <div className="relative z-10">
+                  <div className="w-14 h-14 bg-[#d4af37]/10 rounded-xl flex items-center justify-center text-[#d4af37] mb-6 border border-[#d4af37]/20">
+                    <Target className="h-7 w-7" />
+                  </div>
+                  <h3 className="text-2xl font-bold mb-4 text-white">Misyonumuz</h3>
+                  <p className="text-gray-400 leading-relaxed">
+                    Müşterilerimizin dijital potansiyellerini en üst seviyeye çıkarmak için güvenilir, yenilikçi ve yüksek performanslı teknoloji çözümleri üretmek. Etik değerlere bağlı kalarak, iş ortaklarımızın büyümesine katkı sağlamak ve topluma katma değer sunan projeler geliştirmek.
+                  </p>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+
+
+        {/* Management Team */}
+        <section className="py-20 bg-[#1a1b1e] border-b border-[#333]">
+          <div className="container mx-auto px-4">
+            <motion.div
+              className="text-center mb-16"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <h2 className="text-3xl font-bold mb-4 flex items-center justify-center gap-3">
+                <span className="w-1 h-8 bg-[#d4af37] rounded-full block"></span>
+                Kurucular ve Yönetim
+              </h2>
+              <p className="text-gray-400 max-w-2xl mx-auto">
+                Şirketimizin yönetim yapısı ve kurucu ortakları.
+              </p>
+            </motion.div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              {/* Kadir Mert Özden */}
+              <motion.div
+                className="bg-[#25262b] p-8 rounded-2xl border border-[#333] hover:border-[#d4af37]/50 transition-all duration-300 relative overflow-hidden group"
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+              >
+                <div className="absolute top-0 right-0 p-6 opacity-5 group-hover:opacity-10 transition-opacity">
+                  <Crown className="w-24 h-24 text-[#d4af37]" />
+                </div>
+
+                <div className="relative z-10 flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
+                  <div className="w-20 h-20 bg-[#d4af37]/10 rounded-full flex items-center justify-center text-[#d4af37] border border-[#d4af37]/20 shrink-0">
+                    <span className="font-bold text-3xl">K</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-white mb-1">Kadir Mert Özden</h3>
+                    <div className="text-[#d4af37] font-medium mb-4 flex items-center justify-center sm:justify-start gap-2">
+                      <Crown className="w-4 h-4" />
+                      Şirket Müdürü
+                    </div>
+                    <div className="space-y-3">
+                      <div className="bg-[#1a1b1e] p-3 rounded-lg border border-[#333] inline-block w-full">
+                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Ortaklık Yapısı</div>
+                        <div className="text-white font-bold flex items-center justify-center sm:justify-start gap-2">
+                          <span className="w-2 h-2 bg-[#d4af37] rounded-full"></span>
+                          Büyük Ortak (%51)
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Ramazan Tanrıseven */}
+              <motion.div
+                className="bg-[#25262b] p-8 rounded-2xl border border-[#333] hover:border-[#d4af37]/50 transition-all duration-300 relative overflow-hidden group"
+                initial={{ opacity: 0, x: 20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                <div className="absolute top-0 right-0 p-6 opacity-5 group-hover:opacity-10 transition-opacity">
+                  <Crown className="w-24 h-24 text-[#d4af37]" />
+                </div>
+
+                <div className="relative z-10 flex flex-col sm:flex-row items-center sm:items-start gap-6 text-center sm:text-left">
+                  <div className="w-20 h-20 bg-[#d4af37]/10 rounded-full flex items-center justify-center text-[#d4af37] border border-[#d4af37]/20 shrink-0">
+                    <span className="font-bold text-3xl">R</span>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-bold text-white mb-1">Ramazan Tanrıseven</h3>
+                    <div className="text-[#d4af37] font-medium mb-4 flex items-center justify-center sm:justify-start gap-2">
+                      <Award className="w-4 h-4" />
+                      Müdürler Kurulu Başkanı
+                    </div>
+                    <div className="space-y-3">
+                      <div className="bg-[#1a1b1e] p-3 rounded-lg border border-[#333] inline-block w-full">
+                        <div className="text-xs text-gray-500 uppercase tracking-wider mb-1">Ortaklık Yapısı</div>
+                        <div className="text-white font-bold flex items-center justify-center sm:justify-start gap-2">
+                          <span className="w-2 h-2 bg-[#d4af37] rounded-full"></span>
+                          Kurucu Ortak (%49)
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+          </div>
         </section>
 
         {/* Official Information */}
         <section className="py-24 bg-[#1a1b1e]">
           <div className="container mx-auto px-4 max-w-3xl">
-             <div className="text-center mb-10">
-               <h2 className="text-3xl font-bold mb-4">Resmi Bilgiler</h2>
-               <div className="h-1 w-16 bg-[#d4af37] mx-auto rounded-full"></div>
-               <p className="text-gray-400 mt-4 text-sm">Şirketimizin yasal ve resmi kayıt bilgileri aşağıdadır.</p>
-             </div>
-             
-             <div className="bg-[#25262b] rounded-xl border border-[#333] overflow-hidden text-sm">
-               {officialInfo.map((item, index) => (
-                 <motion.div 
-                   key={index}
-                   className={`flex items-center gap-4 p-4 ${index !== officialInfo.length - 1 ? 'border-b border-[#333]' : ''} hover:bg-[#2c2e33] transition-colors`}
-                   initial={{ opacity: 0, x: -10 }}
-                   whileInView={{ opacity: 1, x: 0 }}
-                   viewport={{ once: true }}
-                   transition={{ duration: 0.3, delay: index * 0.05 }}
-                 >
-                   <div className="text-[#d4af37] bg-[#d4af37]/10 p-2 rounded-md shrink-0">
-                     {item.icon}
-                   </div>
-                   <span className="text-gray-400 font-medium w-32 shrink-0">{item.label}:</span>
-                   <span className="text-white font-semibold flex-grow break-words">{item.value}</span>
-                 </motion.div>
-               ))}
-             </div>
+            <div className="text-center mb-10">
+              <h2 className="text-3xl font-bold mb-4">Resmi Bilgiler</h2>
+              <div className="h-1 w-16 bg-[#d4af37] mx-auto rounded-full"></div>
+              <p className="text-gray-400 mt-4 text-sm">Şirketimizin yasal ve resmi kayıt bilgileri aşağıdadır.</p>
+            </div>
+
+            <div className="bg-[#25262b] rounded-xl border border-[#333] overflow-hidden text-sm">
+              {officialInfo.map((item, index) => (
+                <motion.div
+                  key={index}
+                  className={`flex items-center gap-4 p-4 ${index !== officialInfo.length - 1 ? 'border-b border-[#333]' : ''} hover:bg-[#2c2e33] transition-colors`}
+                  initial={{ opacity: 0, x: -10 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.3, delay: index * 0.05 }}
+                >
+                  <div className="text-[#d4af37] bg-[#d4af37]/10 p-2 rounded-md shrink-0">
+                    {item.icon}
+                  </div>
+                  <span className="text-gray-400 font-medium w-32 shrink-0">{item.label}:</span>
+                  <span className="text-white font-semibold flex-grow break-words">{item.value}</span>
+                </motion.div>
+              ))}
+            </div>
           </div>
         </section>
 
