@@ -32,7 +32,7 @@ const AboutPage = () => {
     { label: "Kuruluş Tarihi", value: "09.07.2025", icon: <Calendar className="h-4 w-4" /> },
     { label: "Şirket Müdürü / Büyük Ortak", value: "Kadir Mert ÖZDEN", icon: <Crown className="h-4 w-4" /> },
     { label: "Müdürler Kurulu Başkanı / Ortak", value: "Ramazan TANRISEVEN", icon: <Crown className="h-4 w-4" /> },
-    { label: "Adres", value: "Kadıköy / İstanbul", icon: <MapPin className="h-4 w-4" /> },
+    { label: "Adres", value: "Fenerbahçe Mah. İğrip Sk. No: 13 İç Kapı No: 1 Kadıköy / İSTANBUL", icon: <MapPin className="h-4 w-4" /> },
     { label: "Marka Durumu", value: "ANKAVERSE", icon: <Award className="h-4 w-4" /> },
   ];
 
