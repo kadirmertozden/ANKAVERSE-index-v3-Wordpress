@@ -19,7 +19,7 @@ const LandingPage = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 0.07, scale: 1 }}
             transition={{ duration: 1.2, ease: 'easeOut' }}
-            src="https://horizons-cdn.hostinger.com/5cf3d390-6a19-42b7-97d6-72347a326ec5/f0f8ff1a4ec871d0dc6dbafd38df3f60.png" 
+            src="/favicon-4-Buyuk.png" 
             alt="Ankaverse Global Background"
             className="w-[60%] max-w-3xl h-auto object-contain"
           />

@@ -35,7 +35,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center gap-2 group">
               <img 
-                src="https://horizons-cdn.hostinger.com/5cf3d390-6a19-42b7-97d6-72347a326ec5/efd54cbb556b696674869e910ac211e2.jpg" 
+                src="/favicon-4-Buyuk.png" 
                 alt="ANKAVERSE" 
                 className="h-12 w-12 rounded-full border-2 border-[#d4af37] group-hover:border-white transition-colors duration-300"
               />
