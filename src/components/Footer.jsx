@@ -30,9 +30,9 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-               <img 
-                src="https://horizons-cdn.hostinger.com/5cf3d390-6a19-42b7-97d6-72347a326ec5/efd54cbb556b696674869e910ac211e2.jpg" 
-                alt="ANKAVERSE Logo" 
+               <img
+                src="/favicon-4-Buyuk.png"
+                alt="ANKAVERSE Logo"
                 className="h-10 w-10 rounded-full border border-[#d4af37]"
               />
               <span className="text-2xl font-bold text-white tracking-widest">ANKAVERSE</span>
