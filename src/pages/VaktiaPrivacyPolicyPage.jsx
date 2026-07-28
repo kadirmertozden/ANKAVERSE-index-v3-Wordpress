@@ -24,7 +24,7 @@ const VaktiaPrivacyPolicyPage = () => {
           <p><strong className="text-gray-300">Son güncelleme / Last updated:</strong> 28.07.2026</p>
           <p><strong className="text-gray-300">Uygulama / Application:</strong> Vaktia (<code className="text-gray-300">com.ankaverse.vaktia</code>)</p>
           <p><strong className="text-gray-300">Geliştirici / Developer:</strong> ANKAVERSE</p>
-          <p><strong className="text-gray-300">İletişim / Contact:</strong> kadirmertozden@gmail.com</p>
+          <p><strong className="text-gray-300">İletişim / Contact:</strong> info@ankaverse.com.tr</p>
         </div>
 
         <div className="prose prose-invert prose-lg max-w-none text-gray-300 prose-headings:text-white prose-h2:text-[#d4af37] prose-h3:text-white prose-a:text-[#d4af37] prose-strong:text-white prose-table:text-sm">
@@ -115,7 +115,7 @@ const VaktiaPrivacyPolicyPage = () => {
           <p>Bu politikada değişiklik yapılırsa, güncellenmiş metin bu sayfada yayımlanır ve yukarıdaki "Son güncelleme" tarihi değiştirilir.</p>
 
           <h3>İletişim</h3>
-          <p>Gizlilikle ilgili sorularınız için: <a href="mailto:kadirmertozden@gmail.com">kadirmertozden@gmail.com</a></p>
+          <p>Gizlilikle ilgili sorularınız için: <a href="mailto:info@ankaverse.com.tr">info@ankaverse.com.tr</a></p>
 
           <hr />
 
@@ -204,7 +204,7 @@ const VaktiaPrivacyPolicyPage = () => {
           <p>If this policy changes, the updated text will be published on this page and the "Last updated" date above will be revised.</p>
 
           <h3>Contact</h3>
-          <p>For privacy questions: <a href="mailto:kadirmertozden@gmail.com">kadirmertozden@gmail.com</a></p>
+          <p>For privacy questions: <a href="mailto:info@ankaverse.com.tr">info@ankaverse.com.tr</a></p>
         </div>
 
         <p className="text-gray-500 text-xs mt-12 pt-6 border-t border-[#333]">
