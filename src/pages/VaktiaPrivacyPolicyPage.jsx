@@ -32,13 +32,12 @@ const VaktiaPrivacyPolicyPage = () => {
           <h2 id="tr">🇹🇷 Türkçe</h2>
 
           <h3>Özet</h3>
-          <p><strong>Vaktia hiçbir kişisel veriyi toplamaz, saklamaz veya aktarmaz.</strong></p>
+          <p><strong>Vaktia; ibadet, konum ve ayar verilerinizi cihazınızın dışına çıkarmaz.</strong></p>
           <p>
-            Uygulama tamamen çevrimdışı çalışır. Namaz vakitleri, kıble yönü ve günün ayeti dâhil her şey doğrudan
-            cihazınızda hesaplanır. Uygulamanın internet erişim izni dahi bulunmamaktadır; verilerinizi bir sunucuya
-            göndermesi teknik olarak mümkün değildir.
+            Namaz vakitleri, kıble yönü ve günün ayeti dâhil tüm içerik doğrudan cihazınızda hesaplanır. Çetele
+            kayıtlarınız, konumunuz ve tercihleriniz hiçbir sunucuya gönderilmez.
           </p>
-          <p>Hesap oluşturmanız gerekmez. Reklam yoktur. Analitik veya izleme aracı yoktur. Üçüncü taraflarla hiçbir veri paylaşılmaz.</p>
+          <p>Hesap oluşturmanız gerekmez. Analitik veya izleme aracı yoktur. Uygulamada yalnızca <strong>Google AdMob</strong> aracılığıyla banner reklamlar gösterilir; bunun kapsamı aşağıdaki "Reklamlar" bölümünde açıklanmıştır.</p>
 
           <h3>İşlenen Bilgiler</h3>
           <p>Aşağıdaki bilgiler <strong>yalnızca cihazınızda</strong> tutulur ve cihazınızdan hiçbir zaman çıkmaz:</p>
@@ -71,6 +70,20 @@ const VaktiaPrivacyPolicyPage = () => {
           </table>
           <p>Bu bilgiler geliştiriciye, ANKAVERSE'e veya herhangi bir üçüncü tarafa <strong>iletilmez</strong>.</p>
 
+          <h3>Reklamlar (Google AdMob)</h3>
+          <p>
+            Uygulama, Google AdMob aracılığıyla banner reklamlar gösterir. Reklamların sunulabilmesi için Google'ın
+            reklam SDK'sı cihazınızın <strong>reklam kimliğini</strong> (advertising ID) ve IP adresi, cihaz modeli
+            gibi temel teknik bilgileri Google'a iletebilir. Bu veriler reklam sunumu, sıklık sınırlama ve sahtecilik
+            önleme amacıyla Google tarafından işlenir.
+          </p>
+          <ul>
+            <li>Reklam verileri; konumunuz, çetele kayıtlarınız veya uygulama içi hiçbir ibadet verinizle <strong>ilişkilendirilmez</strong> ve bu veriler Google'a <strong>gönderilmez</strong>.</li>
+            <li>Avrupa Ekonomik Alanı ve Birleşik Krallık'taki kullanıcılara, reklamlar gösterilmeden önce Google'ın onay formu sunulur; tercihinizi daha sonra Ayarlar → "Reklam tercihlerini yönet" üzerinden değiştirebilirsiniz.</li>
+            <li>Cihazınızın ayarlarından reklam kimliğinizi sıfırlayabilir veya kişiselleştirilmiş reklamları kapatabilirsiniz.</li>
+            <li>Google'ın verileri nasıl işlediği için: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">policies.google.com/technologies/partner-sites</a></li>
+          </ul>
+
           <h3>Konum İzni</h3>
           <p>Uygulama, yalnızca <strong>yaklaşık konum</strong> (<code>ACCESS_COARSE_LOCATION</code>) izni ister. Hassas konum izni istenmez.</p>
           <ul>
@@ -89,9 +102,10 @@ const VaktiaPrivacyPolicyPage = () => {
               <tr><td><code>POST_NOTIFICATIONS</code></td><td>Ezan vakti bildirimlerini gösterebilmek için</td></tr>
               <tr><td><code>SCHEDULE_EXACT_ALARM</code></td><td>Ezan bildirimini vaktinde, dakikası dakikasına gösterebilmek için</td></tr>
               <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Cihaz yeniden başladıktan sonra vakit alarmlarını yeniden kurmak için</td></tr>
+              <tr><td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td><td>Yalnızca reklamların yüklenebilmesi için</td></tr>
+              <tr><td><code>AD_ID</code></td><td>Google AdMob'un reklam kimliğini kullanabilmesi için</td></tr>
             </tbody>
           </table>
-          <p>Uygulamada <code>INTERNET</code> izni <strong>bulunmamaktadır</strong>.</p>
 
           <h3>Bildirim Sesi Olarak Kendi Dosyanızı Seçmek</h3>
           <p>
@@ -122,13 +136,12 @@ const VaktiaPrivacyPolicyPage = () => {
           <h2 id="en">🇬🇧 English</h2>
 
           <h3>Summary</h3>
-          <p><strong>Vaktia does not collect, store, or transmit any personal data.</strong></p>
+          <p><strong>Vaktia never sends your worship, location, or settings data off your device.</strong></p>
           <p>
-            The app works entirely offline. Prayer times, qibla direction, and the daily verse are all calculated
-            directly on your device. The app does not even hold the internet permission, so it is technically
-            incapable of sending your data to any server.
+            Prayer times, qibla direction, and the daily verse are all calculated directly on your device. Your
+            tracking records, location, and preferences are never sent to any server.
           </p>
-          <p>No account is required. There are no ads, no analytics, and no tracking. No data is shared with any third party.</p>
+          <p>No account is required. There are no analytics and no tracking tools. The app shows banner ads through <strong>Google AdMob</strong> only; the scope of this is described in the "Advertising" section below.</p>
 
           <h3>Information Processed</h3>
           <p>The following is stored <strong>only on your device</strong> and never leaves it:</p>
@@ -161,6 +174,19 @@ const VaktiaPrivacyPolicyPage = () => {
           </table>
           <p>None of this is <strong>transmitted</strong> to the developer, to ANKAVERSE, or to any third party.</p>
 
+          <h3>Advertising (Google AdMob)</h3>
+          <p>
+            The app displays banner ads through Google AdMob. To serve ads, Google's advertising SDK may transmit
+            your device's <strong>advertising ID</strong> and basic technical information (such as IP address and
+            device model) to Google, which processes it for ad delivery, frequency capping, and fraud prevention.
+          </p>
+          <ul>
+            <li>Advertising data is <strong>never linked</strong> to your location, tracking records, or any worship data in the app — none of that is sent to Google.</li>
+            <li>Users in the EEA and UK are shown Google's consent form before any ad is served; you can change your choice later under Settings → "Manage ad preferences".</li>
+            <li>You can reset your advertising ID or opt out of personalised ads in your device settings.</li>
+            <li>How Google processes this data: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">policies.google.com/technologies/partner-sites</a></li>
+          </ul>
+
           <h3>Location Permission</h3>
           <p>The app requests <strong>approximate location</strong> only (<code>ACCESS_COARSE_LOCATION</code>). Precise location is not requested.</p>
           <ul>
@@ -179,9 +205,10 @@ const VaktiaPrivacyPolicyPage = () => {
               <tr><td><code>POST_NOTIFICATIONS</code></td><td>To display prayer time notifications</td></tr>
               <tr><td><code>SCHEDULE_EXACT_ALARM</code></td><td>To deliver the prayer notification at the exact minute it is due</td></tr>
               <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>To restore prayer alarms after the device restarts</td></tr>
+              <tr><td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td><td>Solely so that ads can load</td></tr>
+              <tr><td><code>AD_ID</code></td><td>So Google AdMob can use the advertising ID</td></tr>
             </tbody>
           </table>
-          <p>The app does <strong>not</strong> declare the <code>INTERNET</code> permission.</p>
 
           <h3>Choosing Your Own Notification Sound</h3>
           <p>
