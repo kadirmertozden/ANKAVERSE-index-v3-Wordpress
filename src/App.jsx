@@ -12,6 +12,7 @@ import BlogDetailPage from '@/pages/BlogDetailPage';
 import ContactPage from '@/pages/ContactPage';
 import PrivacyPolicyPage from '@/pages/PrivacyPolicyPage';
 import TermsOfUsePage from '@/pages/TermsOfUsePage';
+import VaktiaPrivacyPolicyPage from '@/pages/VaktiaPrivacyPolicyPage';
 import { Toaster } from "@/components/ui/toaster";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
@@ -35,6 +36,8 @@ function App() {
         <Route path="/iletisim" element={<ContactPage />} />
         <Route path="/gizlilik-politikasi" element={<PrivacyPolicyPage />} />
         <Route path="/kullanim-sartlari" element={<TermsOfUsePage />} />
+        {/* Unlisted: only reachable via direct link (Vaktia app store listing) */}
+        <Route path="/Vaktia/PRIVACY_POLICY" element={<VaktiaPrivacyPolicyPage />} />
         {/* Redirect any unknown paths to root */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
