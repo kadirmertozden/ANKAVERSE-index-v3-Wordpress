@@ -3,34 +3,8 @@ import { Link, useMatches, useParams } from 'react-router-dom';
 import { Globe, Check } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLocale } from '@/i18n/LocaleProvider';
-import { resolvePath } from '@/i18n/Link';
+import { alternatePathFor } from '@/i18n/Link';
 import { LOCALES, LOCALE_LABELS, ROUTES, localesForRoute } from '@/i18n/routes';
-import slugAlternates from '@/content/slug-alternates.json';
-
-/**
- * Resolve the current page's equivalent URL in another locale.
- *
- * Detail pages carry a different slug in every locale, so the target cannot be
- * derived from the route table alone -- it comes from the slug map the content
- * pipeline emits. When a translation does not exist yet the switcher falls back
- * to the section's list page, which is always generated. Linking to a URL that
- * was never prerendered would hand the visitor a 404.
- */
-function targetPath(routeKey, locale, params) {
-  const route = ROUTES[routeKey];
-
-  if (route?.param) {
-    const currentSlug = params[route.param];
-    const alternates = slugAlternates[currentSlug];
-    const translatedSlug = alternates?.[locale];
-    if (translatedSlug) {
-      return resolvePath(routeKey, locale, { [route.param]: translatedSlug });
-    }
-    return resolvePath(route.parent, locale);
-  }
-
-  return resolvePath(routeKey, locale);
-}
 
 export default function LanguageSwitcher({ className = '' }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -72,7 +46,7 @@ export default function LanguageSwitcher({ className = '' }) {
             {options.map((option) => (
               <li key={option}>
                 <Link
-                  to={targetPath(routeKey, option, params)}
+                  to={alternatePathFor(routeKey, option, params)}
                   hrefLang={option}
                   onClick={() => setIsOpen(false)}
                   className="flex items-center justify-between gap-3 px-4 py-2 text-sm text-gray-300 hover:bg-white/5 hover:text-[#d4af37] transition-colors"

@@ -44,7 +44,17 @@ export default function ContactPage() {
         setStatus({ type: 'success', message: t('form.success') });
         setFormData(EMPTY_FORM);
       } else {
-        setStatus({ type: 'error', message: result.message || t('form.error') });
+        // Contact Form 7 answers in the WordPress admin language, so its text
+        // is only shown when it says something the visitor can act on -- which
+        // field was rejected. Anything else (mail_failed, a server problem) is
+        // reported in the visitor's own language, with a way to reach us that
+        // does not depend on the form working.
+        const isValidation = result.status === 'validation_failed';
+        setStatus({
+          type: 'error',
+          message: isValidation && result.message ? result.message : t('form.error'),
+          showFallback: !isValidation,
+        });
       }
     } catch {
       setStatus({ type: 'error', message: t('form.error') });
@@ -165,7 +175,7 @@ export default function ContactPage() {
                     </div>
 
                     {status && (
-                      <p
+                      <div
                         role="status"
                         className={`p-4 rounded-lg ${
                           status.type === 'success'
@@ -173,8 +183,15 @@ export default function ContactPage() {
                             : 'bg-red-500/10 text-red-500'
                         }`}
                       >
-                        {status.message}
-                      </p>
+                        <p>{status.message}</p>
+                        {status.showFallback && (
+                          <p className="mt-2">
+                            <a href={`mailto:${COMPANY.email}`} className="underline">
+                              {COMPANY.email}
+                            </a>
+                          </p>
+                        )}
+                      </div>
                     )}
 
                     <button

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useMatches } from 'react-router-dom';
+import { Link, useMatches, useParams } from 'react-router-dom';
 import { Globe, X } from 'lucide-react';
 import { useLocale } from '@/i18n/LocaleProvider';
-import { resolvePath } from '@/i18n/Link';
+import { alternatePathFor } from '@/i18n/Link';
 import { LOCALES, LOCALE_LABELS, DEFAULT_LOCALE } from '@/i18n/routes';
 
 const DISMISS_KEY = 'ankaverse:lang-suggestion-dismissed';
@@ -28,6 +28,7 @@ const SUGGESTION_TEXT = {
 export default function LanguageSuggestionBanner() {
   const locale = useLocale();
   const matches = useMatches();
+  const params = useParams();
   const [suggested, setSuggested] = useState(null);
 
   const routeKey =
@@ -57,7 +58,7 @@ export default function LanguageSuggestionBanner() {
         <div className="flex items-center gap-3 text-gray-300">
           <Globe className="h-4 w-4 text-[#d4af37] shrink-0" />
           <Link
-            to={resolvePath(routeKey, suggested)}
+            to={alternatePathFor(routeKey, suggested, params)}
             hrefLang={suggested}
             onClick={dismiss}
             className="text-[#d4af37] hover:underline"
