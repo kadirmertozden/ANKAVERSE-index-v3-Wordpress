@@ -152,6 +152,21 @@ function checkPage({ file, route }, html, seen) {
   if (!title) fail(label, 'missing title');
   else if (title.length > TITLE_MAX) warn(label, `title is ${title.length} chars (>${TITLE_MAX})`);
 
+  // Exactly one of each. The index.html template used to carry its own <title>
+  // alongside the one Seo emits, so every page shipped two and which one a
+  // crawler used was left to chance.
+  // Comments are stripped first: a comment that merely mentions a tag is not
+  // a second occurrence of it.
+  const markup = html.replace(/<!--[\s\S]*?-->/g, '');
+  for (const [name, pattern] of [
+    ['title', /<title[^>]*>/g],
+    ['canonical', /rel="canonical"/g],
+    ['meta description', /name="description"/g],
+  ]) {
+    const count = (markup.match(pattern) ?? []).length;
+    if (count > 1) fail(label, `${count} ${name} elements; there must be exactly one`);
+  }
+
   if (!description) fail(label, 'missing meta description');
   else if (description.length < DESCRIPTION_MIN || description.length > DESCRIPTION_MAX) {
     warn(label, `description is ${description.length} chars (want ${DESCRIPTION_MIN}-${DESCRIPTION_MAX})`);
