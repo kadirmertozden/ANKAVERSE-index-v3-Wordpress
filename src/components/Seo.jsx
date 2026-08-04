@@ -15,6 +15,20 @@ import {
 
 const DEFAULT_OG_IMAGE = '/favicon-4-Buyuk.png';
 const SITE_NAME = 'ANKAVERSE';
+const DESCRIPTION_MAX = 160;
+const TITLE_MAX = 65;
+
+/**
+ * Descriptions built from CMS excerpts run long. Google truncates around 160
+ * characters anyway, so cut at a word boundary rather than letting the snippet
+ * end mid-word.
+ */
+function clampDescription(text = '') {
+  if (text.length <= DESCRIPTION_MAX) return text;
+  const cut = text.slice(0, DESCRIPTION_MAX);
+  const lastSpace = cut.lastIndexOf(' ');
+  return `${(lastSpace > 80 ? cut.slice(0, lastSpace) : cut).replace(/[.,;:\s]+$/, '')}…`;
+}
 
 /**
  * The single place that emits page metadata.
@@ -41,8 +55,15 @@ export default function Seo({
   const path = pathFor(routeKey, locale, localeParams);
   const canonical = absoluteUrl(path);
 
-  const resolvedTitle = title ?? t(`${routeKey}.title`);
-  const resolvedDescription = description ?? t(`${routeKey}.description`);
+  // CMS titles are already long; the brand suffix is dropped rather than
+  // pushing the title past the width Google renders.
+  const brandSuffix = ` | ${SITE_NAME}`;
+  const resolvedTitle = title
+    ? title.length + brandSuffix.length <= TITLE_MAX
+      ? `${title}${brandSuffix}`
+      : title
+    : t(`${routeKey}.title`);
+  const resolvedDescription = clampDescription(description || t(`${routeKey}.description`));
   const resolvedImage = image
     ? image.startsWith('http')
       ? image

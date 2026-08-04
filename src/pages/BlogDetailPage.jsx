@@ -35,7 +35,7 @@ export default function BlogDetailPage() {
       <Seo
         routeKey="blogDetail"
         params={perLocaleParams}
-        title={`${post.title} | ${COMPANY.name}`}
+        title={post.title}
         description={post.excerpt}
         image={post.image?.url}
         type="article"

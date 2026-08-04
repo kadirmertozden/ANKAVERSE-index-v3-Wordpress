@@ -249,6 +249,11 @@ export default defineConfig({
 		dirStyle: 'nested',
 		beastiesOptions: false,
 		concurrency: 10,
+		// Legacy paths exist as client routes only so in-app navigation keeps
+		// working. Prerendering them would publish thin 200-status pages whose
+		// only content is a redirect; the real 301 lives in deploy/nginx.conf.
+		includedRoutes: (paths) =>
+			paths.filter((path) => !['/giris', '/giris.html', '/kurumsal'].includes(path)),
 	},
 	server: {
 		cors: true,

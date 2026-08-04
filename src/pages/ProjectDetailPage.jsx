@@ -33,7 +33,7 @@ export default function ProjectDetailPage() {
       <Seo
         routeKey="projectDetail"
         params={{ slug: project.slug }}
-        title={`${project.title} | ${COMPANY.name}`}
+        title={project.title}
         description={project.excerpt}
         image={project.image?.url}
       />

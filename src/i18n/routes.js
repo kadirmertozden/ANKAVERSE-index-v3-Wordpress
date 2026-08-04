@@ -8,19 +8,28 @@
  * routes actually shipped.
  */
 
+// Explicit extension: this module is imported by the build tools running in
+// plain Node, which does not resolve extensionless specifiers the way Vite does.
+import { PUBLISHED_LOCALES, PLANNED_LOCALES } from './published.js';
+
 export const SITE_URL = 'https://ankaverse.com.tr';
 
-export const LOCALES = ['tr', 'en', 'de', 'fr', 'es', 'ar'];
+/**
+ * Only locales with real translations are routed. See published.js for why
+ * this is gated on files rather than on intent.
+ */
+export const LOCALES = PUBLISHED_LOCALES;
+export const ALL_LOCALES = PLANNED_LOCALES;
 export const DEFAULT_LOCALE = 'tr';
 export const RTL_LOCALES = ['ar'];
 
 /**
- * Locales whose blog content exists. Phase 4 ships tr+en; phase 5 adds the
- * rest once the DeepL quota renews. Until then no blog route is generated for
- * the other locales -- showing the English posts under /de/blog would create
- * duplicate content across five URLs.
+ * Locales whose blog content exists. The blog is translated after the
+ * corporate pages, so it can lag behind: a locale published for the corporate
+ * pages does not automatically get a blog. Showing English posts under
+ * /de/blog would duplicate the same content across five URLs.
  */
-export const BLOG_LOCALES = ['tr', 'en'];
+export const BLOG_LOCALES = ['tr', 'en'].filter((locale) => PUBLISHED_LOCALES.includes(locale));
 
 export const LOCALE_LABELS = {
   tr: 'Türkçe',

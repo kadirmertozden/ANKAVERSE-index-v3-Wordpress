@@ -1,6 +1,6 @@
 {
   "home": {
-    "title": "ANKAVERSE – Yazılım, Otomasyon, Yapay Zekâ ve E-Ticaret Teknolojileri",
+    "title": "ANKAVERSE – Yazılım, Yapay Zekâ ve E-Ticaret Teknolojileri",
     "description": "ANKAVERSE; yazılım geliştirme, otomasyon, yapay zekâ ve e-ticaret çözümleriyle işletmeleri geleceğe taşıyan teknoloji şirketidir."
   },
   "about": {
@@ -37,14 +37,14 @@
   },
   "terms": {
     "title": "Kullanım Şartları | ANKAVERSE",
-    "description": "ANKAVERSE web sitesi kullanım şartları."
+    "description": "ANKAVERSE web sitesinin kullanım şartları: hizmet kullanımı, fikri mülkiyet, sorumluluk reddi ve değişiklik koşulları."
   },
   "notFound": {
     "title": "Sayfa Bulunamadı | ANKAVERSE",
-    "description": "Aradığınız sayfa bulunamadı."
+    "description": "Aradığınız sayfa bulunamadı. ANKAVERSE ana sayfasından hizmetlerimize, projelerimize ve blog yazılarımıza ulaşabilirsiniz."
   },
   "vaktiaPrivacy": {
     "title": "Vaktia Gizlilik Politikası | ANKAVERSE",
-    "description": "Vaktia mobil uygulaması gizlilik politikası."
+    "description": "Vaktia mobil uygulamasının gizlilik politikası: toplanan veriler, kullanım amaçları, reklam ortakları ve kullanıcı hakları."
   }
 }
