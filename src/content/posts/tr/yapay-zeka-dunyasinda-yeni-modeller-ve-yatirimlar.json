@@ -1,0 +1,92 @@
+{
+  "id": 360,
+  "slug": "yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar",
+  "lang": "tr",
+  "title": "Yapay Zeka Dünyasında Yeni Modeller ve Yatırımlar",
+  "excerpt": "Teknoloji Devlerinden Stratejik Hamleler Yapay zeka sektöründe rekabet, hem ürün geliştirme hem de finansman tarafında hız kazanmış durumda. OpenAI, ABD pazarında ChatGPT'nin ücretsiz sürümlerinde reklam gösterim testlerine başladı. Şirket ayrıca Codex macOS uygulamasının ilk haftasında 1 milyon indirmeyi aştığını ve yeni GPT-5.3-Codex-Spark modelinin Cerebras çipleriyle desteklendiğini duyurdu. Diğer yandan Anthropic, ücretsiz kullanıcılara dosya oluşturma ve [&hellip;]",
+  "content": "<h2>Teknoloji Devlerinden Stratejik Hamleler</h2>\n<p>Yapay zeka sektöründe rekabet, hem ürün geliştirme hem de finansman tarafında hız kazanmış durumda. OpenAI, ABD pazarında ChatGPT&#8217;nin ücretsiz sürümlerinde reklam gösterim testlerine başladı. Şirket ayrıca Codex macOS uygulamasının ilk haftasında 1 milyon indirmeyi aştığını ve yeni GPT-5.3-Codex-Spark modelinin Cerebras çipleriyle desteklendiğini duyurdu.</p>\n<p>Diğer yandan Anthropic, ücretsiz kullanıcılara dosya oluşturma ve harici hizmetlere bağlanma gibi yeni yetenekler sundu. Apple cephesinde ise Siri&#8217;nin yapay zeka güncellemesi ertelenirken, CarPlay platformunun üçüncü taraf sohbet botlarına açılacağı belirtildi. Amazon, AWS ürünleriyle entegre çalışacak bir yapay zeka içerik lisanslama pazar yeri üzerinde çalışıyor.</p>\n<h2>Yeni Yapay Zeka Modelleri ve Ürünler</h2>\n<p>Geliştiriciler ve son kullanıcılar için farklı yeteneklere sahip yeni modeller piyasaya sürüldü:</p>\n<ul>\n<li><strong>ByteDance:</strong> Seedance 2.0 beta modeli, sinematik çekim yetenekleri ve senkronize ses özellikleri ile tanıtıldı.</li>\n<li><strong>Z.ai:</strong> 744 milyar parametreli açık ağırlıklı modeli GLM-5&#8217;i yayınladı.</li>\n<li><strong>Alibaba:</strong> Qwen ekibi, metin işleme ve hız odaklı görsel oluşturma modeli Qwen-Image-2.0&#8217;ı kullanıma sundu.</li>\n<li><strong>Isomorphic Labs:</strong> AlphaFold 3&#8217;ü geride bırakan ilaç tasarım motoru IsoDDE duyuruldu.</li>\n<li><strong>ElevenLabs:</strong> Sesli kitap üretimi için Audiobooks paketini yayınladı.</li>\n</ul>\n<h2>Yatırım Ekosistemi</h2>\n<p>Sektördeki büyüme, büyük ölçekli yatırım turlarıyla desteklenmeye devam ediyor. Öne çıkan yatırım gelişmeleri şunlar:</p>\n<ul>\n<li><strong>Anthropic:</strong> 380 milyar dolar değerleme üzerinden 30 milyar dolar yatırım aldı.</li>\n<li><strong>Runway:</strong> Nvidia ve Adobe&#8217;nin katılımıyla gerçekleşen turda 315 milyon dolar yatırım alarak değerlemesini 5,3 milyar dolara çıkardı.</li>\n<li><strong>Apptronik:</strong> İnsansı robot girişimi, Seri A turunda 935 milyon dolardan fazla fon topladı.</li>\n<li><strong>Diğerleri:</strong> Simile 100 milyon dolar, Entire 60 milyon dolar ve Complyance 20 milyon dolar yatırım aldı.</li>\n</ul>\n",
+  "date": "2026-02-14T23:01:14Z",
+  "modified": "2026-02-14T23:01:14Z",
+  "categories": [
+    {
+      "id": 115,
+      "name": "Webrazzi TV",
+      "slug": "webrazzi-tv"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 345,
+      "name": "Amazon AWS",
+      "slug": "amazon-aws"
+    },
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 187,
+      "name": "ByteDance",
+      "slug": "bytedance"
+    },
+    {
+      "id": 325,
+      "name": "Cerebras",
+      "slug": "cerebras"
+    },
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 73,
+      "name": "Generative AI",
+      "slug": "generative-ai"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 344,
+      "name": "Qwen",
+      "slug": "qwen"
+    },
+    {
+      "id": 276,
+      "name": "Siri",
+      "slug": "siri"
+    },
+    {
+      "id": 246,
+      "name": "xAI",
+      "slug": "xai"
+    },
+    {
+      "id": 147,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar-1771110073416.jpg",
+    "alt": "Yapay Zeka Dünyasında Yeni Modeller ve Yatırımlar",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar-1771110073416-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar-1771110073416-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar-1771110073416-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar-1771110073416-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar-1771110073416.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

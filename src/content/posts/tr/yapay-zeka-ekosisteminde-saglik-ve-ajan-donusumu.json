@@ -1,0 +1,82 @@
+{
+  "id": 294,
+  "slug": "yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu",
+  "lang": "tr",
+  "title": "Yapay Zeka Ekosisteminde Sağlık ve Ajan Dönüşümü",
+  "excerpt": "Sağlık Alanında Yapay Zeka Entegrasyonu Büyük teknoloji şirketleri, yapay zeka modellerini sağlık sektörüyle derinleştiriyor. Anthropic, Claude modeline tıbbi kayıt analizi özelliği eklerken, OpenAI sağlık girişimi Torch'u satın alarak veri işleme kapasitesini artırdı. Google, MedGemma 1.5 ve MedASR modelleriyle tıbbi metin ve görüntü analizine odaklanıyor. Ayrıca Nvidia ve Lilly, ilaç keşif süreçlerini hızlandırmak amacıyla ortak bir [&hellip;]",
+  "content": "<h2>Sağlık Alanında Yapay Zeka Entegrasyonu</h2>\n<p>Büyük teknoloji şirketleri, yapay zeka modellerini sağlık sektörüyle derinleştiriyor. Anthropic, Claude modeline tıbbi kayıt analizi özelliği eklerken, OpenAI sağlık girişimi Torch&#8217;u satın alarak veri işleme kapasitesini artırdı. Google, MedGemma 1.5 ve MedASR modelleriyle tıbbi metin ve görüntü analizine odaklanıyor. Ayrıca Nvidia ve Lilly, ilaç keşif süreçlerini hızlandırmak amacıyla ortak bir laboratuvar kurmak için yatırım planlarını açıkladı.</p>\n<h2>Ajan Tabanlı Sistemler ve İş Akışları</h2>\n<p>Otonom ajanlar kurumsal süreçlerde daha fazla yer buluyor. Google, ajan tabanlı alışveriş işlemleri için Universal Commerce Protocol standardını duyurdu. Anthropic, masaüstü işlemleri için dosya organizasyonu yapabilen Claude Cowork aracını tanıtırken, Salesforce Slackbot&#8217;u kurumsal verilerle çalışan bir ajana dönüştürdü. McKinsey ise çalışanlarını yapay zeka ajanlarıyla desteklemeyi hedefleyen geniş çaplı bir dönüşüm başlattı.</p>\n<h2>Model Geliştirmeleri ve Altyapı Yatırımları</h2>\n<p>Model tarafında Google, Veo 3.1 ile mobil uyumlu dikey video üretimini desteklemeye başladı. Robotik alanında 1X, robotların video verilerinden öğrenmesini sağlayan World Model&#8217;i tanıttı. Altyapı tarafında ise enerji ve donanım yatırımları dikkat çekiyor:</p>\n<ul>\n<li><strong>Meta:</strong> Yapay zeka operasyonları için nükleer enerji sağlayıcılarıyla anlaşmalar yaptı.</li>\n<li><strong>OpenAI:</strong> Çip üreticisi Cerebras ile 10 milyar doların üzerinde bir anlaşma imzaladı.</li>\n<li><strong>Microsoft:</strong> Topluluk öncelikli altyapı planlarıyla veri merkezi stratejisini güncelledi.</li>\n</ul>\n<h2>Yatırım Ekosistemi</h2>\n<p>Sektördeki sermaye akışı donanım, robotik ve arayüz teknolojilerine odaklandı. Skild AI 1,4 milyar dolar, Parloa ise 350 milyon dolar yatırım aldı. Ayrıca OpenAI, beyin-bilgisayar arayüzleri geliştiren Merge Labs&#8217;e yatırım yaparak insan-makine etkileşimi vizyonunu destekledi.</p>\n",
+  "date": "2026-01-17T23:01:08Z",
+  "modified": "2026-01-17T23:01:08Z",
+  "categories": [
+    {
+      "id": 115,
+      "name": "Webrazzi TV",
+      "slug": "webrazzi-tv"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 142,
+      "name": "AI Agents",
+      "slug": "ai-agents"
+    },
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 81,
+      "name": "Bulut Altyapısı",
+      "slug": "bulut-altyapisi"
+    },
+    {
+      "id": 121,
+      "name": "Google Gemini",
+      "slug": "google-gemini"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 148,
+      "name": "Nvidia",
+      "slug": "nvidia"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 99,
+      "name": "Robotik",
+      "slug": "robotik"
+    },
+    {
+      "id": 268,
+      "name": "Sağlık Teknolojileri",
+      "slug": "saglik-teknolojileri"
+    },
+    {
+      "id": 147,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu-1768690865371.jpg",
+    "alt": "Yapay Zeka Ekosisteminde Sağlık ve Ajan Dönüşümü",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu-1768690865371-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu-1768690865371-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu-1768690865371-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu-1768690865371-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu-1768690865371.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

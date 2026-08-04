@@ -1,0 +1,82 @@
+{
+  "id": 276,
+  "slug": "nvidia-ai21-labsi-satin-almaya-hazirlaniyor",
+  "lang": "tr",
+  "title": "Nvidia, AI21 Labs'i Satın Almaya Hazırlanıyor",
+  "excerpt": "Satın Alma Görüşmeleri ve Değerleme Nvidia, büyük dil modelleri (LLM) ve yapay zeka ajanları üzerine çalışan İsrail merkezli AI21 Labs'i satın almak üzere görüşmelere başladı. Sektör kaynaklarına dayanan bilgilere göre, potansiyel anlaşmanın değeri 2 milyar ile 3 milyar dolar arasında öngörülüyor. Bu satın alma gerçekleşirse, Nvidia’nın yazılım ve model tarafındaki ekosistemi önemli ölçüde genişleyecek. AI21 [&hellip;]",
+  "content": "<h2>Satın Alma Görüşmeleri ve Değerleme</h2>\n<p>Nvidia, büyük dil modelleri (LLM) ve yapay zeka ajanları üzerine çalışan İsrail merkezli AI21 Labs&#8217;i satın almak üzere görüşmelere başladı. Sektör kaynaklarına dayanan bilgilere göre, potansiyel anlaşmanın değeri 2 milyar ile 3 milyar dolar arasında öngörülüyor. Bu satın alma gerçekleşirse, Nvidia’nın yazılım ve model tarafındaki ekosistemi önemli ölçüde genişleyecek.</p>\n<p>AI21 Labs, daha önceki yatırım turlarında Nvidia, Google ve Samsung gibi teknoloji devlerinden fon sağlamıştı. Şirketin ayrıca yakın zamanda 300 milyon dolarlık ek bir yatırım aldığı ve yıllık yaklaşık 50 milyon dolar gelir elde ettiği belirtiliyor.</p>\n<h2>Teknik Altyapı: Jamba ve Mamba Mimarisi</h2>\n<p>AI21 Labs, özellikle Jamba serisi modelleriyle teknik çevrelerde dikkat çekiyor. Bu modeller, standart Transformer mimarisini Mamba adı verilen bir sinir ağı tasarımıyla hibrit hale getiriyor. Mamba mimarisi, Transformer&#8217;ların kullandığı dikkat (attention) mekanizması yerine &#8216;durum uzayı modeli&#8217; (State Space Model) esaslı bir yapı kullanıyor. Bu mimari yaklaşım şu teknik avantajları sunuyor:</p>\n<ul>\n<li>Uzun bağlam pencerelerinin (context window) Transformer modellerine göre daha hızlı işlenmesi.</li>\n<li>İşlem sırasında daha düşük bellek tüketimi.</li>\n<li>Çıkarım (inference) hızında artış ve verimlilik.</li>\n</ul>\n<h2>Yapay Zeka Ajanları ve Maestro Platformu</h2>\n<p>Şirketin bir diğer önemli ürünü olan Maestro, geliştiricilerin yapay zeka ajanları oluşturmasını ve yönetmesini sağlayan ticari bir platformdur. Maestro, ham verilerin ajanlar tarafından işlenmeden önce optimize edilmesini, gereksiz bilgilerin temizlenmesini ve farklı dosya formatlarının analize uygun hale getirilmesini sağlıyor.</p>\n<p>Nvidia&#8217;nın bu satın alma hamlesiyle Maestro platformunu, kendi kurumsal yapay zeka yazılım paketi olan Nvidia AI Enterprise&#8217;a entegre etmesi bekleniyor. Bu entegrasyon, Nvidia donanımlarını kullanan geliştiricilere donanım hızlandırmalı LLM ve ajan geliştirme süreçlerinde uçtan uca çözümler sunulmasını kolaylaştırabilir.</p>\n",
+  "date": "2026-01-03T23:05:05Z",
+  "modified": "2026-01-03T23:05:05Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    },
+    {
+      "id": 76,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "tags": [
+    {
+      "id": 231,
+      "name": "AI21 Labs",
+      "slug": "ai21-labs"
+    },
+    {
+      "id": 232,
+      "name": "Jamba",
+      "slug": "jamba"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 233,
+      "name": "Maestro",
+      "slug": "maestro"
+    },
+    {
+      "id": 230,
+      "name": "Mamba Mimarisi",
+      "slug": "mamba-mimarisi"
+    },
+    {
+      "id": 148,
+      "name": "Nvidia",
+      "slug": "nvidia"
+    },
+    {
+      "id": 236,
+      "name": "Nvidia AI Enterprise",
+      "slug": "nvidia-ai-enterprise"
+    },
+    {
+      "id": 235,
+      "name": "Satın Alma",
+      "slug": "satin-alma"
+    },
+    {
+      "id": 234,
+      "name": "State Space Model",
+      "slug": "state-space-model"
+    },
+    {
+      "id": 237,
+      "name": "Yapay Zeka Ajanları",
+      "slug": "yapay-zeka-ajanlari"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/nvidia-ai21-labsi-satin-almaya-hazirlaniyor-1767481503493.jpg",
+    "alt": "Nvidia, AI21 Labs'i Satın Almaya Hazırlanıyor",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/nvidia-ai21-labsi-satin-almaya-hazirlaniyor-1767481503493-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/nvidia-ai21-labsi-satin-almaya-hazirlaniyor-1767481503493-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/nvidia-ai21-labsi-satin-almaya-hazirlaniyor-1767481503493-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/nvidia-ai21-labsi-satin-almaya-hazirlaniyor-1767481503493-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/nvidia-ai21-labsi-satin-almaya-hazirlaniyor-1767481503493.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

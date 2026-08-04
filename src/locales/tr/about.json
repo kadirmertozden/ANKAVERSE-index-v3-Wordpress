@@ -1,0 +1,50 @@
+{
+  "eyebrow": "Kurumsal",
+  "title": "Hakkımızda",
+  "subtitle": "Teknoloji ve inovasyonun kesişim noktasında, işletmeleri geleceğe taşıyoruz.",
+  "profile": {
+    "title": "Şirket Profili",
+    "p1": "ANKAVERSE E-Ticaret ve Teknoloji Ltd. Şti., dijital dünyanın karmaşık yapısında işletmelere rehberlik eden, modern teknolojileri iş süreçlerine entegre eden güvenilir bir teknoloji ortağıdır.",
+    "p2": "Kurulduğumuz günden bu yana, yazılım geliştirme, otomasyon sistemleri ve yapay zeka tabanlı çözümlerimizle sektörde fark yaratmayı hedefledik. Müşterilerimizin dijital dönüşüm yolculuklarında sadece bir hizmet sağlayıcı değil, aynı zamanda stratejik bir çözüm ortağı olarak yer alıyoruz.",
+    "p3": "Yenilikçi bakış açımız, güçlü teknik altyapımız ve uzman kadromuzla, e-ticaret dünyasının dinamiklerine uygun, ölçeklenebilir, güvenli ve sürdürülebilir projeler geliştiriyoruz."
+  },
+  "vision": {
+    "title": "Vizyonumuz",
+    "description": "Teknoloji dünyasında global standartları belirleyen, sürdürülebilir ve insan odaklı çözümlerle geleceği şekillendiren, Türkiye'den dünyaya açılan lider bir teknoloji markası olmak. Sınırsız inovasyon anlayışımızla dijital sınırları zorlayarak ekosisteme yön vermek."
+  },
+  "mission": {
+    "title": "Misyonumuz",
+    "description": "Müşterilerimizin dijital potansiyellerini en üst seviyeye çıkarmak için güvenilir, yenilikçi ve yüksek performanslı teknoloji çözümleri üretmek. Etik değerlere bağlı kalarak, iş ortaklarımızın büyümesine katkı sağlamak ve topluma katma değer sunan projeler geliştirmek."
+  },
+  "team": {
+    "title": "Kurucular ve Yönetim",
+    "subtitle": "Şirketimizin yönetim yapısı ve kurucu ortakları.",
+    "shareStructure": "Ortaklık Yapısı",
+    "roles": {
+      "director": "Şirket Müdürü",
+      "boardChair": "Müdürler Kurulu Başkanı"
+    },
+    "shares": {
+      "majority": "Büyük Ortak (%{{share}})",
+      "founding": "Kurucu Ortak (%{{share}})"
+    }
+  },
+  "official": {
+    "title": "Resmi Bilgiler",
+    "subtitle": "Şirketimizin yasal ve resmi kayıt bilgileri aşağıdadır.",
+    "labels": {
+      "legalName": "Unvan",
+      "mersis": "MERSİS No",
+      "tradeRegistryNo": "Ticaret Sicil No / Dosya No",
+      "tax": "Vergi Dairesi / No",
+      "tradeRegistryOffice": "Ticaret Sicili Müdürlüğü",
+      "companyType": "Firma Türü",
+      "foundingDate": "Kuruluş Tarihi",
+      "director": "Şirket Müdürü / Büyük Ortak",
+      "boardChair": "Müdürler Kurulu Başkanı / Ortak",
+      "address": "Adres",
+      "brand": "Marka Durumu"
+    },
+    "companyType": "ORTAK SAYISI BİRDEN FAZLA LİMİTED ŞİRKET"
+  }
+}

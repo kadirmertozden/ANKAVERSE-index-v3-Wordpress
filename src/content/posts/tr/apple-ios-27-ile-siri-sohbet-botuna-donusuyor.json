@@ -1,0 +1,71 @@
+{
+  "id": 328,
+  "slug": "apple-ios-27-ile-siri-sohbet-botuna-donusuyor",
+  "lang": "tr",
+  "title": "Apple iOS 27 ile Siri Sohbet Botuna Dönüşüyor",
+  "excerpt": "Siri için Yeni Altyapı: Campos Apple, sesli asistanı Siri'yi iOS 27 sürümüyle birlikte kapsamlı bir dönüşüme sokuyor. \"Campos\" kod adıyla geliştirilen bu yeni yapı, Siri'yi basit komutları yerine getiren bir asistan olmaktan çıkarıp, bağlamı anlayabilen gelişmiş bir sohbet botuna (chatbot) dönüştürmeyi hedefliyor. Bloomberg kaynaklarına dayandırılan bilgilere göre bu hamle, OpenAI ve Google gibi rakiplerin ekosistem [&hellip;]",
+  "content": "<h2>Siri için Yeni Altyapı: Campos</h2>\n<p>Apple, sesli asistanı Siri&#8217;yi iOS 27 sürümüyle birlikte kapsamlı bir dönüşüme sokuyor. &#8220;Campos&#8221; kod adıyla geliştirilen bu yeni yapı, Siri&#8217;yi basit komutları yerine getiren bir asistan olmaktan çıkarıp, bağlamı anlayabilen gelişmiş bir sohbet botuna (chatbot) dönüştürmeyi hedefliyor. Bloomberg kaynaklarına dayandırılan bilgilere göre bu hamle, OpenAI ve Google gibi rakiplerin ekosistem üzerindeki baskısını hafifletmek amacıyla gerçekleştiriliyor.</p>\n<h2>Teknik Yetenekler ve Entegrasyon</h2>\n<p>Yeni Siri altyapısının, Google&#8217;ın Gemini modelleriyle desteklendiği ve üretken yapay zeka yeteneklerine odaklandığı belirtiliyor. Bu entegrasyon sayesinde Siri, kullanıcı alışkanlıklarını analiz ederek kişiselleştirilmiş bir deneyim sunacak. Sistemin öne çıkan teknik yetenekleri şunlardır:</p>\n<ul>\n<li><strong>Karmaşık Kod Üretimi:</strong> Yazılım geliştirme süreçlerinde kod parçacıkları oluşturma desteği.</li>\n<li><strong>Görsel Oluşturma:</strong> Metin tabanlı komutlarla görsel materyal üretimi.</li>\n<li><strong>Derinlemesine Web Araştırması:</strong> Kullanıcı sorguları için web tabanlı detaylı tarama ve sentezleme.</li>\n<li><strong>Dosya Analizi:</strong> Belgelerin okunması ve hızlı özetler çıkarılması.</li>\n<li><strong>Bağlamsal Hafıza:</strong> Geçmiş konuşmaları hatırlayarak diyaloğu sürdürme yeteneği.</li>\n</ul>\n<p>Apple&#8217;ın bu stratejisi, iPhone ve Mac kullanıcılarının ChatGPT gibi üçüncü taraf uygulamalara olan bağımlılığını azaltmayı amaçlıyor. İşletim sisteminin çekirdeğine entegre edilen bu özelliklerin, Haziran ayında düzenlenecek WWDC etkinliğinde tanıtılması ve Eylül ayında genel kullanıma sunulması bekleniyor.</p>\n",
+  "date": "2026-01-24T23:05:44Z",
+  "modified": "2026-01-24T23:05:44Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 305,
+      "name": "Campos",
+      "slug": "campos"
+    },
+    {
+      "id": 307,
+      "name": "Chatbot",
+      "slug": "chatbot"
+    },
+    {
+      "id": 193,
+      "name": "Gemini",
+      "slug": "gemini"
+    },
+    {
+      "id": 306,
+      "name": "GenAI",
+      "slug": "genai"
+    },
+    {
+      "id": 303,
+      "name": "iOS 27",
+      "slug": "ios-27"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 276,
+      "name": "Siri",
+      "slug": "siri"
+    },
+    {
+      "id": 308,
+      "name": "WWDC",
+      "slug": "wwdc"
+    }
+  ],
+  "image": null,
+  "author": "kadirmertozden"
+}

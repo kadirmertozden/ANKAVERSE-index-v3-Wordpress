@@ -1,0 +1,82 @@
+{
+  "id": 300,
+  "slug": "apple-cihazlarina-google-gemini-modellerini-ekliyor",
+  "lang": "tr",
+  "title": "Apple, Cihazlarına Google Gemini Modellerini Ekliyor",
+  "excerpt": "Google ve Apple Arasında Stratejik Altyapı Anlaşması Apple, yapay zeka stratejisinde önemli bir değişikliğe giderek Google ile kapsamlı bir iş birliği gerçekleştirdi. Yapılan anlaşma doğrultusunda Apple, Siri başta olmak üzere cihazlarındaki yapay zeka özelliklerini desteklemek için Google'ın Gemini modellerinden ve bulut altyapısından faydalanacak. İki şirket tarafından yapılan ortak açıklamada, Google teknolojisinin Apple'ın temel yapay zeka [&hellip;]",
+  "content": "<h2>Google ve Apple Arasında Stratejik Altyapı Anlaşması</h2>\n<p>Apple, yapay zeka stratejisinde önemli bir değişikliğe giderek Google ile kapsamlı bir iş birliği gerçekleştirdi. Yapılan anlaşma doğrultusunda Apple, Siri başta olmak üzere cihazlarındaki yapay zeka özelliklerini desteklemek için Google&#8217;ın <strong>Gemini</strong> modellerinden ve bulut altyapısından faydalanacak. İki şirket tarafından yapılan ortak açıklamada, Google teknolojisinin Apple&#8217;ın temel yapay zeka modelleri için en yetkin altyapıyı sunduğu belirtildi.</p>\n<h2>Gemini 3 ve Bulut Entegrasyonu</h2>\n<p>Teknik detaylara bakıldığında, entegrasyonun merkezinde Google&#8217;ın geliştirdiği <strong>Gemini 3</strong> modeli yer alıyor. Apple&#8217;ın bu hamlesi, şirketin kendi özel bulut altyapısı ile Google&#8217;ın sunucu kapasitesini hibrit bir yapıda kullanacağını gösteriyor. Bloomberg kaynaklarına göre, anlaşmanın yıllık mali değeri yaklaşık <strong>1 milyar dolar</strong> seviyesinde. Bu iş birliği, Apple&#8217;ın 2026 yılına ertelediği iddia edilen büyük Siri güncellemesi öncesinde altyapı eksikliklerini gidermeyi hedefliyor.</p>\n<h2>OpenAI İş Birliği Sürüyor</h2>\n<p>Google ile yapılan bu anlaşma, Apple&#8217;ın mevcut yapay zeka ortaklıklarını sonlandırdığı anlamına gelmiyor. Şirket, karmaşık sorgular ve Apple Intelligence kapsamındaki bazı özellikler için <strong>OpenAI</strong> ve ChatGPT modellerini kullanmaya devam edecek. Google entegrasyonunun, cihaz içi işlem (on-device) ve bulut tabanlı işlemler arasındaki dengeyi optimize etmesi bekleniyor.</p>\n<ul>\n<li><strong>Model:</strong> Google Gemini 3</li>\n<li><strong>Kapsam:</strong> Siri ve temel AI işlevleri</li>\n<li><strong>Altyapı:</strong> Google Cloud ve Apple Private Cloud</li>\n<li><strong>Maliyet:</strong> Yıllık tahmini 1 milyar dolar</li>\n</ul>\n",
+  "date": "2026-01-17T23:03:05Z",
+  "modified": "2026-01-17T23:03:05Z",
+  "categories": [
+    {
+      "id": 277,
+      "name": "Akıllı Telefonlar",
+      "slug": "akilli-telefonlar"
+    },
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    }
+  ],
+  "tags": [
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 279,
+      "name": "Bulut Bilişim",
+      "slug": "bulut-bilisim"
+    },
+    {
+      "id": 193,
+      "name": "Gemini",
+      "slug": "gemini"
+    },
+    {
+      "id": 124,
+      "name": "Gemini 3",
+      "slug": "gemini-3"
+    },
+    {
+      "id": 198,
+      "name": "Google",
+      "slug": "google"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 278,
+      "name": "Mobil Teknoloji",
+      "slug": "mobil-teknoloji"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 276,
+      "name": "Siri",
+      "slug": "siri"
+    },
+    {
+      "id": 69,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-cihazlarina-google-gemini-modellerini-ekliyor-1768690984179.jpg",
+    "alt": "Apple, Cihazlarına Google Gemini Modellerini Ekliyor",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-cihazlarina-google-gemini-modellerini-ekliyor-1768690984179-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-cihazlarina-google-gemini-modellerini-ekliyor-1768690984179-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-cihazlarina-google-gemini-modellerini-ekliyor-1768690984179-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-cihazlarina-google-gemini-modellerini-ekliyor-1768690984179-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-cihazlarina-google-gemini-modellerini-ekliyor-1768690984179.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

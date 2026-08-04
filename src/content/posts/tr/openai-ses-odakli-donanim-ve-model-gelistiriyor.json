@@ -1,0 +1,67 @@
+{
+  "id": 273,
+  "slug": "openai-ses-odakli-donanim-ve-model-gelistiriyor",
+  "lang": "tr",
+  "title": "OpenAI Ses Odaklı Donanım ve Model Geliştiriyor",
+  "excerpt": "OpenAI, yapay zeka stratejisinde sesi merkeze alan yeni bir yapılanmaya gidiyor. Şirket, mühendislik, ürün ve araştırma ekiplerini birleştirerek ses modellerini baştan sona revize ediyor. Bu operasyonel değişikliğin temel hedefi, yaklaşık bir yıl içinde piyasaya sürülmesi planlanan ses odaklı kişisel bir donanım cihazı geliştirmek. Ekran Bağımsız Etkileşim ve Jony Ive Etkisi Geliştirilen yeni mimari, sadece ChatGPT’nin [&hellip;]",
+  "content": "<p>OpenAI, yapay zeka stratejisinde sesi merkeze alan yeni bir yapılanmaya gidiyor. Şirket, mühendislik, ürün ve araştırma ekiplerini birleştirerek ses modellerini baştan sona revize ediyor. Bu operasyonel değişikliğin temel hedefi, yaklaşık bir yıl içinde piyasaya sürülmesi planlanan ses odaklı kişisel bir donanım cihazı geliştirmek.</p>\n<h2>Ekran Bağımsız Etkileşim ve Jony Ive Etkisi</h2>\n<p>Geliştirilen yeni mimari, sadece ChatGPT’nin ses yeteneklerini artırmakla kalmayıp, ekran kullanımını minimize eden bir donanım ekosistemini hedefliyor. Tasarım sürecine dahil olan Jony Ive, cihaz bağımlılığını azaltan ve dikkat talebini düşüren bir kullanıcı deneyimi kurguluyor. Şirketin uzun vadeli planları arasında ekranı olmayan hoparlörler veya gözlük benzeri giyilebilir teknolojiler yer alıyor.</p>\n<p>Geliştirilen yeni ses modelinin teknik yetenekleri şunlar:</p>\n<ul>\n<li>Daha doğal tonlama ve vurgu yeteneği.</li>\n<li>Konuşma sırasında kesintilere (interruption) uyum sağlama.</li>\n<li>Kullanıcı konuşmaya devam ederken eş zamanlı yanıt verebilme.</li>\n<li>Düşük gecikme süresi ile gerçek zamanlı sohbet deneyimi.</li>\n</ul>\n<h2>Sektörel Rekabet ve Pazar Durumu</h2>\n<p>Ses odaklı arayüzler, teknoloji devlerinin odak noktası haline gelmiş durumda. Meta, Ray-Ban akıllı gözlükleriyle çoklu mikrofon sistemlerini test ederken; Google, arama sonuçlarını sesli özetlere dönüştüren “Audio Overviews” üzerinde çalışıyor. Tesla ise xAI’ın Grok modelini araç içi sistemlere entegre ederek navigasyon yönetimini doğal diyaloglara dönüştürmeyi hedefliyor. OpenAI, Humane AI Pin gibi önceki başarısız donanım denemelerinden ders çıkararak, 2026 vizyonunda daha kararlı ve teknik açıdan olgunlaşmış bir ürün sunmayı amaçlıyor.</p>\n",
+  "date": "2026-01-03T23:04:16Z",
+  "modified": "2026-01-03T23:04:16Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 139,
+      "name": "Donanım",
+      "slug": "donanim"
+    },
+    {
+      "id": 229,
+      "name": "Giyilebilir Teknoloji",
+      "slug": "giyilebilir-teknoloji"
+    },
+    {
+      "id": 226,
+      "name": "Jony Ive",
+      "slug": "jony-ive"
+    },
+    {
+      "id": 175,
+      "name": "NLP",
+      "slug": "nlp"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 227,
+      "name": "Ses Modelleri",
+      "slug": "ses-modelleri"
+    },
+    {
+      "id": 228,
+      "name": "Sesli Asistan",
+      "slug": "sesli-asistan"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/openai-ses-odakli-donanim-ve-model-gelistiriyor-1767481455169.jpg",
+    "alt": "OpenAI Ses Odaklı Donanım ve Model Geliştiriyor",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/openai-ses-odakli-donanim-ve-model-gelistiriyor-1767481455169-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/openai-ses-odakli-donanim-ve-model-gelistiriyor-1767481455169-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/openai-ses-odakli-donanim-ve-model-gelistiriyor-1767481455169-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/openai-ses-odakli-donanim-ve-model-gelistiriyor-1767481455169-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/openai-ses-odakli-donanim-ve-model-gelistiriyor-1767481455169.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

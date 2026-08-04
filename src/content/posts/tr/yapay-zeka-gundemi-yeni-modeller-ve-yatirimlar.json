@@ -1,0 +1,87 @@
+{
+  "id": 255,
+  "slug": "yapay-zeka-gundemi-yeni-modeller-ve-yatirimlar",
+  "lang": "tr",
+  "title": "Yapay Zeka Gündemi: Yeni Modeller ve Yatırımlar",
+  "excerpt": "Yapay zeka ekosisteminde bu hafta, özellikle kodlama ve arayüz geliştirme odaklı yeni modeller ile altyapı yatırımları öne çıkıyor. Sektördeki rekabet, teknik kapasite artışı ve donanım stratejileri üzerinden şekilleniyor. Yeni Yapay Zeka Modelleri Model tarafında teknik kapasiteyi ve özelleşmiş görev başarımını hedefleyen üç önemli duyuru gerçekleşti: MiniMax M2.1: Çok dilli yazılım ve arayüz geliştirme odaklı bu [&hellip;]",
+  "content": "<p>Yapay zeka ekosisteminde bu hafta, özellikle kodlama ve arayüz geliştirme odaklı yeni modeller ile altyapı yatırımları öne çıkıyor. Sektördeki rekabet, teknik kapasite artışı ve donanım stratejileri üzerinden şekilleniyor.</p>\n<h2>Yeni Yapay Zeka Modelleri</h2>\n<p>Model tarafında teknik kapasiteyi ve özelleşmiş görev başarımını hedefleyen üç önemli duyuru gerçekleşti:</p>\n<ul>\n<li><strong>MiniMax M2.1:</strong> Çok dilli yazılım ve arayüz geliştirme odaklı bu model, ajan tabanlı görevlerde ve web/mobil arayüz üretiminde kullanılmak üzere tasarlandı.</li>\n<li><strong>Z.ai GLM-4.7:</strong> Kodlama, karmaşık muhakeme ve araç kullanımı yetenekleriyle GLM-4.6&#8217;yı geride bırakan model, GLM Kodlama Planı&#8217;nın varsayılan modeli haline geldi.</li>\n<li><strong>Liquid AI LFM2-2.6B-Exp:</strong> Saf pekiştirme öğrenimi ile eğitilen model, talimat izleme ve matematik alanlarında yüksek performans sunuyor. IFBench skorunda, parametre sayısı bakımından kendisinden çok daha büyük modelleri geride bıraktığı belirtiliyor.</li>\n</ul>\n<h2>OpenAI ve ChatGPT Güncellemeleri</h2>\n<p>OpenAI, son kullanıcı deneyimine yönelik iyileştirmeler ve yeni erişim seçenekleri sundu:</p>\n<ul>\n<li><strong>Kişiselleştirme:</strong> Kullanıcılar, ChatGPT’nin üslubunu daha samimi veya resmi olacak şekilde ayarlayabilme imkanına kavuştu.</li>\n<li><strong>ChatGPT Go Türkiye&#8217;de:</strong> Hizmet Türkiye erişimine açıldı; iOS aboneliği aylık 249,99 TL olarak belirlendi.</li>\n<li><strong>Reklam Entegrasyonu:</strong> OpenAI, yanıtlar içerisine reklam yerleştirmeyi ve olası ortaklıkları değerlendirme sürecine aldı.</li>\n</ul>\n<h2>Donanım ve Otonom Sistemler</h2>\n<p>Nvidia, Groq CEO’su Jonathan Ross&#8217;u kadrosuna katarak şirketin çip teknolojisini lisanslama kararı aldı. Bu hamle, yapay zeka çip mimarisindeki rekabet dengeleri açısından önem taşıyor.</p>\n<p>Otonom sürüş dikeyinde ise Waymo, robotaksilerinde Gemini tabanlı araç içi asistanı test etmeye başladı. Asistan, sürüş kontrolünden izole bir şekilde yolcu sorularını yanıtlamak üzere yapılandırıldı.</p>\n<h2>Yatırım Hareketliliği</h2>\n<p>Sektördeki finansal akış, hem global altyapı hem de girişim seviyesinde devam ediyor:</p>\n<ul>\n<li><strong>ByteDance:</strong> TikTok&#8217;un çatı şirketi, 2026 yılı için yapay zeka altyapısına (özellikle çip ve veri merkezleri) 23 milyar dolar bütçe ayırmayı planlıyor.</li>\n<li><strong>Global Girişimler:</strong> Marissa Mayer&#8217;in girişimi Dazzle.ai 8 milyon dolar, lojistik odaklı Kargo 42 milyon dolar ve video avatar girişimi Lemon Slice 10.5 milyon dolar yatırım aldı.</li>\n<li><strong>Yerli Yatırımlar:</strong> Webrazzi GSYF, yapay zeka odaklı Next Big App ve oyun girişimi GameByte&#8217;a yatırım gerçekleştirdi.</li>\n</ul>\n",
+  "date": "2025-12-27T23:03:37Z",
+  "modified": "2025-12-27T23:03:37Z",
+  "categories": [
+    {
+      "id": 115,
+      "name": "Webrazzi TV",
+      "slug": "webrazzi-tv"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 187,
+      "name": "ByteDance",
+      "slug": "bytedance"
+    },
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 188,
+      "name": "GLM-4.7",
+      "slug": "glm-4-7"
+    },
+    {
+      "id": 189,
+      "name": "Groq",
+      "slug": "groq"
+    },
+    {
+      "id": 186,
+      "name": "Liquid AI",
+      "slug": "liquid-ai"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 185,
+      "name": "MiniMax",
+      "slug": "minimax"
+    },
+    {
+      "id": 148,
+      "name": "Nvidia",
+      "slug": "nvidia"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 191,
+      "name": "Waymo",
+      "slug": "waymo"
+    },
+    {
+      "id": 190,
+      "name": "Yapay Zeka Yatırımları",
+      "slug": "yapay-zeka-yatirimlari"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-gundemi-yeni-modeller-ve-yatirimlar-1766876614985.jpg",
+    "alt": "Yapay Zeka Gündemi: Yeni Modeller ve Yatırımlar",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-gundemi-yeni-modeller-ve-yatirimlar-1766876614985-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-gundemi-yeni-modeller-ve-yatirimlar-1766876614985-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-gundemi-yeni-modeller-ve-yatirimlar-1766876614985-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-gundemi-yeni-modeller-ve-yatirimlar-1766876614985-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-gundemi-yeni-modeller-ve-yatirimlar-1766876614985.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

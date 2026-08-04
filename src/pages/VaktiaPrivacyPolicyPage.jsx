@@ -1,22 +1,16 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import Seo from '@/components/Seo';
 
+/**
+ * Reachable only from the Vaktia app store listing. It is noindex, so it stays
+ * out of the sitemap and carries no hreflang set -- the page is bilingual in a
+ * single document by design.
+ */
 const VaktiaPrivacyPolicyPage = () => {
-  useEffect(() => {
-    document.title = 'Vaktia - Gizlilik Politikası / Privacy Policy';
-  }, []);
-
   return (
-    <main className="bg-[#1a1b1e] text-white min-h-screen pt-16 pb-20">
+    <main className="bg-[#1a1b1e] text-white min-h-screen pt-28 pb-20">
+      <Seo routeKey="vaktiaPrivacy" noindex />
       <div className="container mx-auto px-4 max-w-4xl">
-        <div className="flex items-center gap-3 mb-8">
-          <img
-            src="/favicon-4-Buyuk.png"
-            alt="ANKAVERSE"
-            className="h-12 w-12 rounded-full border-2 border-[#d4af37]"
-          />
-          <span className="font-bold text-xl tracking-widest text-white">ANKAVERSE</span>
-        </div>
-
         <h1 className="text-3xl md:text-4xl font-bold mb-2 text-[#d4af37]">
           Vaktia — Gizlilik Politikası / Privacy Policy
         </h1>

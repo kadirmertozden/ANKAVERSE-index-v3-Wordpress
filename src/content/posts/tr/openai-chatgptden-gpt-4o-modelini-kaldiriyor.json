@@ -1,0 +1,72 @@
+{
+  "id": 342,
+  "slug": "openai-chatgptden-gpt-4o-modelini-kaldiriyor",
+  "lang": "tr",
+  "title": "OpenAI, ChatGPT’den GPT-4o Modelini Kaldırıyor",
+  "excerpt": "GPT-4o Dönemi Sona Eriyor OpenAI, ChatGPT platformundaki model çeşitliliğini sadeleştirme kararı aldı. Şirket tarafından yapılan açıklamada, aralarında GPT-4o’nun da bulunduğu bazı eski sürümlerin 13 Şubat itibarıyla platformdan kaldırılacağı belirtildi. Kararın arkasındaki temel neden, kullanıcı alışkanlıklarının değişmesi olarak gösterildi. Verilere göre, ChatGPT kullanıcılarının büyük bir bölümü işlemlerini daha yeni bir mimariye sahip olan GPT-5.2 modeli üzerinden [&hellip;]",
+  "content": "<h2>GPT-4o Dönemi Sona Eriyor</h2>\n<p>OpenAI, ChatGPT platformundaki model çeşitliliğini sadeleştirme kararı aldı. Şirket tarafından yapılan açıklamada, aralarında GPT-4o’nun da bulunduğu bazı eski sürümlerin <strong>13 Şubat</strong> itibarıyla platformdan kaldırılacağı belirtildi.</p>\n<p>Kararın arkasındaki temel neden, kullanıcı alışkanlıklarının değişmesi olarak gösterildi. Verilere göre, ChatGPT kullanıcılarının büyük bir bölümü işlemlerini daha yeni bir mimariye sahip olan <strong>GPT-5.2</strong> modeli üzerinden gerçekleştiriyor. Düşük kullanım oranları ve kaynak optimizasyonu gerekliliği, GPT-4o’nun emekliye ayrılması sürecini hızlandırdı.</p>\n<ul>\n<li><strong>Kaldırılacak Model:</strong> GPT-4o ve ilgili alt sürümler.</li>\n<li><strong>Kapanış Tarihi:</strong> 13 Şubat.</li>\n<li><strong>Odaklanılan Model:</strong> GPT-5.2.</li>\n</ul>\n<p>Bu değişiklik, OpenAI’ın hesaplama gücünü daha verimli kullanmasını ve geliştirme süreçlerini en güncel modeller üzerinde yoğunlaştırmasını hedefliyor.</p>\n",
+  "date": "2026-01-31T23:04:24Z",
+  "modified": "2026-01-31T23:04:24Z",
+  "categories": [
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    },
+    {
+      "id": 238,
+      "name": "Teknoloji",
+      "slug": "teknoloji"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 73,
+      "name": "Generative AI",
+      "slug": "generative-ai"
+    },
+    {
+      "id": 320,
+      "name": "GPT-4o",
+      "slug": "gpt-4o"
+    },
+    {
+      "id": 117,
+      "name": "GPT-5.2",
+      "slug": "gpt-5-2"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 323,
+      "name": "Model Optimizasyonu",
+      "slug": "model-optimizasyonu"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-chatgptden-gpt-4o-modelini-kaldiriyor-1769900664040.jpg",
+    "alt": "OpenAI, ChatGPT’den GPT-4o Modelini Kaldırıyor",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-chatgptden-gpt-4o-modelini-kaldiriyor-1769900664040-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-chatgptden-gpt-4o-modelini-kaldiriyor-1769900664040-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-chatgptden-gpt-4o-modelini-kaldiriyor-1769900664040-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-chatgptden-gpt-4o-modelini-kaldiriyor-1769900664040-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-chatgptden-gpt-4o-modelini-kaldiriyor-1769900664040.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

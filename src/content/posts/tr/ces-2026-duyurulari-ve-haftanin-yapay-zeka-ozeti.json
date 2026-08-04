@@ -1,0 +1,87 @@
+{
+  "id": 282,
+  "slug": "ces-2026-duyurulari-ve-haftanin-yapay-zeka-ozeti",
+  "lang": "tr",
+  "title": "CES 2026 Duyuruları ve Haftanın Yapay Zeka Özeti",
+  "excerpt": "Yeni Yapay Zeka Modelleri Bu hafta, farklı kullanım senaryolarına odaklanan yeni temel modeller tanıtıldı. Özellikle cihaz içi çıkarım (inference) ve sağlık alanındaki geliştirmeler dikkat çekiyor: Falcon H1R 7B: TII tarafından geliştirilen bu küçük ve hibrit akıl yürütme aracı, matematik ve kodlama görevlerinde kendi boyutundaki rakiplerinden daha yüksek performans sunuyor ve çıkarım hızını ikiye katlıyor. LFM [&hellip;]",
+  "content": "<h2>Yeni Yapay Zeka Modelleri</h2>\n<p>Bu hafta, farklı kullanım senaryolarına odaklanan yeni temel modeller tanıtıldı. Özellikle cihaz içi çıkarım (inference) ve sağlık alanındaki geliştirmeler dikkat çekiyor:</p>\n<ul>\n<li><strong>Falcon H1R 7B:</strong> TII tarafından geliştirilen bu küçük ve hibrit akıl yürütme aracı, matematik ve kodlama görevlerinde kendi boyutundaki rakiplerinden daha yüksek performans sunuyor ve çıkarım hızını ikiye katlıyor.</li>\n<li><strong>LFM 2.5:</strong> Liquid AI’ın cihaz içi (on-device) kullanıma yönelik geliştirdiği açık ağırlıklı model ailesi; metin, görüntü ve ses işleme yeteneklerine sahip.</li>\n<li><strong>LTX-2:</strong> Lightricks, doğal 4K görüntü ve senkronize ses üretebilen AI video modelini açık kaynak olarak yayınladı.</li>\n<li><strong>SleepFM:</strong> Stanford araştırmacıları, uyku kayıtlarından 130’dan fazla sağlık durumunu tahmin edebilen temel modeli duyurdu.</li>\n</ul>\n<h2>CES 2026 ve Donanım Gelişmeleri</h2>\n<p>CES 2026 fuarı, yapay zeka odaklı donanım ve entegrasyonların sergilendiği ana platform oldu:</p>\n<ul>\n<li><strong>Nvidia Rubin Platformu:</strong> Blackwell serisine kıyasla 5 kat daha fazla eğitim hesaplama gücü sunan yeni AI süper bilgisayar mimarisi tanıtıldı.</li>\n<li><strong>Lenovo Qira:</strong> PC ve Motorola telefonlar arasında bağlamsal takip sağlayan sistem düzeyinde bir yapay zeka asistanı duyuruldu.</li>\n<li><strong>Razer Project AVA:</strong> Grok tabanlı, fiziksel bir silindir içinde çalışan holografik yapay zeka asistanı konsepti sergilendi.</li>\n<li><strong>Otomotiv Entegrasyonları:</strong> Ford, 2027 itibarıyla araçlarına yapay zeka asistanları eklemeyi planlarken; Boston Dynamics, yeni nesil Atlas robotunda Google DeepMind altyapısını kullanacağını açıkladı.</li>\n</ul>\n<h2>Platformlar ve Uygulama Güncellemeleri</h2>\n<p>Yazılım tarafında OpenAI ve Google cephesinde ürün odaklı genişlemeler sürüyor:</p>\n<ul>\n<li><strong>ChatGPT Health:</strong> OpenAI, sağlık soruları için kişiselleştirilmiş, ayrı bir hafıza ve sohbet geçmişi sunan yeni modülünü duyurdu.</li>\n<li><strong>Google Gemini Entegrasyonları:</strong> Gemini özellikleri Google TV, Classroom ve Gmail servislerine daha derinlemesine entegre edildi.</li>\n<li><strong>Trafik Verileri:</strong> Gemini 3 lansmanı sonrası ChatGPT web trafiğinde düşüş gözlemlenirken, Gemini trafiğinde artış raporlandı.</li>\n<li><strong>Amazon Alexa:</strong> Alexa+ deneyimi web tarayıcılarına taşınarak içerik üretimi ve akıllı ev yönetimi özellikleri sunulmaya başlandı.</li>\n</ul>\n<h2>Yatırım ve Satın Alma Gündemi</h2>\n<p>Yapay zeka ekosistemindeki sermaye akışı, büyük ölçekli turlar ve stratejik satın almalarla devam ediyor:</p>\n<ul>\n<li><strong>xAI:</strong> Elon Musk&#8217;ın şirketi E Serisi turunda 20 milyar dolar yatırım aldı.</li>\n<li><strong>Anthropic:</strong> 350 milyar dolar değerleme üzerinden 10 milyar dolarlık yeni bir yatırım turuna hazırlandığı bildirildi.</li>\n<li><strong>Satın Almalar:</strong> Snowflake, gözlemlenebilirlik platformu Observe&#8217;ü; Mobileye ise insansı robot girişimi Mentee Robotics&#8217;i (900 milyon dolar) satın aldı. OpenAI ise Convogo ekibini bünyesine kattı.</li>\n<li><strong>Diğer Yatırımlar:</strong> LMArena (150 milyon dolar), Articul8 (35 milyon dolar) ve Protege (30 milyon dolar) yatırım turlarını tamamladı.</li>\n</ul>\n",
+  "date": "2026-01-10T23:02:46Z",
+  "modified": "2026-01-10T23:02:47Z",
+  "categories": [
+    {
+      "id": 115,
+      "name": "Webrazzi TV",
+      "slug": "webrazzi-tv"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 249,
+      "name": "Boston Dynamics",
+      "slug": "boston-dynamics"
+    },
+    {
+      "id": 98,
+      "name": "CES 2026",
+      "slug": "ces-2026"
+    },
+    {
+      "id": 247,
+      "name": "ChatGPT Health",
+      "slug": "chatgpt-health"
+    },
+    {
+      "id": 244,
+      "name": "Falcon H1R",
+      "slug": "falcon-h1r"
+    },
+    {
+      "id": 121,
+      "name": "Google Gemini",
+      "slug": "google-gemini"
+    },
+    {
+      "id": 248,
+      "name": "LFM 2.5",
+      "slug": "lfm-2-5"
+    },
+    {
+      "id": 245,
+      "name": "Nvidia Rubin",
+      "slug": "nvidia-rubin"
+    },
+    {
+      "id": 99,
+      "name": "Robotik",
+      "slug": "robotik"
+    },
+    {
+      "id": 246,
+      "name": "xAI",
+      "slug": "xai"
+    },
+    {
+      "id": 147,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/ces-2026-duyurulari-ve-haftanin-yapay-zeka-ozeti-1768086164156.jpg",
+    "alt": "CES 2026 Duyuruları ve Haftanın Yapay Zeka Özeti",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/ces-2026-duyurulari-ve-haftanin-yapay-zeka-ozeti-1768086164156-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/ces-2026-duyurulari-ve-haftanin-yapay-zeka-ozeti-1768086164156-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/ces-2026-duyurulari-ve-haftanin-yapay-zeka-ozeti-1768086164156-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/ces-2026-duyurulari-ve-haftanin-yapay-zeka-ozeti-1768086164156-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/ces-2026-duyurulari-ve-haftanin-yapay-zeka-ozeti-1768086164156.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

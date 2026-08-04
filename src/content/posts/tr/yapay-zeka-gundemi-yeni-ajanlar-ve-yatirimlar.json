@@ -1,0 +1,72 @@
+{
+  "id": 393,
+  "slug": "yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar",
+  "lang": "tr",
+  "title": "Yapay Zeka Gündemi: Yeni Ajanlar ve Yatırımlar",
+  "excerpt": "Savunma Sanayii ve Yapay Zeka Politikaları Bu hafta yapay zeka şirketleri ile ABD Savunma Bakanlığı (Pentagon) arasındaki ilişkiler farklı yönlerde gelişti. Anthropic, tedarik zinciri riski olarak tanımlanmasına itiraz ederek Pentagon'a dava açarken, Microsoft bu süreçte Anthropic'i destekleyen hukuki bir görüş sundu. Öte yandan Google, Pentagon çalışanlarının tekrarlayan idari görevlerini otomatize etmeleri için Gemini destekli yapay [&hellip;]",
+  "content": "<h2>Savunma Sanayii ve Yapay Zeka Politikaları</h2>\n<p>Bu hafta yapay zeka şirketleri ile ABD Savunma Bakanlığı (Pentagon) arasındaki ilişkiler farklı yönlerde gelişti. Anthropic, tedarik zinciri riski olarak tanımlanmasına itiraz ederek Pentagon&#8217;a dava açarken, Microsoft bu süreçte Anthropic&#8217;i destekleyen hukuki bir görüş sundu. Öte yandan Google, Pentagon çalışanlarının tekrarlayan idari görevlerini otomatize etmeleri için Gemini destekli yapay zeka ajanları (Agent Designer) sağlayacağını duyurdu.</p>\n<h2>Yeni Araçlar, Özellikler ve Modeller</h2>\n<p>Büyük dil modellerinin veri işleme ve sunum yetenekleri genişliyor. Hem OpenAI&#8217;ın ChatGPT&#8217;si hem de Anthropic&#8217;in Claude modeli, artık karmaşık bilimsel ve matematiksel verileri açıklamak için etkileşimli grafikler ve diyagramlar oluşturabiliyor.</p>\n<p>Model tarafında ise çoklu modalite (multimodal) ve işlem hızı öne çıkıyor. Google, metin, görüntü, video ve sesi tek bir sistemde arayabilen Gemini Embedding 2&#8217;yi önizlemeye sundu. Hume AI, metin ve sesi senkronize ederek halüsinasyonları azaltan cihaz içi TADA modelini tanıtırken; NVIDIA, çoklu ajan iş akışları için 1 milyon token bağlam penceresine sahip açık kaynaklı 120B Nemotron 3 Super akıl yürütme modelini piyasaya sürdü.</p>\n<h2>Gelişen Yapay Zeka Ajanları ve Sistemler</h2>\n<p>Otomasyon ve asistan sistemlerinde (AI Agents) öne çıkan gelişmeler şunlar oldu:</p>\n<ul>\n<li><strong>Anthropic Code Review:</strong> Claude Code&#8217;a entegre edilen çoklu ajanlı kod inceleme sistemi, pull request&#8217;lerdeki insan gözünden kaçan mantıksal hataları bulmaya odaklanıyor.</li>\n<li><strong>Perplexity Personal Computer:</strong> Sürekli çalışan bir Mac mini üzerinden yerel uygulamalarla Perplexity&#8217;yi birleştiren OpenClaw benzeri bir donanım-yazılım entegrasyonu sunuldu.</li>\n<li><strong>Nvidia NemoClaw:</strong> İşletmelerin herhangi bir donanım altyapısında yapay zeka ajanlarını çalıştırabileceği açık platformun lansman hazırlıkları başladı.</li>\n<li><strong>Cloudflare /crawl API:</strong> Anti-bot servisleriyle bilinen şirket, web sitelerini tek bir çağrı ile taramaya olanak tanıyan yeni bir API uç noktası (endpoint) yayınladı.</li>\n</ul>\n<h2>Yatırımlar, Altyapı ve Satın Almalar</h2>\n<p>Sektörde yapay zeka hesaplama altyapısına ve ajan tabanlı platformlara yönelik yatırımlar hız kesmeden devam ediyor. Eski OpenAI yöneticisi Mira Murati&#8217;nin kurduğu Thinking Machines Labs, donanım ihtiyacını karşılamak için Nvidia ile gigawatt ölçeğinde bir altyapı anlaşması imzaladı. Finansman tarafında ise yapay zeka altyapısı sağlayıcısı Nscale 2 milyar dolar, yazılım geliştirme platformu Replit 400 milyon dolar ve hukuk odaklı otomasyon girişimi Legora 550 milyon dolar yatırım aldı.</p>\n<p>Büyük şirketlerin güvenlik ve ekosistem genişletme stratejileri de netleşiyor. OpenAI, yapay zeka ajanlarını siber tehditlere karşı korumak amacıyla güvenlik girişimi Promptfoo&#8217;yu bünyesine katarken; Meta, yapay zeka ajanlarının kendi aralarında etkileşime girdiği sosyal ağ platformu Moltbook&#8217;u satın aldı.</p>\n",
+  "date": "2026-03-14T23:01:29Z",
+  "modified": "2026-03-14T23:01:29Z",
+  "categories": [
+    {
+      "id": 115,
+      "name": "Webrazzi TV",
+      "slug": "webrazzi-tv"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 389,
+      "name": "Bulut Altyapıları",
+      "slug": "bulut-altyapilari"
+    },
+    {
+      "id": 121,
+      "name": "Google Gemini",
+      "slug": "google-gemini"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    },
+    {
+      "id": 237,
+      "name": "Yapay Zeka Ajanları",
+      "slug": "yapay-zeka-ajanlari"
+    },
+    {
+      "id": 147,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar-1773529288088.jpg",
+    "alt": "Yapay Zeka Gündemi: Yeni Ajanlar ve Yatırımlar",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar-1773529288088-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar-1773529288088-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar-1773529288088-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar-1773529288088-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar-1773529288088.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

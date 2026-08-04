@@ -1,0 +1,82 @@
+{
+  "id": 330,
+  "slug": "apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi",
+  "lang": "tr",
+  "title": "Apple Q.ai Satın Alımı ve Haftanın Yapay Zeka Gündemi",
+  "excerpt": "Ürün ve Entegrasyon Gelişmeleri Yapay zeka ekosisteminde bu hafta entegrasyon ve yeni ürün lansmanları hız kazandı. Apple, Şubat ayında Gemini destekli yeni Siri'yi tanıtmaya hazırlanırken, kullanıcı verilerinin güvenliği için özel bir bulut altyapısı kullanacağını belirtti. Öte yandan OpenAI, bilimsel araştırmalar için LaTeX tabanlı Prism aracını duyurdu ve ChatGPT'nin xAI'a ait Grokipedia verilerini kullanmaya başladığı tespit [&hellip;]",
+  "content": "<h2>Ürün ve Entegrasyon Gelişmeleri</h2>\n<p>Yapay zeka ekosisteminde bu hafta entegrasyon ve yeni ürün lansmanları hız kazandı. Apple, Şubat ayında Gemini destekli yeni Siri&#8217;yi tanıtmaya hazırlanırken, kullanıcı verilerinin güvenliği için özel bir bulut altyapısı kullanacağını belirtti. Öte yandan OpenAI, bilimsel araştırmalar için LaTeX tabanlı Prism aracını duyurdu ve ChatGPT&#8217;nin xAI&#8217;a ait Grokipedia verilerini kullanmaya başladığı tespit edildi.</p>\n<p>Diğer önemli gelişmeler şunlardır:</p>\n<ul>\n<li><strong>Anthropic:</strong> Claude; Slack, Figma ve Asana gibi iş uygulamalarıyla entegre çalışmaya başladı. Ancak şirket, müzik yayıncıları tarafından 3 milyar dolarlık telif davasıyla karşı karşıya kaldı.</li>\n<li><strong>Google:</strong> Chrome tarayıcısına Gemini özellikleri eklenirken, etkileşimli dünyalar oluşturmayı sağlayan Project Genie kullanıma sunuldu.</li>\n</ul>\n<h2>Agentic AI ve Donanım</h2>\n<p>Otonom ajanlar ve bu modelleri destekleyen donanımlar gündemde yerini koruyor. Microsoft, yapay zeka çıkarımını ölçeklendirmek amacıyla Maia 200 çipini tanıttı. Apple ise ses teknolojisi girişimi Q.ai&#8217;ı 2 milyar dolara satın alarak, sensör tabanlı sözsüz iletişim teknolojilerine yatırım yaptı.</p>\n<ul>\n<li><strong>Wonderful:</strong> Şirketlerin otonom ajanlar oluşturmasını sağlayan Agent Builder platformu duyuruldu.</li>\n<li><strong>Clawdbot:</strong> Açık kaynaklı kişisel yapay zeka asistanı geliştiricilerin erişimine açıldı.</li>\n<li><strong>Snap:</strong> AR gözlükleri birimini dış yatırıma açık bağımsız bir şirkete dönüştürüyor.</li>\n</ul>\n<h2>Yeni Modeller ve Açık Kaynak</h2>\n<p>Haftanın model tarafındaki yenilikleri, özellikle görsel işleme ve kodlama alanında yoğunlaştı:</p>\n<ul>\n<li><strong>DeepSeek:</strong> Belgelerden metin çıkarma odaklı OCR 2 modelini açık kaynak olarak yayınladı.</li>\n<li><strong>Luma AI:</strong> Video oluşturma modeli Ray3.14, daha hızlı işlem kapasitesiyle piyasaya sürüldü.</li>\n<li><strong>Gemini 3 Flash:</strong> Görsel muhakeme ile kod yürütmeyi birleştiren Agentic Vision yeteneği tanıtıldı.</li>\n<li><strong>AI2:</strong> Claude Code destekli açık kaynak kodlama ajanı SERA duyuruldu.</li>\n<li><strong>NVIDIA:</strong> Çift yönlü konuşma modeli PersonaPlex tanıtıldı.</li>\n</ul>\n<h2>Yatırım Hareketliliği</h2>\n<p>Sektördeki nakit akışı büyük ölçekli satın almalar ve yatırımlarla devam ediyor:</p>\n<ul>\n<li><strong>NVIDIA:</strong> CoreWeave&#8217;e 2 milyar dolar yatırım yaptı.</li>\n<li><strong>Tesla:</strong> Elon Musk&#8217;ın xAI girişimine 2 milyar dolar fon sağladı.</li>\n<li><strong>Synthesia:</strong> 4 milyar dolar değerleme üzerinden 200 milyon dolar yatırım aldı.</li>\n<li><strong>Ricursive Intelligence:</strong> 300 milyon dolarlık A serisi yatırım turunu tamamladı.</li>\n<li><strong>Microsoft:</strong> OpenAI ortaklığının çeyrek kârına 7,6 milyar dolar katkı sağladığını açıkladı.</li>\n</ul>\n",
+  "date": "2026-01-31T23:01:23Z",
+  "modified": "2026-01-31T23:01:24Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 116,
+      "name": "Açık Kaynak",
+      "slug": "acik-kaynak"
+    },
+    {
+      "id": 285,
+      "name": "Agentic AI",
+      "slug": "agentic-ai"
+    },
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 251,
+      "name": "DeepSeek",
+      "slug": "deepseek"
+    },
+    {
+      "id": 193,
+      "name": "Gemini",
+      "slug": "gemini"
+    },
+    {
+      "id": 311,
+      "name": "Luma AI",
+      "slug": "luma-ai"
+    },
+    {
+      "id": 310,
+      "name": "Microsoft Maia",
+      "slug": "microsoft-maia"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 309,
+      "name": "Q.ai",
+      "slug": "q-ai"
+    },
+    {
+      "id": 190,
+      "name": "Yapay Zeka Yatırımları",
+      "slug": "yapay-zeka-yatirimlari"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi-1769900482358.jpg",
+    "alt": "Apple Q.ai Satın Alımı ve Haftanın Yapay Zeka Gündemi",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi-1769900482358-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi-1769900482358-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi-1769900482358-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi-1769900482358-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi-1769900482358.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

@@ -1,0 +1,44 @@
+{
+  "brand": "ANKAVERSE",
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "projects": "Projeler",
+    "blog": "Blog",
+    "contact": "İletişim",
+    "menu": "Menü",
+    "language": "Dil"
+  },
+  "cta": {
+    "quote": "Teklif Alın",
+    "start": "Hemen Başlayın",
+    "viewProjects": "Projelerimizi İnceleyin",
+    "contactUs": "Hemen İletişime Geçin",
+    "store": "Mağazaya Git",
+    "readMore": "Devamını Oku",
+    "backToBlog": "Blog'a Dön",
+    "backToProjects": "Projelere Dön",
+    "backHome": "Ana Sayfaya Dön"
+  },
+  "footer": {
+    "tagline": "Dijital dünyada markanızı yükselten yenilikçi çözümler. E-ticaretten kurumsal kimliğe, geleceği birlikte inşa ediyoruz.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "ourServices": "Hizmetlerimiz",
+    "contact": "İletişim",
+    "rights": "Tüm hakları saklıdır.",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Şartları"
+  },
+  "state": {
+    "loading": "Yükleniyor...",
+    "error": "İçerik yüklenirken bir hata oluştu.",
+    "empty": "Gösterilecek içerik bulunamadı."
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "heading": "Aradığınız sayfa mevcut değil",
+    "description": "Bağlantı taşınmış, yeniden adlandırılmış veya hiç var olmamış olabilir.",
+    "seoDescription": "Aradığınız sayfa bulunamadı."
+  }
+}

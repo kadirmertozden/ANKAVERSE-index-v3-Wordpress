@@ -1,0 +1,87 @@
+{
+  "id": 291,
+  "slug": "msi-ai-edge-4-litre-kasada-126-tops-ai-performansi",
+  "lang": "tr",
+  "title": "MSI AI Edge: 4 Litre Kasada 126 TOPS AI Performansı",
+  "excerpt": "Uç Yapay Zeka İçin Kompakt Altyapı MSI, Edge AI (uç yapay zeka) hesaplamaları için optimize edilmiş yeni masaüstü bilgisayar serisini duyurdu. 4 litrelik kompakt bir form faktörüne sahip olan AI Edge modeli, özellikle verilerin yerel cihazda işlenmesini gerektiren yapay zeka projeleri, mühendislik çalışmaları ve geliştirme süreçleri için tasarlandı. Donanım Mimarisi ve Bellek Yönetimi Sistemin temelinde [&hellip;]",
+  "content": "<h2>Uç Yapay Zeka İçin Kompakt Altyapı</h2>\n<p>MSI, Edge AI (uç yapay zeka) hesaplamaları için optimize edilmiş yeni masaüstü bilgisayar serisini duyurdu. 4 litrelik kompakt bir form faktörüne sahip olan AI Edge modeli, özellikle verilerin yerel cihazda işlenmesini gerektiren yapay zeka projeleri, mühendislik çalışmaları ve geliştirme süreçleri için tasarlandı.</p>\n<h2>Donanım Mimarisi ve Bellek Yönetimi</h2>\n<p>Sistemin temelinde AMD Ryzen™ AI Max+ 300 serisi işlemciler bulunuyor. Serinin en üst modeli olan Ryzen AI Max+ 395, birleşik platform yapısı sayesinde toplamda 126 AI TOPS hesaplama gücüne ulaşıyor. Grafik işlem birimi olarak 40 CU’ya sahip RDNA™ 3.5 mimarisi ve XDNA 2 NPU kullanılıyor.</p>\n<p>Cihazın teknik açıdan en kritik avantajı, geleneksel VRAM darboğazlarını aşmayı hedefleyen bellek mimarisidir:</p>\n<ul>\n<li><strong>Bileşik Bellek:</strong> Sistem, 128 GB’a kadar LPDDR5X 8000 MHz dahili bellek ile geliyor.</li>\n<li><strong>GPU Paylaşımı:</strong> Toplam belleğin 96 GB’a kadar olan kısmı dinamik olarak GPU’ya atanabiliyor.</li>\n<li><strong>Model Kapasitesi:</strong> Bu yapı, 120 milyar parametreye kadar olan Büyük Dil Modellerinin (LLM) cihaz üzerinde çalıştırılmasına olanak tanıyor ve yaklaşık 15 TPS (token/saniye) üretim hızı sunuyor.</li>\n</ul>\n<h2>Yazılım ve İşletim Sistemi Desteği</h2>\n<p>Geliştiricilerin esnek çalışma ihtiyaçları göz önüne alınarak tasarlanan MSI AI Edge, hem Windows hem de Linux işletim sistemlerini destekliyor. Sistem, RAG (Retrieval-Augmented Generation) teknolojisi sayesinde yerel veri setleri üzerinde güvenli ve bağlamsal sorgulamalar yapabiliyor. Uzun süreli yük altında stabilite sağlamak amacıyla MSI’ın Glacier Armor termal soğutma çözümü kullanılıyor.</p>\n",
+  "date": "2026-01-10T23:05:16Z",
+  "modified": "2026-01-10T23:05:17Z",
+  "categories": [
+    {
+      "id": 261,
+      "name": "Basın Bülteni",
+      "slug": "basin-bulteni"
+    },
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    }
+  ],
+  "tags": [
+    {
+      "id": 262,
+      "name": "AMD Ryzen AI Max+",
+      "slug": "amd-ryzen-ai-max"
+    },
+    {
+      "id": 135,
+      "name": "Edge AI",
+      "slug": "edge-ai"
+    },
+    {
+      "id": 263,
+      "name": "Linux",
+      "slug": "linux"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 137,
+      "name": "LPDDR5X",
+      "slug": "lpddr5x"
+    },
+    {
+      "id": 264,
+      "name": "MSI",
+      "slug": "msi"
+    },
+    {
+      "id": 136,
+      "name": "NPU",
+      "slug": "npu"
+    },
+    {
+      "id": 267,
+      "name": "RAG",
+      "slug": "rag"
+    },
+    {
+      "id": 266,
+      "name": "RDNA 3.5",
+      "slug": "rdna-3-5"
+    },
+    {
+      "id": 166,
+      "name": "Windows",
+      "slug": "windows"
+    },
+    {
+      "id": 265,
+      "name": "XDNA 2",
+      "slug": "xdna-2"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/msi-ai-edge-4-litre-kasada-126-tops-ai-performansi-1768086315102.jpg",
+    "alt": "MSI AI Edge: 4 Litre Kasada 126 TOPS AI Performansı",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/msi-ai-edge-4-litre-kasada-126-tops-ai-performansi-1768086315102-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/msi-ai-edge-4-litre-kasada-126-tops-ai-performansi-1768086315102-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/msi-ai-edge-4-litre-kasada-126-tops-ai-performansi-1768086315102-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/msi-ai-edge-4-litre-kasada-126-tops-ai-performansi-1768086315102-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/msi-ai-edge-4-litre-kasada-126-tops-ai-performansi-1768086315102.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

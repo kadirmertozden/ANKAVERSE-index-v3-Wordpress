@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Blog",
+  "title": "Haberler ve İçgörüler",
+  "subtitle": "Dijital dünya, teknoloji trendleri ve şirketimizden son haberler.",
+  "search": {
+    "placeholder": "Yazılarda ara...",
+    "clear": "Filtreleri Temizle",
+    "resultsFor": "\"{{query}}\" için sonuçlar",
+    "noResults": "Aramanızla eşleşen yazı bulunamadı."
+  },
+  "categories": {
+    "all": "Tümü",
+    "label": "Kategoriler",
+    "default": "Genel"
+  },
+  "card": {
+    "readMore": "Devamını Oku",
+    "readTime": "{{count}} dk okuma"
+  },
+  "detail": {
+    "publishedOn": "Yayınlanma",
+    "author": "Yazar",
+    "tags": "Etiketler",
+    "related": "İlgili Yazılar",
+    "notFound": "Yazı bulunamadı."
+  }
+}

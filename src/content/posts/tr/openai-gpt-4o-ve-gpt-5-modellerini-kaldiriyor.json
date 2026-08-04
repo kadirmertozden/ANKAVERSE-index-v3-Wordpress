@@ -1,0 +1,77 @@
+{
+  "id": 339,
+  "slug": "openai-gpt-4o-ve-gpt-5-modellerini-kaldiriyor",
+  "lang": "tr",
+  "title": "OpenAI GPT-4o ve GPT-5 Modellerini Kaldırıyor",
+  "excerpt": "OpenAI Modellerinde Önemli Değişiklik OpenAI, yapay zeka altyapısında model yaşam döngülerini güncelleyerek bazı popüler sürümlerin desteğini sonlandıracağını duyurdu. Şirketin yaptığı resmi açıklamaya göre, geliştiricilerin ve son kullanıcıların erişimine açık olan belirli modeller 13 Şubat Cuma günü itibarıyla emekliye ayrılıyor. Teknoloji dünyasında eskiyen modellerin yerini yenilerine bırakması standart bir süreç olsa da, bu listede GPT-4o ve [&hellip;]",
+  "content": "<h2>OpenAI Modellerinde Önemli Değişiklik</h2>\n<p>OpenAI, yapay zeka altyapısında model yaşam döngülerini güncelleyerek bazı popüler sürümlerin desteğini sonlandıracağını duyurdu. Şirketin yaptığı resmi açıklamaya göre, geliştiricilerin ve son kullanıcıların erişimine açık olan belirli modeller 13 Şubat Cuma günü itibarıyla emekliye ayrılıyor.</p>\n<p>Teknoloji dünyasında eskiyen modellerin yerini yenilerine bırakması standart bir süreç olsa da, bu listede GPT-4o ve GPT-5 gibi yaygın kullanılan modellerin bulunması dikkat çekiyor. Sistemlerini bu modeller üzerine inşa eden geliştiricilerin, belirtilen tarihe kadar migrasyon süreçlerini tamamlamaları gerekmektedir.</p>\n<h2>Kullanımdan Kaldırılacak Modeller</h2>\n<p>OpenAI tarafından paylaşılan listeye göre, aşağıdaki modellerin API ve arayüz erişimleri kapatılacaktır:</p>\n<ul>\n<li>GPT-4o</li>\n<li>GPT-5</li>\n<li>GPT-4.1</li>\n<li>GPT-4.1 mini</li>\n<li>o4-mini</li>\n</ul>\n<p>Bu değişiklik, OpenAI&#8217;ın kaynaklarını daha yeni mimarilere ve optimize edilmiş modellere yönlendirme stratejisinin bir parçası olarak değerlendirilmektedir.</p>\n",
+  "date": "2026-01-31T23:03:42Z",
+  "modified": "2026-01-31T23:03:42Z",
+  "categories": [
+    {
+      "id": 317,
+      "name": "Haberler",
+      "slug": "haberler"
+    },
+    {
+      "id": 318,
+      "name": "Teknoloji Haberleri",
+      "slug": "teknoloji-haberleri"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 319,
+      "name": "GPT-4.1",
+      "slug": "gpt-4-1"
+    },
+    {
+      "id": 320,
+      "name": "GPT-4o",
+      "slug": "gpt-4o"
+    },
+    {
+      "id": 126,
+      "name": "GPT-5",
+      "slug": "gpt-5"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 322,
+      "name": "Model Yönetimi",
+      "slug": "model-yonetimi"
+    },
+    {
+      "id": 321,
+      "name": "o4-mini",
+      "slug": "o4-mini"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-gpt-4o-ve-gpt-5-modellerini-kaldiriyor-1769900622209.jpg",
+    "alt": "OpenAI GPT-4o ve GPT-5 Modellerini Kaldırıyor",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-gpt-4o-ve-gpt-5-modellerini-kaldiriyor-1769900622209-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-gpt-4o-ve-gpt-5-modellerini-kaldiriyor-1769900622209-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-gpt-4o-ve-gpt-5-modellerini-kaldiriyor-1769900622209-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-gpt-4o-ve-gpt-5-modellerini-kaldiriyor-1769900622209-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-gpt-4o-ve-gpt-5-modellerini-kaldiriyor-1769900622209.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

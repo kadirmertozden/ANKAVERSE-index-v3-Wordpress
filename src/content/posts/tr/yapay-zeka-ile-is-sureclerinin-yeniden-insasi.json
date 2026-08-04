@@ -1,0 +1,72 @@
+{
+  "id": 333,
+  "slug": "yapay-zeka-ile-is-sureclerinin-yeniden-insasi",
+  "lang": "tr",
+  "title": "Yapay Zeka ile İş Süreçlerinin Yeniden İnşası",
+  "excerpt": "2025 yılı teknoloji dünyasında deneme süreçleriyle geçerken, 2026 yılı bu deneyimlerin operasyonel sonuçlara dönüştüğü bir dönem olarak öne çıkıyor. İşletmeler artık yapay zeka teknolojilerini sadece bir araç olarak değil, iş süreçlerinin merkezinde stratejik bir zorunluluk olarak değerlendiriyor. Teknolojik Dönüşüm ve Ajan Sistemler Yapay zeka sistemleri, ekran tabanlı uygulamalardan fiziksel dünyada karar alabilen yapılara evriliyor. Bu [&hellip;]",
+  "content": "<p>2025 yılı teknoloji dünyasında deneme süreçleriyle geçerken, 2026 yılı bu deneyimlerin operasyonel sonuçlara dönüştüğü bir dönem olarak öne çıkıyor. İşletmeler artık yapay zeka teknolojilerini sadece bir araç olarak değil, iş süreçlerinin merkezinde stratejik bir zorunluluk olarak değerlendiriyor.</p>\n<h2>Teknolojik Dönüşüm ve Ajan Sistemler</h2>\n<p>Yapay zeka sistemleri, ekran tabanlı uygulamalardan fiziksel dünyada karar alabilen yapılara evriliyor. Bu süreçte öne çıkan temel kavramlar şunlardır:</p>\n<ul>\n<li><strong>Agentic AI:</strong> İnsan müdahalesi olmadan belirli hedefler doğrultusunda iş yürüten otonom sistemler.</li>\n<li><strong>Çoklu Ajan Sistemleri (Multiagent Systems):</strong> Farklı uzmanlıklara sahip yapay zeka ajanlarının iş birliği yaparak otonom kararlar aldığı ve doğrudan P&#038;L etkisi yaratan mimariler.</li>\n<li><strong>Fiziksel Yapay Zeka:</strong> Robotik ve otonom araçların üretim hatlarında ve depolarda aktif rol alarak fiziksel dünyada iş üretmesi.</li>\n</ul>\n<h2>Altyapı ve Güvenlik Mimarisi</h2>\n<p>Veri kullanımının artması ve token maliyetleri ile birlikte işletmeler, tamamen bulut odaklı stratejilerden hibrit modellere (bulut, uç bilgi işlem ve yerinde kurulum) geçiş yapmaktadır. Güvenli Hesaplama (Confidential Computing) teknolojileri, verilerin işlenirken şifrelenmesini sağlarken, dijital kaynak doğrulama süreçleri önem kazanmaktadır.</p>\n<p>Siber güvenlik tarafında ise yapay zeka destekli saldırılara karşı yine yapay zeka tabanlı önleyici savunma mekanizmaları (Preemptive Cybersecurity) kullanılması bir zorunluluk haline gelmiştir. Eski nesil çevre savunması modelleri, makine hızında gelişen tehditlere karşı yetersiz kalmaktadır.</p>\n<h2>Organizasyonel Yapılanma</h2>\n<p>Geleneksel organizasyon yapıları, otomasyon ve no-code platformların etkisiyle değişime uğramaktadır. Büyük organizasyonların yerini, yapay zeka destekli araçlarla güçlendirilmiş 2-4 kişilik çevik mikro takımlar ve solopreneur odaklı yapılar almaktadır. Bu yeni dönemde başarı, teknolojiyi mevcut süreçlere yama yapmaktan ziyade, tüm mimariyi &#8220;varsayılan olarak dijital ve güvenli&#8221; (secure-by-design &#038; digital-by-default) prensipleriyle yeniden inşa etmekten geçmektedir.</p>\n",
+  "date": "2026-01-31T23:02:12Z",
+  "modified": "2026-01-31T23:02:12Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 285,
+      "name": "Agentic AI",
+      "slug": "agentic-ai"
+    },
+    {
+      "id": 314,
+      "name": "Confidential Computing",
+      "slug": "confidential-computing"
+    },
+    {
+      "id": 90,
+      "name": "Dijital Dönüşüm",
+      "slug": "dijital-donusum"
+    },
+    {
+      "id": 313,
+      "name": "Fiziksel AI",
+      "slug": "fiziksel-ai"
+    },
+    {
+      "id": 241,
+      "name": "Hibrit Bulut",
+      "slug": "hibrit-bulut"
+    },
+    {
+      "id": 312,
+      "name": "Multiagent Systems",
+      "slug": "multiagent-systems"
+    },
+    {
+      "id": 222,
+      "name": "No-Code",
+      "slug": "no-code"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    },
+    {
+      "id": 164,
+      "name": "Siber Güvenlik",
+      "slug": "siber-guvenlik"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-ile-is-sureclerinin-yeniden-insasi-1769900532065.jpg",
+    "alt": "Yapay Zeka ile İş Süreçlerinin Yeniden İnşası",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-ile-is-sureclerinin-yeniden-insasi-1769900532065-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-ile-is-sureclerinin-yeniden-insasi-1769900532065-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-ile-is-sureclerinin-yeniden-insasi-1769900532065-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-ile-is-sureclerinin-yeniden-insasi-1769900532065-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-ile-is-sureclerinin-yeniden-insasi-1769900532065.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 316,
+  "slug": "yapay-zeka-gundemi-donanim-dava-ve-yatirimlar",
+  "lang": "tr",
+  "title": "Yapay Zeka Gündemi: Donanım, Dava ve Yatırımlar",
+  "excerpt": "OpenAI ve Elon Musk Arasındaki Yasal Süreç Elon Musk, OpenAI ve Microsoft’tan kâr amacı gütmeyen misyondan sapıldığı gerekçesiyle 134 milyar dolara varan tazminat talep ediyor. OpenAI tarafı ise Musk'ın iddialarının eksik bilgiler içerdiğini savunarak bu talebe karşı çıkıyor. Donanım Odaklı Gelişmeler Yapay zeka şirketleri yazılımın ötesine geçerek donanım tarafında da somut adımlar atmaya hazırlanıyor: OpenAI: [&hellip;]",
+  "content": "<h2>OpenAI ve Elon Musk Arasındaki Yasal Süreç</h2>\n<p>Elon Musk, OpenAI ve Microsoft’tan kâr amacı gütmeyen misyondan sapıldığı gerekçesiyle 134 milyar dolara varan tazminat talep ediyor. OpenAI tarafı ise Musk&#8217;ın iddialarının eksik bilgiler içerdiğini savunarak bu talebe karşı çıkıyor.</p>\n<h2>Donanım Odaklı Gelişmeler</h2>\n<p>Yapay zeka şirketleri yazılımın ötesine geçerek donanım tarafında da somut adımlar atmaya hazırlanıyor:</p>\n<ul>\n<li><strong>OpenAI:</strong> Şirket, ilk yapay zeka donanımını 2026 yılının ikinci yarısında tanıtmaya hazırlanıyor.</li>\n<li><strong>Apple:</strong> Ekransız ve tamamen yapay zeka odaklı yeni bir giyilebilir cihaz üzerinde çalışılıyor. Ayrıca iOS 27 ile Siri&#8217;nin kod yazma ve dosya analizi yeteneklerine sahip bir sohbet botuna dönüşmesi bekleniyor.</li>\n<li><strong>Tesla:</strong> İnsansı robot Optimus&#8217;un önümüzdeki yıl piyasaya sürülmesi hedefleniyor.</li>\n</ul>\n<h2>Model ve Ürün Entegrasyonları</h2>\n<p>Mevcut platformlar ve yeni modeller, yapay zeka yeteneklerini genişletmeye devam ediyor:</p>\n<ul>\n<li><strong>Google:</strong> Gemini uygulamasına &#8216;Şimdi Cevapla&#8217; özelliği eklendi ve AI Mode, Gmail ile Fotoğraflar verilerine erişim sağlayacak şekilde güncellendi.</li>\n<li><strong>Adobe Acrobat:</strong> Yapay zeka desteğiyle PDF dokümanları podcast ve sunumlara dönüştürülebilecek.</li>\n<li><strong>Z AI &#038; Liquid AI:</strong> 30 milyar parametreli GLM-4.7-Flash ve akıllı telefonlarda çalışabilen LFM2.5-1.2B-Thinking modelleri piyasaya sürüldü.</li>\n<li><strong>YouTube:</strong> İçerik üreticileri için yapay zeka destekli dijital ikizler ile Shorts üretimi test ediliyor.</li>\n</ul>\n<h2>Yatırım Ekosistemi</h2>\n<p>Sektördeki finansal hareketlilik, altyapı ve uygulama katmanında büyük turlarla devam ediyor:</p>\n<ul>\n<li><strong>Humans&#038;:</strong> Anthropic ve xAI eski çalışanları tarafından kurulan girişim, 480 milyon dolar tohum yatırım aldı.</li>\n<li><strong>Baseten:</strong> Yapay zeka çıkarım platformu, 300 milyon dolar yatırım ile 5 milyar dolar değerlemeye ulaştı.</li>\n<li><strong>LiveKit:</strong> OpenAI ve xAI&#8217;ın altyapısını sağlayan girişim, 100 milyon dolar yatırım alarak unicorn statüsüne yükseldi.</li>\n<li><strong>OpenEvidence:</strong> 250 milyon dolar yatırım alarak değerlemesini 12 milyar dolara çıkardı.</li>\n</ul>\n<h2>Davos ve Gelecek Öngörüleri</h2>\n<p>Dünya Ekonomik Forumu&#8217;nda Anthropic ve DeepMind yöneticileri, çip ihracatı politikaları ve yazılım mühendisliğinin geleceği üzerine tartışmalarda bulundu. Kodlama süreçlerinin büyük ölçüde otomatize olacağı ancak yeni beceri alanlarının açılacağı öngörülüyor.</p>\n",
+  "date": "2026-01-24T23:01:50Z",
+  "modified": "2026-01-24T23:01:50Z",
+  "categories": [
+    {
+      "id": 115,
+      "name": "Webrazzi TV",
+      "slug": "webrazzi-tv"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 291,
+      "name": "Elon Musk",
+      "slug": "elon-musk"
+    },
+    {
+      "id": 188,
+      "name": "GLM-4.7",
+      "slug": "glm-4-7"
+    },
+    {
+      "id": 121,
+      "name": "Google Gemini",
+      "slug": "google-gemini"
+    },
+    {
+      "id": 186,
+      "name": "Liquid AI",
+      "slug": "liquid-ai"
+    },
+    {
+      "id": 293,
+      "name": "LiveKit",
+      "slug": "livekit"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 292,
+      "name": "Tesla Optimus",
+      "slug": "tesla-optimus"
+    },
+    {
+      "id": 120,
+      "name": "Yapay Zeka Donanımı",
+      "slug": "yapay-zeka-donanimi"
+    },
+    {
+      "id": 147,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-gundemi-donanim-dava-ve-yatirimlar-1769295709607.jpg",
+    "alt": "Yapay Zeka Gündemi: Donanım, Dava ve Yatırımlar",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-gundemi-donanim-dava-ve-yatirimlar-1769295709607-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-gundemi-donanim-dava-ve-yatirimlar-1769295709607-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-gundemi-donanim-dava-ve-yatirimlar-1769295709607-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-gundemi-donanim-dava-ve-yatirimlar-1769295709607-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-gundemi-donanim-dava-ve-yatirimlar-1769295709607.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

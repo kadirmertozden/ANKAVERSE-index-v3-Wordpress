@@ -1,0 +1,72 @@
+{
+  "id": 412,
+  "slug": "nvidia-yeni-bilgi-islem-platformu-vera-rubini-tanitti",
+  "lang": "tr",
+  "title": "Nvidia yeni bilgi işlem platformu Vera Rubin'i tanıttı",
+  "excerpt": "Nvidia Vera Rubin Mimarisinin Temel Özellikleri Nvidia, GTC 2026 etkinliğinde yedi farklı yongadan oluşan yeni nesil bilgi işlem platformu Vera Rubin'i tanıttı. Blackwell sistemlerinin yerini alması hedeflenen platform, watt başına 10 kata kadar daha fazla çıkarım verimi sağlarken token başına işleme maliyetini onda bir oranında düşürüyor. Nvidia'nın verilerine göre yeni mimari, büyük uzman karışımı (MoE) [&hellip;]",
+  "content": "<h2>Nvidia Vera Rubin Mimarisinin Temel Özellikleri</h2>\n<p>Nvidia, GTC 2026 etkinliğinde yedi farklı yongadan oluşan yeni nesil bilgi işlem platformu Vera Rubin&#8217;i tanıttı. Blackwell sistemlerinin yerini alması hedeflenen platform, watt başına 10 kata kadar daha fazla çıkarım verimi sağlarken token başına işleme maliyetini onda bir oranında düşürüyor.</p>\n<p>Nvidia&#8217;nın verilerine göre yeni mimari, büyük uzman karışımı (MoE) modellerinin eğitilmesi için Blackwell sistemlerinde ihtiyaç duyulan GPU miktarının yalnızca dörtte biriyle aynı işlemi gerçekleştirebiliyor. Altyapı; Amazon Web Services, Google Cloud, Microsoft Azure ve Oracle Cloud gibi büyük bulut sağlayıcılarının yanı sıra OpenAI, Anthropic ve Meta gibi yapay zeka geliştiricileri tarafından da destekleniyor.</p>\n<h2>Yedi Yongalı Birleşik Süper Bilgisayar Yapısı</h2>\n<p>Özellikle agentic (otonom aracı) yapay zeka sistemleri ve pekiştirme öğrenimi için optimize edilen Vera Rubin, birleşik bir süper bilgisayar gibi çalışan beş farklı raf ölçeğinde sistemden oluşuyor. Sistemin donanım altyapısı aşağıdaki temel bileşenleri içeriyor:</p>\n<ul>\n<li><strong>NVL72 Rafı:</strong> NVLink 6 anahtarları üzerinden birbiriyle haberleşen 72 adet Rubin GPU ve 36 adet Vera CPU&#8217;yu tek bir ünitede topluyor.</li>\n<li><strong>Vera CPU Rafı:</strong> 22.500&#8217;den fazla eş zamanlı ortamı destekleyen 256 adet sıvı soğutmalı işlemci barındırıyor. İşlemciler, saniyede 1,2 terabayt bant genişliğine sahip LPDDR5X bellek ve 88 adet özel tasarım Olympus çekirdeği ile çalışıyor.</li>\n<li><strong>Groq 3 LPX Rafı:</strong> Trilyon parametreli modellerin düşük gecikme taleplerini karşılamak üzere 128 GB yonga üstü SRAM&#8217;e sahip 256 özel çıkarım işlemcisini entegre ediyor.</li>\n<li><strong>Ağ ve Depolama (BlueField-4 STX / Spectrum-6 SPX):</strong> Agentic sistemlerin ürettiği devasa anahtar-değer önbellekleri için BlueField-4 DPU ile yüksek hızlı depolama sağlanırken, Spectrum-6 ile geleneksel donanımlara göre beş kat daha yüksek optik güç verimliliği elde ediliyor.</li>\n</ul>\n<p>Vera Rubin platformunun 2026 yılının ikinci yarısında, önde gelen bulut servis sağlayıcıları ve donanım üreticileri aracılığıyla genel kullanıma sunulması planlanıyor.</p>\n",
+  "date": "2026-03-21T23:03:05Z",
+  "modified": "2026-03-21T23:03:05Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 285,
+      "name": "Agentic AI",
+      "slug": "agentic-ai"
+    },
+    {
+      "id": 410,
+      "name": "Groq 3 LPU",
+      "slug": "groq-3-lpu"
+    },
+    {
+      "id": 148,
+      "name": "Nvidia",
+      "slug": "nvidia"
+    },
+    {
+      "id": 411,
+      "name": "NVLink 6",
+      "slug": "nvlink-6"
+    },
+    {
+      "id": 408,
+      "name": "Rubin GPU",
+      "slug": "rubin-gpu"
+    },
+    {
+      "id": 409,
+      "name": "Vera CPU",
+      "slug": "vera-cpu"
+    },
+    {
+      "id": 407,
+      "name": "Vera Rubin",
+      "slug": "vera-rubin"
+    },
+    {
+      "id": 275,
+      "name": "Veri Merkezi",
+      "slug": "veri-merkezi"
+    },
+    {
+      "id": 120,
+      "name": "Yapay Zeka Donanımı",
+      "slug": "yapay-zeka-donanimi"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/nvidia-yeni-bilgi-islem-platformu-vera-rubini-tanitti-1774134184431.jpg",
+    "alt": "Nvidia yeni bilgi işlem platformu Vera Rubin'i tanıttı",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/nvidia-yeni-bilgi-islem-platformu-vera-rubini-tanitti-1774134184431-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/nvidia-yeni-bilgi-islem-platformu-vera-rubini-tanitti-1774134184431-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/nvidia-yeni-bilgi-islem-platformu-vera-rubini-tanitti-1774134184431-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/nvidia-yeni-bilgi-islem-platformu-vera-rubini-tanitti-1774134184431-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/nvidia-yeni-bilgi-islem-platformu-vera-rubini-tanitti-1774134184431.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

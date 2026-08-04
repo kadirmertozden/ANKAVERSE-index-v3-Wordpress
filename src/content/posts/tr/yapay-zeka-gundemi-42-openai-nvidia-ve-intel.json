@@ -1,0 +1,87 @@
+{
+  "id": 345,
+  "slug": "yapay-zeka-gundemi-42-openai-nvidia-ve-intel",
+  "lang": "tr",
+  "title": "Yapay Zeka Gündemi 42: OpenAI, Nvidia ve Intel",
+  "excerpt": "OpenAI ve Nvidia Yatırım Süreci Nvidia'nın OpenAI'a yapması beklenen yatırım görüşmeleri, iş modeli üzerindeki anlaşmazlıklar ve Nvidia çalışanlarının çekinceleri nedeniyle duraksadı. Sam Altman alternatif çip üreticileri arayışında olsa da Nvidia ile iş birliğinin sürdüğünü belirtti. Bloomberg, yatırımın önceki beklentilerin altında, 20 milyar dolar seviyesinde gerçekleşebileceğini raporluyor. Intel ve Çip Pazarındaki Hareketlilik Apple, artan maliyetler sebebiyle [&hellip;]",
+  "content": "<h2>OpenAI ve Nvidia Yatırım Süreci</h2>\n<p>Nvidia&#8217;nın OpenAI&#8217;a yapması beklenen yatırım görüşmeleri, iş modeli üzerindeki anlaşmazlıklar ve Nvidia çalışanlarının çekinceleri nedeniyle duraksadı. Sam Altman alternatif çip üreticileri arayışında olsa da Nvidia ile iş birliğinin sürdüğünü belirtti. Bloomberg, yatırımın önceki beklentilerin altında, 20 milyar dolar seviyesinde gerçekleşebileceğini raporluyor.</p>\n<h2>Intel ve Çip Pazarındaki Hareketlilik</h2>\n<p>Apple, artan maliyetler sebebiyle tedarik zincirinde TSMC harici alternatifleri değerlendirirken Intel yeniden gündeme geldi. Öte yandan Intel, işlemci pazarındaki rekabeti Nvidia&#8217;nın hakim olduğu GPU sektörüne taşıyarak pazara resmen giriş yapıyor.</p>\n<h2>SpaceX ve xAI Birleşmesi</h2>\n<p>SpaceX, Elon Musk&#8217;ın yapay zeka girişimi xAI&#8217;ı 250 milyar dolar değerleme ile bünyesine kattı. Birleşme sonrası hedef, uzay tabanlı veri merkezleri kurmak olarak açıklandı. xAI ayrıca video üretim modeli Grok Imagine 1.0 sürümünü piyasaya sürdü.</p>\n<h2>Agentic AI ve Yeni Modeller</h2>\n<p>Otonom ajan teknolojilerinde ve model geliştirmelerinde bu hafta şu gelişmeler yaşandı:</p>\n<ul>\n<li><strong>OpenAI:</strong> Codex için çoklu ajan destekli macOS uygulaması ve GPT-5.3-Codex modeli tanıtıldı.</li>\n<li><strong>Anthropic:</strong> Claude Opus 4.6, 1 milyon token bağlam penceresi ve &#8220;agent teams&#8221; desteğiyle duyuruldu. Apple Xcode&#8217;a tam Claude entegrasyonu geldi.</li>\n<li><strong>Google:</strong> Gemini uygulaması aylık 750 milyon aktif kullanıcı barajını aştı.</li>\n<li><strong>Perplexity:</strong> Deep Research özelliğinin gelişmiş sürümü SOTA performansı iddiasıyla yayınlandı.</li>\n</ul>\n<h2>Yatırım ve Sektörel Veriler</h2>\n<p>Sektördeki finansal hareketlilik ve diğer önemli başlıklar şunlar:</p>\n<ul>\n<li>Cerebras Systems, aldığı yeni yatırımla değerlemesini 23 milyar dolara yükseltti.</li>\n<li>Yarı iletken girişimi Positron 230 milyon dolar, Fundamental ise 255 milyon dolar yatırım aldı.</li>\n<li>Mozilla, Firefox tarayıcısında yapay zeka özelliklerini tamamen kapatma seçeneği sunmaya hazırlanıyor.</li>\n</ul>\n",
+  "date": "2026-02-07T23:01:17Z",
+  "modified": "2026-02-07T23:01:18Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 285,
+      "name": "Agentic AI",
+      "slug": "agentic-ai"
+    },
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 325,
+      "name": "Cerebras",
+      "slug": "cerebras"
+    },
+    {
+      "id": 197,
+      "name": "Claude",
+      "slug": "claude"
+    },
+    {
+      "id": 326,
+      "name": "GPU",
+      "slug": "gpu"
+    },
+    {
+      "id": 286,
+      "name": "Grok",
+      "slug": "grok"
+    },
+    {
+      "id": 324,
+      "name": "Intel",
+      "slug": "intel"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 148,
+      "name": "Nvidia",
+      "slug": "nvidia"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 204,
+      "name": "SpaceX",
+      "slug": "spacex"
+    },
+    {
+      "id": 246,
+      "name": "xAI",
+      "slug": "xai"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-gundemi-42-openai-nvidia-ve-intel-1770505276526.jpg",
+    "alt": "Yapay Zeka Gündemi 42: OpenAI, Nvidia ve Intel",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-gundemi-42-openai-nvidia-ve-intel-1770505276526-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-gundemi-42-openai-nvidia-ve-intel-1770505276526-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-gundemi-42-openai-nvidia-ve-intel-1770505276526-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-gundemi-42-openai-nvidia-ve-intel-1770505276526-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-gundemi-42-openai-nvidia-ve-intel-1770505276526.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

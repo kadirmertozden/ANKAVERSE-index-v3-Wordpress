@@ -220,8 +220,6 @@ const addTransformIndexHtml = {
 	},
 };
 
-console.warn = () => {};
-
 const logger = createLogger()
 const loggerError = logger.error
 
@@ -236,10 +234,22 @@ logger.error = (msg, options) => {
 export default defineConfig({
 	customLogger: logger,
 	plugins: [
-		...(isDev ? [inlineEditPlugin(), editModeDevPlugin(), iframeRouteRestorationPlugin(), selectionModePlugin()] : []),
+		// Horizons editor tooling and its error-reporting scripts are dev-only:
+		// in production they are dead weight (~4KB of render-blocking inline JS
+		// repeated across every prerendered page).
+		...(isDev ? [inlineEditPlugin(), editModeDevPlugin(), iframeRouteRestorationPlugin(), selectionModePlugin(), addTransformIndexHtml] : []),
 		react(),
-		addTransformIndexHtml
 	],
+	ssgOptions: {
+		script: 'async',
+		// 'prettify' reformats the markup and breaks hydration; keep it off.
+		formatting: 'none',
+		// nested: /hakkimizda -> /hakkimizda/index.html, which is what a static
+		// file server needs to serve clean URLs without a rewrite rule.
+		dirStyle: 'nested',
+		beastiesOptions: false,
+		concurrency: 10,
+	},
 	server: {
 		cors: true,
 		headers: {

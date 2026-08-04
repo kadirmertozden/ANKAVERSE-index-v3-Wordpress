@@ -1,0 +1,87 @@
+{
+  "id": 234,
+  "slug": "yapay-zeka-gundemi-36-yeni-modeller-ve-yatirimlar",
+  "lang": "tr",
+  "title": "Yapay Zeka Gündemi #36: Yeni Modeller ve Yatırımlar",
+  "excerpt": "Yeni Modeller ve Protokoller Yapay zeka ekosisteminde bu hafta, özellikle çoklu ajan sistemleri ve multimodal yeteneklere odaklanan yeni modeller duyuruldu. Öne çıkan gelişmeler şunlar: Nvidia Nemotron 3: Çoklu ajan sistemleri için optimize edilmiş, açık kaynaklı yeni model ailesi tanıtıldı. OpenAI GPT Image 1.5 &#038; GPT-5.2-Codex: ChatGPT için görsel üretim yetenekleri güncellenirken, yazılım mühendisliği odaklı Codex [&hellip;]",
+  "content": "<h2>Yeni Modeller ve Protokoller</h2>\n<p>Yapay zeka ekosisteminde bu hafta, özellikle çoklu ajan sistemleri ve multimodal yeteneklere odaklanan yeni modeller duyuruldu. Öne çıkan gelişmeler şunlar:</p>\n<ul>\n<li><strong>Nvidia Nemotron 3:</strong> Çoklu ajan sistemleri için optimize edilmiş, açık kaynaklı yeni model ailesi tanıtıldı.</li>\n<li><strong>OpenAI GPT Image 1.5 &#038; GPT-5.2-Codex:</strong> ChatGPT için görsel üretim yetenekleri güncellenirken, yazılım mühendisliği odaklı Codex sürümü piyasaya sürüldü.</li>\n<li><strong>Google Gemini 3 Flash:</strong> Düşük maliyet ve yüksek hız odaklı bu model, arama ve Gemini uygulamalarında varsayılan hale getirildi.</li>\n<li><strong>AI2 Molmo 2 &#038; Olmo 3.1:</strong> Video analizi (nesne takibi, sayım) yapabilen Molmo 2 ve açık akıl yürütme modeli Olmo 3.1 yayınlandı.</li>\n<li><strong>Black Forest Labs FLUX.2:</strong> Gerçek zamanlı web verileriyle görsel oluşturabilen üst düzey görüntü modeli duyuruldu.</li>\n<li><strong>Klarna Agentic Product Protocol:</strong> AI asistanlarının 100 milyondan fazla ürüne erişmesini sağlayan açık standart protokolü tanıtıldı.</li>\n<li><strong>Alibaba Wan2.6:</strong> 15 saniyeye kadar HD video üretebilen, storyboard ve karakter referansı destekli multimodal model.</li>\n<li><strong>xAI Grok Voice Agent API:</strong> Geliştiriciler için konuşmadan konuşmaya (speech-to-speech) ses teknolojisi API&#8217;si sunuldu.</li>\n<li><strong>Meta SAM Audio:</strong> Görsel ve metin girdileriyle ses dosyalarından spesifik sesleri ayrıştırabilen model yayınlandı.</li>\n</ul>\n<h2>Yeni Özellikler ve Entegrasyonlar</h2>\n<p>Mevcut platformlar ve uygulamalar, yapay zeka yeteneklerini iş akışlarına entegre etmeye devam ediyor:</p>\n<ul>\n<li><strong>Google Translate &#038; CC:</strong> Çeviri servisi Gemini altyapısıyla bağlam odaklı hale gelirken, e-posta tabanlı asistan CC test edilmeye başlandı.</li>\n<li><strong>Zoom AI Companion 3.0:</strong> Toplantı verilerini otomatik iş akışlarına bağlayan yeni sürüm tanıtıldı.</li>\n<li><strong>Adobe Firefly:</strong> Video düzenleme ve montaj süreçleri için metin komutları ve kamera kontrolü özellikleri eklendi.</li>\n<li><strong>OpenAI 3. Taraf Uygulamalar:</strong> ChatGPT içerisine harici yükleme gerektirmeyen üçüncü taraf uygulama desteği getirildi.</li>\n<li><strong>YouTube Playables Builder:</strong> Gemini 3 destekli, metin ve görsel komutlarla oyun oluşturmayı sağlayan platform duyuruldu.</li>\n</ul>\n<h2>Araştırma Notları</h2>\n<p>Stanford HAI ve bağımsız araştırmalardan elde edilen veriler, modellerin yetkinlik seviyelerini ve gelecek beklentilerini ortaya koyuyor:</p>\n<ul>\n<li><strong>CFA Sınav Başarısı:</strong> GPT-5, Gemini 3.0 Pro ve diğer önde gelen modellerin CFA sertifika sınavlarının üç seviyesini de geçtiği belirtildi. Gemini 3.0 Pro, Seviye 1&#8217;de %97,6 başarı oranı yakaladı.</li>\n<li><strong>2026 Tahminleri:</strong> Stanford HAI, sağlık hizmetlerinde yapay zeka kullanımının artacağını, ancak AGI (Yapay Genel Zeka) beklentilerinin kısa vadede gerçekleşmeyeceğini öngörüyor.</li>\n</ul>\n<h2>Yatırım Gündemi</h2>\n<p>Sektördeki sermaye akışı, büyük değerlemeler ve stratejik ortaklıklarla devam ediyor:</p>\n<ul>\n<li><strong>Amazon &#038; OpenAI:</strong> Amazon&#8217;un OpenAI&#8217;a 10 milyar dolar yatırım yapmaya hazırlandığı ve değerlemenin 500 milyar doları aşabileceği bildirildi.</li>\n<li><strong>Databricks:</strong> 134 milyar dolar değerleme üzerinden 4 milyar dolardan fazla yatırım aldı.</li>\n<li><strong>Lovable:</strong> Seri B turunda 330 milyon dolar yatırım alarak 6.6 milyar dolar değerlemeye ulaştı.</li>\n<li><strong>Diğer Yatırımlar:</strong> Chai Discovery (130M$), Neural Concept (100M$), PolyAI (86M$) ve Mirelo (41M$) yatırım turlarını tamamladı.</li>\n</ul>\n",
+  "date": "2025-12-20T23:01:09Z",
+  "modified": "2025-12-20T23:01:10Z",
+  "categories": [
+    {
+      "id": 115,
+      "name": "Webrazzi TV",
+      "slug": "webrazzi-tv"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 146,
+      "name": "Adobe Firefly",
+      "slug": "adobe-firefly"
+    },
+    {
+      "id": 145,
+      "name": "AI Ajanları",
+      "slug": "ai-ajanlari"
+    },
+    {
+      "id": 124,
+      "name": "Gemini 3",
+      "slug": "gemini-3"
+    },
+    {
+      "id": 73,
+      "name": "Generative AI",
+      "slug": "generative-ai"
+    },
+    {
+      "id": 126,
+      "name": "GPT-5",
+      "slug": "gpt-5"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 149,
+      "name": "Multimodal",
+      "slug": "multimodal"
+    },
+    {
+      "id": 144,
+      "name": "Nemotron 3",
+      "slug": "nemotron-3"
+    },
+    {
+      "id": 148,
+      "name": "Nvidia",
+      "slug": "nvidia"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 147,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-gundemi-36-yeni-modeller-ve-yatirimlar-1766271665397.jpg",
+    "alt": "Yapay Zeka Gündemi #36: Yeni Modeller ve Yatırımlar",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-gundemi-36-yeni-modeller-ve-yatirimlar-1766271665397-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-gundemi-36-yeni-modeller-ve-yatirimlar-1766271665397-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-gundemi-36-yeni-modeller-ve-yatirimlar-1766271665397-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-gundemi-36-yeni-modeller-ve-yatirimlar-1766271665397-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-gundemi-36-yeni-modeller-ve-yatirimlar-1766271665397.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "badge": "Teknoloji ile Geleceği İnşa Ediyoruz",
+    "titleLead": "Yazılım, Otomasyon, Yapay Zekâ ve",
+    "titleHighlight": "E-Ticaret Teknolojileri",
+    "description": "ANKAVERSE, dijital dönüşümün öncüsü olarak işletmelere özel teknolojik çözümler sunar. Güçlü mühendislik altyapımız ve yenilikçi vizyonumuzla, iş süreçlerinizi modernize ediyor, verimliliğinizi artırıyor ve markanızı global standartlara taşıyoruz."
+  },
+  "whyUs": {
+    "eyebrow": "Neden ANKAVERSE?",
+    "title": "Teknolojiye Sadece Kod Olarak Bakmıyoruz",
+    "description": "Geleneksel barındırma hizmetlerinin ötesine geçerek, işletmenizin büyümesine doğrudan katkı sağlayan stratejik teknoloji ortağınız oluyoruz. Başarımızı, sunduğumuz sunucu kapasitesiyle değil, yarattığımız katma değerle ölçüyoruz.",
+    "points": {
+      "data": {
+        "title": "Veri Odaklı Çözümler",
+        "description": "Kararlarımızı ve tasarımlarımızı varsayımlara değil, somut verilere ve analitik içgörülere dayandırıyoruz."
+      },
+      "excellence": {
+        "title": "Teknik Mükemmeliyet",
+        "description": "Kod kalitesi, güvenlik ve performans konularında endüstri standartlarının ötesini hedefliyoruz."
+      },
+      "sustainable": {
+        "title": "Sürdürülebilir Mimari",
+        "description": "Bugünün ihtiyaçlarını karşılarken yarının teknolojilerine uyumlu, esnek ve uzun ömürlü sistemler inşa ediyoruz."
+      }
+    }
+  },
+  "servicesHeading": "Hizmetlerimiz",
+  "store": {
+    "title": "E-Ticaret Mağazamız",
+    "description": "ANKAVERSE ürünlerini çevrim içi mağazamızdan inceleyebilirsiniz."
+  },
+  "cta": {
+    "title": "Projenizi Hayata Geçirmeye Hazır mısınız?",
+    "description": "Siz hayal edin, ANKAVERSE teknolojisiyle gerçeğe dönüştürelim. Hemen bizimle iletişime geçin ve dijital dönüşüm yolculuğunuza başlayın."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "eyebrow": "Portfolyo",
+  "title": "Başarı Hikayelerimiz",
+  "subtitle": "Yapmış olduğumuz ve devam eden projeleri keşfedin. Her bir proje, yaratıcılığımızın ve teknolojik uzmanlığımızın bir yansımasıdır.",
+  "card": {
+    "view": "İncele",
+    "defaultCategory": "Genel"
+  },
+  "detail": {
+    "client": "Müşteri",
+    "date": "Tarih",
+    "technologies": "Kullanılan Teknolojiler",
+    "overview": "Proje Hakkında",
+    "notFound": "Proje bulunamadı."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "eyebrow": "İletişim",
+  "title": "Bizimle İletişime Geçin",
+  "info": {
+    "title": "İletişim Bilgileri",
+    "description": "Projeleriniz için bir kahve eşliğinde tanışalım. Size en uygun çözümleri sunmak için buradayız.",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-Posta"
+  },
+  "form": {
+    "name": "Adınız Soyadınız",
+    "namePlaceholder": "Örn: Ahmet Yılmaz",
+    "email": "E-Posta Adresiniz",
+    "emailPlaceholder": "orn@sirket.com",
+    "phone": "Telefon Numarası",
+    "phonePlaceholder": "05XX XXX XX XX",
+    "subject": "Konu",
+    "subjectPlaceholder": "Mesajınızın konusu",
+    "message": "Mesajınız",
+    "messagePlaceholder": "Projenizden bahsedin...",
+    "submit": "Gönder",
+    "submitting": "Gönderiliyor...",
+    "success": "Mesajınız alındı. En kısa sürede size dönüş yapacağız.",
+    "error": "Mesaj gönderilemedi. Lütfen daha sonra tekrar deneyin."
+  }
+}

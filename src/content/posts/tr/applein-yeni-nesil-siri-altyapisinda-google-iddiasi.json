@@ -1,0 +1,77 @@
+{
+  "id": 325,
+  "slug": "applein-yeni-nesil-siri-altyapisinda-google-iddiasi",
+  "lang": "tr",
+  "title": "Apple'ın Yeni Nesil Siri Altyapısında Google İddiası",
+  "excerpt": "Apple ve Google Arasında Altyapı Görüşmeleri Bloomberg kaynaklı yeni bir rapora göre Apple, dijital asistanı Siri'nin gelecekteki versiyonları için Google ile altyapı görüşmeleri yürütüyor. İddialar, Apple'ın kendi geliştirdiği \"Private Cloud Compute\" mimarisi yerine, Google'ın yapay zeka işlemleri için özel olarak tasarladığı Tensör İşlem Birimleri (TPU) ile donatılmış sunucularını kullanabileceğini gösteriyor. Bu potansiyel iş birliğinin, özellikle [&hellip;]",
+  "content": "<h2>Apple ve Google Arasında Altyapı Görüşmeleri</h2>\n<p>Bloomberg kaynaklı yeni bir rapora göre Apple, dijital asistanı Siri&#8217;nin gelecekteki versiyonları için Google ile altyapı görüşmeleri yürütüyor. İddialar, Apple&#8217;ın kendi geliştirdiği &#8220;Private Cloud Compute&#8221; mimarisi yerine, Google&#8217;ın yapay zeka işlemleri için özel olarak tasarladığı Tensör İşlem Birimleri (TPU) ile donatılmış sunucularını kullanabileceğini gösteriyor. Bu potansiyel iş birliğinin, özellikle iOS 27 ile birlikte sunulması planlanan çok daha yetenekli bir sohbet robotu için düşünüldüğü belirtiliyor.</p>\n<p>Apple içerisinde &#8220;Apple Foundation Models v11&#8221; kod adıyla geliştirilen yeni büyük dil modelinin (LLM), mevcut Apple Silicon tabanlı sunucuların sınırlarını zorlayacak düzeyde işlem gücü gerektirdiği ifade ediliyor. Google&#8217;ın Gemini modelleriyle rekabet etmesi hedeflenen bu yapay zeka sisteminin küresel ölçekte sunulabilmesi için, Google&#8217;ın halihazırda kurulu ve ölçeklenebilir TPU altyapısı teknik bir zorunluluk haline gelmiş olabilir.</p>\n<h2>Teknik Detaylar ve Gizlilik Protokolleri</h2>\n<ul>\n<li><strong>Altyapı Değişimi:</strong> Apple&#8217;ın kendi donanım ekosistemi dışına çıkarak Google TPU&#8217;larına yönelmesi, yapay zeka modellerinin artan hesaplama maliyetlerini ve donanım gereksinimlerini ortaya koyuyor.</li>\n<li><strong>Zamanlama:</strong> Yakın zamanda gelecek iOS 26 ara güncellemelerinin (26.4 vb.) mevcut Apple sunucularında çalışmaya devam etmesi, asıl büyük mimari değişikliğin iOS 27 döneminde gerçekleşmesi bekleniyor.</li>\n<li><strong>Veri Güvenliği Modeli:</strong> Apple, iCloud hizmetlerinde olduğu gibi verileri şifreleyerek üçüncü taraf sunucularda (Google Cloud, AWS) barındırma stratejisini Siri&#8217;ye de uyarlayabilir. Bu senaryoda şifreleme anahtarlarının kontrolü tamamen Apple&#8217;da kalarak verilerin Google tarafından okunması engellenecektir.</li>\n</ul>\n<p>Bu gelişme, Apple&#8217;ın &#8220;her şey şirket içinde&#8221; (on-device veya Private Cloud) yaklaşımından sapması anlamına gelse de, bulut tabanlı üretken yapay zeka servislerinin doğası gereği hibrit bir altyapı modeline geçiş kaçınılmaz görünüyor.</p>\n",
+  "date": "2026-01-24T23:04:55Z",
+  "modified": "2026-01-24T23:04:55Z",
+  "categories": [
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 279,
+      "name": "Bulut Bilişim",
+      "slug": "bulut-bilisim"
+    },
+    {
+      "id": 198,
+      "name": "Google",
+      "slug": "google"
+    },
+    {
+      "id": 303,
+      "name": "iOS 27",
+      "slug": "ios-27"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 299,
+      "name": "Private Cloud Compute",
+      "slug": "private-cloud-compute"
+    },
+    {
+      "id": 276,
+      "name": "Siri",
+      "slug": "siri"
+    },
+    {
+      "id": 302,
+      "name": "TPU",
+      "slug": "tpu"
+    },
+    {
+      "id": 304,
+      "name": "Veri Gizliliği",
+      "slug": "veri-gizliligi"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/applein-yeni-nesil-siri-altyapisinda-google-iddiasi-1769295895116.jpg",
+    "alt": "Apple'ın Yeni Nesil Siri Altyapısında Google İddiası",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/applein-yeni-nesil-siri-altyapisinda-google-iddiasi-1769295895116-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/applein-yeni-nesil-siri-altyapisinda-google-iddiasi-1769295895116-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/applein-yeni-nesil-siri-altyapisinda-google-iddiasi-1769295895116-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/applein-yeni-nesil-siri-altyapisinda-google-iddiasi-1769295895116-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/applein-yeni-nesil-siri-altyapisinda-google-iddiasi-1769295895116.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

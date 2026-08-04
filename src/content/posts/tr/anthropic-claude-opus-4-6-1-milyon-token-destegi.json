@@ -1,0 +1,77 @@
+{
+  "id": 348,
+  "slug": "anthropic-claude-opus-4-6-1-milyon-token-destegi",
+  "lang": "tr",
+  "title": "Anthropic Claude Opus 4.6: 1 Milyon Token Desteği",
+  "excerpt": "Anthropic, en güçlü dil modeli serisi olan Opus’un yeni sürümü Claude Opus 4.6’yı duyurdu. Bir dil modeli olmanın ötesinde \"yapay zeka ajanı\" yetenekleriyle donatılan bu sürüm, karmaşık projelerin uçtan uca yönetimi ve otonom hata ayıklama süreçlerine odaklanıyor. 1 Milyon Token ve Adaptif Düşünme Claude Opus 4.6, beta aşamasında sunulan 1 milyon tokenlik bağlam penceresi ile [&hellip;]",
+  "content": "<p>Anthropic, en güçlü dil modeli serisi olan Opus’un yeni sürümü Claude Opus 4.6’yı duyurdu. Bir dil modeli olmanın ötesinde &#8220;yapay zeka ajanı&#8221; yetenekleriyle donatılan bu sürüm, karmaşık projelerin uçtan uca yönetimi ve otonom hata ayıklama süreçlerine odaklanıyor.</p>\n<h2>1 Milyon Token ve Adaptif Düşünme</h2>\n<p>Claude Opus 4.6, beta aşamasında sunulan 1 milyon tokenlik bağlam penceresi ile dikkat çekiyor. Bu kapasite, büyük kod tabanlarının veya kapsamlı dokümantasyonların tek seferde işlenmesine ve analiz edilmesine olanak tanıyor. Modele eklenen &#8220;Adaptif Düşünme&#8221; özelliği ise sistemin sorunun karmaşıklığını tartarak derin düşünme gereksinimini otonom olarak belirlemesini sağlıyor.</p>\n<h2>Teknik Yetenekler ve Performans</h2>\n<p>Terminal-Bench 2.0 testlerinde yüksek başarı oranı yakalayan model, yazılım geliştiriciler için gelişmiş debugging (hata ayıklama) ve kod inceleme yetenekleri sunuyor. Finans ve mühendislik gibi alanlarda muhakeme yeteneği artırılan model, GDPval-AA testlerinde GPT-5.2 gibi rakiplerini geride bırakmayı başardı.</p>\n<p>Claude Opus 4.6’nın öne çıkan özellikleri şunlardır:</p>\n<ul>\n<li><strong>Geniş Bağlam Penceresi:</strong> 1 milyon token desteği ile veri setlerinde bilgi kaybı minimize ediliyor.</li>\n<li><strong>Office Entegrasyonu:</strong> Excel üzerinde otonom planlama ve PowerPoint için şablon tabanlı sunum hazırlama yeteneği.</li>\n<li><strong>Bağlam Sıkıştırma:</strong> Uzun süreli görevlerde eski bağlamları özetleyerek çalışma sürekliliği sağlıyor.</li>\n<li><strong>Güvenlik Protokolleri:</strong> Altı yeni siber güvenlik probu ile zararlı eylemleri tespit etme kapasitesi artırıldı.</li>\n</ul>\n<p>Claude Opus 4.6; API, Google Cloud Vertex AI ve Amazon Bedrock platformları üzerinden kullanıma sunuldu.</p>\n",
+  "date": "2026-02-07T23:02:05Z",
+  "modified": "2026-02-07T23:02:05Z",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Genel",
+      "slug": "genel"
+    }
+  ],
+  "tags": [
+    {
+      "id": 332,
+      "name": "1 Milyon Token",
+      "slug": "1-milyon-token"
+    },
+    {
+      "id": 330,
+      "name": "Amazon Bedrock",
+      "slug": "amazon-bedrock"
+    },
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 327,
+      "name": "Claude Opus 4.6",
+      "slug": "claude-opus-4-6"
+    },
+    {
+      "id": 329,
+      "name": "Debugging",
+      "slug": "debugging"
+    },
+    {
+      "id": 328,
+      "name": "Google Vertex AI",
+      "slug": "google-vertex-ai"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    },
+    {
+      "id": 331,
+      "name": "Terminal-Bench 2.0",
+      "slug": "terminal-bench-2-0"
+    },
+    {
+      "id": 69,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-claude-opus-4-6-1-milyon-token-destegi-1770505324681.jpg",
+    "alt": "Anthropic Claude Opus 4.6: 1 Milyon Token Desteği",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-claude-opus-4-6-1-milyon-token-destegi-1770505324681-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-claude-opus-4-6-1-milyon-token-destegi-1770505324681-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-claude-opus-4-6-1-milyon-token-destegi-1770505324681-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-claude-opus-4-6-1-milyon-token-destegi-1770505324681-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-claude-opus-4-6-1-milyon-token-destegi-1770505324681.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

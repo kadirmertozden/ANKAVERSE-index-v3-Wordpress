@@ -1,0 +1,75 @@
+{
+  "lastUpdated": "Son Güncelleme",
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "sections": [
+      {
+        "heading": "1. Giriş",
+        "body": [
+          "ANKAVERSE (\"Şirket\") olarak, kullanıcılarımızın gizliliğine ve kişisel verilerinin korunmasına büyük önem veriyoruz. Bu Gizlilik Politikası, web sitemizi ziyaret ettiğinizde toplanan bilgilerin nasıl kullanıldığını açıklar."
+        ]
+      },
+      {
+        "heading": "2. Toplanan Bilgiler",
+        "body": [
+          "Sitemizi ziyaret ettiğinizde, IP adresi, tarayıcı türü, ziyaret süresi gibi teknik veriler otomatik olarak toplanabilir. Ayrıca, iletişim formları veya bülten aboneliği aracılığıyla adınız, e-posta adresiniz ve telefon numaranız gibi kişisel bilgileri bize iletebilirsiniz."
+        ]
+      },
+      {
+        "heading": "3. Bilgilerin Kullanımı",
+        "body": ["Toplanan bilgiler şu amaçlarla kullanılabilir:"],
+        "list": [
+          "Hizmetlerimizin sunulması ve iyileştirilmesi",
+          "İletişim taleplerinize yanıt verilmesi",
+          "Yasal yükümlülüklerin yerine getirilmesi",
+          "Pazarlama ve bilgilendirme (onayınız dahilinde)"
+        ]
+      },
+      {
+        "heading": "4. Çerezler (Cookies)",
+        "body": [
+          "Web sitemiz, kullanıcı deneyimini artırmak için çerezler kullanabilir. Tarayıcı ayarlarınızdan çerezleri yönetebilirsiniz."
+        ]
+      },
+      {
+        "heading": "5. İletişim",
+        "body": [
+          "Gizlilik politikamızla ilgili sorularınız için aşağıdaki e-posta adresinden bize ulaşabilirsiniz."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Kullanım Şartları",
+    "sections": [
+      {
+        "heading": "1. Kabul",
+        "body": [
+          "Bu web sitesini ziyaret ederek veya hizmetlerimizi kullanarak, bu Kullanım Şartlarını kabul etmiş sayılırsınız."
+        ]
+      },
+      {
+        "heading": "2. Hizmet Kullanımı",
+        "body": [
+          "Sitemizdeki içerikleri yalnızca yasal amaçlar için kullanabilirsiniz. Telif hakkı, marka veya diğer fikri mülkiyet haklarını ihlal eden eylemler yasaktır."
+        ]
+      },
+      {
+        "heading": "3. Sorumluluk Reddi",
+        "body": [
+          "ANKAVERSE, web sitesindeki bilgilerin doğruluğu ve güncelliği konusunda azami özeni gösterir ancak garanti vermez. Sitedeki içerikler bilgilendirme amaçlıdır."
+        ]
+      },
+      {
+        "heading": "4. Değişiklikler",
+        "body": [
+          "ANKAVERSE, bu kullanım şartlarını dilediği zaman güncelleme hakkını saklı tutar. Değişiklikler yayınlandığı tarihte yürürlüğe girer."
+        ]
+      },
+      {
+        "heading": "5. İletişim",
+        "body": ["Sorularınız için aşağıdaki e-posta adresinden bize ulaşabilirsiniz."]
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": 219,
+  "slug": "gpt-5-2-devstral-2-ve-one-cikan-ai-gelismeleri",
+  "lang": "tr",
+  "title": "GPT-5.2, Devstral 2 ve Öne Çıkan AI Gelişmeleri",
+  "excerpt": "Yeni Dil Modelleri ve Açık Kaynak Gelişmeleri Bu hafta yapay zeka ekosisteminde hem kapalı kaynak hem de açık kaynak tarafında önemli model lansmanları gerçekleşti. OpenAI, geliştiriciler ve profesyonel kullanım için tasarlanan en gelişmiş modeli GPT-5.2'yi duyurdu. Eş zamanlı olarak Mistral, kodlama odaklı 123B parametreli Devstral 2 modelini ve 24B parametreli Small 2 varyantını tanıttı. Devstral [&hellip;]",
+  "content": "<h2>Yeni Dil Modelleri ve Açık Kaynak Gelişmeleri</h2>\n<p>Bu hafta yapay zeka ekosisteminde hem kapalı kaynak hem de açık kaynak tarafında önemli model lansmanları gerçekleşti. OpenAI, geliştiriciler ve profesyonel kullanım için tasarlanan en gelişmiş modeli GPT-5.2&#8217;yi duyurdu. Eş zamanlı olarak Mistral, kodlama odaklı 123B parametreli Devstral 2 modelini ve 24B parametreli Small 2 varyantını tanıttı. Devstral 2, SWE-bench testlerinde yüksek performans göstererek daha büyük modellere alternatif oluşturuyor.</p>\n<p>Diğer açık kaynak gelişmeleri ise şunları içeriyor:</p>\n<ul>\n<li><strong>Essential AI:</strong> 8B parametreli Rnj-1 modeli ile kodlama benchmarklarında rekabetçi sonuçlar elde etti.</li>\n<li><strong>Microsoft:</strong> Tümör modelleme ve doku analizi için geliştirdiği GigaTIME modelini açık kaynak hale getirdi.</li>\n<li><strong>Nous Research:</strong> 30B parametreli akıl yürütme sistemi Nomos 1&#8217;i yayınladı.</li>\n<li><strong>Runway:</strong> Fizik ve nedensellik anlayışına sahip ilk dünya modeli GWM-1&#8217;i robotik ve simülasyon süreçleri için duyurdu.</li>\n</ul>\n<h2>Agentic AI Foundation ve Sektörel İş Birlikleri</h2>\n<p>OpenAI, Anthropic ve Block, Linux Foundation yönetiminde &#8220;Agentic AI Foundation&#8221;ı kurdu. Bu oluşum, yapay zeka ajan ekosisteminde ortak standartlar belirlemeyi ve açık kaynaklı araçları birleştirmeyi hedefliyor. Kurucu üyeler, Model Context Protocol ve AGENTS.md gibi çekirdek projelerle katkı sağlarken; Google, Microsoft ve AWS gibi teknoloji devleri de destekleyen üyeler arasında yer alıyor.</p>\n<h2>Entegrasyonlar ve Donanım</h2>\n<p>Yazılım entegrasyonlarında Anthropic, Claude Code&#8217;u Slack ortamına taşıyarak doğrudan hata raporlama ve kodlama oturumlarına olanak tanıdı. Adobe ise Photoshop, Express ve Acrobat ürünlerini ChatGPT ile entegre etti. Donanım tarafında ise Google, 2026 yılı için planlanan yapay zeka destekli akıllı gözlüklerini duyururken, Core Devices yerel LLM çalıştıran Index 01 akıllı yüzüğünü tanıttı.</p>\n<h2>Yatırım ve Savunma Sanayi</h2>\n<p>Sektördeki finansal hareketlilik ve stratejik kararlar da dikkat çekiyor:</p>\n<ul>\n<li><strong>Disney:</strong> OpenAI ile lisanslama anlaşması kapsamında 1 milyar dolarlık yatırım gerçekleştirdi.</li>\n<li><strong>ABD Savunma Bakanlığı:</strong> Google Gemini destekli GenAI.mil platformunu tanıttı.</li>\n<li><strong>Yatırım Turları:</strong> Assaia (26.6 milyon dolar), Oboe (16 milyon dolar) ve Serval (75 milyon dolar) yatırım aldı.</li>\n</ul>\n",
+  "date": "2025-12-13T23:01:39Z",
+  "modified": "2025-12-13T23:01:39Z",
+  "categories": [
+    {
+      "id": 115,
+      "name": "Webrazzi TV",
+      "slug": "webrazzi-tv"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 116,
+      "name": "Açık Kaynak",
+      "slug": "acik-kaynak"
+    },
+    {
+      "id": 114,
+      "name": "Agentic AI Foundation",
+      "slug": "agentic-ai-foundation"
+    },
+    {
+      "id": 111,
+      "name": "Devstral 2",
+      "slug": "devstral-2"
+    },
+    {
+      "id": 121,
+      "name": "Google Gemini",
+      "slug": "google-gemini"
+    },
+    {
+      "id": 117,
+      "name": "GPT-5.2",
+      "slug": "gpt-5-2"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 112,
+      "name": "Mistral",
+      "slug": "mistral"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 119,
+      "name": "Runway GWM-1",
+      "slug": "runway-gwm-1"
+    },
+    {
+      "id": 120,
+      "name": "Yapay Zeka Donanımı",
+      "slug": "yapay-zeka-donanimi"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/gpt-5-2-devstral-2-ve-one-cikan-ai-gelismeleri-1765666897170.jpg",
+    "alt": "GPT-5.2, Devstral 2 ve Öne Çıkan AI Gelişmeleri",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/gpt-5-2-devstral-2-ve-one-cikan-ai-gelismeleri-1765666897170-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/gpt-5-2-devstral-2-ve-one-cikan-ai-gelismeleri-1765666897170-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/gpt-5-2-devstral-2-ve-one-cikan-ai-gelismeleri-1765666897170-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/gpt-5-2-devstral-2-ve-one-cikan-ai-gelismeleri-1765666897170-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/gpt-5-2-devstral-2-ve-one-cikan-ai-gelismeleri-1765666897170.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

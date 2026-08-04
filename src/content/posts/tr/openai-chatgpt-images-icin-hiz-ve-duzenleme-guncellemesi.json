@@ -1,0 +1,67 @@
+{
+  "id": 243,
+  "slug": "openai-chatgpt-images-icin-hiz-ve-duzenleme-guncellemesi",
+  "lang": "tr",
+  "title": "OpenAI ChatGPT Images İçin Hız ve Düzenleme Güncellemesi",
+  "excerpt": "Hız ve Performans İyileştirmeleri OpenAI, görsel üretim modeli ChatGPT Images için yeni bir güncelleme yayınladı. Yapılan teknik iyileştirmelerle birlikte modelin, önceki sürümlere kıyasla dört kata kadar daha hızlı çalıştığı belirtiliyor. Bu performans artışı, özellikle hızlı konsept çalışmaları ve gerçek zamanlıya yakın görsel üretimi gerektiren senaryolarda verimliliği artırmayı hedefliyor. Gelişmiş Düzenleme ve Tutarlılık Güncelleme, sıfırdan görsel [&hellip;]",
+  "content": "<h2>Hız ve Performans İyileştirmeleri</h2>\n<p>OpenAI, görsel üretim modeli ChatGPT Images için yeni bir güncelleme yayınladı. Yapılan teknik iyileştirmelerle birlikte modelin, önceki sürümlere kıyasla dört kata kadar daha hızlı çalıştığı belirtiliyor. Bu performans artışı, özellikle hızlı konsept çalışmaları ve gerçek zamanlıya yakın görsel üretimi gerektiren senaryolarda verimliliği artırmayı hedefliyor.</p>\n<h2>Gelişmiş Düzenleme ve Tutarlılık</h2>\n<p>Güncelleme, sıfırdan görsel oluşturmanın yanı sıra mevcut görseller üzerindeki manipülasyon yeteneklerine odaklanıyor. Yeni altyapı, bir görsel üzerinde art arda yapılan düzenlemelerde bağlamı koruyarak &#8220;kontrol kaybı&#8221; sorununu minimize ediyor. Işık, kompozisyon ve temel detaylar sabit tutulurken, yalnızca istenen alanlarda değişiklik yapılması sağlanıyor.</p>\n<p>Modelin sunduğu temel teknik yetenekler şunları içeriyor:</p>\n<ul>\n<li>Görsel içine öğe ekleme, kaldırma ve birleştirme.</li>\n<li>Mevcut nesnelerin konumunu değiştirme.</li>\n<li>Kıyafet, stil ve atmosfer değişikliklerinde yüksek doğruluk.</li>\n<li>GPT Image 1.5 sürümü ile API üzerinden erişim imkanı.</li>\n</ul>\n<p>Güncelleme küresel olarak kullanıma sunulurken, Business ve Enterprise kullanıcıları için kapsamlı erişimin ilerleyen dönemde sağlanacağı açıklandı.</p>\n",
+  "date": "2025-12-20T23:03:40Z",
+  "modified": "2025-12-20T23:03:40Z",
+  "categories": [
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 123,
+      "name": "API",
+      "slug": "api"
+    },
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 168,
+      "name": "ChatGPT Images",
+      "slug": "chatgpt-images"
+    },
+    {
+      "id": 73,
+      "name": "Generative AI",
+      "slug": "generative-ai"
+    },
+    {
+      "id": 169,
+      "name": "Görüntü İşleme",
+      "slug": "goruntu-i-sleme"
+    },
+    {
+      "id": 170,
+      "name": "GPT Image 1.5",
+      "slug": "gpt-image-1-5"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-chatgpt-images-icin-hiz-ve-duzenleme-guncellemesi-1766271819583.jpg",
+    "alt": "OpenAI ChatGPT Images İçin Hız ve Düzenleme Güncellemesi",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-chatgpt-images-icin-hiz-ve-duzenleme-guncellemesi-1766271819583-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-chatgpt-images-icin-hiz-ve-duzenleme-guncellemesi-1766271819583-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-chatgpt-images-icin-hiz-ve-duzenleme-guncellemesi-1766271819583-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-chatgpt-images-icin-hiz-ve-duzenleme-guncellemesi-1766271819583-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-chatgpt-images-icin-hiz-ve-duzenleme-guncellemesi-1766271819583.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}
