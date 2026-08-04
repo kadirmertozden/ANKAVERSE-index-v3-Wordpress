@@ -1,0 +1,15 @@
+node_modules
+dist
+.git
+.github
+.env
+.env.*
+docs
+*.log
+
+# plugins/ is NOT excluded: vite.config.js imports the Horizons editor plugins
+# at module scope, so the config fails to load without them even though they
+# only activate in development.
+
+# Stray lockfile from another machine; npm ci must use package-lock.json.
+package-lock-*.json
