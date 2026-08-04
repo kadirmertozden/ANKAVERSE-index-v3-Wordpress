@@ -40,6 +40,12 @@ Türkçe metinlerden geliyor. Rotalar Türkçe slug kullanıyor.
 7. `vite.config.js:167-221` — Hostinger Horizons'ın 5 adet dev hata-raporlama
    script'i `isDev` koşuluna bağlı değil, production build'e de giriyor
    (~4KB render-blocking inline JS, her sayfada).
+8. Coolify `Domains Direction` ayarı `Allow www & non-www` — `ankaverse.com.tr`
+   ve `www.ankaverse.com.tr` ikisi de 200 dönüyor. Google için iki ayrı site;
+   sıralama gücü ikiye bölünüyor.
+9. Site `npm run preview` (Vite'ın geliştirme amaçlı önizleme sunucusu) ile
+   yayında. Bilinmeyen adreslerde 404 status kodu döndüremiyor ve sunucu
+   seviyesinde 301 yönlendirmesi yapılandırılamıyor.
 
 ## Kararlar
 
@@ -52,7 +58,9 @@ Türkçe metinlerden geliyor. Rotalar Türkçe slug kullanıyor.
 | Çeviri | DeepL API Free, **build sırasında**, sonuç repoda cache'lenir |
 | Backfill | Kademeli: 1. ay EN (180.907 krk), 2. ay DE/FR/ES/AR |
 | Ana sayfa | `CorporateHome` içeriği `/`'a taşınır; `/giris` → 301 → `/` |
-| Hosting | Kendi VPS (web sunucusu — nginx/Apache — uygulama başında netleşecek) |
+| Hosting | Kendi VPS üzerinde **Coolify**, GitHub'dan otomatik deploy (Nixpacks) |
+| Sunum | Coolify **static site** modu (nginx), `Publish Directory: /dist` |
+| İçerik/çeviri senkronu | **GitHub Actions**, saatlik + elle tetikleme; sonuç repoya commit edilir |
 
 ## Mimari
 
@@ -121,9 +129,10 @@ eklenir; yön bağımlı boşluk utility'leri mantıksal karşılıklarına geç
 
 ### 3. İçerik ve çeviri hattı
 
-**Kaynak:** `tools/fetch-content.js` build'den önce WordPress'ten çeker →
-`src/content/{posts,projects,services}.json`. Prerender sırasında ağ çağrısı
-olmaz. WordPress erişilemezse son başarılı cache ile devam edilir, build kırılmaz.
+**Kaynak:** `tools/fetch-content.js` WordPress'ten çeker →
+`src/content/{posts,projects,services}.json`. Coolify build'inde değil,
+GitHub Actions senkron workflow'unda çalışır (bkz. *Deployment ve Build Hattı*)
+ve sonucu repoya commit eder. Böylece prerender sırasında hiç ağ çağrısı olmaz.
 
 **Çeviri:** `tools/translate-content.js`
 
@@ -144,9 +153,11 @@ Sonuçlar:
 
 **DeepL yapılandırması:**
 
-- Anahtar `.env` içinde `DEEPL_API_KEY` olarak — **`VITE_` öneki olmadan**.
+- Anahtar **GitHub Secrets**'ta `DEEPL_API_KEY` olarak tutulur; yerel çalıştırma
+  için `.env` içinde aynı adla bulunabilir. **`VITE_` öneki kullanılmaz** —
   `VITE_` önekli değişkenler JS bundle'ına gömülür ve tarayıcıda herkese görünür.
-  Anahtarı yalnızca build makinesindeki Node script'i okur.
+  Anahtarı yalnızca senkron workflow'undaki Node script'i okur; Coolify'a ve
+  VPS'e hiç girmez.
 - `tag_handling=html` — blog içeriği HTML olduğu için zorunlu
 - Marka koruması: `ANKAVERSE`, `Vaktia` ve ürün/teknoloji adları
   `<span translate="no">` ile sarılır
@@ -195,9 +206,10 @@ listelenmeyen sayfaları hariç tutar.
 **Gerçek 404:** `<Route path="*">` yönlendirmesi kaldırılır; yerine `noindex`'li
 `NotFoundPage` gelir ve sunucu 404 status kodu döner.
 
-**301 yönlendirmeler** (`deploy/nginx.conf.snippet` ve `deploy/.htaccess`):
-`/giris`, `/giris.html`, `/kurumsal` → `/`; www ↔ non-www tekilleştirme;
-http → https; sondaki `/` tutarlılığı.
+**301 yönlendirmeler** (`deploy/nginx.conf` — Coolify static site nginx
+yapılandırması): `/giris`, `/giris.html`, `/kurumsal` → `/`; http → https;
+sondaki `/` tutarlılığı. www → non-www tekilleştirmesi Coolify'ın
+`Domains Direction` ayarından yapılır (uygulama seviyesinde tekrarlanmaz).
 
 **Core Web Vitals:**
 
@@ -227,26 +239,83 @@ src/
   routes.jsx                                   # App.jsx'in yerine
 tools/
   fetch-content.js translate-content.js generate-sitemap.js verify-seo.js
+.github/workflows/
+  content-sync.yml         # saatlik + elle tetiklenen içerik/çeviri senkronu
 deploy/
-  nginx.conf.snippet .htaccess
+  nginx.conf               # Coolify static site nginx yapılandırması
+  .htaccess                # yedek referans (static modda kullanılmaz)
 docs/superpowers/specs/
   2026-08-04-seo-i18n-design.md
 ```
 
-## Build Hattı
+## Deployment ve Build Hattı
+
+Site VPS üzerinde **Coolify** ile barındırılıyor ve GitHub'a her push'ta otomatik
+deploy ediliyor. Coolify build'i **geçici (ephemeral) bir konteynerde** çalışır:
+build sırasında diske yazılan hiçbir şey bir sonraki deploy'a taşınmaz.
+
+Bu, çeviri cache'ini build içine koymayı imkânsız kılar — cache her deploy'da
+silineceği için 70 yazı her push'ta yeniden çevrilir ve DeepL kotası ilk birkaç
+deploy'da tükenir. Bu yüzden **içerik çekme ve çeviri build'in dışına, GitHub
+Actions'a alınır** ve üretilen JSON'lar repoya commit edilir.
+
+### Hat 1 — İçerik senkronu (GitHub Actions, saatlik + `workflow_dispatch`)
+
+```
+.github/workflows/content-sync.yml
+  1  fetch-content.js       WordPress'ten TR içerik çeker
+  2  translate-content.js   yalnızca eksik/değişmiş kayıtları DeepL'e sorar
+  3  değişiklik varsa       src/content/** commit + push
+                            → Coolify otomatik deploy tetiklenir
+```
+
+`DEEPL_API_KEY` yalnızca **GitHub Secrets**'ta tutulur; VPS'e ve Coolify
+ortam değişkenlerine hiç girmez.
+
+Bu ayrımın üç ek faydası var: çeviriler yayına girmeden önce git diff'inde
+okunabilir; Coolify build'i ağ erişimi gerektirmez (WordPress çökse bile deploy
+çalışır); ve yeni yazı en geç bir saat içinde, elle tetiklendiğinde 2-3 dakikada
+yayına girer.
+
+### Hat 2 — Site build'i (Coolify, her push'ta)
 
 ```
 npm run build
-  1  fetch-content.js       WordPress'ten TR içerik (erişilemezse son cache)
-  2  translate-content.js   eksik çevirileri DeepL'e sor → cache'e yaz
-  3  generate-llms.js       mevcut
-  4  vite-react-ssg build   ~486 HTML üretir
-  5  generate-sitemap.js    sitemap.xml + robots.txt
-  6  verify-seo.js          kontroller — hata varsa build BAŞARISIZ
+  1  generate-llms.js       mevcut
+  2  vite-react-ssg build   commit edilmiş içerikten ~486 HTML üretir
+  3  generate-sitemap.js    sitemap.xml + robots.txt
+  4  verify-seo.js          kontroller — hata varsa build BAŞARISIZ
 ```
 
 Üretilen sayfa sayısı: 6 dil × 8 statik = 48, blog 70 × 6 = 420,
 projeler 3 × 6 = 18 → yaklaşık **486 HTML**.
+
+### İçerik tazeliği — kabul edilen ödünleşim
+
+Bugün tarayıcı WordPress'e her ziyarette canlı gidiyor, yani yeni yazı anında
+görünüyor; bedeli crawler'ın o yazıları hiç görememesi. Prerender'a geçince
+yazılar build anında HTML'e gömülür ve yeni yazı bir sonraki senkronda (en geç
+1 saat, elle tetiklemeyle 2-3 dakika) yayına girer. Bu gecikme static site
+modundan değil prerender'dan kaynaklanır; `vite preview` ile devam edilse de
+aynı olurdu.
+
+### Coolify yapılandırma değişiklikleri
+
+| Ayar | Şu an | Olacak | Gerekçe |
+|---|---|---|---|
+| Is it a static site? | kapalı | **açık** | `dist` nginx ile sunulur: gerçek 404 status kodu, 301 yönlendirmeleri, doğru cache başlıkları, Node süreci yok |
+| Publish Directory | `/` | `/dist` | static mod şartı |
+| Start Command | `npm run preview` | — | `vite preview` bir geliştirme aracıdır, üretim için önerilmez ve 404/301 yapılandırılamaz |
+| Domains Direction | Allow www & non-www | **Redirect to non-www** | Şu an her iki alan adı da 200 dönüyor; Google için iki ayrı site, sıralama gücü ikiye bölünüyor |
+
+`public/.htaccess` static modda işlemez; yönlendirmeler Coolify'ın nginx
+yapılandırması üzerinden verilir. `deploy/.htaccess` yalnızca yedek referans
+olarak kalır.
+
+**Geçiş güvenliği:** Static moda geçiş Faz 1 içinde, prerender ile birlikte
+yapılır ve önce Coolify **Preview Deployments** üzerinde ayrı bir URL'de
+doğrulanır — canlı siteye dokunulmadan. Sorun çıkarsa Coolify **Rollback** ile
+tek adımda önceki deployment'a dönülür.
 
 ## Doğrulama
 
@@ -274,7 +343,7 @@ Her faz tek başına yayına alınabilir.
 | Faz | İçerik | Kazanç |
 |---|---|---|
 | 0 | Vite 4→5, Horizons script'lerinin prod'dan çıkarılması, react-helmet kaldırma | Temiz zemin |
-| 1 | SSG kurulumu + ana sayfa taşıma + 301'ler | Sayfalar gerçek HTML olarak sunulur |
+| 1 | SSG kurulumu + Coolify static mod + ana sayfa taşıma + 301'ler + www tekilleştirme | Sayfalar gerçek HTML olarak sunulur |
 | 2 | SEO katmanı (TR): `Seo`, JSON-LD, sitemap, robots, 404 | **Yayına alınabilir — en büyük tek kazanç** |
 | 3 | i18n iskeleti: i18next, metin çıkarma, dil seçici, RTL, TR+EN statik sayfalar | Site iki dilli |
 | 4 | DeepL hattı + 70 yazının EN backfill'i (180.907 krk, kotaya sığar) | **Yayına alınabilir — blog iki dilde** |
@@ -295,7 +364,9 @@ açılır ve hreflang kendiliğinden genişler.
 | DeepL Arapça desteği | Build başında `/languages` ile doğrulanır; desteklenmiyorsa build hata verir |
 | DeepL kota aşımı | Çeviri öncesi `/usage` ile kalan kota kontrol edilir; yetmiyorsa durur, yarım çeviri üretmez |
 | Blog slug'larının sonradan değişmesi | Slug bir kez üretilip cache'e sabitlenir, değişmez |
-| WordPress API'nin build anında erişilemez olması | Son başarılı içerik cache'i kullanılır, build kırılmaz |
+| WordPress API'nin erişilemez olması | İçerik repoda commit'li olduğu için Coolify build'i etkilenmez; senkron workflow'u o turu atlar ve bir sonrakinde devam eder |
+| Coolify static moda geçişte sitenin 404 vermesi | Önce Preview Deployment'ta doğrulanır; sorun çıkarsa Coolify Rollback ile tek adımda geri dönülür |
+| Senkron workflow'unun çakışan commit üretmesi | Workflow `concurrency` grubu ile tekil çalışır; push öncesi rebase eder |
 | Makine çevirisi kalitesi | Kurumsal sayfa çevirileri repoda tutulur ve elle gözden geçirilir; blog çevirileri cache JSON'ında düzeltilebilir |
 
 ## Kapsam Dışı
