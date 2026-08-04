@@ -1,0 +1,79 @@
+{
+  "id": 225,
+  "slug": "openai-2025-update-details-on-operator-and-gpt-5",
+  "lang": "en",
+  "title": "OpenAI 2025 Update: Details on Operator and GPT-5",
+  "excerpt": "The Era of Agents in Artificial Intelligence and Operator: As of 2025, OpenAI has made a strategic shift in its AI models, transitioning from traditional chatbot architecture to “Agent” systems. At the heart of this transformation is the Operator feature, which enables autonomous actions on behalf of the user via a web browser. Within the scope of its granted permissions, Operator can manage end-to-end processes such as searching for tickets, filling out forms, and making reservations. [&hellip;]",
+  "content": "<h2>The Era of Agents in Artificial Intelligence and Operator</h2>\n<p>As of 2025, OpenAI has made a strategic shift in its AI models, transitioning from the traditional chatbot structure to “Agent” systems. At the heart of this transformation is the <strong>Operator</strong> feature, which enables autonomous actions on behalf of the user via a web browser. Within the scope of its granted permissions, Operator can manage end-to-end processes such as searching for tickets, filling out forms, and making reservations.</p>\n<h2>2025 Updates and Technical Details</h2>\n<p>The new update package includes the following innovations that extend the platform’s capabilities to the operating system and browser levels:</p>\n<ul>\n<li><strong>GPT-5 Architecture:</strong> While minimizing hallucination rates, the model’s reasoning capacity—particularly in coding and mathematical problems—has been enhanced.</li>\n<li><strong>Sora Integration:</strong> Sora, a text-to-video generation model, is directly integrated into the chat interface, enabling real-time scenario visualization.</li>\n<li><strong>Live Screen Sharing:</strong> Developed for technical support processes, this mode can detect coding errors by analyzing the screen or provide interface navigation.</li>\n<li><strong>Deep Research:</strong> A deep research mode has been added that can generate academic-level, cited reports by conducting extensive data searches.</li>\n<li><strong>ChatGPT Atlas:</strong> Atlas, the Chromium-based web browser developed by OpenAI, embeds the AI engine directly into the browser infrastructure. This makes in-page automations more efficient through “Agent Mode.”</li>\n</ul>\n<p>These developments demonstrate that ChatGPT has evolved from being merely an information advisor to an integrated digital workforce capable of managing operational processes.</p>\n",
+  "date": "2025-12-13T23:03:25Z",
+  "modified": "2025-12-13T23:03:25Z",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Genel",
+      "slug": "genel"
+    }
+  ],
+  "tags": [
+    {
+      "id": 127,
+      "name": "AI Agent",
+      "slug": "ai-agent"
+    },
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 129,
+      "name": "ChatGPT Atlas",
+      "slug": "chatgpt-atlas"
+    },
+    {
+      "id": 131,
+      "name": "Deep Research",
+      "slug": "deep-research"
+    },
+    {
+      "id": 126,
+      "name": "GPT-5",
+      "slug": "gpt-5"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 128,
+      "name": "Operator",
+      "slug": "operator"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    },
+    {
+      "id": 130,
+      "name": "Sora",
+      "slug": "sora"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-2025-guncellemesi-operator-ve-gpt-5-detaylari-1765667003759.jpg",
+    "alt": "OpenAI 2025 Güncellemesi: Operator ve GPT-5 Detayları",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-2025-guncellemesi-operator-ve-gpt-5-detaylari-1765667003759-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-2025-guncellemesi-operator-ve-gpt-5-detaylari-1765667003759-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-2025-guncellemesi-operator-ve-gpt-5-detaylari-1765667003759-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-2025-guncellemesi-operator-ve-gpt-5-detaylari-1765667003759-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-2025-guncellemesi-operator-ve-gpt-5-detaylari-1765667003759.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "openai-2025-guncellemesi-operator-ve-gpt-5-detaylari",
+  "sourceHash": "b7f811eee7e0cb01"
+}

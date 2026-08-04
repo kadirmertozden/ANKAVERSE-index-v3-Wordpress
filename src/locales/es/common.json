@@ -1,0 +1,44 @@
+{
+  "brand": "ANKAVERSE",
+  "nav": {
+    "home": "Página de inicio",
+    "about": "Quiénes somos",
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "menu": "Menú",
+    "language": "Idioma"
+  },
+  "cta": {
+    "quote": "Solicita un presupuesto",
+    "start": "Empieza ya",
+    "viewProjects": "Echa un vistazo a nuestros proyectos",
+    "contactUs": "Póngase en contacto con nosotros ahora mismo",
+    "store": "Ir a la tienda",
+    "readMore": "Leer más",
+    "backToBlog": "Volver al blog",
+    "backToProjects": "Volver a los proyectos",
+    "backHome": "Volver a la página de inicio"
+  },
+  "footer": {
+    "tagline": "Soluciones innovadoras que potencian tu marca en el mundo digital. Desde el comercio electrónico hasta la identidad corporativa, construimos el futuro juntos.",
+    "quickLinks": "Enlaces rápidos",
+    "ourServices": "Nuestros servicios",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Condiciones de uso"
+  },
+  "state": {
+    "loading": "Cargando...",
+    "error": "Se ha producido un error al cargar el contenido.",
+    "empty": "No se ha encontrado ningún contenido que mostrar."
+  },
+  "notFound": {
+    "title": "No se ha encontrado la página",
+    "heading": "La página que buscas no existe",
+    "description": "Es posible que el enlace se haya trasladado, se haya renombrado o que nunca haya existido.",
+    "seoDescription": "No se ha encontrado la página que buscabas."
+  }
+}

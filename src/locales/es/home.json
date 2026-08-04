@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "badge": "Construimos el futuro con la tecnología",
+    "titleLead": "Software, automatización, inteligencia artificial y",
+    "titleHighlight": "Tecnologías de comercio electrónico",
+    "description": "ANKAVERSE, como pionera en la transformación digital, ofrece soluciones tecnológicas a medida para las empresas. Gracias a nuestra sólida infraestructura de ingeniería y a nuestra visión innovadora, modernizamos tus procesos empresariales, aumentamos tu eficiencia y llevamos tu marca a los estándares globales."
+  },
+  "whyUs": {
+    "eyebrow": "¿Por qué ANKAVERSE?",
+    "title": "No vemos la tecnología solo como código",
+    "description": "Vamos más allá de los servicios de alojamiento tradicionales para convertirnos en tu socio tecnológico estratégico, que contribuye directamente al crecimiento de tu empresa. Medimos nuestro éxito no por la capacidad de los servidores que ofrecemos, sino por el valor añadido que generamos.",
+    "points": {
+      "data": {
+        "title": "Soluciones basadas en datos",
+        "description": "Basamos nuestras decisiones y nuestros diseños no en suposiciones, sino en datos concretos y en conocimientos analíticos."
+      },
+      "excellence": {
+        "title": "Excelencia técnica",
+        "description": "Nuestro objetivo es superar los estándares del sector en materia de calidad del código, seguridad y rendimiento."
+      },
+      "sustainable": {
+        "title": "Arquitectura sostenible",
+        "description": "Construimos sistemas flexibles y duraderos, compatibles con las tecnologías del futuro, que satisfacen las necesidades del presente."
+      }
+    }
+  },
+  "servicesHeading": "Nuestros servicios",
+  "store": {
+    "title": "Nuestra tienda online",
+    "description": "Puedes ver los productos de ANKAVERSE en nuestra tienda online."
+  },
+  "cta": {
+    "title": "¿Estás listo para poner en marcha tu proyecto?",
+    "description": "Imagínalo y, gracias a la tecnología ANKAVERSE, lo haremos realidad. Ponte en contacto con nosotros ahora mismo y comienza tu viaje hacia la transformación digital."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "lastUpdated": "Last Updated",
+  "privacy": {
+    "title": "Privacy Policy",
+    "sections": [
+      {
+        "heading": "1. Introduction",
+        "body": [
+          "As ANKAVERSE (the \"Company\"), we place great importance on our users' privacy and the protection of their personal data. This Privacy Policy explains how we use the information collected when you visit our website."
+        ]
+      },
+      {
+        "heading": "2. Information Collected",
+        "body": [
+          "When you visit our website, technical data such as your IP address, browser type, and duration of your visit may be collected automatically. In addition, you may provide us with personal information such as your name, email address, and phone number through contact forms or newsletter subscriptions."
+        ]
+      },
+      {
+        "heading": "3. Use of Information",
+        "body": [
+          "The information collected may be used for the following purposes:"
+        ],
+        "list": [
+          "Delivering and Improving Our Services",
+          "Responding to your communication requests",
+          "Compliance with Legal Obligations",
+          "Marketing and communications (with your consent)"
+        ]
+      },
+      {
+        "heading": "4. Cookies",
+        "body": [
+          "Our website may use cookies to enhance the user experience. You can manage cookies through your browser settings."
+        ]
+      },
+      {
+        "heading": "5. Communication",
+        "body": [
+          "If you have any questions about our privacy policy, you can contact us at the email address below."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "sections": [
+      {
+        "heading": "1. Acceptance",
+        "body": [
+          "By visiting this website or using our services, you are deemed to have accepted these Terms of Use."
+        ]
+      },
+      {
+        "heading": "2. Use of the Service",
+        "body": [
+          "You may use the content on our site only for lawful purposes. Any actions that infringe on copyrights, trademarks, or other intellectual property rights are prohibited."
+        ]
+      },
+      {
+        "heading": "3. Disclaimer",
+        "body": [
+          "ANKAVERSE takes the utmost care to ensure that the information on its website is accurate and up-to-date, but makes no guarantees. The content on the site is provided for informational purposes only."
+        ]
+      },
+      {
+        "heading": "4. Changes",
+        "body": [
+          "ANKAVERSE reserves the right to update these Terms of Use at any time. Changes take effect on the date they are published."
+        ]
+      },
+      {
+        "heading": "5. Communication",
+        "body": [
+          "If you have any questions, please contact us at the email address below."
+        ]
+      }
+    ]
+  }
+}

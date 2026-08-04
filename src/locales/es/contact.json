@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Contacto",
+  "title": "Ponte en contacto con nosotros",
+  "info": {
+    "title": "Datos de contacto",
+    "description": "Conózcanos mientras tomamos un café y hablamos de sus proyectos. Estamos aquí para ofrecerles las soluciones que mejor se adapten a sus necesidades.",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "email": "Correo electrónico"
+  },
+  "form": {
+    "name": "Nombre y apellidos",
+    "namePlaceholder": "Por ejemplo: Ahmet Yılmaz",
+    "email": "Tu dirección de correo electrónico",
+    "emailPlaceholder": "orn@sirket.com",
+    "phone": "Número de teléfono",
+    "phonePlaceholder": "05XX XXX XX XX",
+    "subject": "Asunto",
+    "subjectPlaceholder": "Asunto de tu mensaje",
+    "message": "Tu mensaje",
+    "messagePlaceholder": "Háblanos de tu proyecto...",
+    "submit": "Enviar",
+    "submitting": "Enviando...",
+    "success": "Hemos recibido tu mensaje. Nos pondremos en contacto contigo lo antes posible.",
+    "error": "No se ha podido enviar el mensaje. Inténtalo de nuevo más tarde."
+  }
+}

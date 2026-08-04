@@ -1,0 +1,82 @@
+{
+  "id": 354,
+  "slug": "anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu",
+  "lang": "tr",
+  "title": "Anthropic Opus 4.6 ve Yapay Zeka Ajanları Duyuruldu",
+  "excerpt": "Anthropic, amiral gemisi dil modeli serisini güncelleyerek Opus 4.6 sürümünü kullanıma sundu. Bir önceki sürüm olan Opus 4.5'in ardından gelen bu güncelleme, özellikle kurumsal iş akışları ve yazılım geliştirme süreçleri için teknik iyileştirmeler barındırıyor. Çoklu Ajan Mimarisi Opus 4.6 ile tanıtılan en önemli özellik, \"agent teams\" (ajan takımları) adı verilen sistemdir. Bu yapı, karmaşık operasyonların [&hellip;]",
+  "content": "<p>Anthropic, amiral gemisi dil modeli serisini güncelleyerek Opus 4.6 sürümünü kullanıma sundu. Bir önceki sürüm olan Opus 4.5&#8217;in ardından gelen bu güncelleme, özellikle kurumsal iş akışları ve yazılım geliştirme süreçleri için teknik iyileştirmeler barındırıyor.</p>\n<h2>Çoklu Ajan Mimarisi</h2>\n<p>Opus 4.6 ile tanıtılan en önemli özellik, &#8220;agent teams&#8221; (ajan takımları) adı verilen sistemdir. Bu yapı, karmaşık operasyonların tek bir model yerine birden fazla yapay zeka ajanı arasında bölüştürülmesine olanak tanıyor. Ajanlar, görevleri paralel olarak işleyerek birbirleriyle koordineli çalışabiliyor.</p>\n<p>Anthropic Ürün Müdürü Scott White&#8217;ın açıklamalarına göre, sorumlulukların dağıtılması işlemi, görevlerin sıralı (sequential) yapılmasına kıyasla süreçleri önemli ölçüde hızlandırıyor. Bu özellik şu an için API kullanıcıları ve belirli aboneler için araştırma önizlemesi olarak erişilebilir durumda.</p>\n<h2>Bağlam Kapasitesi ve Entegrasyon</h2>\n<p>Modelin teknik özellikleri ve getirdiği yenilikler şunları içeriyor:</p>\n<ul>\n<li><strong>1 Milyon Token Bağlam:</strong> Sonnet serisiyle eşitlenen bu kapasite, geniş kod tabanlarının ve uzun teknik dokümanların tek oturumda işlenmesini sağlıyor.</li>\n<li><strong>PowerPoint Entegrasyonu:</strong> Kullanıcılar, Claude arayüzü üzerinden harici dosya transferi yapmadan doğrudan sunum dosyaları oluşturabiliyor ve düzenleyebiliyor.</li>\n</ul>\n<p>Yeni model, genişletilmiş bellek yönetimi sayesinde yazılım geliştirme ekosisteminde ve veri yoğunluklu profesyonel alanlarda verimliliği artırmayı hedefliyor.</p>\n",
+  "date": "2026-02-07T23:03:39Z",
+  "modified": "2026-02-07T23:03:39Z",
+  "categories": [
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 332,
+      "name": "1 Milyon Token",
+      "slug": "1-milyon-token"
+    },
+    {
+      "id": 338,
+      "name": "Agent Teams",
+      "slug": "agent-teams"
+    },
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 197,
+      "name": "Claude",
+      "slug": "claude"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 336,
+      "name": "Opus 4.6",
+      "slug": "opus-4-6"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    },
+    {
+      "id": 337,
+      "name": "PowerPoint",
+      "slug": "powerpoint"
+    },
+    {
+      "id": 215,
+      "name": "Vibe Coding",
+      "slug": "vibe-coding"
+    },
+    {
+      "id": 237,
+      "name": "Yapay Zeka Ajanları",
+      "slug": "yapay-zeka-ajanlari"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu-1770505418926.jpg",
+    "alt": "Anthropic Opus 4.6 ve Yapay Zeka Ajanları Duyuruldu",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu-1770505418926-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu-1770505418926-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu-1770505418926-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu-1770505418926-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu-1770505418926.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

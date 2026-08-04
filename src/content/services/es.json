@@ -1,0 +1,83 @@
+[
+  {
+    "id": 20,
+    "slug": "3d-modelleme-dijital-uretim",
+    "title": "Modelado 3D y fabricación digital",
+    "description": "Soluciones profesionales en 3D para tus necesidades de diseño industrial y visualización.",
+    "icon": "Box",
+    "features": [
+      "Modelado de productos industriales",
+      "Dibujos técnicos profesionales en CAD",
+      "Renderizado y animación fotorrealistas",
+      "Preparación de archivos para la fabricación de prototipos",
+      "Análisis de simulación y validación del diseño",
+      "Modelado digital listo para la producción",
+      "Visualización arquitectónica en 3D"
+    ],
+    "sourceHash": "703274f2b39ad6c2"
+  },
+  {
+    "id": 19,
+    "slug": "yapay-zeka-cozumleri",
+    "title": "Soluciones de inteligencia artificial",
+    "description": "Análisis inteligentes que aumentan la productividad gracias a modelos de inteligencia artificial adaptados a tu empresa.",
+    "icon": "BrainCircuit",
+    "features": [
+      "Modelos de PLN en turco específicos para cada ámbito",
+      "Sistemas automáticos de verificación de contenidos",
+      "Algoritmos inteligentes para la identificación de variantes de productos",
+      "Limpieza y organización de grandes volúmenes de datos",
+      "Análisis en profundidad basado en LLM",
+      "Automatización operativa basada en la inteligencia artificial"
+    ],
+    "sourceHash": "3fa57e8778c834f1"
+  },
+  {
+    "id": 18,
+    "slug": "e-ticaret-teknolojileri",
+    "title": "Tecnologías de comercio electrónico",
+    "description": "Soluciones de gestión de datos e infraestructura para operaciones de comercio electrónico a gran escala.",
+    "icon": "ShoppingCart",
+    "features": [
+      "Gestión de datos de productos a gran escala",
+      "Proceso optimizado para más de 10 000 referencias",
+      "Automatización de comentarios y contenido HTML",
+      "Procesos de estandarización visual",
+      "Compatibilidad total con Hepsiburada / Trendyol",
+      "Integraciones del sistema híbrido N8N + IA"
+    ],
+    "sourceHash": "a9e51d225d26ea8a"
+  },
+  {
+    "id": 17,
+    "slug": "otomasyon-entegrasyon",
+    "title": "Automatización e integración",
+    "description": "Automatizaciones inteligentes y sistemas de integración sin interrupciones que agilizan tus procesos de trabajo.",
+    "icon": "Workflow",
+    "features": [
+      "Automatizaciones de flujos de trabajo de n8n",
+      "Procesamiento periódico de datos basado en Cron",
+      "Integraciones de bots y activadores de Telegram",
+      "Extracción y procesamiento de datos XML / CSV",
+      "Integraciones de la API de la plataforma de comercio electrónico",
+      "Optimización del flujo de datos y rendimiento del servidor"
+    ],
+    "sourceHash": "a1500b0f413404ea"
+  },
+  {
+    "id": 15,
+    "slug": "yazilim-gelistirme",
+    "title": "Desarrollo de software",
+    "description": "Ofrecemos soluciones de software corporativo escalables y seguras basadas en tecnologías modernas.",
+    "icon": "Code2",
+    "features": [
+      "Soluciones corporativas basadas en API",
+      "Desarrollo web y de paneles de administración",
+      "Mecanismos avanzados de validación de datos",
+      "Infraestructuras de Python, Node.js y .NET",
+      "Gestión de bases de datos MSSQL / PostgreSQL / Redis",
+      "Docker y las arquitecturas de microservicios"
+    ],
+    "sourceHash": "0954e06e3e125286"
+  }
+]

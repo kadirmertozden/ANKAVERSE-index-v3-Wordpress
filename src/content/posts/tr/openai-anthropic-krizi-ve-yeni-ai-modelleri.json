@@ -1,0 +1,72 @@
+{
+  "id": 384,
+  "slug": "openai-anthropic-krizi-ve-yeni-ai-modelleri",
+  "lang": "tr",
+  "title": "OpenAI, Anthropic Krizi ve Yeni AI Modelleri",
+  "excerpt": "Pentagon Odaklı OpenAI ve Anthropic Krizi OpenAI'ın Pentagon ile yaptığı askeri anlaşma ve sınırları konusundaki belirsizlikler, sektörde geniş yankı uyandırdı. Bu süreçte askeri baskılara direnerek bağımsız kalma kararı alan Anthropic, ABD Savunma Bakanlığı tarafından \"tedarik zinciri riski\" olarak sınıflandırıldı. Politika farklılıkları son kullanıcı metriklerine de yansıdı; ChatGPT'den Claude'a yönelik göç hızlanırken, Claude uygulaması mağaza indirmelerinde [&hellip;]",
+  "content": "<h2>Pentagon Odaklı OpenAI ve Anthropic Krizi</h2>\n<p>OpenAI&#8217;ın Pentagon ile yaptığı askeri anlaşma ve sınırları konusundaki belirsizlikler, sektörde geniş yankı uyandırdı. Bu süreçte askeri baskılara direnerek bağımsız kalma kararı alan Anthropic, ABD Savunma Bakanlığı tarafından &#8220;tedarik zinciri riski&#8221; olarak sınıflandırıldı. Politika farklılıkları son kullanıcı metriklerine de yansıdı; ChatGPT&#8217;den Claude&#8217;a yönelik göç hızlanırken, Claude uygulaması mağaza indirmelerinde zirveye ulaştı.</p>\n<h2>Yeni Nesil Yapay Zeka Modelleri</h2>\n<p>Hafta boyunca donanım verimliliği, akıl yürütme ve çok modlu yeteneklere (multimodal) odaklanan birçok yeni model tanıtıldı:</p>\n<ul>\n<li><strong>OpenAI:</strong> Günlük kullanımda daha yüksek doğruluk sunan GPT-5.3 Instant ile geliştiriciler için API üzerinden erişilebilir olan, &#8220;Thinking&#8221; ve &#8220;Pro&#8221; sürümlerine sahip GPT-5.4 modeli yayınlandı.</li>\n<li><strong>Google:</strong> Gemini 3 serisinin en hızlı ve donanım dostu modeli olan Gemini 3.1 Flash-Lite duyuruldu. Modelin önceki nesillere göre mantık testlerinde ciddi bir sıçrama yaptığı belirtiliyor.</li>\n<li><strong>Microsoft:</strong> Görüntü ve metin işleyebilen, 15 milyar parametreli donanım verimli akıl yürütme modeli Phi-4-reasoning-vision-15B tanıtıldı.</li>\n<li><strong>Anthropic:</strong> Geliştiriciler için terminal ortamında çalışan Claude Code arayüzüne yeni bir ses modu entegre edildi.</li>\n<li><strong>Alibaba:</strong> Açık kaynak tarafında iddialı olan ve gpt-oss-120B&#8217;yi geride bıraktığı açıklanan Qwen 3.5 Small Model serisi (0.8B ile 9B arası parametre) piyasaya sürüldü.</li>\n<li><strong>xAI:</strong> Daha iyi talimat izleme ve azaltılmış halüsinasyon kapasitesiyle Grok 4.20 Beta 2 kullanıma açıldı.</li>\n</ul>\n<h2>Ürün Güncellemeleri ve Geliştirici Araçları</h2>\n<p>Otomasyon ve geliştirici ekosisteminde yeni nesil ajanlar ve platformlar devreye alındı. OpenAI, yerel bir sanal alan (sandbox) barındıran Windows için Codex uygulamasını yayınladı ve Microsoft GitHub&#8217;a alternatif bir iç kod deposu geliştirmeye başladı. Bulut altyapılarında ise Google Cloud, telekom operatörlerinin ağ operasyonları için &#8220;Level 4&#8221; otonomi seviyesinde yapay zeka ajanlarını tanıtırken; AWS, sağlık sektöründeki idari süreçleri otomatize eden Amazon Connect Health platformunu duyurdu. Veri işlemede NotebookLM, yüklenen belgeleri doğrudan animasyonlu videolara dönüştüren özelliğini devreye soktu.</p>\n<h2>Yatırım ve Gelir Ölçeklenmesi</h2>\n<p>Geliştirici araçlarının pazar payı hızla büyüyor. Yapay zeka tabanlı kodlama editörü Cursor&#8217;ın yıllık tekrarlayan geliri (ARR) son üç ayda ikiye katlanarak 2 milyar doları aştı. Benzer şekilde OpenAI&#8217;ın da yıllık gelir hızının 25 milyar dolar seviyesini geçtiği tahmin ediliyor. Donanım ve çip altyapısı tarafında ise Nvidia, optik ve fotonik teknolojilerini hızlandırmak amacıyla Lumentum ve Coherent şirketlerine toplamda 4 milyar dolarlık devasa bir yatırım gerçekleştirdi.</p>\n",
+  "date": "2026-03-07T23:01:33Z",
+  "modified": "2026-03-07T23:01:33Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 197,
+      "name": "Claude",
+      "slug": "claude"
+    },
+    {
+      "id": 72,
+      "name": "Cursor",
+      "slug": "cursor"
+    },
+    {
+      "id": 193,
+      "name": "Gemini",
+      "slug": "gemini"
+    },
+    {
+      "id": 126,
+      "name": "GPT-5",
+      "slug": "gpt-5"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 376,
+      "name": "Phi-4",
+      "slug": "phi-4"
+    },
+    {
+      "id": 237,
+      "name": "Yapay Zeka Ajanları",
+      "slug": "yapay-zeka-ajanlari"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-anthropic-krizi-ve-yeni-ai-modelleri-1772924490386.jpg",
+    "alt": "OpenAI, Anthropic Krizi ve Yeni AI Modelleri",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-anthropic-krizi-ve-yeni-ai-modelleri-1772924490386-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-anthropic-krizi-ve-yeni-ai-modelleri-1772924490386-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-anthropic-krizi-ve-yeni-ai-modelleri-1772924490386-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-anthropic-krizi-ve-yeni-ai-modelleri-1772924490386-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-anthropic-krizi-ve-yeni-ai-modelleri-1772924490386.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

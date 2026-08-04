@@ -1,145 +1,98 @@
-
 import React from 'react';
-import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
+import { useLoaderData } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import { useState, useEffect } from 'react';
-import { ArrowRight, Eye, Loader2 } from 'lucide-react';
-import { getProjects } from '@/services/api';
+import { ArrowRight, Eye } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import Seo from '@/components/Seo';
+import { BreadcrumbJsonLd } from '@/components/JsonLd';
+import { LocalizedLink } from '@/i18n/Link';
+import { useLocale } from '@/i18n/LocaleProvider';
+import { pathFor } from '@/i18n/routes';
+import { COMPANY } from '@/data/company';
 
-const ProjectsPage = () => {
-  const [projects, setProjects] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    const fetchProjects = async () => {
-      try {
-        const data = await getProjects();
-        console.log('Projects API Response:', data); // Debug log
-
-        // Map WordPress API data to component format
-        const formattedProjects = data.map(item => {
-          console.log(`Project ID ${item.id} Media:`, item._embedded?.['wp:featuredmedia']); // Debug log for media
-          
-          return {
-            id: item.id,
-            title: item.title?.rendered || 'Başlıksız Proje',
-            summary: item.acf?.proje_kisa_aciklamasi || (item.excerpt?.rendered ? item.excerpt.rendered.replace(/<[^>]+>/g, '') : ''),
-            image: item._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/800x600?text=No+Image',
-            category: item.acf?.kategori || 'Genel' // Assuming you might add a category field or use standard WP categories
-          };
-        });
-        setProjects(formattedProjects);
-      } catch (err) {
-        console.error('Error fetching projects:', err);
-        setError('Projeler yüklenirken bir hata oluştu.');
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchProjects();
-  }, []);
+export default function ProjectsPage() {
+  const { projects = [] } = useLoaderData() ?? {};
+  const { t } = useTranslation('projects');
+  const locale = useLocale();
 
   return (
     <>
-      <Helmet>
-        <title>Ankaverse - Projeler</title>
-        <meta name="description" content="Ankaverse Projeler - Tamamladığımız başarılı dijital projeler." />
-      </Helmet>
-      <Navbar />
+      <Seo routeKey="projects" />
+      <BreadcrumbJsonLd
+        items={[
+          { name: COMPANY.name, path: pathFor('home', locale) },
+          { name: t('title'), path: pathFor('projects', locale) },
+        ]}
+      />
+
       <main className="bg-[#1a1b1e] text-white pt-20 min-h-screen">
-        {/* Header Section */}
         <section className="py-20 bg-[#111] relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-1/3 h-full bg-[#d4af37]/5 skew-x-12 transform origin-bottom" />
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl">
-              <span className="text-[#d4af37] font-bold tracking-wider text-sm uppercase mb-4 block">Portfolyo</span>
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">Başarı Hikayelerimiz</h1>
-              <p className="text-xl text-gray-400 leading-relaxed">
-                YAPMIŞ OLDUĞUMUZ VE DEVAM EDEN PROJELERİ KEŞFEDİN. HER BİR PROJE, YARATICILIĞIMIZIN VE TEKNOLOJİK UZMANLIĞIMIZIN BİR YANSIMASIDIR.
-                
-              </p> 
+              <span className="text-[#d4af37] font-bold tracking-wider text-sm uppercase mb-4 block">
+                {t('eyebrow')}
+              </span>
+              <h1 className="text-4xl md:text-6xl font-bold mb-6">{t('title')}</h1>
+              <p className="text-xl text-gray-400 leading-relaxed">{t('subtitle')}</p>
             </div>
           </div>
         </section>
 
-        {/* Projects Grid */}
         <section className="py-24 bg-[#1a1b1e]">
           <div className="container mx-auto px-4">
-            {loading ? (
-              <div className="flex justify-center items-center min-h-[300px]">
-                <Loader2 className="w-12 h-12 text-[#d4af37] animate-spin" />
-              </div>
-            ) : error ? (
-              <div className="text-center text-red-500 py-10">
-                {error}
-              </div>
-            ) : (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {projects.map((project, index) => (
-                  <motion.div
-                    key={project.id}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: index * 0.1 }}
-                    className="group relative bg-[#25262b] rounded-xl overflow-hidden border border-white/5 shadow-lg hover:shadow-xl hover:shadow-[#d4af37]/10 transition-all duration-300"
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {projects.map((project, index) => (
+                <motion.article
+                  key={project.slug}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                  className="group relative bg-[#25262b] rounded-xl overflow-hidden border border-white/5 shadow-lg hover:shadow-xl hover:shadow-[#d4af37]/10 transition-all duration-300"
+                >
+                  <LocalizedLink
+                    to="projectDetail"
+                    params={{ slug: project.slug }}
+                    className="block h-full"
                   >
-                    <Link to={`/projeler/${project.id}`} className="block h-full">
-                      {/* Image Container */}
-                      <div className="aspect-video overflow-hidden relative">
+                    <div className="aspect-video overflow-hidden relative bg-[#1a1b1e]">
+                      {project.image && (
                         <img
                           className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
-                          src={project.image}
-                          alt={project.title}
+                          src={project.image.url}
+                          srcSet={project.image.srcset || undefined}
+                          sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                          alt={project.image.alt || project.title}
+                          width={project.image.width ?? undefined}
+                          height={project.image.height ?? undefined}
                           loading="lazy"
                         />
-                        
-                        {/* Overlay - Darkens on hover */}
-                        <div className="absolute inset-0 bg-black/20 group-hover:bg-black/60 transition-colors duration-300 z-10" />
-                        
-                        {/* Category Tag */}
-                        <div className="absolute top-4 left-4 z-20">
-                          <span className="bg-black/50 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full border border-white/10">
-                            {project.category}
-                          </span>
-                        </div>
-
-                        {/* Centered Hover Action Icon */}
-                        <div className="absolute inset-0 z-20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                          <div className="bg-[#d4af37] text-black p-3 rounded-full transform scale-50 group-hover:scale-100 transition-transform duration-300 shadow-lg">
-                            <Eye className="w-6 h-6" />
-                          </div>
+                      )}
+                      <div className="absolute inset-0 bg-black/20 group-hover:bg-black/60 transition-colors duration-300 z-10" />
+                      <div className="absolute inset-0 z-20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div className="bg-[#d4af37] text-black p-3 rounded-full shadow-lg">
+                          <Eye className="w-6 h-6" aria-hidden="true" />
                         </div>
                       </div>
+                    </div>
 
-                      {/* Content Container */}
-                      <div className="p-6">
-                        <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#d4af37] transition-colors">
-                          {project.title}
-                        </h3>
-                        <p className="text-gray-400 text-sm line-clamp-3 mb-4">
-                          {project.summary}
-                        </p>
-                        
-                        <div className="flex items-center text-[#d4af37] text-sm font-medium mt-auto">
-                          İncele <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                        </div>
+                    <div className="p-6">
+                      <h2 className="text-xl font-bold text-white mb-3 group-hover:text-[#d4af37] transition-colors">
+                        {project.title}
+                      </h2>
+                      <p className="text-gray-400 text-sm line-clamp-3 mb-4">{project.excerpt}</p>
+                      <div className="flex items-center text-[#d4af37] text-sm font-medium mt-auto">
+                        {t('card.view')}{' '}
+                        <ArrowRight className="ms-2 h-4 w-4 rtl:rotate-180" aria-hidden="true" />
                       </div>
-                    </Link>
-                  </motion.div>
-                ))}
-              </div>
-            )}
+                    </div>
+                  </LocalizedLink>
+                </motion.article>
+              ))}
+            </div>
           </div>
         </section>
       </main>
-      <Footer />
     </>
   );
-};
-
-export default ProjectsPage;
+}

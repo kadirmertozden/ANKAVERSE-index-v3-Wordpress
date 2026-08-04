@@ -1,0 +1,89 @@
+{
+  "id": 316,
+  "slug": "ai-news-hardware-lawsuits-and-investments",
+  "lang": "en",
+  "title": "AI News: Hardware, Lawsuits, and Investments",
+  "excerpt": "The Legal Dispute Between OpenAI and Elon Musk Elon Musk is seeking up to $134 billion in damages from OpenAI and Microsoft, alleging a deviation from their nonprofit mission. OpenAI, however, is contesting this claim, arguing that Musk’s allegations are based on incomplete information. Hardware-Focused Developments AI companies are moving beyond software and preparing to take concrete steps in the hardware space: OpenAI: [&hellip;]",
+  "content": "<h2>The Legal Dispute Between OpenAI and Elon Musk</h2>\n<p>Elon Musk is seeking up to $134 billion in damages from OpenAI and Microsoft, alleging a deviation from their nonprofit mission. OpenAI, however, is contesting this claim, arguing that Musk’s allegations are based on incomplete information.</p>\n<h2>Hardware-Focused Developments</h2>\n<p>AI companies are moving beyond software and preparing to take concrete steps in the hardware sector:</p>\n<ul>\n<li><strong>OpenAI:</strong> The company is preparing to unveil its first AI hardware in the second half of 2026.</li>\n<li><strong>Apple:</strong> The company is working on a new, screenless, and fully AI-focused wearable device. Additionally, with iOS 27, Siri is expected to evolve into a chatbot capable of writing code and analyzing files.</li>\n<li><strong>Tesla:</strong> The humanoid robot Optimus is slated for release next year.</li>\n</ul>\n<h2>Model and Product Integrations</h2>\n<p>Existing platforms and new models continue to expand their AI capabilities:</p>\n<ul>\n<li><strong>Google:</strong> The “Reply Now” feature has been added to the Gemini app, and AI Mode has been updated to provide access to data from Gmail and Photos.</li>\n<li><strong>Adobe Acrobat:</strong> AI support will allow PDF documents to be converted into podcasts and presentations.</li>\n<li><strong>Z AI &amp; Liquid AI:</strong> The 30-billion-parameter GLM-4.7-Flash and the LFM2.5-1.2B-Thinking models, which can run on smartphones, have been released.</li>\n<li><strong>YouTube:</strong> The production of Shorts using AI-powered digital twins for content creators is being tested.</li>\n</ul>\n<h2>Investment Ecosystem</h2>\n<p>Financial activity in the sector continues with major funding rounds at the infrastructure and application layers:</p>\n<ul>\n<li><strong>Humans&amp;:</strong> The startup founded by former Anthropic and xAI employees secured $480 million in seed funding.</li>\n<li><strong>Baseten:</strong> The AI inference platform reached a $5 billion valuation with a $300 million investment.</li>\n<li><strong>LiveKit:</strong> The startup that powers OpenAI and xAI’s infrastructure has raised $100 million, achieving unicorn status.</li>\n<li><strong>OpenEvidence:</strong> The company raised $250 million, increasing its valuation to $12 billion.</li>\n</ul>\n<h2>Davos and Future Forecasts</h2>\n<p>At the World Economic Forum, executives from Anthropic and DeepMind participated in discussions on chip export policies and the future of software engineering. It is predicted that coding processes will become largely automated, but new skill sets will emerge.</p>\n",
+  "date": "2026-01-24T23:01:50Z",
+  "modified": "2026-01-24T23:01:50Z",
+  "categories": [
+    {
+      "id": 115,
+      "name": "Webrazzi TV",
+      "slug": "webrazzi-tv"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 291,
+      "name": "Elon Musk",
+      "slug": "elon-musk"
+    },
+    {
+      "id": 188,
+      "name": "GLM-4.7",
+      "slug": "glm-4-7"
+    },
+    {
+      "id": 121,
+      "name": "Google Gemini",
+      "slug": "google-gemini"
+    },
+    {
+      "id": 186,
+      "name": "Liquid AI",
+      "slug": "liquid-ai"
+    },
+    {
+      "id": 293,
+      "name": "LiveKit",
+      "slug": "livekit"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 292,
+      "name": "Tesla Optimus",
+      "slug": "tesla-optimus"
+    },
+    {
+      "id": 120,
+      "name": "Yapay Zeka Donanımı",
+      "slug": "yapay-zeka-donanimi"
+    },
+    {
+      "id": 147,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-gundemi-donanim-dava-ve-yatirimlar-1769295709607.jpg",
+    "alt": "Yapay Zeka Gündemi: Donanım, Dava ve Yatırımlar",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-gundemi-donanim-dava-ve-yatirimlar-1769295709607-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-gundemi-donanim-dava-ve-yatirimlar-1769295709607-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-gundemi-donanim-dava-ve-yatirimlar-1769295709607-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-gundemi-donanim-dava-ve-yatirimlar-1769295709607-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-gundemi-donanim-dava-ve-yatirimlar-1769295709607.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "yapay-zeka-gundemi-donanim-dava-ve-yatirimlar",
+  "sourceHash": "32c618a53467ee55"
+}

@@ -1,0 +1,87 @@
+{
+  "id": 306,
+  "slug": "i10x-yapay-zeka-araclarini-tek-panelde-toplayan-platform",
+  "lang": "tr",
+  "title": "i10X: Yapay zeka araçlarını tek panelde toplayan platform",
+  "excerpt": "Tüm Modeller Tek Ekranda i10X, kullanıcıların farklı yapay zeka aboneliklerini yönetme zorluğunu ortadan kaldırmayı hedefleyen birleşik bir çalışma alanı sunmaktadır. Platform; GPT, Claude, Gemini ve Grok gibi önde gelen Büyük Dil Modellerini (LLM) \"Chat Arena\" adı verilen tek bir arayüzde toplamaktadır. Bu yapı, kullanıcıların aynı istemi (prompt) farklı modellerde test ederek sonuçları doğruluk ve yaratıcılık [&hellip;]",
+  "content": "<h2>Tüm Modeller Tek Ekranda</h2>\n<p>i10X, kullanıcıların farklı yapay zeka aboneliklerini yönetme zorluğunu ortadan kaldırmayı hedefleyen birleşik bir çalışma alanı sunmaktadır. Platform; GPT, Claude, Gemini ve Grok gibi önde gelen Büyük Dil Modellerini (LLM) &#8220;Chat Arena&#8221; adı verilen tek bir arayüzde toplamaktadır. Bu yapı, kullanıcıların aynı istemi (prompt) farklı modellerde test ederek sonuçları doğruluk ve yaratıcılık açısından karşılaştırmasına olanak tanır.</p>\n<h2>Geniş Kapsamlı Araç Seti ve Ajan Pazarı</h2>\n<p>Sistem sadece metin tabanlı sohbet botlarıyla sınırlı kalmayıp, görsel ve video üretim süreçlerini de kapsamaktadır. Nano Banana, DALL-E, Kling ve Veo gibi medya motorları entegre edilerek sosyal medya görselleri veya kısa videolar üretilebilmektedir. Ayrıca platform, PDF özetleme ve sözleşme analizi gibi belge odaklı işlemler için de özelleşmiş çözümler sunar.</p>\n<p>i10X altyapısında, belirli görevler için yapılandırılmış 500’den fazla yapay zeka ajanı bulunmaktadır. Bu ajanlar şu kategorilerde sınıflandırılmıştır:</p>\n<ul>\n<li>İş ve Pazarlama Otomasyonları</li>\n<li>SEO Optimizasyonu</li>\n<li>Eğitim ve Araştırma Asistanları</li>\n<li>Yazılım ve Kodlama Destekleri</li>\n</ul>\n<h2>Maliyet ve Erişim</h2>\n<p>NVIDIA Inception programının bir parçası olan i10X, çoklu abonelik maliyetlerini düşürmeyi amaçlamaktadır. Bireysel olarak ChatGPT Plus, Claude Pro ve Midjourney gibi servislere ödenen toplam maliyetin aksine, platform bu araçları tek bir üyelik modeliyle sunmaktadır. Girişimciler ve içerik üreticileri için tasarlanan panel, iş akışlarını merkezileştirerek verimliliği artırmayı hedefler.</p>\n",
+  "date": "2026-01-17T23:04:43Z",
+  "modified": "2026-01-17T23:04:43Z",
+  "categories": [
+    {
+      "id": 287,
+      "name": "Araçlar",
+      "slug": "araclar"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 197,
+      "name": "Claude",
+      "slug": "claude"
+    },
+    {
+      "id": 193,
+      "name": "Gemini",
+      "slug": "gemini"
+    },
+    {
+      "id": 73,
+      "name": "Generative AI",
+      "slug": "generative-ai"
+    },
+    {
+      "id": 289,
+      "name": "GPT",
+      "slug": "gpt"
+    },
+    {
+      "id": 286,
+      "name": "Grok",
+      "slug": "grok"
+    },
+    {
+      "id": 290,
+      "name": "i10X",
+      "slug": "i10x"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 288,
+      "name": "NVIDIA Inception",
+      "slug": "nvidia-inception"
+    },
+    {
+      "id": 156,
+      "name": "SaaS",
+      "slug": "saas"
+    },
+    {
+      "id": 89,
+      "name": "Verimlilik",
+      "slug": "verimlilik"
+    },
+    {
+      "id": 237,
+      "name": "Yapay Zeka Ajanları",
+      "slug": "yapay-zeka-ajanlari"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/i10x-yapay-zeka-araclarini-tek-panelde-toplayan-platform-1768691080799.jpg",
+    "alt": "i10X: Yapay zeka araçlarını tek panelde toplayan platform",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/i10x-yapay-zeka-araclarini-tek-panelde-toplayan-platform-1768691080799-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/i10x-yapay-zeka-araclarini-tek-panelde-toplayan-platform-1768691080799-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/i10x-yapay-zeka-araclarini-tek-panelde-toplayan-platform-1768691080799-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/i10x-yapay-zeka-araclarini-tek-panelde-toplayan-platform-1768691080799-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/i10x-yapay-zeka-araclarini-tek-panelde-toplayan-platform-1768691080799.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

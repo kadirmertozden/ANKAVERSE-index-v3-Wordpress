@@ -1,0 +1,72 @@
+{
+  "id": 322,
+  "slug": "apple-yapay-zeka-yonetimini-craig-federighi-devraldi",
+  "lang": "tr",
+  "title": "Apple Yapay Zeka Yönetimini Craig Federighi Devraldı",
+  "excerpt": "Organizasyonel Yeniden Yapılanma Apple, yapay zeka stratejisinde köklü bir değişikliğe giderek tüm AI operasyonlarını Yazılım Şefi Craig Federighi'nin doğrudan denetimine aldı. The Information raporuna göre, Siri ve Apple Intelligence özelliklerinin geliştirilme süreçlerinde yaşanan gecikmeler, bu merkezi yönetim kararında etkili oldu. Daha önce ayrı bir yapay zeka grubu altında bulunan Siri ekibi, artık Federighi'nin yazılım departmanına [&hellip;]",
+  "content": "<h2>Organizasyonel Yeniden Yapılanma</h2>\n<p>Apple, yapay zeka stratejisinde köklü bir değişikliğe giderek tüm AI operasyonlarını Yazılım Şefi Craig Federighi&#8217;nin doğrudan denetimine aldı. The Information raporuna göre, Siri ve Apple Intelligence özelliklerinin geliştirilme süreçlerinde yaşanan gecikmeler, bu merkezi yönetim kararında etkili oldu. Daha önce ayrı bir yapay zeka grubu altında bulunan Siri ekibi, artık Federighi&#8217;nin yazılım departmanına rapor verecek.</p>\n<h2>Teknik Strateji ve Altyapı Tercihleri</h2>\n<p>Yeni yönetim anlayışı, rakiplerin devasa altyapı harcamalarının aksine daha maliyet odaklı ve verimli bir yaklaşımı benimsiyor. Federighi, belirsiz getirili büyük veri merkezi yatırımları yerine, donanım optimizasyonuna öncelik veriyor. Bu kapsamda şirket, Google Gemini gibi dış kaynaklı modelleri kullanırken, kendi geliştirdiği modelleri de Apple donanımlarında çalışacak şekilde küçültmeyi hedefliyor.</p>\n<p>Apple&#8217;ın güncellenen teknik yol haritasında öne çıkan başlıklar şunlar:</p>\n<ul>\n<li><strong>Cihaz İçi İşleme (On-device Processing):</strong> Gecikmeyi azaltmak ve gizliliği korumak amacıyla tüketici taleplerinin çoğu yerel donanımda işlenecek.</li>\n<li><strong>Private Cloud Compute:</strong> Yerel işlem gücünün yetersiz kaldığı durumlarda, Apple Silicon tabanlı özel bulut sunucuları devreye girecek.</li>\n<li><strong>Hibrit Model Yapısı:</strong> Dış ortaklardan sağlanan büyük dil modelleri ile Apple&#8217;ın kendi verimli modelleri bir arada kullanılacak.</li>\n</ul>\n",
+  "date": "2026-01-24T23:04:08Z",
+  "modified": "2026-01-24T23:04:08Z",
+  "categories": [
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 301,
+      "name": "Apple Intelligence",
+      "slug": "apple-intelligence"
+    },
+    {
+      "id": 298,
+      "name": "Craig Federighi",
+      "slug": "craig-federighi"
+    },
+    {
+      "id": 193,
+      "name": "Gemini",
+      "slug": "gemini"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 300,
+      "name": "On-device AI",
+      "slug": "on-device-ai"
+    },
+    {
+      "id": 299,
+      "name": "Private Cloud Compute",
+      "slug": "private-cloud-compute"
+    },
+    {
+      "id": 276,
+      "name": "Siri",
+      "slug": "siri"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-yapay-zeka-yonetimini-craig-federighi-devraldi-1769295847585.jpg",
+    "alt": "Apple Yapay Zeka Yönetimini Craig Federighi Devraldı",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-yapay-zeka-yonetimini-craig-federighi-devraldi-1769295847585-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-yapay-zeka-yonetimini-craig-federighi-devraldi-1769295847585-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-yapay-zeka-yonetimini-craig-federighi-devraldi-1769295847585-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-yapay-zeka-yonetimini-craig-federighi-devraldi-1769295847585-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-yapay-zeka-yonetimini-craig-federighi-devraldi-1769295847585.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

@@ -1,0 +1,79 @@
+{
+  "id": 228,
+  "slug": "tiiny-ai-pocket-lab-a-pocket-sized-computer-with-120-billion-parameters",
+  "lang": "en",
+  "title": "Tiiny AI Pocket Lab: A Pocket-Sized Computer with 120 Billion Parameters",
+  "excerpt": "Cloud-Independent Local AI Solution U.S.-based startup Tiiny AI has unveiled Pocket Lab, a pocket-sized computer capable of running large language models (LLMs) without the need for cloud servers. The device has been recognized by the Guinness World Records as the “smallest Mini PC capable of running an LLM with 100 billion parameters.” Pocket Lab offers the ability to perform local processing while maintaining data privacy without requiring an internet connection. [&hellip;]",
+  "content": "<h2>Cloud-Independent On-Premises AI Solution</h2>\n<p>U.S.-based startup Tiiny AI has unveiled Pocket Lab, a pocket-sized computer capable of running large language models (LLMs) without the need for cloud servers. The device has been certified by the Guinness World Records as the “smallest Mini PC capable of running an LLM with 100 billion parameters.” Pocket Lab offers the ability to perform local processing while maintaining data privacy without requiring an internet connection.</p>\n<h2>Technical Specifications and Performance</h2>\n<p>Tiiny AI’s Pocket Lab can process popular models such as Llama, Mistral, and DeepSeek on its own hardware. The device has a powerful infrastructure capable of running models with up to 120 billion parameters locally. At the heart of the system is a 12-core ARMv9.2 processor and a dedicated neural processing unit (NPU).</p>\n<p>The most notable hardware detail is its memory capacity. The device comes with 80 GB of LPDDR5X RAM and 1 TB of SSD storage to ensure large models can be loaded into memory and run smoothly. Total AI processing power is approximately 190 TOPS. Power consumption has a TDP of 30W, while typical system power hovers around 65W.</p>\n<p>The device’s key technical specifications are as follows:</p>\n<ul>\n<li><strong>Processor:</strong> 12-core ARMv9.2</li>\n<li><strong>Memory:</strong> 80 GB LPDDR5X</li>\n<li><strong>Storage:</strong> 1 TB SSD</li>\n<li><strong>AI Performance:</strong> ~190 TOPS (NPU + SoC)</li>\n<li><strong>Dimensions:</strong> 14.2 x 8 x 2.53 cm</li>\n<li><strong>Weight:</strong> 300 grams</li>\n</ul>\n<h2>Use Cases and Expected Release Date</h2>\n<p>This hardware ensures that data remains on-premises, making it ideal for developers and researchers who prioritize data privacy. Pricing for the Tiiny AI Pocket Lab has not yet been announced; details and its availability to end users are expected to be finalized at CES 2026.</p>\n",
+  "date": "2025-12-13T23:04:15Z",
+  "modified": "2025-12-13T23:04:15Z",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Genel",
+      "slug": "genel"
+    }
+  ],
+  "tags": [
+    {
+      "id": 132,
+      "name": "ARMv9.2",
+      "slug": "armv9-2"
+    },
+    {
+      "id": 98,
+      "name": "CES 2026",
+      "slug": "ces-2026"
+    },
+    {
+      "id": 139,
+      "name": "Donanım",
+      "slug": "donanim"
+    },
+    {
+      "id": 135,
+      "name": "Edge AI",
+      "slug": "edge-ai"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 137,
+      "name": "LPDDR5X",
+      "slug": "lpddr5x"
+    },
+    {
+      "id": 136,
+      "name": "NPU",
+      "slug": "npu"
+    },
+    {
+      "id": 134,
+      "name": "Pocket Lab",
+      "slug": "pocket-lab"
+    },
+    {
+      "id": 133,
+      "name": "Tiiny AI",
+      "slug": "tiiny-ai"
+    },
+    {
+      "id": 138,
+      "name": "Yerel Yapay Zeka",
+      "slug": "yerel-yapay-zeka"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/tiiny-ai-pocket-lab-120-milyar-parametreli-cep-bilgisayari-1765667052169.jpg",
+    "alt": "Tiiny AI Pocket Lab: 120 Milyar Parametreli Cep Bilgisayarı",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/tiiny-ai-pocket-lab-120-milyar-parametreli-cep-bilgisayari-1765667052169-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/tiiny-ai-pocket-lab-120-milyar-parametreli-cep-bilgisayari-1765667052169-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/tiiny-ai-pocket-lab-120-milyar-parametreli-cep-bilgisayari-1765667052169-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/tiiny-ai-pocket-lab-120-milyar-parametreli-cep-bilgisayari-1765667052169-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/tiiny-ai-pocket-lab-120-milyar-parametreli-cep-bilgisayari-1765667052169.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "tiiny-ai-pocket-lab-120-milyar-parametreli-cep-bilgisayari",
+  "sourceHash": "0b14be6be13eb80c"
+}

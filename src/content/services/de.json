@@ -1,0 +1,83 @@
+[
+  {
+    "id": 20,
+    "slug": "3d-modelleme-dijital-uretim",
+    "title": "3D-Modellierung & digitale Fertigung",
+    "description": "Professionelle 3D-Lösungen für Ihre Anforderungen im Bereich Industriedesign und Visualisierung.",
+    "icon": "Box",
+    "features": [
+      "Modellierung industrieller Produkte",
+      "Professionelle CAD-Zeichnungen",
+      "Fotorealistische Renderings und Animationen",
+      "Erstellung von Dateien für die Prototypenfertigung",
+      "Simulations- und Konstruktionsvalidierungsanalysen",
+      "Produktionsreife digitale Modellierung",
+      "3D-Architekturvisualisierung"
+    ],
+    "sourceHash": "703274f2b39ad6c2"
+  },
+  {
+    "id": 19,
+    "slug": "yapay-zeka-cozumleri",
+    "title": "Lösungen im Bereich der künstlichen Intelligenz",
+    "description": "Intelligente Analysen zur Steigerung der Effizienz mithilfe von speziell auf Ihr Unternehmen zugeschnittenen KI-Modellen.",
+    "icon": "BrainCircuit",
+    "features": [
+      "Domänenspezifische NLP-Modelle für die türkische Sprache",
+      "Systeme zur automatischen Inhaltsüberprüfung",
+      "Intelligente Algorithmen zur Erkennung von Produktvarianten",
+      "Bereinigung und Aufbereitung großer Datenmengen",
+      "LLM-basierte eingehende Analyse",
+      "KI-gestützte betriebliche Automatisierung"
+    ],
+    "sourceHash": "3fa57e8778c834f1"
+  },
+  {
+    "id": 18,
+    "slug": "e-ticaret-teknolojileri",
+    "title": "E-Commerce-Technologien",
+    "description": "Lösungen für Datenmanagement und Infrastruktur für groß angelegte E-Commerce-Betriebe.",
+    "icon": "ShoppingCart",
+    "features": [
+      "Produktdatenmanagement in großem Maßstab",
+      "Eine für über 10.000 SKUs optimierte Pipeline",
+      "HTML-Kommentare und Automatisierung von Inhalten",
+      "Prozesse zur visuellen Standardisierung",
+      "Vollständige Kompatibilität mit Hepsiburada / Trendyol",
+      "Integration von N8N- und KI-Hybridsystemen"
+    ],
+    "sourceHash": "a9e51d225d26ea8a"
+  },
+  {
+    "id": 17,
+    "slug": "otomasyon-entegrasyon",
+    "title": "Automatisierung & Integration",
+    "description": "Intelligente Automatisierungslösungen und nahtlos integrierte Systeme, die Ihre Geschäftsprozesse beschleunigen.",
+    "icon": "Workflow",
+    "features": [
+      "n8n-Workflow-Automatisierungen",
+      "Cron-basierte periodische Datenverarbeitung",
+      "Telegram-Bot- und Trigger-Integrationen",
+      "XML-/CSV-Datenextraktion und -verarbeitung",
+      "API-Integrationen für Marktplätze",
+      "Optimierung des Datenstroms und Serverleistung"
+    ],
+    "sourceHash": "a1500b0f413404ea"
+  },
+  {
+    "id": 15,
+    "slug": "yazilim-gelistirme",
+    "title": "Softwareentwicklung",
+    "description": "Wir bieten skalierbare und sichere Unternehmenssoftwarelösungen auf Basis moderner Technologien an.",
+    "icon": "Code2",
+    "features": [
+      "API-basierte Unternehmenslösungen",
+      "Entwicklung von Webanwendungen und Administrationsportalen",
+      "Fortschrittliche Mechanismen zur Datenüberprüfung",
+      "Python-/Node.js-/.NET-Infrastrukturen",
+      "Verwaltung von MSSQL-, PostgreSQL- und Redis-Datenbanken",
+      "Docker und Microservice-Architekturen"
+    ],
+    "sourceHash": "0954e06e3e125286"
+  }
+]

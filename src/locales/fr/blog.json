@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Blog",
+  "title": "Actualités et analyses",
+  "subtitle": "L'univers numérique, les tendances technologiques et les dernières actualités de notre entreprise.",
+  "search": {
+    "placeholder": "Rechercher dans les articles...",
+    "clear": "Effacer les filtres",
+    "resultsFor": "Résultats pour « {{query}} »",
+    "noResults": "Aucun article correspondant à votre recherche n'a été trouvé."
+  },
+  "categories": {
+    "all": "Tout",
+    "label": "Catégories",
+    "default": "Généralités"
+  },
+  "card": {
+    "readMore": "Lire la suite",
+    "readTime": "{{count}} minutes de lecture"
+  },
+  "detail": {
+    "publishedOn": "Publication",
+    "author": "Auteur",
+    "tags": "Mots-clés",
+    "related": "Articles connexes",
+    "notFound": "L'article est introuvable."
+  }
+}

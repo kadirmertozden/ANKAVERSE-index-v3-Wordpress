@@ -5,8 +5,13 @@
   "private": true,
   "scripts": {
     "dev": "vite --host :: --port 3000",
-    "build": "node tools/generate-llms.js || true && vite build",
-    "preview": "vite preview --host :: --port 3000"
+    "build": "node tools/generate-llms.js && vite-react-ssg build && node tools/generate-sitemap.js && node tools/verify-seo.js",
+    "preview": "vite preview --host :: --port 3000",
+    "content:fetch": "node --env-file-if-exists=.env tools/fetch-content.js",
+    "content:translate": "node --env-file-if-exists=.env tools/translate-content.js",
+    "locales:translate": "node --env-file-if-exists=.env tools/translate-locales.js",
+    "content:sync": "npm run content:fetch && npm run locales:translate && npm run content:translate",
+    "verify:seo": "node tools/verify-seo.js"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.1.4",
@@ -22,13 +27,15 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^11.15.0",
+    "i18next": "^24.2.3",
     "lucide-react": "^0.469.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-helmet": "^6.1.0",
-    "react-router-dom": "^6.16.0",
+    "react-i18next": "^15.7.4",
+    "react-router-dom": "^6.30.4",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "vite-react-ssg": "^0.8.9"
   },
   "devDependencies": {
     "@babel/generator": "^7.26.3",
@@ -46,6 +53,6 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
     "terser": "^5.37.0",
-    "vite": "^4.4.5"
+    "vite": "^5.4.21"
   }
 }

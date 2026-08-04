@@ -1,0 +1,72 @@
+{
+  "id": 387,
+  "slug": "anthropic-kurumsal-odakli-claude-marketplacei-duyurdu",
+  "lang": "tr",
+  "title": "Anthropic Kurumsal Odaklı Claude Marketplace'i Duyurdu",
+  "excerpt": "Kurumsal Yapay Zeka Tedarikinde Merkezi Yaklaşım Anthropic, işletmelerin Claude altyapısını kullanan üçüncü taraf yazılımları satın almalarını kolaylaştıran yeni e-ticaret platformu Claude Marketplace'i kullanıma sundu. Sınırlı ön izleme aşamasında olan platform; yazılım tedarik sürecini basitleştirmeyi ve kurumsal yapay zeka harcamalarını tek bir merkezde konsolide etmeyi amaçlıyor. Yeni pazar yeri sayesinde şirketler, birden fazla bulut hizmeti ve [&hellip;]",
+  "content": "<h2>Kurumsal Yapay Zeka Tedarikinde Merkezi Yaklaşım</h2>\n<p>Anthropic, işletmelerin Claude altyapısını kullanan üçüncü taraf yazılımları satın almalarını kolaylaştıran yeni e-ticaret platformu Claude Marketplace&#8217;i kullanıma sundu. Sınırlı ön izleme aşamasında olan platform; yazılım tedarik sürecini basitleştirmeyi ve kurumsal yapay zeka harcamalarını tek bir merkezde konsolide etmeyi amaçlıyor.</p>\n<p>Yeni pazar yeri sayesinde şirketler, birden fazla bulut hizmeti ve farklı sağlayıcılardan gelen faturaları yönetmek yerine tüm süreci Anthropic üzerinden yürütebilecek. Kurumsal düzeyde yapılan Anthropic harcama taahhütlerinin bir kısmı, üçüncü taraf araçların finansmanı için kullanılabilecek. Dağıtım ve ortak harcama faturalandırması Anthropic tarafından yönetilirken, şirket bu işlemlerden herhangi bir komisyon almayacak.</p>\n<h2>İlk Katalogda Yer Alan Teknoloji Ortakları</h2>\n<p>Claude Marketplace, yalnızca şirketin büyük dil modellerini hizmetlerine entegre etmiş olan ürünlere ev sahipliği yapıyor. Başlangıç kataloğunda farklı uzmanlık alanlarına odaklanan önemli platformlar bulunuyor:</p>\n<ul>\n<li><strong>Snowflake ve GitLab:</strong> Veri yönetimi, bulut altyapısı ve DevOps süreçleri için Claude destekli çözümler sunan en büyük sektör oyuncuları.</li>\n<li><strong>Replit ve Lovable:</strong> Replit doğal dil arayüzü ile teknik kullanıcılara kodlama ortamı sağlarken; Lovable, teknik bilgisi olmayan çalışanların komut istemleriyle uygulama oluşturmasına imkan tanıyor.</li>\n<li><strong>Harvey ve Rogo:</strong> Harvey hukuki süreç ve sözleşme taslakları için yapay zeka otomasyonu sunarken; Rogo, finansal veri analizi için yatırım uzmanlarına yönelik araçlar sağlıyor.</li>\n</ul>\n<p>Geçtiğimiz dönemde OpenAI&#8217;ın ChatGPT için başlattığı uygulama dizini hamlesinin ardından gelen Claude Marketplace, Anthropic&#8217;in kurumsal yapay zeka ekosistemindeki rekabet gücünü artırmayı ve geliştiriciler için platform bağımlılığını güçlendirmeyi hedefliyor.</p>\n",
+  "date": "2026-03-07T23:02:22Z",
+  "modified": "2026-03-07T23:02:23Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 378,
+      "name": "Büyük Dil Modelleri",
+      "slug": "buyuk-dil-modelleri"
+    },
+    {
+      "id": 197,
+      "name": "Claude",
+      "slug": "claude"
+    },
+    {
+      "id": 377,
+      "name": "Claude Marketplace",
+      "slug": "claude-marketplace"
+    },
+    {
+      "id": 380,
+      "name": "GitLab",
+      "slug": "gitlab"
+    },
+    {
+      "id": 379,
+      "name": "Kurumsal Yazılım",
+      "slug": "kurumsal-yazilim"
+    },
+    {
+      "id": 156,
+      "name": "SaaS",
+      "slug": "saas"
+    },
+    {
+      "id": 382,
+      "name": "Snowflake",
+      "slug": "snowflake"
+    },
+    {
+      "id": 381,
+      "name": "Yapay Zeka Ekosistemi",
+      "slug": "yapay-zeka-ekosistemi"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/anthropic-kurumsal-odakli-claude-marketplacei-duyurdu-1772924542092.jpg",
+    "alt": "Anthropic Kurumsal Odaklı Claude Marketplace'i Duyurdu",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/anthropic-kurumsal-odakli-claude-marketplacei-duyurdu-1772924542092-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/anthropic-kurumsal-odakli-claude-marketplacei-duyurdu-1772924542092-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/anthropic-kurumsal-odakli-claude-marketplacei-duyurdu-1772924542092-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/anthropic-kurumsal-odakli-claude-marketplacei-duyurdu-1772924542092-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/anthropic-kurumsal-odakli-claude-marketplacei-duyurdu-1772924542092.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

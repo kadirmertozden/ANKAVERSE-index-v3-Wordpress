@@ -1,0 +1,83 @@
+[
+  {
+    "id": 20,
+    "slug": "3d-modelleme-dijital-uretim",
+    "title": "3D Modeling & Digital Manufacturing",
+    "description": "Professional 3D solutions for your industrial design and visualization needs.",
+    "icon": "Box",
+    "features": [
+      "Industrial product models",
+      "Professional CAD technical drawings",
+      "Photorealistic rendering and animation",
+      "Preparing prototype production files",
+      "Simulation and design validation analyses",
+      "Production-ready digital modeling",
+      "3D Architectural Visualization"
+    ],
+    "sourceHash": "703274f2b39ad6c2"
+  },
+  {
+    "id": 19,
+    "slug": "yapay-zeka-cozumleri",
+    "title": "Artificial Intelligence Solutions",
+    "description": "Smart analytics that boost efficiency using AI models tailored to your business.",
+    "icon": "BrainCircuit",
+    "features": [
+      "Domain-specific Turkish NLP models",
+      "Automated content verification systems",
+      "Smart product variant detection algorithms",
+      "Big Data Cleaning and Organization",
+      "LLM-based in-depth analysis",
+      "AI-powered operational automation"
+    ],
+    "sourceHash": "3fa57e8778c834f1"
+  },
+  {
+    "id": 18,
+    "slug": "e-ticaret-teknolojileri",
+    "title": "E-Commerce Technologies",
+    "description": "Data management and infrastructure solutions for large-scale e-commerce operations.",
+    "icon": "ShoppingCart",
+    "features": [
+      "Large-scale product data management",
+      "A pipeline optimized for 10,000+ SKUs",
+      "HTML Annotation and Content Automation",
+      "Visual standardization processes",
+      "Full compatibility with Hepsiburada / Trendyol",
+      "N8N + AI hybrid system integrations"
+    ],
+    "sourceHash": "a9e51d225d26ea8a"
+  },
+  {
+    "id": 17,
+    "slug": "otomasyon-entegrasyon",
+    "title": "Automation & Integration",
+    "description": "Smart automation solutions and seamless integration systems that streamline your business processes.",
+    "icon": "Workflow",
+    "features": [
+      "n8n workflow automations",
+      "Cron-based periodic data processing",
+      "Telegram bot and trigger integrations",
+      "XML / CSV Data Extraction and Processing",
+      "Marketplace API Integrations",
+      "Data Stream Optimization and Server Performance"
+    ],
+    "sourceHash": "a1500b0f413404ea"
+  },
+  {
+    "id": 15,
+    "slug": "yazilim-gelistirme",
+    "title": "Software Development",
+    "description": "We offer scalable and secure enterprise software solutions powered by modern technologies.",
+    "icon": "Code2",
+    "features": [
+      "API-based enterprise solutions",
+      "Web and Control Panel Development",
+      "Advanced data validation mechanisms",
+      "Python / Node.js / .NET platforms",
+      "MSSQL / PostgreSQL / Redis Database Management",
+      "Docker and microservice architectures"
+    ],
+    "sourceHash": "0954e06e3e125286"
+  }
+]

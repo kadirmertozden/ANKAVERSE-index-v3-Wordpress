@@ -1,0 +1,74 @@
+{
+  "id": 285,
+  "slug": "the-gemini-3-effect-chatgpt-traffic-is-down",
+  "lang": "en",
+  "title": "The Gemini 3 Effect: ChatGPT Traffic Is Down",
+  "excerpt": "Changes in AI Traffic Data According to recent data shared by Similarweb, a decline in traffic was observed on OpenAI’s ChatGPT service following the launch of Google’s Gemini 3 model in November. Looking at the data for December, Gemini traffic increased by 28 percent compared to the previous month, while ChatGPT traffic decreased by 5.6 percent. Despite this decline, ChatGPT still had 5.5 billion monthly visitors [&hellip;]",
+  "content": "<h2>Changes in Traffic Data Due to Artificial Intelligence</h2>\n<p>According to recent data shared by Similarweb, a decline in traffic was observed on OpenAI’s ChatGPT service following Google’s launch of its Gemini 3 model in November. Looking at December data, Gemini traffic increased by 28 percent compared to the previous month, while ChatGPT traffic decreased by 5.6 percent.</p>\n<p>Despite this decline, ChatGPT continues to maintain its market leadership by a wide margin with 5.5 billion monthly visitors. During the same period, Gemini reached 1.7 billion visitors. It should be noted that the analyzed data covers only website visits and does not include API integrations or mobile app usage.</p>\n<h2>Competitors’ Status and Growth Rates</h2>\n<p>When evaluated on an annual basis, both platforms recorded positive growth. While ChatGPT’s traffic increased by 49.5 percent year-over-year, Gemini stood out with an aggressive growth rate of 563.6 percent. The current visitor data for other players in the sector is as follows:</p>\n<ul>\n<li><strong>ChatGPT:</strong> 5.5 billion visitors</li>\n<li><strong>Gemini:</strong> 1.7 billion visitors</li>\n<li><strong>Others (DeepSeek, Grok, Claude, Perplexity):</strong> Less than 400 million visitors per platform</li>\n</ul>\n<p>These figures serve as a concrete indicator of the prioritization strategies discussed within OpenAI following the launch of Gemini 3, as well as the shifting market dynamics. Competition in the sector continues to be shaped not only by the technical capabilities of the models but also by their user retention rates.</p>\n",
+  "date": "2026-01-10T23:03:34Z",
+  "modified": "2026-01-10T23:03:34Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 197,
+      "name": "Claude",
+      "slug": "claude"
+    },
+    {
+      "id": 251,
+      "name": "DeepSeek",
+      "slug": "deepseek"
+    },
+    {
+      "id": 124,
+      "name": "Gemini 3",
+      "slug": "gemini-3"
+    },
+    {
+      "id": 198,
+      "name": "Google",
+      "slug": "google"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 250,
+      "name": "Similarweb",
+      "slug": "similarweb"
+    },
+    {
+      "id": 252,
+      "name": "Web Trafiği",
+      "slug": "web-trafigi"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/gemini-3-etkisi-chatgpt-trafiginde-dusus-var-1768086213220.jpg",
+    "alt": "Gemini 3 Etkisi: ChatGPT Trafiğinde Düşüş Var",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/gemini-3-etkisi-chatgpt-trafiginde-dusus-var-1768086213220-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/gemini-3-etkisi-chatgpt-trafiginde-dusus-var-1768086213220-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/gemini-3-etkisi-chatgpt-trafiginde-dusus-var-1768086213220-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/gemini-3-etkisi-chatgpt-trafiginde-dusus-var-1768086213220-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/gemini-3-etkisi-chatgpt-trafiginde-dusus-var-1768086213220.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "gemini-3-etkisi-chatgpt-trafiginde-dusus-var",
+  "sourceHash": "779c4b1e2c0c4ff6"
+}

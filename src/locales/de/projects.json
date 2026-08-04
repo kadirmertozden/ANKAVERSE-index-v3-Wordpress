@@ -1,0 +1,16 @@
+{
+  "eyebrow": "Portfolio",
+  "title": "Unsere Erfolgsgeschichten",
+  "subtitle": "Entdecken Sie unsere abgeschlossenen und laufenden Projekte. Jedes einzelne Projekt spiegelt unsere Kreativität und unser technologisches Know-how wider.",
+  "card": {
+    "view": "Ansehen",
+    "defaultCategory": "Allgemeines"
+  },
+  "detail": {
+    "client": "Kunde",
+    "date": "Datum",
+    "technologies": "Verwendete Technologien",
+    "overview": "Über das Projekt",
+    "notFound": "Es wurde kein Projekt gefunden."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "home": {
+    "title": "ANKAVERSE – Software, KI und E-Commerce-Technologie",
+    "description": "ANKAVERSE ist ein Technologieunternehmen, das Unternehmen mit Lösungen in den Bereichen Softwareentwicklung, Automatisierung, künstliche Intelligenz und E-Commerce in die Zukunft führt."
+  },
+  "about": {
+    "title": "Über uns | ANKAVERSE",
+    "description": "Unternehmensdaten von ANKAVERSE: Vision, Leitbild, Führungsteam und offizielle Unternehmensregistereinträge."
+  },
+  "services": {
+    "title": "Dienstleistungen | ANKAVERSE",
+    "description": "Softwareentwicklung, Automatisierung und Integration, E-Commerce-Infrastruktur, Lösungen im Bereich der künstlichen Intelligenz und 3D-Modellierungsdienstleistungen."
+  },
+  "projects": {
+    "title": "Projekte | ANKAVERSE",
+    "description": "Eine Auswahl von E-Commerce-, Automatisierungs- und KI-Projekten, die von ANKAVERSE entwickelt wurden."
+  },
+  "projectDetail": {
+    "title": "Projekt | ANKAVERSE",
+    "description": "ANKAVERSE – Projektdetails."
+  },
+  "blog": {
+    "title": "Blog | ANKAVERSE",
+    "description": "Artikel von ANKAVERSE zu den Themen Technologie, künstliche Intelligenz, E-Commerce und Softwareentwicklung."
+  },
+  "blogDetail": {
+    "title": "Blog | ANKAVERSE",
+    "description": "ANKAVERSE-Blogbeitrag."
+  },
+  "contact": {
+    "title": "Kontakt | ANKAVERSE",
+    "description": "Nehmen Sie Kontakt mit ANKAVERSE auf: Adresse, Telefonnummer, E-Mail und Angebotsformular."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung | ANKAVERSE",
+    "description": "Datenschutzerklärung und Informationen zum Schutz personenbezogener Daten von ANKAVERSE."
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen | ANKAVERSE",
+    "description": "Nutzungsbedingungen der ANKAVERSE-Website: Nutzung der Dienste, geistiges Eigentum, Haftungsausschluss und Änderungsbedingungen."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden | ANKAVERSE",
+    "description": "Die gesuchte Seite wurde nicht gefunden. Über die ANKAVERSE-Startseite gelangen Sie zu unseren Dienstleistungen, Projekten und Blogbeiträgen."
+  },
+  "vaktiaPrivacy": {
+    "title": "Datenschutzerklärung von Vaktia | ANKAVERSE",
+    "description": "Datenschutzerklärung der Vaktia-App: Erfasste Daten, Verwendungszwecke, Werbepartner und Nutzerrechte."
+  }
+}

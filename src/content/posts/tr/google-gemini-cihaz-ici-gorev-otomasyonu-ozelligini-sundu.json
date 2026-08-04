@@ -1,0 +1,62 @@
+{
+  "id": 378,
+  "slug": "google-gemini-cihaz-ici-gorev-otomasyonu-ozelligini-sundu",
+  "lang": "tr",
+  "title": "Google Gemini cihaz içi görev otomasyonu özelliğini sundu",
+  "excerpt": "Gemini Otonom Bir Ajan Haline Geliyor Google, yapay zeka asistanı Gemini'ı standart bir sohbet arayüzünden çıkarıp görev odaklı otonom bir ajana dönüştüren yeni \"görev otomasyonu\" (task automation) özelliğini duyurdu. Pixel 10 ve Samsung Galaxy S26 serisi cihazlarda kullanıma sunulan bu altyapı, Gemini'ın Uber veya DoorDash gibi üçüncü parti uygulamalar üzerinde çok adımlı işlemleri bağımsız bir [&hellip;]",
+  "content": "<h2>Gemini Otonom Bir Ajan Haline Geliyor</h2>\n<p>Google, yapay zeka asistanı Gemini&#8217;ı standart bir sohbet arayüzünden çıkarıp görev odaklı otonom bir ajana dönüştüren yeni &#8220;görev otomasyonu&#8221; (task automation) özelliğini duyurdu. Pixel 10 ve Samsung Galaxy S26 serisi cihazlarda kullanıma sunulan bu altyapı, Gemini&#8217;ın Uber veya DoorDash gibi üçüncü parti uygulamalar üzerinde çok adımlı işlemleri bağımsız bir şekilde tamamlamasına olanak tanıyor.</p>\n<p>Yeni sistem, komut verildiğinde ilgili uygulamayı izole bir sanal pencerede açarak adres girme, araç çağırma veya ürün seçme gibi işlemleri kendi başına yürütüyor. İşlem süreci kullanıcı tarafından gerçek zamanlı olarak izlenebilirken, ödeme gibi finansal taahhüt gerektiren kritik adımlarda nihai işlem onayı her zaman kullanıcıya bırakılıyor.</p>\n<h2>Cihaz İçi İşleme (On-Device AI) ve Gizlilik Odaklı Mimari</h2>\n<p>Sistemin teknik tarafında öne çıkan en önemli detay, işlemlerin bulut sunuculara aktarılmadan doğrudan cihaz üzerinde (on-device) gerçekleştirilmesi. Pixel 10 ve Galaxy S26 modellerinde bulunan gelişmiş sinir ağı işlem birimleri (NPU) sayesinde, otonom otomasyon süreçleri donanım seviyesinde yerel olarak çalıştırılıyor.</p>\n<p>Bu mimari yaklaşımın teknik süreçlere sağladığı temel avantajlar şunlar:</p>\n<ul>\n<li>Bulut iletişiminin ortadan kalkmasıyla ağ gecikmelerinin (latency) en aza inmesi.</li>\n<li>Kişisel verilerin cihaz dışına çıkmaması sayesinde izole ve yüksek güvenlikli bir işlem ortamı.</li>\n<li>Üçüncü parti uygulamalarla olan etkileşimin sanal bir pencereleme yöntemiyle sınırlandırılması.</li>\n</ul>\n<p>Şu an için ABD ve Güney Kore&#8217;de kısıtlı bir uygulama entegrasyonuyla beta aşamasında sunulan sistem; cihaz tabanlı dolandırıcılık tespiti ve aynı anda birden fazla öğeyi analiz edebilen görsel arama yetenekleriyle destekleniyor. Google, bu hamleyle yapay zeka modellerini yalnızca metin veya kod üreten araçlar olmaktan çıkarıp, uygulama içi eylemleri doğrudan yürütebilen altyapılar olarak konumlandırıyor.</p>\n",
+  "date": "2026-02-28T23:02:57Z",
+  "modified": "2026-02-28T23:02:57Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 334,
+      "name": "Android",
+      "slug": "android"
+    },
+    {
+      "id": 366,
+      "name": "Cihaz İçi Yapay Zeka",
+      "slug": "cihaz-i-ci-yapay-zeka"
+    },
+    {
+      "id": 121,
+      "name": "Google Gemini",
+      "slug": "google-gemini"
+    },
+    {
+      "id": 365,
+      "name": "Görev Otomasyonu",
+      "slug": "gorev-otomasyonu"
+    },
+    {
+      "id": 136,
+      "name": "NPU",
+      "slug": "npu"
+    },
+    {
+      "id": 300,
+      "name": "On-device AI",
+      "slug": "on-device-ai"
+    },
+    {
+      "id": 214,
+      "name": "Otonom Ajanlar",
+      "slug": "otonom-ajanlar"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/google-gemini-cihaz-ici-gorev-otomasyonu-ozelligini-sundu-1772319776610.jpg",
+    "alt": "Google Gemini cihaz içi görev otomasyonu özelliğini sundu",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/google-gemini-cihaz-ici-gorev-otomasyonu-ozelligini-sundu-1772319776610-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/google-gemini-cihaz-ici-gorev-otomasyonu-ozelligini-sundu-1772319776610-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/google-gemini-cihaz-ici-gorev-otomasyonu-ozelligini-sundu-1772319776610-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/google-gemini-cihaz-ici-gorev-otomasyonu-ozelligini-sundu-1772319776610-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/google-gemini-cihaz-ici-gorev-otomasyonu-ozelligini-sundu-1772319776610.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

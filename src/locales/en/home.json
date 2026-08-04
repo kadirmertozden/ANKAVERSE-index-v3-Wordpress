@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "badge": "We Are Building the Future with Technology",
+    "titleLead": "Software, Automation, Artificial Intelligence, and",
+    "titleHighlight": "E-Commerce Technologies",
+    "description": "As a pioneer in digital transformation, ANKAVERSE offers customized technological solutions to businesses. With our robust engineering infrastructure and innovative vision, we modernize your business processes, boost your efficiency, and elevate your brand to global standards."
+  },
+  "whyUs": {
+    "eyebrow": "Why ANKAVERSE?",
+    "title": "We Don't View Technology as Just Code",
+    "description": "By going beyond traditional hosting services, we become your strategic technology partner, directly contributing to your business’s growth. We measure our success not by the server capacity we provide, but by the value we add.",
+    "points": {
+      "data": {
+        "title": "Data-Driven Solutions",
+        "description": "We base our decisions and designs not on assumptions, but on concrete data and analytical insights."
+      },
+      "excellence": {
+        "title": "Technical Excellence",
+        "description": "We aim to exceed industry standards in code quality, security, and performance."
+      },
+      "sustainable": {
+        "title": "Sustainable Architecture",
+        "description": "We build flexible, long-lasting systems that meet today’s needs while being compatible with tomorrow’s technologies."
+      }
+    }
+  },
+  "servicesHeading": "Our Services",
+  "store": {
+    "title": "Our E-Commerce Store",
+    "description": "You can browse ANKAVERSE products in our online store."
+  },
+  "cta": {
+    "title": "Are You Ready to Bring Your Project to Life?",
+    "description": "You imagine it—we’ll make it a reality with ANKAVERSE technology. Contact us today and start your digital transformation journey."
+  }
+}

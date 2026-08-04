@@ -1,0 +1,44 @@
+{
+  "brand": "ANKAVERSE",
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "projects": "Projekte",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "menu": "Menü",
+    "language": "Sprache"
+  },
+  "cta": {
+    "quote": "Angebot anfordern",
+    "start": "Fangen Sie gleich an",
+    "viewProjects": "Sehen Sie sich unsere Projekte an",
+    "contactUs": "Nehmen Sie gleich Kontakt auf",
+    "store": "Zum Shop",
+    "readMore": "Weiterlesen",
+    "backToBlog": "Zurück zum Blog",
+    "backToProjects": "Zurück zu den Projekten",
+    "backHome": "Zurück zur Startseite"
+  },
+  "footer": {
+    "tagline": "Innovative Lösungen, die Ihre Marke in der digitalen Welt voranbringen. Vom E-Commerce bis zur Corporate Identity – gemeinsam gestalten wir die Zukunft.",
+    "quickLinks": "Schnellzugriffe",
+    "ourServices": "Unsere Dienstleistungen",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen"
+  },
+  "state": {
+    "loading": "Wird geladen...",
+    "error": "Beim Laden des Inhalts ist ein Fehler aufgetreten.",
+    "empty": "Es wurden keine Inhalte gefunden."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "heading": "Die gesuchte Seite ist nicht vorhanden",
+    "description": "Der Link wurde möglicherweise verschoben, umbenannt oder hat nie existiert.",
+    "seoDescription": "Die gesuchte Seite wurde nicht gefunden."
+  }
+}

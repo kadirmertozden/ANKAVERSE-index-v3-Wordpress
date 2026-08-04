@@ -1,0 +1,16 @@
+{
+  "eyebrow": "Portfolio",
+  "title": "Our Success Stories",
+  "subtitle": "Discover our completed and ongoing projects. Each project reflects our creativity and technological expertise.",
+  "card": {
+    "view": "Review",
+    "defaultCategory": "General"
+  },
+  "detail": {
+    "client": "Customer",
+    "date": "Date",
+    "technologies": "Technologies Used",
+    "overview": "About the Project",
+    "notFound": "No project was found."
+  }
+}

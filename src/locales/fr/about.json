@@ -1,0 +1,50 @@
+{
+  "eyebrow": "Entreprises",
+  "title": "À propos de nous",
+  "subtitle": "À la croisée de la technologie et de l'innovation, nous accompagnons les entreprises vers l'avenir.",
+  "profile": {
+    "title": "Profil de l'entreprise",
+    "p1": "ANKAVERSE E-Commerce et Technologie SARL est un partenaire technologique de confiance qui accompagne les entreprises dans la complexité du monde numérique et intègre les technologies modernes à leurs processus métier.",
+    "p2": "Depuis notre création, nous avons pour objectif de nous démarquer dans notre secteur grâce à nos solutions de développement logiciel, de systèmes d'automatisation et d'intelligence artificielle. Nous accompagnons nos clients dans leur transformation numérique non seulement en tant que prestataire de services, mais aussi en tant que partenaire stratégique.",
+    "p3": "Grâce à notre approche innovante, à notre solide infrastructure technique et à notre équipe d'experts, nous développons des projets évolutifs, sécurisés et durables, adaptés aux dynamiques du monde du commerce électronique."
+  },
+  "vision": {
+    "title": "Notre vision",
+    "description": "Devenir une marque technologique de premier plan, originaire de Turquie et rayonnant à l'échelle mondiale, qui définit les normes internationales dans le domaine de la technologie et façonne l'avenir grâce à des solutions durables et centrées sur l'humain. Repousser les limites du numérique grâce à notre approche de l'innovation sans limites afin de donner le cap à l'écosystème."
+  },
+  "mission": {
+    "title": "Notre mission",
+    "description": "Proposer des solutions technologiques fiables, innovantes et hautement performantes afin de maximiser le potentiel numérique de nos clients. En respectant nos valeurs éthiques, contribuer à la croissance de nos partenaires commerciaux et développer des projets apportant une valeur ajoutée à la société."
+  },
+  "team": {
+    "title": "Fondateurs et direction",
+    "subtitle": "La structure de direction et les associés fondateurs de notre société.",
+    "shareStructure": "Structure de l'association",
+    "roles": {
+      "director": "Directeur de l'entreprise",
+      "boardChair": "Président du Conseil d'administration"
+    },
+    "shares": {
+      "majority": "Actionnaire majoritaire (%{{share}})",
+      "founding": "Associé fondateur (%{{share}})"
+    }
+  },
+  "official": {
+    "title": "Informations officielles",
+    "subtitle": "Vous trouverez ci-dessous les informations légales et officielles relatives à notre société.",
+    "labels": {
+      "legalName": "Titre",
+      "mersis": "Numéro MERSİS",
+      "tradeRegistryNo": "Numéro d'enregistrement au registre du commerce / Numéro de dossier",
+      "tax": "Administration fiscale / N°",
+      "tradeRegistryOffice": "Direction du registre du commerce",
+      "companyType": "Type d'entreprise",
+      "foundingDate": "Date de création",
+      "director": "Directeur général / Associé majoritaire",
+      "boardChair": "Président du conseil d'administration / Associé",
+      "address": "Adresse",
+      "brand": "Situation de la marque"
+    },
+    "companyType": "SOCIÉTÉ À RESPONSABILITÉ LIMITÉE COMPORTANT PLUS D'UN ASSOCIÉ"
+  }
+}

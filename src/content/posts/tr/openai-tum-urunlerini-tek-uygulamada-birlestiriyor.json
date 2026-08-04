@@ -1,0 +1,72 @@
+{
+  "id": 409,
+  "slug": "openai-tum-urunlerini-tek-uygulamada-birlestiriyor",
+  "lang": "tr",
+  "title": "OpenAI Tüm Ürünlerini Tek Uygulamada Birleştiriyor",
+  "excerpt": "OpenAI'ın Yeni Masaüstü Ekosistemi OpenAI, Mac kullanıcıları odaklı olarak ChatGPT, yazılım geliştirme platformu Codex ve Atlas tarayıcısını tek bir merkezde toplayan yeni bir masaüstü uygulaması geliştiriyor. Uygulama, geliştiricilerin ve profesyonellerin parçalı hizmetler arasında geçiş yapma zorunluluğunu ortadan kaldırarak iş akışlarını tek bir pencereden yönetmesini amaçlıyor. Geliştirilen hepsi bir arada platformun en önemli teknik bileşeni, özerk [&hellip;]",
+  "content": "<h2>OpenAI&#8217;ın Yeni Masaüstü Ekosistemi</h2>\n<p>OpenAI, Mac kullanıcıları odaklı olarak ChatGPT, yazılım geliştirme platformu Codex ve Atlas tarayıcısını tek bir merkezde toplayan yeni bir masaüstü uygulaması geliştiriyor. Uygulama, geliştiricilerin ve profesyonellerin parçalı hizmetler arasında geçiş yapma zorunluluğunu ortadan kaldırarak iş akışlarını tek bir pencereden yönetmesini amaçlıyor.</p>\n<p>Geliştirilen hepsi bir arada platformun en önemli teknik bileşeni, özerk olarak çalışabilen ajan yapay zeka (agentic AI) altyapısı olacak. Bu otonom sistemler, kullanıcının yönlendirmesine ihtiyaç duymadan sistem içerisinde kod yazma, hata ayıklama veya kapsamlı veri analizi gibi karmaşık işlemleri kendi başlarına yürütebilecek.</p>\n<p>OpenAI&#8217;ın bu konsolidasyon stratejisinin arkasında, Anthropic&#8217;in Code Claude ve Cowork gibi ürünlerle kurumsal pazarda elde ettiği ivmenin olduğu biliniyor. Şirket içi bildirimlere göre, rekabetin artmasıyla birlikte yan projeler yerine tamamen kurumsal müşterilerin ihtiyaçlarını karşılayacak temel ürünlere ve entegrasyon süreçlerine öncelik veriliyor. Mevcut mobil uygulamanın ise bu altyapı değişikliğinden kısa vadede etkilenmesi beklenmiyor.</p>\n<ul>\n<li>ChatGPT, Codex ve Atlas tek bir masaüstü uygulamasında birleşiyor.</li>\n<li>Ajan yapay zeka yetenekleriyle otonom kod yazma ve veri analizi işlemleri yapılabilecek.</li>\n<li>Anthropic&#8217;in kurumsal araçlarına karşı pazar payını koruma amacı taşıyor.</li>\n</ul>\n",
+  "date": "2026-03-21T23:02:15Z",
+  "modified": "2026-03-21T23:02:16Z",
+  "categories": [
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 285,
+      "name": "Agentic AI",
+      "slug": "agentic-ai"
+    },
+    {
+      "id": 405,
+      "name": "Ajan Yapay Zeka",
+      "slug": "ajan-yapay-zeka"
+    },
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 403,
+      "name": "Codex",
+      "slug": "codex"
+    },
+    {
+      "id": 404,
+      "name": "Geliştirici Araçları",
+      "slug": "gelistirici-araclari"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 406,
+      "name": "Otonom Sistemler",
+      "slug": "otonom-sistemler"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-tum-urunlerini-tek-uygulamada-birlestiriyor-1774134133978.jpg",
+    "alt": "OpenAI Tüm Ürünlerini Tek Uygulamada Birleştiriyor",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-tum-urunlerini-tek-uygulamada-birlestiriyor-1774134133978-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-tum-urunlerini-tek-uygulamada-birlestiriyor-1774134133978-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-tum-urunlerini-tek-uygulamada-birlestiriyor-1774134133978-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-tum-urunlerini-tek-uygulamada-birlestiriyor-1774134133978-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-tum-urunlerini-tek-uygulamada-birlestiriyor-1774134133978.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

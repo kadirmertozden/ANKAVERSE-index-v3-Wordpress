@@ -1,0 +1,44 @@
+{
+  "brand": "ANKAVERSE",
+  "nav": {
+    "home": "Home Page",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact",
+    "menu": "Menu",
+    "language": "Language"
+  },
+  "cta": {
+    "quote": "Get a Quote",
+    "start": "Get Started Now",
+    "viewProjects": "Explore Our Projects",
+    "contactUs": "Contact Us Now",
+    "store": "Go to the Store",
+    "readMore": "Read More",
+    "backToBlog": "Back to the Blog",
+    "backToProjects": "Back to Projects",
+    "backHome": "Return to Home Page"
+  },
+  "footer": {
+    "tagline": "Innovative solutions that elevate your brand in the digital world. From e-commerce to corporate identity, we’re building the future together.",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+  "state": {
+    "loading": "Loading...",
+    "error": "An error occurred while loading the content.",
+    "empty": "No content was found to display."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "heading": "The page you are looking for does not exist",
+    "description": "The link may have been moved, renamed, or may never have existed.",
+    "seoDescription": "The page you are looking for could not be found."
+  }
+}

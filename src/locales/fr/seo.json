@@ -1,0 +1,50 @@
+{
+  "home": {
+    "title": "ANKAVERSE – Logiciels, IA et technologies e-commerce",
+    "description": "ANKAVERSE est une entreprise technologique qui accompagne les entreprises vers l'avenir grâce à ses solutions de développement logiciel, d'automatisation, d'intelligence artificielle et de commerce électronique."
+  },
+  "about": {
+    "title": "À propos de nous | ANKAVERSE",
+    "description": "Informations sur l'entreprise ANKAVERSE : vision, mission, équipe de direction et documents officiels d'enregistrement de la société."
+  },
+  "services": {
+    "title": "Services | ANKAVERSE",
+    "description": "Développement de logiciels, automatisation et intégration, infrastructure de commerce électronique, solutions d'intelligence artificielle et services de modélisation 3D."
+  },
+  "projects": {
+    "title": "Projets | ANKAVERSE",
+    "description": "Une sélection de projets développés par ANKAVERSE dans les domaines du commerce électronique, de l'automatisation et de l'intelligence artificielle."
+  },
+  "projectDetail": {
+    "title": "Projet | ANKAVERSE",
+    "description": "Détails du projet ANKAVERSE."
+  },
+  "blog": {
+    "title": "Blog | ANKAVERSE",
+    "description": "Articles d'ANKAVERSE sur la technologie, l'intelligence artificielle, le commerce électronique et le développement logiciel."
+  },
+  "blogDetail": {
+    "title": "Blog | ANKAVERSE",
+    "description": "Article de blog ANKAVERSE."
+  },
+  "contact": {
+    "title": "Contact | ANKAVERSE",
+    "description": "Contactez ANKAVERSE : adresse, numéro de téléphone, e-mail et formulaire de demande de devis."
+  },
+  "privacy": {
+    "title": "Politique de confidentialité | ANKAVERSE",
+    "description": "Politique de confidentialité d'ANKAVERSE et informations relatives à la protection des données à caractère personnel."
+  },
+  "terms": {
+    "title": "Conditions d'utilisation | ANKAVERSE",
+    "description": "Conditions d'utilisation du site web ANKAVERSE : utilisation du service, propriété intellectuelle, clause de non-responsabilité et conditions de modification."
+  },
+  "notFound": {
+    "title": "Page introuvable | ANKAVERSE",
+    "description": "La page que vous recherchez est introuvable. Vous pouvez accéder à nos services, à nos projets et à nos articles de blog depuis la page d'accueil d'ANKAVERSE."
+  },
+  "vaktiaPrivacy": {
+    "title": "Politique de confidentialité de Vaktia | ANKAVERSE",
+    "description": "Politique de confidentialité de l'application mobile Vaktia : données collectées, finalités d'utilisation, partenaires publicitaires et droits des utilisateurs."
+  }
+}

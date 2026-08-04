@@ -1,0 +1,67 @@
+{
+  "id": 195,
+  "slug": "yapay-zeka-projelerinde-deger-odakli-yaklasim",
+  "lang": "tr",
+  "title": "Yapay Zeka Projelerinde Değer Odaklı Yaklaşım",
+  "excerpt": "Beklenti ve Gerçeklik Arasındaki Uçurum Webrazzi Fintech 2025 etkinliğinde Architecht adına sunum yapan Zeynep Erdoğan, kurumların yapay zeka projelerinde yaşadığı hayal kırıklıklarının temel nedenlerini analiz etti. Gartner verilerine atıfta bulunulan sunumda, teknolojilerin adaptasyon sürelerine dikkat çekildi. Otomobilin 33 yılda, telefonun 15 yılda ulaştığı kitleye ChatGPT’nin sadece 2 ayda ulaşması, kurumsal tarafta yönetilmesi zor bir beklenti [&hellip;]",
+  "content": "<h2>Beklenti ve Gerçeklik Arasındaki Uçurum</h2>\n<p>Webrazzi Fintech 2025 etkinliğinde Architecht adına sunum yapan Zeynep Erdoğan, kurumların yapay zeka projelerinde yaşadığı hayal kırıklıklarının temel nedenlerini analiz etti. Gartner verilerine atıfta bulunulan sunumda, teknolojilerin adaptasyon sürelerine dikkat çekildi. Otomobilin 33 yılda, telefonun 15 yılda ulaştığı kitleye ChatGPT’nin sadece 2 ayda ulaşması, kurumsal tarafta yönetilmesi zor bir beklenti seviyesi oluşturdu.</p>\n<p>Özellikle fintech sektöründe regülasyonlar nedeniyle genel bulut çözümlerinin kullanılamaması, kurumları kendi iç GPT yapılarını kurmaya itiyor. Ancak teknik ekiplerin blockchain veya yapay zeka gibi teknolojileri sadece popüler olduğu için kullanma eğilimi, projelerin sürdürülebilirliğini ve değer üretimini olumsuz etkiliyor.</p>\n<h2>Üç Katmanlı Strateji: İhtiyaç, Etki ve Teknoloji</h2>\n<p>Yapay zeka yatırımlarının başarıya ulaşması için teknolojiden önce değerin merkeze alınması gerekiyor. Erdoğan, bu süreci üç temel katmanda ele alıyor:</p>\n<ul>\n<li><strong>İş İhtiyacı:</strong> Öncelikle hedeflenen işin ve problemin net bir şekilde tanımlanması.</li>\n<li><strong>Etki Analizi:</strong> Tanımlanan işin yaratacağı katma değerin ve süreç üzerindeki etkilerinin tartışılması.</li>\n<li><strong>Teknoloji Seçimi:</strong> En son aşamada, belirlenen ihtiyacı karşılayacak en uygun teknolojinin belirlenmesi.</li>\n</ul>\n<h2>Pilot ve Ölçekleme Süreçleri</h2>\n<p>Her sorunun çözümü için devasa yapay zeka modellerine ihtiyaç duyulmadığı, bazen basit bir Robotik Süreç Otomasyonu&#8217;nun (RPA) daha verimli sonuçlar üretebileceği belirtiliyor. Çözümler tasarlanırken son kullanıcıdan geri bildirim alınması ve ölçülebilir metriklerin belirlenmesi kritik önem taşıyor. Pilot çalışmaların fizibilite raporlarına göre ölçeklenmesi, kaynak israfını önleyen ve projeyi başarıya götüren temel faktör olarak öne çıkıyor.</p>\n",
+  "date": "2025-12-10T13:25:41Z",
+  "modified": "2025-12-10T13:25:42Z",
+  "categories": [
+    {
+      "id": 85,
+      "name": "Etkinlikler",
+      "slug": "etkinlikler"
+    }
+  ],
+  "tags": [
+    {
+      "id": 87,
+      "name": "Architecht",
+      "slug": "architecht"
+    },
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 90,
+      "name": "Dijital Dönüşüm",
+      "slug": "dijital-donusum"
+    },
+    {
+      "id": 86,
+      "name": "Fintech",
+      "slug": "fintech"
+    },
+    {
+      "id": 83,
+      "name": "Gartner",
+      "slug": "gartner"
+    },
+    {
+      "id": 91,
+      "name": "RPA",
+      "slug": "rpa"
+    },
+    {
+      "id": 84,
+      "name": "Strateji",
+      "slug": "strateji"
+    },
+    {
+      "id": 89,
+      "name": "Verimlilik",
+      "slug": "verimlilik"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-projelerinde-deger-odakli-yaklasim-1765373140087.jpg",
+    "alt": "Yapay Zeka Projelerinde Değer Odaklı Yaklaşım",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-projelerinde-deger-odakli-yaklasim-1765373140087-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-projelerinde-deger-odakli-yaklasim-1765373140087-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-projelerinde-deger-odakli-yaklasim-1765373140087-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-projelerinde-deger-odakli-yaklasim-1765373140087-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/yapay-zeka-projelerinde-deger-odakli-yaklasim-1765373140087.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

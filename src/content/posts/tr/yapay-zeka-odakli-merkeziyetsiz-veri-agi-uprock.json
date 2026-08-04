@@ -1,0 +1,72 @@
+{
+  "id": 406,
+  "slug": "yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock",
+  "lang": "tr",
+  "title": "Yapay Zeka Odaklı Merkeziyetsiz Veri Ağı UpRock",
+  "excerpt": "Merkeziyetsiz Veri ve Doğrulama Altyapısı Solana blokzinciri üzerinde inşa edilen UpRock, yapay zeka sistemleri için doğrulanabilir web verisi sağlayan merkeziyetsiz bir fiziksel altyapı (DePIN) ağıdır. Platform, yapay zeka ajanlarının ve otomasyon sistemlerinin internetin gerçek durumunu analiz edebilmesi için gerekli olan ham veriyi, güvenilir bir katmana dönüştürmeyi hedefler. Kullanıcılar, ilgili uygulama üzerinden atıl internet bant genişliklerini [&hellip;]",
+  "content": "<h2>Merkeziyetsiz Veri ve Doğrulama Altyapısı</h2>\n<p>Solana blokzinciri üzerinde inşa edilen UpRock, yapay zeka sistemleri için doğrulanabilir web verisi sağlayan merkeziyetsiz bir fiziksel altyapı (DePIN) ağıdır. Platform, yapay zeka ajanlarının ve otomasyon sistemlerinin internetin gerçek durumunu analiz edebilmesi için gerekli olan ham veriyi, güvenilir bir katmana dönüştürmeyi hedefler. Kullanıcılar, ilgili uygulama üzerinden atıl internet bant genişliklerini paylaşarak ağa veri sağlar ve karşılığında UPT token ile ödüllendirilir.</p>\n<p>Ağ, günümüzde 190&#8217;dan fazla ülkede Windows, Linux, macOS, iOS ve Android tabanlı 3 milyondan fazla gerçek cihaz üzerinde çalışmaktadır. Bu dağıtık mimari, internet verisinin yalnızca merkezi veri merkezlerinden değil, doğrudan son kullanıcı cihazlarından elde edilmesini sağlayarak &#8220;Ground Truth&#8221; (Doğrulanmış Gerçeklik) konseptini oluşturur.</p>\n<h2>Yapay Zeka İçin Veri Optimizasyonu</h2>\n<p>UpRock.ai platformu, internet üzerinden toplanan veriyi büyük dil modelleri (LLM) ve yapay zeka ajanlarının doğrudan tüketebileceği yapılandırılmış formatlara dönüştürür. Platformun altyapısı üç temel katmandan oluşmaktadır:</p>\n<ul>\n<li><strong>Insight Stacks:</strong> Geliştiricilerin canlı web verisini API çağrıları veya basit komutlar ile uygulamalara entegre etmesini sağlayan veri katmanıdır.</li>\n<li><strong>AI Sitemaps:</strong> Web siteleri için LLMs.txt tabanlı yeni nesil site haritaları oluşturur. Bu teknoloji, yapay zeka sistemlerinin web sitelerini tararken kullandığı token miktarını optimize ederek maliyetleri düşürür ve veri çekme hızını artırır.</li>\n<li><strong>UpRock Verify:</strong> İnternet üzerindeki içeriklerin ve servislerin, küresel ağdaki cihazlar üzerinden eşzamanlı olarak doğrulanmasını sağlayan güvenlik katmanıdır.</li>\n</ul>\n<h2>Gelir Paylaşımı ve Gelecek Hedefleri</h2>\n<p>Erken aşamada 4 milyon dolar yatırım alan girişim, kurumsal müşteriler ve geliştiriciler için kullanım bazlı (usage-based) bir SaaS modeli ile hizmet vermektedir. Sistemde oluşturulan token ekonomisi gereği, işletmelerin ödediği altyapı ücretlerinden elde edilen gelirin %40&#8217;ı veri üretimini sağlayan donanım sahiplerine geri dağıtılır. UpRock&#8217;ın uzun vadedeki amacı, yapay zeka sistemlerindeki halüsinasyon (yanlış bilgi üretimi) problemini çözerek, internetteki her bilginin cihaz seviyesinde doğrulandığı güvenilir bir veri ekosistemi oluşturmaktır.</p>\n",
+  "date": "2026-03-21T23:01:29Z",
+  "modified": "2026-03-21T23:01:29Z",
+  "categories": [
+    {
+      "id": 396,
+      "name": "Girişim",
+      "slug": "girisim"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 399,
+      "name": "AI Sitemaps",
+      "slug": "ai-sitemaps"
+    },
+    {
+      "id": 397,
+      "name": "DePIN",
+      "slug": "depin"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 402,
+      "name": "Solana",
+      "slug": "solana"
+    },
+    {
+      "id": 400,
+      "name": "UpRock",
+      "slug": "uprock"
+    },
+    {
+      "id": 401,
+      "name": "Veri Doğrulama",
+      "slug": "veri-dogrulama"
+    },
+    {
+      "id": 398,
+      "name": "Web Verisi",
+      "slug": "web-verisi"
+    },
+    {
+      "id": 237,
+      "name": "Yapay Zeka Ajanları",
+      "slug": "yapay-zeka-ajanlari"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock-1774134088316.jpg",
+    "alt": "Yapay Zeka Odaklı Merkeziyetsiz Veri Ağı UpRock",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock-1774134088316-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock-1774134088316-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock-1774134088316-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock-1774134088316-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock-1774134088316.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

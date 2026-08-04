@@ -1,0 +1,67 @@
+{
+  "id": 390,
+  "slug": "aws-saglik-sektoru-icin-yapay-zeka-ajani-cozumunu-duyurdu",
+  "lang": "tr",
+  "title": "AWS Sağlık Sektörü İçin Yapay Zeka Ajanı Çözümünü Duyurdu",
+  "excerpt": "Amazon Connect Health ile Operasyonel Otomasyon Amazon Web Services (AWS), sağlık kurumlarındaki operasyonel süreçleri optimize etmek amacıyla geliştirdiği yapay zeka ajanı platformu Amazon Connect Health'i kullanıma sundu. Doktorların ve sağlık personelinin idari yükünü azaltmaya odaklanan platform, hastanelerin çağrı merkezi ve kayıt masası operasyonlarını otonom hale getiriyor. Doğal dil işleme (NLP) yetenekleriyle donatılan sistem, randevu planlama, [&hellip;]",
+  "content": "<h2>Amazon Connect Health ile Operasyonel Otomasyon</h2>\n<p>Amazon Web Services (AWS), sağlık kurumlarındaki operasyonel süreçleri optimize etmek amacıyla geliştirdiği yapay zeka ajanı platformu Amazon Connect Health&#8217;i kullanıma sundu. Doktorların ve sağlık personelinin idari yükünü azaltmaya odaklanan platform, hastanelerin çağrı merkezi ve kayıt masası operasyonlarını otonom hale getiriyor.</p>\n<p>Doğal dil işleme (NLP) yetenekleriyle donatılan sistem, randevu planlama, kimlik doğrulama ve sigorta uygunluk kontrolü gibi işlemleri 7/24 kesintisiz olarak gerçekleştiriyor. Elektronik sağlık kayıtları (EHR) sistemleriyle entegre çalışan mimari, muayene sırasında doktor ve hasta arasındaki diyaloğu analiz ederek gerçek zamanlı klinik notlar oluşturuyor. Ayrıca faturalandırma süreçleri için gerekli tıbbi kodlamaları sisteme otomatik olarak işleyerek veri girişi hatalarını minimize ediyor.</p>\n<ul>\n<li><strong>Otonom İletişim:</strong> Çağrı merkezi operasyonlarında NLP tabanlı anlık yanıt sistemi.</li>\n<li><strong>EHR Entegrasyonu:</strong> Tıbbi konuşmalardan otomatik klinik not çıkarma.</li>\n<li><strong>Kanıt Haritalama:</strong> Üretilen yapay zeka çıktılarının doğrulanabilirliği için kaynak eşleştirme teknolojisi.</li>\n</ul>\n<p>Sistem, sağlık sektörünün regülasyonlarına uyum sağlamak için özel bir kanıt haritalama mekanizması barındırıyor. Bu sayede doktorlar, sistemin ürettiği verilerin orijinal kaynağını onay öncesinde doğrulayabiliyor. OpenAI ve Anthropic gibi şirketlerin de sağlık dikeyine yönelik geliştirdiği yapay zeka çözümleriyle birlikte, klinik veri analizi ve otomasyon alanındaki standartlar hızla yeniden şekilleniyor.</p>\n",
+  "date": "2026-03-07T23:03:19Z",
+  "modified": "2026-03-07T23:03:20Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 384,
+      "name": "Amazon Connect Health",
+      "slug": "amazon-connect-health"
+    },
+    {
+      "id": 383,
+      "name": "AWS",
+      "slug": "aws"
+    },
+    {
+      "id": 388,
+      "name": "Doğal Dil İşleme",
+      "slug": "dogal-dil-i-sleme"
+    },
+    {
+      "id": 387,
+      "name": "EHR",
+      "slug": "ehr"
+    },
+    {
+      "id": 386,
+      "name": "Elektronik Sağlık Kayıtları",
+      "slug": "elektronik-saglik-kayitlari"
+    },
+    {
+      "id": 175,
+      "name": "NLP",
+      "slug": "nlp"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    },
+    {
+      "id": 385,
+      "name": "Yapay Zeka Ajanı",
+      "slug": "yapay-zeka-ajani"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/aws-saglik-sektoru-icin-yapay-zeka-ajani-cozumunu-duyurdu-1772924597132.jpg",
+    "alt": "AWS Sağlık Sektörü İçin Yapay Zeka Ajanı Çözümünü Duyurdu",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/aws-saglik-sektoru-icin-yapay-zeka-ajani-cozumunu-duyurdu-1772924597132-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/aws-saglik-sektoru-icin-yapay-zeka-ajani-cozumunu-duyurdu-1772924597132-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/aws-saglik-sektoru-icin-yapay-zeka-ajani-cozumunu-duyurdu-1772924597132-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/aws-saglik-sektoru-icin-yapay-zeka-ajani-cozumunu-duyurdu-1772924597132-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/aws-saglik-sektoru-icin-yapay-zeka-ajani-cozumunu-duyurdu-1772924597132.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

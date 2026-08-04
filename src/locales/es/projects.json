@@ -1,0 +1,16 @@
+{
+  "eyebrow": "Portafolio",
+  "title": "Nuestras historias de éxito",
+  "subtitle": "Descubre los proyectos que hemos llevado a cabo y los que están en marcha. Cada uno de ellos es un reflejo de nuestra creatividad y nuestra experiencia tecnológica.",
+  "card": {
+    "view": "Analizar",
+    "defaultCategory": "General"
+  },
+  "detail": {
+    "client": "Cliente",
+    "date": "Fecha",
+    "technologies": "Tecnologías utilizadas",
+    "overview": "Acerca del proyecto",
+    "notFound": "No se ha encontrado ningún proyecto."
+  }
+}

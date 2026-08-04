@@ -1,0 +1,50 @@
+{
+  "home": {
+    "title": "ANKAVERSE – Software, IA y tecnología de e-commerce",
+    "description": "ANKAVERSE es una empresa tecnológica que impulsa a las empresas hacia el futuro con soluciones de desarrollo de software, automatización, inteligencia artificial y comercio electrónico."
+  },
+  "about": {
+    "title": "Quiénes somos | ANKAVERSE",
+    "description": "Información corporativa de ANKAVERSE: visión, misión, equipo directivo y registros oficiales de la empresa."
+  },
+  "services": {
+    "title": "Servicios | ANKAVERSE",
+    "description": "Desarrollo de software, automatización e integración, infraestructura de comercio electrónico, soluciones de inteligencia artificial y servicios de modelado 3D."
+  },
+  "projects": {
+    "title": "Proyectos | ANKAVERSE",
+    "description": "Una selección de proyectos de comercio electrónico, automatización e inteligencia artificial desarrollados por ANKAVERSE."
+  },
+  "projectDetail": {
+    "title": "Proyecto | ANKAVERSE",
+    "description": "Detalles del proyecto ANKAVERSE."
+  },
+  "blog": {
+    "title": "Blog | ANKAVERSE",
+    "description": "Artículos de ANKAVERSE sobre tecnología, inteligencia artificial, comercio electrónico y desarrollo de software."
+  },
+  "blogDetail": {
+    "title": "Blog | ANKAVERSE",
+    "description": "Entrada del blog de ANKAVERSE."
+  },
+  "contact": {
+    "title": "Contacto | ANKAVERSE",
+    "description": "Ponte en contacto con ANKAVERSE: dirección, teléfono, correo electrónico y formulario de presupuesto."
+  },
+  "privacy": {
+    "title": "Política de privacidad | ANKAVERSE",
+    "description": "Política de privacidad de ANKAVERSE e información sobre la protección de datos personales."
+  },
+  "terms": {
+    "title": "Condiciones de uso | ANKAVERSE",
+    "description": "Condiciones de uso del sitio web de ANKAVERSE: uso del servicio, propiedad intelectual, exención de responsabilidad y condiciones de modificación."
+  },
+  "notFound": {
+    "title": "Página no encontrada | ANKAVERSE",
+    "description": "No se ha encontrado la página que buscabas. Desde la página de inicio de ANKAVERSE puedes acceder a nuestros servicios, proyectos y entradas del blog."
+  },
+  "vaktiaPrivacy": {
+    "title": "Política de privacidad de Vaktia | ANKAVERSE",
+    "description": "Política de privacidad de la aplicación móvil Vaktia: datos recopilados, fines de uso, socios publicitarios y derechos de los usuarios."
+  }
+}

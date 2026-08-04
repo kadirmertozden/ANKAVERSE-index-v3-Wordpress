@@ -122,15 +122,88 @@ Sistem, **n8n** gibi otomasyon araçlarıyla entegre çalışabilir. Özellikle 
 2.  **n8n WordPress Node:** Oluşturduğunuz şifreyi ve kullanıcı adını kullanarak n8n'i WordPress'e bağlayın.
 3.  **Otomatik İçerik:** n8n workflow'ları ile üretilen içerikleri `posts` endpoint'ine göndererek blog yazılarını otomatikleştirin.
 
+## 🌍 SEO ve Çok Dillilik
+
+Site artık **build sırasında önceden HTML'e dönüştürülüyor** (prerender / SSG) ve
+altı dil için tasarlandı: `tr, en, de, fr, es, ar`. Tasarım kararlarının tamamı
+[docs/superpowers/specs/2026-08-04-seo-i18n-design.md](docs/superpowers/specs/2026-08-04-seo-i18n-design.md)
+dosyasında.
+
+### Tek doğruluk kaynağı
+
+`src/i18n/routes.js` hem React Router rotalarını, hem `hreflang` alternatiflerini,
+hem de `sitemap.xml` girdilerini üretir. Bir rota veya dil eklemek için yalnızca
+bu dosya değiştirilir; üçünün birbirinden ayrışması yapısal olarak mümkün değil.
+
+`src/i18n/published.js` hangi dillerin **yayında** olduğunu tutar. Bir dil,
+çeviri dosyaları eksiksiz olmadan buraya eklenmez — `tools/translate-locales.js`
+bunu kendisi günceller. Sebebi: çevrilmemiş bir dil yayınlanırsa sayfa Türkçe
+metni `<html lang="de">` ve Almanca `hreflang` ile sunar; bu, Google'a sitenin
+kendi içeriği hakkında yanlış bilgi verdiğini söyler ve olmamasından daha kötüdür.
+
+### Komutlar
+
+```bash
+npm run build              # prerender + sitemap + SEO doğrulaması (hata varsa build düşer)
+npm run verify:seo         # yalnızca doğrulama (dist/ hazırsa)
+
+npm run content:fetch      # WordPress'ten içeriği çeker
+npm run locales:translate  # arayüz metinlerini DeepL ile çevirir
+npm run content:translate  # blog/proje/hizmet içeriğini çevirir
+npm run content:sync       # üçü sırayla
+```
+
+`npm run build`, `tools/verify-seo.js` ile şunları **hata sayar**: boş prerender,
+eksik/yanlış canonical, tek yönlü hreflang, eksik Open Graph, geçersiz JSON-LD,
+ve yabancı dil etiketi altında Türkçe metin.
+
+### Çeviri hattı
+
+İçerik çekme ve çeviri **Coolify build'inde değil**, `.github/workflows/content-sync.yml`
+içinde saatlik çalışır ve sonucu repoya commit eder. Coolify build'i geçici bir
+konteynerde çalıştığı için oraya yazılan çeviri cache'i her deploy'da silinir ve
+70 yazı her push'ta yeniden çevrilir — DeepL kotası birkaç deploy'da biter.
+
+Her içerik ömrü boyunca **bir kez** çevrilir: çeviri dosyası kaynağının hash'ini
+saklar, hash aynıysa DeepL'e hiç gidilmez. Bu aynı zamanda kötü bir çeviriyi elle
+düzeltmenizi mümkün kılar — düzeltme, kaynak değişmediği sürece korunur.
+
 ## 📦 Canlıya Alma (Deployment)
 
-Proje statik bir site olarak derlenir ve Vercel, Netlify, Cloudflare Pages gibi platformlarda kolayca barındırılabilir.
+Site, VPS üzerinde **Coolify** ile GitHub'dan otomatik deploy ediliyor.
 
-Build komutu:
 ```bash
-npm run build
+npm run build     # dist/ üretir
 ```
-Oluşan `dist` klasörünü sunucunuza yükleyin.
+
+### Coolify ayarları
+
+| Ayar | Değer |
+|---|---|
+| Is it a static site? | **açık** |
+| Publish Directory | **`/dist`** |
+| Domains Direction | **Redirect to non-www** |
+| Custom nginx config | [deploy/nginx.conf](deploy/nginx.conf) içeriği |
+
+`deploy/nginx.conf` eski adreslerin 301 yönlendirmelerini (`/giris`, `/giris.html`,
+`/kurumsal` → `/`), gerçek 404 status kodunu ve varlık cache başlıklarını içerir.
+Bilinçli olarak SPA fallback **yoktur**: bilinmeyen bir adrese ana sayfayı 200 ile
+döndürmek, bu çalışmanın ortadan kaldırdığı "soft 404" davranışının ta kendisidir.
+
+### GitHub ayarları
+
+- **Secret** `DEEPL_API_KEY` — çeviri workflow'u için. `VITE_` öneki
+  **kullanılmaz**; öyle olsaydı anahtar JS bundle'ına gömülür ve her ziyaretçiye
+  açık görünürdü.
+- **Variable** `WORDPRESS_API_URL` (opsiyonel) — varsayılan
+  `https://wordpress.ankaverse.com.tr/wp-json/wp/v2`.
+
+### Yayın sonrası
+
+1. Google Search Console'a `https://ankaverse.com.tr/sitemap.xml` gönderin.
+2. Bir sayfayı [Rich Results Test](https://search.google.com/test/rich-results)
+   ile kontrol edin (Organization ve BreadcrumbList görünmeli).
+3. Bir bağlantıyı LinkedIn/X'te paylaşıp önizleme kartının çıktığını doğrulayın.
 
 ## 🤝 Katkıda Bulunma
 

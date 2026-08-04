@@ -1,0 +1,74 @@
+{
+  "id": 264,
+  "slug": "llm-management-and-observability-platform-helicone",
+  "lang": "en",
+  "title": "LLM Management and Observability Platform: Helicone",
+  "excerpt": "Centralized LLM Management Designed for teams developing AI-based products, Helicone serves as an open-source gateway and observability platform. The Y Combinator-backed startup enables the management of large language models (LLMs) distributed across different providers from a single hub. The platform aims to allow developers to focus on their product rather than spending time on integration processes. Technical Infrastructure and Integration [&hellip;]",
+  "content": "<h2>Centralized LLM Management</h2>\n<p>Designed for teams developing AI-based products, Helicone serves as an open-source gateway and observability platform. The Y Combinator-backed startup enables the management of large language models (LLMs) distributed across different providers from a single hub. The platform aims to let developers focus on their product rather than spending time on integration processes.</p>\n<h2>Technical Infrastructure and Integration</h2>\n<p>Helicone AI Gateway offers an interface compatible with the OpenAI SDK, allowing developers to preserve their existing codebases. Users can switch between more than 100 models—including GPT-4o, Claude, Gemini, DeepSeek, Mistral, and Groq—simply by changing the model name. Thanks to its Rust-based infrastructure, the platform can process millions of requests with low latency, making it easy to select the most suitable model for speed and cost optimization.</p>\n<h2>Observability Capabilities</h2>\n<p>One of the platform’s standout features is its detailed observability layer. Every LLM request is automatically logged, and metrics such as cost, latency, token usage, and error rates can be tracked on a per-request basis. Helicone offers the following technical features:</p>\n<ul>\n<li><strong>HQL (Helicone Query Language):</strong> Enables detailed filtering and data querying.</li>\n<li><strong>Performance Monitoring:</strong> Visualization of multi-step agent flows and error detection.</li>\n<li><strong>Alert Mechanisms:</strong> Automatic notifications for misuse and performance issues.</li>\n<li><strong>Price Comparison:</strong> Cost analysis tools for over 300 models and providers.</li>\n</ul>\n<h2>Deployment and Licensing</h2>\n<p>Helicone is fully open source and is published on GitHub under the Apache License. Companies can use the platform as a cloud service or run it on their own infrastructure (self-hosted) using pre-built Helm charts. On the pricing side, in addition to a free starter plan for individual developers, Pro and Enterprise-level solutions are available for scaling teams.</p>\n",
+  "date": "2026-01-03T23:01:48Z",
+  "modified": "2026-01-03T23:01:49Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 209,
+      "name": "API Yönetimi",
+      "slug": "api-yonetimi"
+    },
+    {
+      "id": 68,
+      "name": "DevTools",
+      "slug": "devtools"
+    },
+    {
+      "id": 206,
+      "name": "Helicone",
+      "slug": "helicone"
+    },
+    {
+      "id": 208,
+      "name": "LLM Gateway",
+      "slug": "llm-gateway"
+    },
+    {
+      "id": 210,
+      "name": "Observability",
+      "slug": "observability"
+    },
+    {
+      "id": 207,
+      "name": "Open Source",
+      "slug": "open-source"
+    },
+    {
+      "id": 212,
+      "name": "Rust",
+      "slug": "rust"
+    },
+    {
+      "id": 213,
+      "name": "Self-hosted",
+      "slug": "self-hosted"
+    },
+    {
+      "id": 211,
+      "name": "Y Combinator",
+      "slug": "y-combinator"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/llm-yonetimi-ve-gozlemlenebilirlik-platformu-helicone-1767481307151.jpg",
+    "alt": "LLM Yönetimi ve Gözlemlenebilirlik Platformu: Helicone",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/llm-yonetimi-ve-gozlemlenebilirlik-platformu-helicone-1767481307151-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/llm-yonetimi-ve-gozlemlenebilirlik-platformu-helicone-1767481307151-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/llm-yonetimi-ve-gozlemlenebilirlik-platformu-helicone-1767481307151-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/llm-yonetimi-ve-gozlemlenebilirlik-platformu-helicone-1767481307151-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/llm-yonetimi-ve-gozlemlenebilirlik-platformu-helicone-1767481307151.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "llm-yonetimi-ve-gozlemlenebilirlik-platformu-helicone",
+  "sourceHash": "a0ec29dfc256c099"
+}

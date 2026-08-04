@@ -1,0 +1,74 @@
+{
+  "id": 387,
+  "slug": "anthropic-announces-the-enterprise-focused-claude-marketplace",
+  "lang": "en",
+  "title": "Anthropic Announces the Enterprise-Focused Claude Marketplace",
+  "excerpt": "A Centralized Approach to Enterprise AI Procurement: Anthropic has launched Claude Marketplace, a new e-commerce platform that makes it easier for businesses to purchase third-party software powered by the Claude infrastructure. Currently in a limited preview phase, the platform aims to simplify the software procurement process and consolidate enterprise AI spending in a single hub. Thanks to the new marketplace, companies can access multiple cloud services and [&hellip;]",
+  "content": "<h2>A Centralized Approach to Enterprise AI Procurement</h2>\n<p>Anthropic has launched Claude Marketplace, a new e-commerce platform that makes it easier for businesses to purchase third-party software powered by the Claude infrastructure. Currently in a limited preview phase, the platform aims to simplify the software procurement process and consolidate enterprise AI spending in a single hub.</p>\n<p>Thanks to the new marketplace, companies will be able to manage the entire process through Anthropic, rather than having to manage invoices from multiple cloud services and different providers. A portion of Anthropic’s enterprise-level spending commitments can be used to fund third-party tools. While Anthropic manages distribution and joint spending billing, the company will not charge any commission on these transactions.</p>\n<h2>Technology Partners Featured in the Initial Catalog</h2>\n<p>The Claude Marketplace exclusively features products that have integrated the company’s large language models into their services. The initial catalog includes major platforms focused on various areas of expertise:</p>\n<ul>\n<li><strong>Snowflake and GitLab:</strong> The industry’s leading players offering Claude-powered solutions for data management, cloud infrastructure, and DevOps processes.</li>\n<li><strong>Replit and Lovable:</strong> Replit provides a coding environment for technical users via a natural language interface, while Lovable enables non-technical employees to build applications using command lines.</li>\n<li><strong>Harvey and Rogo:</strong> Harvey offers AI automation for legal processes and contract drafting, while Rogo provides tools for investment professionals to analyze financial data.</li>\n</ul>\n<p>Following OpenAI’s recent move to launch an app directory for ChatGPT, the Claude Marketplace aims to enhance Anthropic’s competitive edge in the enterprise AI ecosystem and strengthen platform lock-in for developers.</p>\n",
+  "date": "2026-03-07T23:02:22Z",
+  "modified": "2026-03-07T23:02:23Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 378,
+      "name": "Büyük Dil Modelleri",
+      "slug": "buyuk-dil-modelleri"
+    },
+    {
+      "id": 197,
+      "name": "Claude",
+      "slug": "claude"
+    },
+    {
+      "id": 377,
+      "name": "Claude Marketplace",
+      "slug": "claude-marketplace"
+    },
+    {
+      "id": 380,
+      "name": "GitLab",
+      "slug": "gitlab"
+    },
+    {
+      "id": 379,
+      "name": "Kurumsal Yazılım",
+      "slug": "kurumsal-yazilim"
+    },
+    {
+      "id": 156,
+      "name": "SaaS",
+      "slug": "saas"
+    },
+    {
+      "id": 382,
+      "name": "Snowflake",
+      "slug": "snowflake"
+    },
+    {
+      "id": 381,
+      "name": "Yapay Zeka Ekosistemi",
+      "slug": "yapay-zeka-ekosistemi"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/anthropic-kurumsal-odakli-claude-marketplacei-duyurdu-1772924542092.jpg",
+    "alt": "Anthropic Kurumsal Odaklı Claude Marketplace'i Duyurdu",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/anthropic-kurumsal-odakli-claude-marketplacei-duyurdu-1772924542092-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/anthropic-kurumsal-odakli-claude-marketplacei-duyurdu-1772924542092-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/anthropic-kurumsal-odakli-claude-marketplacei-duyurdu-1772924542092-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/anthropic-kurumsal-odakli-claude-marketplacei-duyurdu-1772924542092-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/anthropic-kurumsal-odakli-claude-marketplacei-duyurdu-1772924542092.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "anthropic-kurumsal-odakli-claude-marketplacei-duyurdu",
+  "sourceHash": "fb1b3dafaf487f0b"
+}

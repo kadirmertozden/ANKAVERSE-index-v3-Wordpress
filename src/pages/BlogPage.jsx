@@ -1,198 +1,205 @@
+import React, { useMemo, useState } from 'react';
+import { useLoaderData, useSearchParams } from 'react-router-dom';
+import { ArrowRight, Calendar, Clock, Search, X } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import Seo from '@/components/Seo';
+import { BreadcrumbJsonLd } from '@/components/JsonLd';
+import { LocalizedLink } from '@/i18n/Link';
+import { useLocale } from '@/i18n/LocaleProvider';
+import { pathFor } from '@/i18n/routes';
+import { categoriesFromIndex } from '@/lib/content';
+import { COMPANY } from '@/data/company';
 
-import React, { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet';
-import { Link, useSearchParams } from 'react-router-dom';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import { ArrowRight, Calendar, Clock, Loader2, ChevronLeft, ChevronRight, X } from 'lucide-react';
-import { getBlogPosts } from '@/services/api';
-import { calculateReadTime, stripHtml, decodeHtml } from '@/lib/utils';
+const PAGE_SIZE = 12;
+const LOCALE_TAGS = { tr: 'tr-TR', en: 'en-US', de: 'de-DE', fr: 'fr-FR', es: 'es-ES', ar: 'ar' };
+const WORDS_PER_MINUTE = 200;
 
-const BlogPage = () => {
+const readMinutes = (post) =>
+  Math.max(1, Math.round((post.excerpt ?? '').split(/\s+/).length / WORDS_PER_MINUTE) || 1);
+
+export default function BlogPage() {
+  const { posts = [] } = useLoaderData() ?? {};
+  const { t } = useTranslation('blog');
+  const locale = useLocale();
   const [searchParams, setSearchParams] = useSearchParams();
-  const [posts, setPosts] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [page, setPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(1);
+  const [visible, setVisible] = useState(PAGE_SIZE);
 
-  const searchQuery = searchParams.get('search');
-  const categoryId = searchParams.get('category');
+  const query = searchParams.get('q') ?? '';
+  const category = searchParams.get('category') ?? '';
+  const categories = useMemo(() => categoriesFromIndex(posts), [posts]);
+  const dateFormat = LOCALE_TAGS[locale] ?? locale;
 
-  useEffect(() => {
-    const fetchPosts = async () => {
-      try {
-        setLoading(true);
-        const params = {};
-        if (searchQuery) params.search = searchQuery;
-        if (categoryId) params.categories = categoryId;
+  const filtered = useMemo(() => {
+    const needle = query.trim().toLocaleLowerCase(locale);
+    return posts.filter((post) => {
+      const matchesCategory =
+        !category || (post.categories ?? []).some((item) => item.slug === category);
+      const matchesQuery =
+        !needle ||
+        post.title.toLocaleLowerCase(locale).includes(needle) ||
+        (post.excerpt ?? '').toLocaleLowerCase(locale).includes(needle);
+      return matchesCategory && matchesQuery;
+    });
+  }, [posts, query, category, locale]);
 
-        const data = await getBlogPosts(page, 9, params);
-        
-        // Map WordPress API data to component format
-        const formattedPosts = data.map(post => ({
-          id: post.id,
-          title: decodeHtml(post.title.rendered),
-          excerpt: stripHtml(post.excerpt.rendered).replace(/\{"parts":\[.*\]\}/g, ''), // Basic cleanup for JSON artifacts if visible
-          image: post._embedded?.['wp:featuredmedia']?.[0]?.source_url || 'https://via.placeholder.com/800x600?text=No+Image',
-          date: new Date(post.date).toLocaleDateString('tr-TR'),
-          category: post._embedded?.['wp:term']?.flat().find(term => term.taxonomy === 'category')?.name || 'Genel',
-          readTime: calculateReadTime(post.content.rendered),
-          author: {
-            name: post._embedded?.author?.[0]?.name === 'kadirmertozden' ? 'Kadir Mert Özden' : (post._embedded?.author?.[0]?.name || 'Admin'),
-            avatar: post._embedded?.author?.[0]?.avatar_urls?.['48'] || 'https://via.placeholder.com/48'
-          }
-        }));
-        
-        setPosts(formattedPosts);
-        // Note: Total pages should ideally come from headers, but fetchFromAPI returns json directly.
-        // We might need to adjust fetchFromAPI to return headers or handle pagination metadata if available.
-        // For now, we'll assume if we got full page of posts, there might be more.
-        // A better approach would be to update fetchFromAPI to return { data, headers } or similar.
-        
-      } catch (err) {
-        console.error('Error fetching blog posts:', err);
-        setError('Yazılar yüklenirken bir hata oluştu.');
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchPosts();
-    window.scrollTo(0, 0);
-  }, [page, searchQuery, categoryId]);
-
-  const handlePrevPage = () => {
-    if (page > 1) setPage(p => p - 1);
-  };
-
-  const handleNextPage = () => {
-    setPage(p => p + 1);
-  };
-
-  const clearFilters = () => {
-    setSearchParams({});
-    setPage(1);
+  const updateParam = (key, value) => {
+    const next = new URLSearchParams(searchParams);
+    if (value) next.set(key, value);
+    else next.delete(key);
+    setSearchParams(next, { replace: true });
+    setVisible(PAGE_SIZE);
   };
 
   return (
     <>
-      <Helmet>
-        <title>Ankaverse - Blog</title>
-        <meta name="description" content="Ankaverse Blog - Teknoloji ve dijital dünyadan haberler." />
-      </Helmet>
-      <Navbar />
+      <Seo routeKey="blog" />
+      <BreadcrumbJsonLd
+        items={[
+          { name: COMPANY.name, path: pathFor('home', locale) },
+          { name: t('title'), path: pathFor('blog', locale) },
+        ]}
+      />
+
       <main className="bg-[#1a1b1e] text-white pt-20 min-h-screen">
         <section className="py-24">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-16">
-                <span className="text-[#d4af37] font-bold tracking-wider text-sm uppercase mb-2 block">Blog</span>
-                <h1 className="text-3xl md:text-4xl font-bold mb-4">Haberler ve İçgörüler</h1>
-                <p className="text-gray-400 max-w-2xl mx-auto">Dijital dünya, teknoloji trendleri ve şirketimizden son haberler.</p>
-                
-                {(searchQuery || categoryId) && (
-                  <div className="mt-6 flex justify-center">
-                    <button
-                      onClick={clearFilters}
-                      className="flex items-center gap-2 bg-red-500/10 text-red-500 px-4 py-2 rounded-full hover:bg-red-500/20 transition-colors text-sm"
-                    >
-                      <X className="w-4 h-4" /> Filtreleri Temizle
-                      {searchQuery && <span className="font-bold">"{searchQuery}"</span>}
-                      {categoryId && <span className="font-bold">(Kategori ID: {categoryId})</span>}
-                    </button>
-                  </div>
-                )}
-             </div>
+            <div className="text-center mb-12">
+              <span className="text-[#d4af37] font-bold tracking-wider text-sm uppercase mb-2 block">
+                {t('eyebrow')}
+              </span>
+              <h1 className="text-3xl md:text-4xl font-bold mb-4">{t('title')}</h1>
+              <p className="text-gray-400 max-w-2xl mx-auto">{t('subtitle')}</p>
+            </div>
 
-             {loading ? (
-               <div className="flex justify-center items-center min-h-[300px]">
-                 <Loader2 className="w-12 h-12 text-[#d4af37] animate-spin" />
-               </div>
-             ) : error ? (
-               <div className="text-center text-red-500 py-10">
-                 {error}
-               </div>
-             ) : (
-               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                 {posts.map((post) => (
-                   <Link to={`/blog/${post.id}`} key={post.id} className="group">
-                     <article className="bg-[#25262b] h-full rounded-xl overflow-hidden border border-[#333] group-hover:border-[#d4af37]/50 group-hover:transform group-hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg">
-                       <div className="aspect-video bg-gray-800 overflow-hidden relative">
-                         <div className="absolute top-4 left-4 z-10">
-                           <span className="bg-[#d4af37] text-black text-xs font-bold px-3 py-1 rounded-full">
-                             {post.category}
-                           </span>
-                         </div>
-                         <img
-                          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
-                          alt={post.title}
-                          src={post.image}
-                          loading="lazy"
-                         />
-                         <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-300" />
-                       </div>
-                       <div className="p-6 flex-1 flex flex-col">
-                         <div className="flex items-center gap-4 text-xs text-gray-400 mb-4">
-                           <div className="flex items-center gap-1">
-                             <Calendar className="w-3 h-3 text-[#d4af37]" />
-                             <span>{post.date}</span>
-                           </div>
-                           <div className="flex items-center gap-1">
-                             <Clock className="w-3 h-3 text-[#d4af37]" />
-                             <span>{post.readTime}</span>
-                           </div>
-                         </div>
-                         
-                         <h2 className="text-xl font-bold mb-3 text-white group-hover:text-[#d4af37] transition-colors line-clamp-2">
+            <div className="max-w-3xl mx-auto mb-10">
+              <label className="relative block">
+                <span className="sr-only">{t('search.placeholder')}</span>
+                <Search className="absolute start-4 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-500" />
+                <input
+                  type="search"
+                  value={query}
+                  onChange={(event) => updateParam('q', event.target.value)}
+                  placeholder={t('search.placeholder')}
+                  className="w-full bg-[#25262b] border border-[#333] rounded-full ps-11 pe-4 py-3 text-white focus:outline-none focus:border-[#d4af37] transition-colors"
+                />
+              </label>
+
+              <div className="flex flex-wrap gap-2 justify-center mt-6">
+                <button
+                  type="button"
+                  onClick={() => updateParam('category', '')}
+                  className={`px-4 py-2 rounded-full text-sm transition-colors ${
+                    category ? 'bg-[#25262b] text-gray-300 hover:text-white' : 'bg-[#d4af37] text-black font-bold'
+                  }`}
+                >
+                  {t('categories.all')}
+                </button>
+                {categories.map((item) => (
+                  <button
+                    key={item.slug}
+                    type="button"
+                    onClick={() => updateParam('category', item.slug)}
+                    className={`px-4 py-2 rounded-full text-sm transition-colors ${
+                      category === item.slug
+                        ? 'bg-[#d4af37] text-black font-bold'
+                        : 'bg-[#25262b] text-gray-300 hover:text-white'
+                    }`}
+                  >
+                    {item.name}
+                  </button>
+                ))}
+              </div>
+
+              {(query || category) && (
+                <div className="mt-6 flex justify-center">
+                  <button
+                    type="button"
+                    onClick={() => setSearchParams({}, { replace: true })}
+                    className="flex items-center gap-2 bg-white/5 text-gray-300 px-4 py-2 rounded-full hover:bg-white/10 transition-colors text-sm"
+                  >
+                    <X className="w-4 h-4" /> {t('search.clear')}
+                  </button>
+                </div>
+              )}
+            </div>
+
+            {filtered.length === 0 ? (
+              <p className="text-center text-gray-400 py-16">{t('search.noResults')}</p>
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {filtered.slice(0, visible).map((post) => (
+                  <LocalizedLink
+                    key={post.slug}
+                    to="blogDetail"
+                    params={{ slug: post.slug }}
+                    className="group"
+                  >
+                    <article className="bg-[#25262b] h-full rounded-xl overflow-hidden border border-[#333] group-hover:border-[#d4af37]/50 transition-all duration-300 flex flex-col shadow-lg">
+                      <div className="aspect-video bg-[#1a1b1e] overflow-hidden relative">
+                        {post.categories?.[0] && (
+                          <span className="absolute top-4 start-4 z-10 bg-[#d4af37] text-black text-xs font-bold px-3 py-1 rounded-full">
+                            {post.categories[0].name}
+                          </span>
+                        )}
+                        {post.image && (
+                          <img
+                            className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                            alt={post.image.alt || post.title}
+                            src={post.image.url}
+                            srcSet={post.image.srcset || undefined}
+                            sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                            width={post.image.width ?? undefined}
+                            height={post.image.height ?? undefined}
+                            loading="lazy"
+                          />
+                        )}
+                      </div>
+                      <div className="p-6 flex-1 flex flex-col">
+                        <div className="flex items-center gap-4 text-xs text-gray-400 mb-4">
+                          <span className="flex items-center gap-1">
+                            <Calendar className="w-3 h-3 text-[#d4af37]" aria-hidden="true" />
+                            <time dateTime={post.date}>
+                              {new Date(post.date).toLocaleDateString(dateFormat)}
+                            </time>
+                          </span>
+                          <span className="flex items-center gap-1">
+                            <Clock className="w-3 h-3 text-[#d4af37]" aria-hidden="true" />
+                            {t('card.readTime', { count: readMinutes(post) })}
+                          </span>
+                        </div>
+
+                        <h2 className="text-xl font-bold mb-3 text-white group-hover:text-[#d4af37] transition-colors line-clamp-2">
                           {post.title}
-                         </h2>
-                         
-                         <p className="text-gray-400 text-sm mb-6 line-clamp-3 flex-1 leading-relaxed">
-                           {post.excerpt}
-                         </p>
-                         
-                         <div className="flex items-center justify-between mt-auto pt-4 border-t border-white/5">
-                           <div className="flex items-center gap-2">
-                              <img src={post.author.avatar} alt={post.author.name} className="w-6 h-6 rounded-full object-cover" />
-                              <span className="text-xs text-gray-300">{post.author.name}</span>
-                           </div>
-                           <span className="text-[#d4af37] text-sm font-bold flex items-center gap-1 group-hover:gap-2 transition-all">
-                             Devamını Oku <ArrowRight className="h-4 w-4" />
-                           </span>
-                         </div>
-                       </div>
-                     </article>
-                   </Link>
-                 ))}
-               </div>
-             )}
+                        </h2>
+                        <p className="text-gray-400 text-sm mb-6 line-clamp-3 flex-1 leading-relaxed">
+                          {post.excerpt}
+                        </p>
 
-             {/* Simple Pagination Controls */}
-             {!loading && !error && posts.length > 0 && (
-               <div className="flex justify-center mt-12 gap-4">
-                 <button
-                   onClick={handlePrevPage}
-                   disabled={page === 1}
-                   className="flex items-center gap-2 px-6 py-3 bg-[#25262b] border border-white/10 rounded-lg text-white hover:bg-[#d4af37] hover:text-black disabled:opacity-50 disabled:cursor-not-allowed transition-all"
-                 >
-                   <ChevronLeft className="w-4 h-4" /> Önceki
-                 </button>
-                 <button
-                   onClick={handleNextPage}
-                   // Disable if we have fewer posts than per_page (9), implying last page
-                   disabled={posts.length < 9}
-                   className="flex items-center gap-2 px-6 py-3 bg-[#25262b] border border-white/10 rounded-lg text-white hover:bg-[#d4af37] hover:text-black disabled:opacity-50 disabled:cursor-not-allowed transition-all"
-                 >
-                   Sonraki <ChevronRight className="w-4 h-4" />
-                 </button>
-               </div>
-             )}
+                        <span className="text-[#d4af37] text-sm font-bold flex items-center gap-1 mt-auto pt-4 border-t border-white/5">
+                          {t('card.readMore')}{' '}
+                          <ArrowRight className="h-4 w-4 rtl:rotate-180" aria-hidden="true" />
+                        </span>
+                      </div>
+                    </article>
+                  </LocalizedLink>
+                ))}
+              </div>
+            )}
+
+            {visible < filtered.length && (
+              <div className="flex justify-center mt-12">
+                <button
+                  type="button"
+                  onClick={() => setVisible((count) => count + PAGE_SIZE)}
+                  className="px-8 py-3 bg-[#25262b] border border-white/10 rounded-lg text-white hover:bg-[#d4af37] hover:text-black transition-all"
+                >
+                  {t('card.readMore')}
+                </button>
+              </div>
+            )}
           </div>
         </section>
       </main>
-      <Footer />
     </>
   );
-};
-
-export default BlogPage;
+}

@@ -1,0 +1,79 @@
+{
+  "id": 369,
+  "slug": "openai-announces-gpt-5-3-spark-which-writes-code-in-real-time",
+  "lang": "en",
+  "title": "OpenAI Announces GPT-5.3 Spark, Which Writes Code in Real Time",
+  "excerpt": "OpenAI announced the GPT-5.3-Codex-Spark model, developed to increase speed and minimize wait times in software development processes. A product of a strategic partnership with Cerebras, this model runs on specialized hardware instead of standard GPU clusters, promising real-time interaction. Technical Specifications and Speed: With the capacity to generate over 1,000 tokens (approximately 750 words) per second, GPT-5.3-Codex-Spark is the fastest to date [&hellip;]",
+  "content": "<p>OpenAI announced the GPT-5.3-Codex-Spark model, developed to accelerate software development processes and minimize wait times. A product of a strategic partnership with Cerebras, this model runs on specialized hardware rather than standard GPU clusters, promising real-time interaction.</p>\n<h2>Technical Specifications and Speed</h2>\n<p>With the capacity to generate over 1,000 tokens (approximately 750 words) per second, GPT-5.3-Codex-Spark ranks among the fastest code-focused models to date. With a 128,000-token context window, the model can analyze large blocks of code in a single pass.</p>\n<p>Delivering impressive results in benchmark tests such as SWE-Bench Pro, Spark is specifically optimized for logic refactoring and targeted code rewrites.</p>\n<h2>Hardware and Infrastructure Improvements</h2>\n<p>The model’s high speed is powered by the Cerebras Wafer Scale Engine 3 hardware. This specialized AI accelerator architecture enables the creation of a low-latency service layer. Additionally, performance gains are supported by improvements to the network infrastructure:</p>\n<ul>\n<li><strong>Persistent WebSocket:</strong> Data transfer between the client and server has been accelerated by 80 percent.</li>\n<li><strong>Latency Optimization:</strong> The delay between a developer sending code and receiving a response has been reduced to nearly zero.</li>\n</ul>\n<h2>Access and Usage</h2>\n<p>The model is currently available as part of the “Research Preview” and is primarily offered to ChatGPT Pro users. Spark, which is available via VS Code extensions, the CLI, and the Codex app, has a different speed limit policy than standard usage limits due to its specialized hardware requirements. API access is currently shared with a limited group of design partners.</p>\n",
+  "date": "2026-02-14T23:03:37Z",
+  "modified": "2026-02-14T23:03:37Z",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Genel",
+      "slug": "genel"
+    }
+  ],
+  "tags": [
+    {
+      "id": 325,
+      "name": "Cerebras",
+      "slug": "cerebras"
+    },
+    {
+      "id": 352,
+      "name": "Codex Spark",
+      "slug": "codex-spark"
+    },
+    {
+      "id": 351,
+      "name": "GPT-5.3",
+      "slug": "gpt-5-3"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 353,
+      "name": "VS Code",
+      "slug": "vs-code"
+    },
+    {
+      "id": 354,
+      "name": "Wafer Scale Engine 3",
+      "slug": "wafer-scale-engine-3"
+    },
+    {
+      "id": 355,
+      "name": "WebSocket",
+      "slug": "websocket"
+    },
+    {
+      "id": 69,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    },
+    {
+      "id": 67,
+      "name": "Yazılım Geliştirme",
+      "slug": "yazilim-gelistirme"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-gercek-zamanli-kod-yazan-gpt-5-3-sparki-duyurdu-1771110216931.jpg",
+    "alt": "OpenAI Gerçek Zamanlı Kod Yazan GPT-5.3 Sparkı Duyurdu",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-gercek-zamanli-kod-yazan-gpt-5-3-sparki-duyurdu-1771110216931-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-gercek-zamanli-kod-yazan-gpt-5-3-sparki-duyurdu-1771110216931-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-gercek-zamanli-kod-yazan-gpt-5-3-sparki-duyurdu-1771110216931-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-gercek-zamanli-kod-yazan-gpt-5-3-sparki-duyurdu-1771110216931-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-gercek-zamanli-kod-yazan-gpt-5-3-sparki-duyurdu-1771110216931.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "openai-gercek-zamanli-kod-yazan-gpt-5-3-sparki-duyurdu",
+  "sourceHash": "f5656987565852af"
+}

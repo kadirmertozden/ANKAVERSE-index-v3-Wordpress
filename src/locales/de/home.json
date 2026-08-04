@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "badge": "Mit Technologie gestalten wir die Zukunft",
+    "titleLead": "Software, Automatisierung, Künstliche Intelligenz und",
+    "titleHighlight": "E-Commerce-Technologien",
+    "description": "Als Vorreiter der digitalen Transformation bietet ANKAVERSE Unternehmen maßgeschneiderte technologische Lösungen. Mit unserer starken technischen Infrastruktur und unserer innovativen Vision modernisieren wir Ihre Geschäftsprozesse, steigern Ihre Effizienz und heben Ihre Marke auf globales Niveau."
+  },
+  "whyUs": {
+    "eyebrow": "Warum ANKAVERSE?",
+    "title": "Wir betrachten Technologie nicht nur als Code",
+    "description": "Wir gehen über herkömmliche Hosting-Dienstleistungen hinaus und werden zu Ihrem strategischen Technologiepartner, der direkt zum Wachstum Ihres Unternehmens beiträgt. Wir messen unseren Erfolg nicht an der von uns bereitgestellten Serverkapazität, sondern am Mehrwert, den wir schaffen.",
+    "points": {
+      "data": {
+        "title": "Datengestützte Lösungen",
+        "description": "Wir stützen unsere Entscheidungen und Entwürfe nicht auf Annahmen, sondern auf konkrete Daten und analytische Erkenntnisse."
+      },
+      "excellence": {
+        "title": "Technische Exzellenz",
+        "description": "In den Bereichen Codequalität, Sicherheit und Leistung streben wir an, die Branchenstandards zu übertreffen."
+      },
+      "sustainable": {
+        "title": "Nachhaltige Architektur",
+        "description": "Wir entwickeln flexible und langlebige Systeme, die den Anforderungen von heute gerecht werden und gleichzeitig mit den Technologien von morgen kompatibel sind."
+      }
+    }
+  },
+  "servicesHeading": "Unsere Dienstleistungen",
+  "store": {
+    "title": "Unser Online-Shop",
+    "description": "Sie können sich die ANKAVERSE-Produkte in unserem Online-Shop ansehen."
+  },
+  "cta": {
+    "title": "Sind Sie bereit, Ihr Projekt in die Tat umzusetzen?",
+    "description": "Sie stellen es sich vor, wir setzen es mit der ANKAVERSE-Technologie in die Realität um. Nehmen Sie noch heute Kontakt mit uns auf und beginnen Sie Ihre Reise in die digitale Transformation."
+  }
+}

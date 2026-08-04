@@ -1,0 +1,72 @@
+{
+  "id": 231,
+  "slug": "openai-is-odakli-gpt-5-2-modelini-duyurdu",
+  "lang": "tr",
+  "title": "OpenAI İş Odaklı GPT-5.2 Modelini Duyurdu",
+  "excerpt": "İş Odaklı Yeni Model Mimarisi Yapay zeka ekosisteminde yeni bir aşamaya geçildi. OpenAI, profesyonel kullanıma yönelik geliştirdiği GPT-5.2 modelini resmen tanıttı. Yeni model, önceki sürümlere kıyasla daha yüksek doğruluk oranı, genişletilmiş bağlam yönetimi ve çok adımlı görevlerde (multi-step tasks) daha istikrarlı bir performans sunmayı hedefliyor. GPT-5.2; Instant, Thinking ve Pro olmak üzere üç farklı sürümle [&hellip;]",
+  "content": "<h2>İş Odaklı Yeni Model Mimarisi</h2>\n<p>Yapay zeka ekosisteminde yeni bir aşamaya geçildi. OpenAI, profesyonel kullanıma yönelik geliştirdiği <strong>GPT-5.2</strong> modelini resmen tanıttı. Yeni model, önceki sürümlere kıyasla daha yüksek doğruluk oranı, genişletilmiş bağlam yönetimi ve çok adımlı görevlerde (multi-step tasks) daha istikrarlı bir performans sunmayı hedefliyor. GPT-5.2; <strong>Instant</strong>, <strong>Thinking</strong> ve <strong>Pro</strong> olmak üzere üç farklı sürümle kullanıcılara sunuluyor.</p>\n<p>Özellikle kurumsal ihtiyaçlar gözetilerek geliştirilen bu sürümler, e-tablo oluşturma, gelişmiş kod yazma, sunum hazırlama ve uzun metin analizlerinde önemli yetenek artışları içeriyor. Modelin temel amacı, hem bireysel geliştiriciler hem de büyük ölçekli şirketler için operasyonel verimliliği artırmak.</p>\n<h2>Halüsinasyon Sorunu ve Güvenilirlik</h2>\n<p>OpenAI Araştırma Başkan Yardımcısı Aidan Clark’ın paylaştığı bilgilere göre, GPT-5.2 Pro sürümü akademik ve bilimsel araştırmalarda derinlikli analiz yeteneğiyle öne çıkıyor. Yapılan testlerde, bir immünoloji araştırmacısının karmaşık senaryolarına rakiplerinden daha tutarlı ve anlamlı yanıtlar verdiği belirtildi.</p>\n<p>Yapay zeka ajanlarının (AI Agents) otonom görevleri yerine getirirken karşılaştığı en büyük sorunlardan biri olan halüsinasyon (yanlış bilgi üretme) riski, <strong>GPT-5.2 Thinking</strong> modeli ile minimize edilmiş durumda. Bu güvenilirlik artışı sayesinde Notion, Shopify, Zoom ve Databricks gibi teknoloji devleri, modeli entegrasyon süreçlerine dahil etti.</p>\n<h2>Kullanıcı Deneyimi ve Disney Ortaklığı</h2>\n<p>GPT-5.2, GPT-5.1’in doğal konuşma tonunu korurken daha yapılandırılmış bir yanıt mimarisi sunuyor. Bu yapı, modelin teknik asistan olarak kullanımını kolaylaştırıyor. Tanıtımla eş zamanlı olarak Disney ile 3 yıllık bir lisans anlaşması da duyuruldu. Bu kapsamda, Disney Plus içeriklerinde kullanılacak yapay zeka destekli videoların altyapısında GPT modellerinden faydalanılacak.</p>\n",
+  "date": "2025-12-13T23:05:08Z",
+  "modified": "2025-12-13T23:05:09Z",
+  "categories": [
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 142,
+      "name": "AI Agents",
+      "slug": "ai-agents"
+    },
+    {
+      "id": 141,
+      "name": "Databricks",
+      "slug": "databricks"
+    },
+    {
+      "id": 73,
+      "name": "Generative AI",
+      "slug": "generative-ai"
+    },
+    {
+      "id": 117,
+      "name": "GPT-5.2",
+      "slug": "gpt-5-2"
+    },
+    {
+      "id": 143,
+      "name": "Kurumsal Yapay Zeka",
+      "slug": "kurumsal-yapay-zeka"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-is-odakli-gpt-5-2-modelini-duyurdu-1765667107759.jpg",
+    "alt": "OpenAI İş Odaklı GPT-5.2 Modelini Duyurdu",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-is-odakli-gpt-5-2-modelini-duyurdu-1765667107759-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-is-odakli-gpt-5-2-modelini-duyurdu-1765667107759-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-is-odakli-gpt-5-2-modelini-duyurdu-1765667107759-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-is-odakli-gpt-5-2-modelini-duyurdu-1765667107759-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-is-odakli-gpt-5-2-modelini-duyurdu-1765667107759.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

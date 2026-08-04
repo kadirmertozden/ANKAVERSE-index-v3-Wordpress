@@ -1,0 +1,79 @@
+{
+  "id": 261,
+  "slug": "2025-technology-overview-artificial-intelligence-and-industry-specific-changes",
+  "lang": "en",
+  "title": "2025 Technology Overview: Artificial Intelligence and Industry-Specific Changes",
+  "excerpt": "Industry Mergers and Acquisitions The year 2025 saw a wave of consolidation among media and technology giants. Netflix initiated the process of acquiring Warner Bros. for $82.7 billion. With this deal, expected to be finalized in the third quarter of 2026, intellectual property such as HBO Max, Harry Potter, and Game of Thrones will come under the Netflix umbrella. However, regulatory agencies are investigating antitrust claims [&hellip;]",
+  "content": "<h2>Industry Mergers and Acquisitions</h2>\n<p>The year 2025 saw consolidation among media and technology giants. Netflix initiated the process of acquiring Warner Bros. for $82.7 billion. With this deal, expected to be finalized in the third quarter of 2026, intellectual property such as HBO Max, Harry Potter, and Game of Thrones will come under the Netflix umbrella. However, regulatory investigations into antitrust concerns are casting uncertainty over the process.</p>\n<h2>Global RAM Crisis and Its Impact on Hardware</h2>\n<p>The growing demand for memory to train and run artificial intelligence models has triggered a global RAM crisis. This bottleneck in the supply chain has driven up prices. While the crisis is expected to last until 2026, manufacturers such as AMD and NVIDIA are projected to raise their prices. For end users, this could mean cost increases of up to 20% for PCs and mobile devices.</p>\n<h2>Developments in the AI Ecosystem</h2>\n<p>Throughout the year, next-generation tools such as OpenAI’s GPT-5, Google’s Gemini 3 Pro, and the Atlas browser were launched. In particular, the growing capabilities of autonomous agents have raised the level of automation in business processes. In the field of generative AI, visual generation capabilities continued to push the boundaries of realism.</p>\n<h2>Design Failures in Mobile Devices</h2>\n<p>Ultra-thin phone concepts tested by Apple (iPhone Air) and Samsung (Galaxy S25 Edge) failed to gain market acceptance. The 5.6 mm-thick devices saw low sales figures due to thermal management issues, short battery life, and limited camera hardware. This situation confirmed that users prioritize performance over aesthetics.</p>\n<h2>SpaceX Valuation and Other Developments</h2>\n<p>Thanks to the success of its Starship tests and the profitability of Starlink, SpaceX reached a valuation of $800 billion, rising to become the world’s most valuable private company. Across the industry, however, more than 100,000 tech workers were laid off due to economic contraction and restructuring. In the gaming world, the highly anticipated title GTA VI has been delayed to November 19, 2026.</p>\n",
+  "date": "2025-12-27T23:05:12Z",
+  "modified": "2025-12-27T23:05:12Z",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Genel",
+      "slug": "genel"
+    }
+  ],
+  "tags": [
+    {
+      "id": 139,
+      "name": "Donanım",
+      "slug": "donanim"
+    },
+    {
+      "id": 199,
+      "name": "Gemini 3 Pro",
+      "slug": "gemini-3-pro"
+    },
+    {
+      "id": 126,
+      "name": "GPT-5",
+      "slug": "gpt-5"
+    },
+    {
+      "id": 201,
+      "name": "Netflix",
+      "slug": "netflix"
+    },
+    {
+      "id": 200,
+      "name": "RAM Krizi",
+      "slug": "ram-krizi"
+    },
+    {
+      "id": 204,
+      "name": "SpaceX",
+      "slug": "spacex"
+    },
+    {
+      "id": 205,
+      "name": "Startups",
+      "slug": "startups"
+    },
+    {
+      "id": 203,
+      "name": "Teknoloji Sektörü",
+      "slug": "teknoloji-sektoru"
+    },
+    {
+      "id": 202,
+      "name": "Warner Bros",
+      "slug": "warner-bros"
+    },
+    {
+      "id": 69,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/2025-teknoloji-ozeti-yapay-zeka-ve-sektorel-degisimler-1766876711196.jpg",
+    "alt": "2025 Teknoloji Özeti: Yapay Zeka ve Sektörel Değişimler",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/2025-teknoloji-ozeti-yapay-zeka-ve-sektorel-degisimler-1766876711196-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/2025-teknoloji-ozeti-yapay-zeka-ve-sektorel-degisimler-1766876711196-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/2025-teknoloji-ozeti-yapay-zeka-ve-sektorel-degisimler-1766876711196-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/2025-teknoloji-ozeti-yapay-zeka-ve-sektorel-degisimler-1766876711196-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/2025-teknoloji-ozeti-yapay-zeka-ve-sektorel-degisimler-1766876711196.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "2025-teknoloji-ozeti-yapay-zeka-ve-sektorel-degisimler",
+  "sourceHash": "fb83fd6ecd57565a"
+}

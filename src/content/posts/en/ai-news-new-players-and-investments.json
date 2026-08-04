@@ -1,0 +1,74 @@
+{
+  "id": 393,
+  "slug": "ai-news-new-players-and-investments",
+  "lang": "en",
+  "title": "AI News: New Players and Investments",
+  "excerpt": "Defense Industry and Artificial Intelligence Policies This week, relations between artificial intelligence companies and the U.S. Department of Defense (Pentagon) took different turns. Anthropic filed a lawsuit against the Pentagon, objecting to its classification as a supply chain risk, while Microsoft submitted a legal opinion supporting Anthropic during this process. Meanwhile, Google is helping Pentagon employees automate their repetitive administrative tasks using Gemini-powered AI [&hellip;]",
+  "content": "<h2>Defense Industry and Artificial Intelligence Policies</h2>\n<p>This week, relations between artificial intelligence companies and the U.S. Department of Defense (Pentagon) took different turns. While Anthropic filed a lawsuit against the Pentagon, objecting to its classification as a supply chain risk, Microsoft submitted a legal opinion supporting Anthropic in this matter. Meanwhile, Google announced that it will provide Gemini-powered AI agents (Agent Designer) to help Pentagon employees automate repetitive administrative tasks.</p>\n<h2>New Tools, Features, and Models</h2>\n<p>The data processing and presentation capabilities of large language models are expanding. Both OpenAI’s ChatGPT and Anthropic’s Claude model can now generate interactive graphs and diagrams to explain complex scientific and mathematical data.</p>\n<p>On the model side, multimodality and processing speed are taking center stage. Google has released a preview of Gemini Embedding 2, which can search text, images, video, and audio within a single system. Hume AI introduced its on-device TADA model, which synchronizes text and audio to reduce hallucinations; meanwhile, NVIDIA launched the open-source 120B Nemotron 3 Super reasoning model, featuring a 1 million-token context window for multi-agent workflows.</p>\n<h2>Emerging AI Agents and Systems</h2>\n<p>Notable developments in automation and assistant systems (AI Agents) include:</p>\n<ul>\n<li><strong>Anthropic Code Review:</strong> A multi-agent code review system integrated into Claude Code focuses on identifying logical errors in pull requests that might be missed by human reviewers.</li>\n<li><strong>Perplexity Personal Computer:</strong> An OpenClaw-like hardware-software integration was introduced, combining Perplexity with local applications via a constantly running Mac mini.</li>\n<li><strong>Nvidia NemoClaw:</strong> Preparations have begun for the launch of an open platform that allows businesses to run AI agents on any hardware infrastructure.</li>\n<li><strong>Cloudflare /crawl API:</strong> The company, known for its anti-bot services, has released a new API endpoint that enables websites to be crawled with a single call.</li>\n</ul>\n<h2>Investments, Infrastructure, and Acquisitions</h2>\n<p>Investments in AI computing infrastructure and agent-based platforms continue unabated in the sector. Thinking Machines Labs, founded by former OpenAI executive Mira Murati, signed a gigawatt-scale infrastructure agreement with Nvidia to meet its hardware needs. On the funding front, AI infrastructure provider Nscale raised $2 billion, software development platform Replit raised $400 million, and legal automation startup Legora raised $550 million.</p>\n<p>The security and ecosystem expansion strategies of major companies are also becoming clearer. OpenAI acquired the security startup Promptfoo to protect its AI agents against cyber threats, while Meta purchased Moltbook, a social networking platform where AI agents interact with one another.</p>\n",
+  "date": "2026-03-14T23:01:29Z",
+  "modified": "2026-03-14T23:01:29Z",
+  "categories": [
+    {
+      "id": 115,
+      "name": "Webrazzi TV",
+      "slug": "webrazzi-tv"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 389,
+      "name": "Bulut Altyapıları",
+      "slug": "bulut-altyapilari"
+    },
+    {
+      "id": 121,
+      "name": "Google Gemini",
+      "slug": "google-gemini"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    },
+    {
+      "id": 237,
+      "name": "Yapay Zeka Ajanları",
+      "slug": "yapay-zeka-ajanlari"
+    },
+    {
+      "id": 147,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar-1773529288088.jpg",
+    "alt": "Yapay Zeka Gündemi: Yeni Ajanlar ve Yatırımlar",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar-1773529288088-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar-1773529288088-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar-1773529288088-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar-1773529288088-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar-1773529288088.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar",
+  "sourceHash": "da53c0a074dd8e01"
+}

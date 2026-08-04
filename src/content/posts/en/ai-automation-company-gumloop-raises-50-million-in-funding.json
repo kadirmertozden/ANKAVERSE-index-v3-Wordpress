@@ -1,0 +1,79 @@
+{
+  "id": 396,
+  "slug": "ai-automation-company-gumloop-raises-50-million-in-funding",
+  "lang": "en",
+  "title": "AI Automation Company Gumloop Raises $50 Million in Funding",
+  "excerpt": "$50 Million Series B Round for Gumloop Canada-based AI automation platform Gumloop raised $50 million in a Series B funding round led by Benchmark. The round also included participation from major institutional investors such as Nexus VP, First Round Capital, Y Combinator, BoxGroup, The Cannon Project, and Shopify. The funding will be used to further develop the platform’s AI agent (AI [&hellip;]",
+  "content": "<h2>$50 Million Series B Round for Gumloop</h2>\n<p>Canada-based AI automation platform Gumloop raised $50 million in a Series B funding round led by Benchmark. The round also included participation from major institutional investors such as Nexus VP, First Round Capital, Y Combinator, BoxGroup, The Cannon Project, and Shopify. The funding will be used to develop the platform’s AI agent infrastructure and expand its engineering team.</p>\n<h2>No-Code AI Agents and Workflow Automation</h2>\n<p>Founded in 2023 by Max Brodeur-Urbas and Rahul Behal, the platform enables users without technical infrastructure or software knowledge to create their own autonomous AI agents. These agents automate multi-step operations such as data entry, complex reporting processes, and responding to customer requests.</p>\n<p>Gumloop’s key technical features include:</p>\n<ul>\n<li><strong>Model Routing:</strong> The ability to dynamically switch between different AI models—such as OpenAI, Anthropic, and Gemini—based on task requirements and cost optimization.</li>\n<li><strong>Enterprise-Scale Sharing:</strong> Accelerating organizational automation by allowing employees to share the workflows and AI agents they create with colleagues on the internal network.</li>\n<li><strong>Large-Scale Deployment:</strong> Direct integration into the operational workflows of high-volume companies such as Shopify, Ramp, Gusto, Samsara, and Instacart.</li>\n</ul>\n<p>The platform aims to optimize cloud and API costs by enabling the selection of the most suitable task-based model, while delivering in-house automation processes with a minimal learning curve.</p>\n",
+  "date": "2026-03-14T23:02:21Z",
+  "modified": "2026-03-14T23:02:21Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    },
+    {
+      "id": 76,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "tags": [
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 391,
+      "name": "Benchmark",
+      "slug": "benchmark"
+    },
+    {
+      "id": 193,
+      "name": "Gemini",
+      "slug": "gemini"
+    },
+    {
+      "id": 390,
+      "name": "Gumloop",
+      "slug": "gumloop"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 222,
+      "name": "No-Code",
+      "slug": "no-code"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    },
+    {
+      "id": 237,
+      "name": "Yapay Zeka Ajanları",
+      "slug": "yapay-zeka-ajanlari"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-otomasyonu-gumloop-50-milyon-dolar-yatirim-aldi-1773529340102.jpg",
+    "alt": "Yapay Zeka Otomasyonu Gumloop 50 Milyon Dolar Yatırım Aldı",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-otomasyonu-gumloop-50-milyon-dolar-yatirim-aldi-1773529340102-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-otomasyonu-gumloop-50-milyon-dolar-yatirim-aldi-1773529340102-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-otomasyonu-gumloop-50-milyon-dolar-yatirim-aldi-1773529340102-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-otomasyonu-gumloop-50-milyon-dolar-yatirim-aldi-1773529340102-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-otomasyonu-gumloop-50-milyon-dolar-yatirim-aldi-1773529340102.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "yapay-zeka-otomasyonu-gumloop-50-milyon-dolar-yatirim-aldi",
+  "sourceHash": "9b10484593b0275b"
+}

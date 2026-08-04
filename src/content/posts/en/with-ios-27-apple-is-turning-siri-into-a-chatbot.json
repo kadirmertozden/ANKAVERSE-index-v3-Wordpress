@@ -1,0 +1,73 @@
+{
+  "id": 328,
+  "slug": "with-ios-27-apple-is-turning-siri-into-a-chatbot",
+  "lang": "en",
+  "title": "With iOS 27, Apple Is Turning Siri Into a Chatbot",
+  "excerpt": "New Infrastructure for Siri: Campos Apple is undergoing a comprehensive transformation of its voice assistant, Siri, with the release of iOS 27. Developed under the code name \"Campos,\" this new framework aims to transform Siri from a simple command-executing assistant into an advanced chatbot capable of understanding context. According to information cited from Bloomberg sources, this move is a response to competitors such as OpenAI and Google’s ecosystems [&hellip;]",
+  "content": "<h2>New Infrastructure for Siri: Campos</h2>\n<p>Apple is undergoing a comprehensive transformation of its voice assistant, Siri, with the release of iOS 27. Developed under the code name “Campos,” this new framework aims to transform Siri from a simple command-executing assistant into an advanced chatbot capable of understanding context. According to information cited from Bloomberg sources, this move is intended to alleviate the pressure on the ecosystem from competitors such as OpenAI and Google.</p>\n<h2>Technical Capabilities and Integration</h2>\n<p>It is reported that the new Siri infrastructure is powered by Google’s Gemini models and focuses on generative AI capabilities. Thanks to this integration, Siri will analyze user habits to deliver a personalized experience. The system’s key technical capabilities include:</p>\n<ul>\n<li><strong>Complex Code Generation:</strong> Support for generating code snippets during software development processes.</li>\n<li><strong>Image Generation:</strong> Production of visual content via text-based commands.</li>\n<li><strong>In-Depth Web Research:</strong> Detailed web-based scanning and synthesis for user queries.</li>\n<li><strong>File Analysis:</strong> Reading documents and generating quick summaries.</li>\n<li><strong>Contextual Memory:</strong> The ability to continue a conversation by recalling past exchanges.</li>\n</ul>\n<p>Apple’s strategy aims to reduce iPhone and Mac users’ reliance on third-party apps like ChatGPT. These features, integrated into the operating system’s core, are expected to be unveiled at the WWDC event in June and released to the general public in September.</p>\n",
+  "date": "2026-01-24T23:05:44Z",
+  "modified": "2026-01-24T23:05:44Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 305,
+      "name": "Campos",
+      "slug": "campos"
+    },
+    {
+      "id": 307,
+      "name": "Chatbot",
+      "slug": "chatbot"
+    },
+    {
+      "id": 193,
+      "name": "Gemini",
+      "slug": "gemini"
+    },
+    {
+      "id": 306,
+      "name": "GenAI",
+      "slug": "genai"
+    },
+    {
+      "id": 303,
+      "name": "iOS 27",
+      "slug": "ios-27"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 276,
+      "name": "Siri",
+      "slug": "siri"
+    },
+    {
+      "id": 308,
+      "name": "WWDC",
+      "slug": "wwdc"
+    }
+  ],
+  "image": null,
+  "author": "kadirmertozden",
+  "sourceSlug": "apple-ios-27-ile-siri-sohbet-botuna-donusuyor",
+  "sourceHash": "cbb19313f8f1a1a7"
+}

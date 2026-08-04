@@ -1,0 +1,77 @@
+{
+  "id": 189,
+  "slug": "anthropic-claude-code-slack-entegrasyonu-basladi",
+  "lang": "tr",
+  "title": "Anthropic Claude Code Slack Entegrasyonu Başladı",
+  "excerpt": "Claude Code Slack Üzerinde Çalışacak Anthropic, Claude Code özelliğini Slack üzerinde kullanıma sundu. Araştırma ön izlemesi olarak beta sürümünde yayınlanan bu yeni entegrasyon, geliştiricilerin kodlama görevlerini doğrudan ekip içi sohbetler üzerinden yapay zekaya devretmesine olanak tanıyor. Daha önceki entegrasyonlarda sunulan basit kod parçacığı (snippet) yazma veya yüzeysel hata ayıklama desteğinin aksine, yeni sürüm tam kapsamlı [&hellip;]",
+  "content": "<h2>Claude Code Slack Üzerinde Çalışacak</h2>\n<p>Anthropic, Claude Code özelliğini Slack üzerinde kullanıma sundu. Araştırma ön izlemesi olarak beta sürümünde yayınlanan bu yeni entegrasyon, geliştiricilerin kodlama görevlerini doğrudan ekip içi sohbetler üzerinden yapay zekaya devretmesine olanak tanıyor.</p>\n<p>Daha önceki entegrasyonlarda sunulan basit kod parçacığı (snippet) yazma veya yüzeysel hata ayıklama desteğinin aksine, yeni sürüm tam kapsamlı bir iş akışı otomasyonu sağlıyor. Slack kullanıcıları, ilgili mesaj veya ileti dizisinde Claude&#8217;u etiketlediğinde, sistem içeriği tarayarak bunun bir kodlama görevi olup olmadığını otomatik olarak tespit ediyor.</p>\n<h2>Entegrasyonun Teknik Yetenekleri</h2>\n<p>Claude Code&#8217;un Slack entegrasyonu aşağıdaki temel işlevleri yerine getirebiliyor:</p>\n<ul>\n<li>Slack başlığındaki bağlamı ve hata raporlarını analiz ederek sorunu tanımlama.</li>\n<li>Kimlik doğrulaması yapılmış kod depolarına (repo) erişerek doğru dosyaları bulma.</li>\n<li>Kodlama görevlerini başlatma ve ilerleme güncellemelerini sohbet penceresine yansıtma.</li>\n<li>Yapılan çalışmaları inceleme ve çekme istekleri (Pull Request) oluşturma.</li>\n</ul>\n<p>Bu gelişme, Anthropic&#8217;in Claude Code&#8217;u web ve masaüstü (Mac dahil) uygulamalarına taşıma stratejisinin devamı niteliğinde. Sektörde Cursor ve GitHub Copilot gibi diğer yapay zeka kodlama araçları da benzer şekilde IDE sınırlarından çıkarak, ekiplerin halihazırda kullandığı iş birliği araçlarına entegre olmaya odaklanmış durumda.</p>\n",
+  "date": "2025-12-10T13:23:34Z",
+  "modified": "2025-12-10T13:23:35Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 70,
+      "name": "Claude Code",
+      "slug": "claude-code"
+    },
+    {
+      "id": 72,
+      "name": "Cursor",
+      "slug": "cursor"
+    },
+    {
+      "id": 68,
+      "name": "DevTools",
+      "slug": "devtools"
+    },
+    {
+      "id": 71,
+      "name": "GitHub Copilot",
+      "slug": "github-copilot"
+    },
+    {
+      "id": 64,
+      "name": "Kodlama Asistanı",
+      "slug": "kodlama-asistani"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    },
+    {
+      "id": 63,
+      "name": "Slack",
+      "slug": "slack"
+    },
+    {
+      "id": 69,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    },
+    {
+      "id": 67,
+      "name": "Yazılım Geliştirme",
+      "slug": "yazilim-gelistirme"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/anthropic-claude-code-slack-entegrasyonu-basladi-1765373012746.jpg",
+    "alt": "Anthropic Claude Code Slack Entegrasyonu Başladı",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/anthropic-claude-code-slack-entegrasyonu-basladi-1765373012746-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/anthropic-claude-code-slack-entegrasyonu-basladi-1765373012746-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/anthropic-claude-code-slack-entegrasyonu-basladi-1765373012746-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/anthropic-claude-code-slack-entegrasyonu-basladi-1765373012746-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/anthropic-claude-code-slack-entegrasyonu-basladi-1765373012746.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}

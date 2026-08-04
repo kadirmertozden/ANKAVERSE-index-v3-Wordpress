@@ -1,0 +1,36 @@
+{
+  "hero": {
+    "badge": "Nous construisons l'avenir grâce à la technologie",
+    "titleLead": "Logiciels, automatisation, intelligence artificielle et",
+    "titleHighlight": "Technologies du commerce électronique",
+    "description": "En tant que pionnier de la transformation numérique, ANKAVERSE propose des solutions technologiques sur mesure aux entreprises. Grâce à notre solide infrastructure d'ingénierie et à notre vision innovante, nous modernisons vos processus métier, améliorons votre efficacité et élevons votre marque au niveau des normes internationales."
+  },
+  "whyUs": {
+    "eyebrow": "Pourquoi ANKAVERSE ?",
+    "title": "Nous ne considérons pas la technologie uniquement comme du code",
+    "description": "En allant au-delà des services d'hébergement traditionnels, nous devenons votre partenaire technologique stratégique, contribuant directement à la croissance de votre entreprise. Nous mesurons notre succès non pas à l'aune de la capacité de nos serveurs, mais à celle de la valeur ajoutée que nous créons.",
+    "points": {
+      "data": {
+        "title": "Solutions basées sur les données",
+        "description": "Nous fondons nos décisions et nos conceptions non pas sur des hypothèses, mais sur des données concrètes et des analyses approfondies."
+      },
+      "excellence": {
+        "title": "Excellence technique",
+        "description": "En matière de qualité du code, de sécurité et de performances, nous visons à aller au-delà des normes du secteur."
+      },
+      "sustainable": {
+        "title": "Architecture durable",
+        "description": "Nous construisons des systèmes flexibles et durables, capables de répondre aux besoins d'aujourd'hui tout en s'adaptant aux technologies de demain."
+      }
+    }
+  },
+  "servicesHeading": "Nos services",
+  "store": {
+    "title": "Notre boutique en ligne",
+    "description": "Vous pouvez découvrir les produits ANKAVERSE dans notre boutique en ligne."
+  },
+  "cta": {
+    "title": "Êtes-vous prêt à concrétiser votre projet ?",
+    "description": "Vous imaginez, nous le concrétisons grâce à la technologie ANKAVERSE. Contactez-nous dès maintenant et lancez-vous dans votre parcours de transformation numérique."
+  }
+}

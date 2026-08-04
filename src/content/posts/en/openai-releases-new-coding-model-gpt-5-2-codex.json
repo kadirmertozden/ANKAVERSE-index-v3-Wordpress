@@ -1,0 +1,79 @@
+{
+  "id": 240,
+  "slug": "openai-releases-new-coding-model-gpt-5-2-codex",
+  "lang": "en",
+  "title": "OpenAI Releases New Coding Model, GPT-5.2-Codex",
+  "excerpt": "GPT-5.2-Codex Architecture and Performance OpenAI has announced the GPT-5.2-Codex model, which is based on the GPT-5.2 infrastructure and optimized for complex software engineering processes. The new model includes significant improvements, particularly in context compression, code refactoring, and performance in Windows environments. In tests, the model outperformed previous versions, achieving a 56.4% improvement on the SWE-Bench Pro test and a [&hellip;]% improvement on the Terminal-Bench 2.0 test.",
+  "content": "<h2>GPT-5.2-Codex Architecture and Performance</h2>\n<p>OpenAI has announced the GPT-5.2-Codex model, which is based on the GPT-5.2 infrastructure and optimized for complex software engineering processes. The new model includes significant improvements, particularly in context compression, code refactoring, and performance in Windows environments.</p>\n<p>In tests, the model outperformed previous versions, achieving an accuracy rate of 56.4% on the SWE-Bench Pro test and 64.0% on the Terminal-Bench 2.0 test. The model’s visual capabilities allow it to analyze technical diagrams and user interfaces, and it also has the capacity to transform design drafts into functional prototypes.</p>\n<h2>Technical Capabilities and Cybersecurity</h2>\n<p>GPT-5.2-Codex prevents performance loss by maintaining context in long-term, multi-step tasks. The model’s standout technical capabilities include:</p>\n<ul>\n<li><strong>Rewriting:</strong> Optimizing the codebase to reduce memory usage or improve response times.</li>\n<li><strong>Large-Scale Management:</strong> Managing code migration, feature creation, and large-scale editing operations.</li>\n<li><strong>Advanced Security:</strong> AI-powered error detection and vulnerability identification capabilities.</li>\n</ul>\n<p>Although the model is not yet classified as “High” in the cyber capabilities tier under OpenAI’s Readiness Framework, it has proven its effectiveness in practical scenarios, such as detecting security vulnerabilities in React. GPT-5.2-Codex is currently available to paid ChatGPT users, and API access is scheduled to open in the coming weeks.</p>\n",
+  "date": "2025-12-20T23:02:49Z",
+  "modified": "2025-12-20T23:02:49Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 68,
+      "name": "DevTools",
+      "slug": "devtools"
+    },
+    {
+      "id": 160,
+      "name": "GPT-5.2-Codex",
+      "slug": "gpt-5-2-codex"
+    },
+    {
+      "id": 167,
+      "name": "Kodlama Otomasyonu",
+      "slug": "kodlama-otomasyonu"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 165,
+      "name": "React",
+      "slug": "react"
+    },
+    {
+      "id": 162,
+      "name": "Refactoring",
+      "slug": "refactoring"
+    },
+    {
+      "id": 164,
+      "name": "Siber Güvenlik",
+      "slug": "siber-guvenlik"
+    },
+    {
+      "id": 163,
+      "name": "SWE-Bench",
+      "slug": "swe-bench"
+    },
+    {
+      "id": 166,
+      "name": "Windows",
+      "slug": "windows"
+    },
+    {
+      "id": 161,
+      "name": "Yazılım Mühendisliği",
+      "slug": "yazilim-muhendisligi"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-yeni-kodlama-modeli-gpt-5-2-codexi-yayinladi-1766271768048.jpg",
+    "alt": "OpenAI Yeni Kodlama Modeli GPT-5.2-Codex'i Yayınladı",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-yeni-kodlama-modeli-gpt-5-2-codexi-yayinladi-1766271768048-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-yeni-kodlama-modeli-gpt-5-2-codexi-yayinladi-1766271768048-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-yeni-kodlama-modeli-gpt-5-2-codexi-yayinladi-1766271768048-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-yeni-kodlama-modeli-gpt-5-2-codexi-yayinladi-1766271768048-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-yeni-kodlama-modeli-gpt-5-2-codexi-yayinladi-1766271768048.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "openai-yeni-kodlama-modeli-gpt-5-2-codexi-yayinladi",
+  "sourceHash": "00d76304a72fcaff"
+}

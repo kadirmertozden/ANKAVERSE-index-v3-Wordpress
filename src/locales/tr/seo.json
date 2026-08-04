@@ -1,0 +1,50 @@
+{
+  "home": {
+    "title": "ANKAVERSE – Yazılım, Yapay Zekâ ve E-Ticaret Teknolojileri",
+    "description": "ANKAVERSE; yazılım geliştirme, otomasyon, yapay zekâ ve e-ticaret çözümleriyle işletmeleri geleceğe taşıyan teknoloji şirketidir."
+  },
+  "about": {
+    "title": "Hakkımızda | ANKAVERSE",
+    "description": "ANKAVERSE kurumsal bilgileri: vizyon, misyon, yönetim kadrosu ve resmi şirket kayıtları."
+  },
+  "services": {
+    "title": "Hizmetler | ANKAVERSE",
+    "description": "Yazılım geliştirme, otomasyon ve entegrasyon, e-ticaret altyapısı, yapay zekâ çözümleri ve 3D modelleme hizmetleri."
+  },
+  "projects": {
+    "title": "Projeler | ANKAVERSE",
+    "description": "ANKAVERSE tarafından geliştirilen e-ticaret, otomasyon ve yapay zekâ projelerinden seçmeler."
+  },
+  "projectDetail": {
+    "title": "Proje | ANKAVERSE",
+    "description": "ANKAVERSE proje detayı."
+  },
+  "blog": {
+    "title": "Blog | ANKAVERSE",
+    "description": "Teknoloji, yapay zekâ, e-ticaret ve yazılım geliştirme üzerine ANKAVERSE yazıları."
+  },
+  "blogDetail": {
+    "title": "Blog | ANKAVERSE",
+    "description": "ANKAVERSE blog yazısı."
+  },
+  "contact": {
+    "title": "İletişim | ANKAVERSE",
+    "description": "ANKAVERSE ile iletişime geçin: adres, telefon, e-posta ve teklif formu."
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası | ANKAVERSE",
+    "description": "ANKAVERSE gizlilik politikası ve kişisel verilerin korunmasına ilişkin bilgilendirme."
+  },
+  "terms": {
+    "title": "Kullanım Şartları | ANKAVERSE",
+    "description": "ANKAVERSE web sitesinin kullanım şartları: hizmet kullanımı, fikri mülkiyet, sorumluluk reddi ve değişiklik koşulları."
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı | ANKAVERSE",
+    "description": "Aradığınız sayfa bulunamadı. ANKAVERSE ana sayfasından hizmetlerimize, projelerimize ve blog yazılarımıza ulaşabilirsiniz."
+  },
+  "vaktiaPrivacy": {
+    "title": "Vaktia Gizlilik Politikası | ANKAVERSE",
+    "description": "Vaktia mobil uygulamasının gizlilik politikası: toplanan veriler, kullanım amaçları, reklam ortakları ve kullanıcı hakları."
+  }
+}

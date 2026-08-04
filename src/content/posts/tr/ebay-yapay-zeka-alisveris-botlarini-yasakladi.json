@@ -1,0 +1,77 @@
+{
+  "id": 319,
+  "slug": "ebay-yapay-zeka-alisveris-botlarini-yasakladi",
+  "lang": "tr",
+  "title": "eBay Yapay Zeka Alışveriş Botlarını Yasakladı",
+  "excerpt": "Otomatik Alışveriş Ajanlarına Yasal Engel E-ticaret platformu eBay, kullanıcı sözleşmesinde yaptığı güncellemeyle üçüncü taraf otomasyon araçlarına ve yapay zeka destekli alışveriş botlarına kısıtlama getirdi. Şirket, özellikle insan müdahalesi olmadan sipariş oluşturabilen “benim için satın al” (buy for me) ajanlarını ve LLM tabanlı botları hedef alıyor. Sektörde “ajan ticareti” (agentic commerce) olarak tanımlanan bu teknoloji, kullanıcılar [&hellip;]",
+  "content": "<h2>Otomatik Alışveriş Ajanlarına Yasal Engel</h2>\n<p>E-ticaret platformu eBay, kullanıcı sözleşmesinde yaptığı güncellemeyle üçüncü taraf otomasyon araçlarına ve yapay zeka destekli alışveriş botlarına kısıtlama getirdi. Şirket, özellikle insan müdahalesi olmadan sipariş oluşturabilen “benim için satın al” (buy for me) ajanlarını ve LLM tabanlı botları hedef alıyor.</p>\n<p>Sektörde “ajan ticareti” (agentic commerce) olarak tanımlanan bu teknoloji, kullanıcılar adına ürün arama, karşılaştırma ve satın alma işlemlerini otonom olarak gerçekleştiriyor. eBay’in güncellenen politikası, insan denetimi olmayan uçtan uca akışların izinsiz kullanımını açıkça yasaklıyor. Yeni şartlar 20 Şubat 2026 tarihinde yürürlüğe girecek.</p>\n<h2>Robots.txt Dosyasından Kullanıcı Sözleşmesine Geçiş</h2>\n<p>eBay, daha önce web sitesindeki <code>robots.txt</code> dosyası üzerinden Perplexity, Anthropic ve Amazon gibi firmaların botlarına teknik engeller koymuştu. Ancak bu dosya yalnızca bir tavsiye niteliği taşıyordu ve yasal bağlayıcılığı sınırlıydı. Yasağın doğrudan kullanıcı sözleşmesine eklenmesi, şirkete kural ihlali yapanlara karşı yasal işlem başlatma hakkı tanıyor.</p>\n<p>Platform üzerindeki bu kısıtlamalar şu başlıkları kapsıyor:</p>\n<ul>\n<li>İnsan gözetimi olmayan otonom sipariş akışları.</li>\n<li>İzinsiz veri kazıma (scraping) araçları.</li>\n<li>Harici LLM tabanlı alışveriş asistanları.</li>\n</ul>\n<p>Şirket, bu yasağın eBay’den önceden açık izin alınarak yapılan işbirliklerini kapsamadığını belirtti. Bu durum, gelecekte OpenAI veya benzeri yapay zeka firmalarıyla resmi entegrasyonların yapılabileceğine işaret ediyor. Ayrıca eBay, kendi arama ve alışveriş altyapısında dahili yapay zeka çözümlerini test etmeye devam ediyor.</p>\n",
+  "date": "2026-01-24T23:02:46Z",
+  "modified": "2026-01-24T23:02:46Z",
+  "categories": [
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 296,
+      "name": "Agentic Commerce",
+      "slug": "agentic-commerce"
+    },
+    {
+      "id": 294,
+      "name": "Alışveriş Botları",
+      "slug": "alisveris-botlari"
+    },
+    {
+      "id": 104,
+      "name": "E-ticaret",
+      "slug": "e-ticaret"
+    },
+    {
+      "id": 297,
+      "name": "eBay",
+      "slug": "ebay"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    },
+    {
+      "id": 192,
+      "name": "Perplexity",
+      "slug": "perplexity"
+    },
+    {
+      "id": 295,
+      "name": "Veri Kazıma",
+      "slug": "veri-kazima"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/ebay-yapay-zeka-alisveris-botlarini-yasakladi-1769295765591.jpg",
+    "alt": "eBay Yapay Zeka Alışveriş Botlarını Yasakladı",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/ebay-yapay-zeka-alisveris-botlarini-yasakladi-1769295765591-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/ebay-yapay-zeka-alisveris-botlarini-yasakladi-1769295765591-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/ebay-yapay-zeka-alisveris-botlarini-yasakladi-1769295765591-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/ebay-yapay-zeka-alisveris-botlarini-yasakladi-1769295765591-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/ebay-yapay-zeka-alisveris-botlarini-yasakladi-1769295765591.jpg 1408w"
+  },
+  "author": "kadirmertozden"
+}
