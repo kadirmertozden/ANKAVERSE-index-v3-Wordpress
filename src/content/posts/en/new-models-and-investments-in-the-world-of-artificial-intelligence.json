@@ -1,0 +1,94 @@
+{
+  "id": 360,
+  "slug": "new-models-and-investments-in-the-world-of-artificial-intelligence",
+  "lang": "en",
+  "title": "New Models and Investments in the World of Artificial Intelligence",
+  "excerpt": "Strategic Moves by Tech Giants Competition in the AI sector is gaining momentum in both product development and financing. OpenAI has begun testing ad placements in the free versions of ChatGPT in the U.S. market. The company also announced that its Codex macOS app surpassed 1 million downloads in its first week and that the new GPT-5.3-Codex-Spark model is powered by Cerebras chips. Meanwhile, Anthropic has introduced features for free users, including file creation and [&hellip;]",
+  "content": "<h2>Strategic Moves by Tech Giants</h2>\n<p>Competition in the artificial intelligence sector is intensifying in both product development and financing. OpenAI has begun testing ad placements in the free versions of ChatGPT in the U.S. market. The company also announced that its Codex macOS app surpassed 1 million downloads in its first week and that its new GPT-5.3-Codex-Spark model is powered by Cerebras chips.</p>\n<p>Meanwhile, Anthropic introduced new capabilities for free users, such as file creation and integration with external services. On the Apple front, while Siri’s AI update has been delayed, it was announced that the CarPlay platform will open up to third-party chatbots. Amazon is working on an AI content licensing marketplace that will integrate with AWS products.</p>\n<h2>New AI Models and Products</h2>\n<p>New models with different capabilities for developers and end users have been released:</p>\n<ul>\n<li><strong>ByteDance:</strong> The Seedance 2.0 beta model was introduced with cinematic filming capabilities and synchronized audio features.</li>\n<li><strong>Z.ai:</strong> Released GLM-5, an open-weighted model with 744 billion parameters.</li>\n<li><strong>Alibaba:</strong> The Qwen team has released Qwen-Image-2.0, a text-processing and speed-focused image generation model.</li>\n<li><strong>Isomorphic Labs:</strong> IsoDDE, a drug design engine that outperforms AlphaFold 3, was announced.</li>\n<li><strong>ElevenLabs:</strong> Released the Audiobooks package for audiobook production.</li>\n</ul>\n<h2>Investment Ecosystem</h2>\n<p>Growth in the sector continues to be supported by large-scale investment rounds. Notable investment developments include:</p>\n<ul>\n<li><strong>Anthropic:</strong> Raised $30 billion at a $380 billion valuation.</li>\n<li><strong>Runway:</strong> Raised $315 million in a funding round featuring participation from Nvidia and Adobe, bringing its valuation to $5.3 billion.</li>\n<li><strong>Apptronik:</strong> The humanoid robot startup raised over $935 million in its Series A round.</li>\n<li><strong>Others:</strong> Simile raised $100 million, Entire raised $60 million, and Complyance raised $20 million.</li>\n</ul>\n",
+  "date": "2026-02-14T23:01:14Z",
+  "modified": "2026-02-14T23:01:14Z",
+  "categories": [
+    {
+      "id": 115,
+      "name": "Webrazzi TV",
+      "slug": "webrazzi-tv"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 345,
+      "name": "Amazon AWS",
+      "slug": "amazon-aws"
+    },
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 187,
+      "name": "ByteDance",
+      "slug": "bytedance"
+    },
+    {
+      "id": 325,
+      "name": "Cerebras",
+      "slug": "cerebras"
+    },
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 73,
+      "name": "Generative AI",
+      "slug": "generative-ai"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 344,
+      "name": "Qwen",
+      "slug": "qwen"
+    },
+    {
+      "id": 276,
+      "name": "Siri",
+      "slug": "siri"
+    },
+    {
+      "id": 246,
+      "name": "xAI",
+      "slug": "xai"
+    },
+    {
+      "id": 147,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar-1771110073416.jpg",
+    "alt": "Yapay Zeka Dünyasında Yeni Modeller ve Yatırımlar",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar-1771110073416-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar-1771110073416-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar-1771110073416-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar-1771110073416-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar-1771110073416.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar",
+  "sourceHash": "d84ef9dad2907739"
+}

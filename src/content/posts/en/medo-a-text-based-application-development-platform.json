@@ -1,0 +1,74 @@
+{
+  "id": 270,
+  "slug": "medo-a-text-based-application-development-platform",
+  "lang": "en",
+  "title": "MeDo: A Text-Based Application Development Platform",
+  "excerpt": "From Text to Application: MeDo’s Infrastructure Developed within the Baidu ecosystem, MeDo uses natural language processing capabilities to transform text commands into functioning web applications. Aimed at accelerating the MVP (Minimum Viable Product) creation process for startups and developers, the platform can automatically generate and deploy frontend, backend, database, and integration layers. The platform allows users to define concepts such as an “income and expense tracker” or an “e-commerce storefront” [&hellip;]",
+  "content": "<h2>From Text to Application: MeDo’s Infrastructure</h2>\n<p>Developed within the Baidu ecosystem, MeDo uses natural language processing capabilities to transform text commands into functioning web applications. Aimed at accelerating the MVP (Minimum Viable Product) creation process for startups and developers, the platform can automatically generate and deploy frontend, backend, database, and integration layers.</p>\n<p>The platform analyzes user descriptions—such as “income and expense tracker” or “e-commerce storefront”—to build the necessary code structure. The system is not limited to a chat interface; it also allows users to customize the created applications using a drag-and-drop visual editor. Support for regional ecosystems, such as WeChat Mini Programs, is also available.</p>\n<h2>Technical Architecture and Agent-Based Structure</h2>\n<p>The key feature that sets MeDo apart from standard no-code tools is its agent-based architecture running in the background. The system breaks down complex business logic—such as user session management, payment flows, and inventory tracking—into small task components. These tasks are automatically processed at the code, infrastructure, and integration levels.</p>\n<p>Key features for professional developers and technical teams include:</p>\n<ul>\n<li><strong>GitHub Integration:</strong> Generated code can be exported directly to GitHub.</li>\n<li><strong>Self-Hosting Option:</strong> Projects can be hosted on the user’s own infrastructure without being tied to the platform.</li>\n<li><strong>High Performance:</strong> The documentation targets an API response time of under 100 milliseconds and 99.9% uptime.</li>\n<li><strong>Extensive Integration Network:</strong> Support for connecting to over 500 third-party services is provided.</li>\n</ul>\n<h2>Pricing Model</h2>\n<p>The platform uses a flexible, credit-based pricing model. During the launch period, entry-level packages offer a high credit volume at a low cost, while the system allows for testing through daily free credit allocations. This structure provides a cost advantage, particularly for product teams that need rapid prototyping.</p>\n",
+  "date": "2026-01-03T23:03:32Z",
+  "modified": "2026-01-03T23:03:32Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 221,
+      "name": "Backend",
+      "slug": "backend"
+    },
+    {
+      "id": 224,
+      "name": "Baidu",
+      "slug": "baidu"
+    },
+    {
+      "id": 225,
+      "name": "Frontend",
+      "slug": "frontend"
+    },
+    {
+      "id": 220,
+      "name": "GitHub",
+      "slug": "github"
+    },
+    {
+      "id": 218,
+      "name": "MeDo",
+      "slug": "medo"
+    },
+    {
+      "id": 219,
+      "name": "MVP",
+      "slug": "mvp"
+    },
+    {
+      "id": 222,
+      "name": "No-Code",
+      "slug": "no-code"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    },
+    {
+      "id": 223,
+      "name": "Uygulama Geliştirme",
+      "slug": "uygulama-gelistirme"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/medo-metin-komutuyla-uygulama-gelistirme-platformu-1767481411031.jpg",
+    "alt": "MeDo: Metin Komutuyla Uygulama Geliştirme Platformu",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/medo-metin-komutuyla-uygulama-gelistirme-platformu-1767481411031-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/medo-metin-komutuyla-uygulama-gelistirme-platformu-1767481411031-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/medo-metin-komutuyla-uygulama-gelistirme-platformu-1767481411031-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/medo-metin-komutuyla-uygulama-gelistirme-platformu-1767481411031-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/medo-metin-komutuyla-uygulama-gelistirme-platformu-1767481411031.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "medo-metin-komutuyla-uygulama-gelistirme-platformu",
+  "sourceHash": "969f96ecde71fa0c"
+}

@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Blog",
+  "title": "Noticias y análisis",
+  "subtitle": "El mundo digital, las tendencias tecnológicas y las últimas noticias de nuestra empresa.",
+  "search": {
+    "placeholder": "Buscar en los artículos...",
+    "clear": "Borrar filtros",
+    "resultsFor": "Resultados para «{{query}}»",
+    "noResults": "No se ha encontrado ningún artículo que coincida con tu búsqueda."
+  },
+  "categories": {
+    "all": "Todos",
+    "label": "Categorías",
+    "default": "General"
+  },
+  "card": {
+    "readMore": "Leer más",
+    "readTime": "{{count}} minutos de lectura"
+  },
+  "detail": {
+    "publishedOn": "Publicación",
+    "author": "Autor",
+    "tags": "Etiquetas",
+    "related": "Artículos relacionados",
+    "notFound": "No se ha encontrado el artículo."
+  }
+}

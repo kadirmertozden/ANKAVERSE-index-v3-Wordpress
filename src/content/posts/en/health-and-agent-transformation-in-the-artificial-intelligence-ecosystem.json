@@ -1,0 +1,84 @@
+{
+  "id": 294,
+  "slug": "health-and-agent-transformation-in-the-artificial-intelligence-ecosystem",
+  "lang": "en",
+  "title": "Health and Agent Transformation in the Artificial Intelligence Ecosystem",
+  "excerpt": "Integration of Artificial Intelligence in Healthcare Major tech companies are deepening the integration of AI models into the healthcare sector. While Anthropic added a medical record analysis feature to its Claude model, OpenAI acquired the healthcare startup Torch to expand its data processing capabilities. Google is focusing on medical text and image analysis with its MedGemma 1.5 and MedASR models. Additionally, Nvidia and Lilly are collaborating on a joint [&hellip;] to accelerate drug discovery processes.",
+  "content": "<h2>Integration of Artificial Intelligence in Healthcare</h2>\n<p>Major technology companies are deepening the integration of AI models into the healthcare sector. While Anthropic is adding a medical record analysis feature to its Claude model, OpenAI has acquired the healthcare startup Torch to expand its data processing capabilities. Google is focusing on medical text and image analysis with its MedGemma 1.5 and MedASR models. Additionally, Nvidia and Lilly have announced investment plans to establish a joint laboratory aimed at accelerating drug discovery processes.</p>\n<h2>Agent-Based Systems and Workflows</h2>\n<p>Autonomous agents are playing an increasingly significant role in corporate processes. Google announced the Universal Commerce Protocol standard for agent-based shopping transactions. Anthropic introduced the Claude Cowork tool, which can organize files for desktop tasks, while Salesforce transformed its Slackbot into an agent that works with enterprise data. McKinsey, meanwhile, has launched a large-scale transformation aimed at supporting its employees with AI agents.</p>\n<h2>Model Developments and Infrastructure Investments</h2>\n<p>On the model front, Google has begun supporting mobile-friendly vertical video production with Veo 3.1. In the field of robotics, 1X introduced World Model, which enables robots to learn from video data. On the infrastructure side, investments in energy and hardware are drawing attention:</p>\n<ul>\n<li><strong>Meta:</strong> Signed agreements with nuclear energy providers to power its AI operations.</li>\n<li><strong>OpenAI:</strong> Signed a deal worth over $10 billion with chip manufacturer Cerebras.</li>\n<li><strong>Microsoft:</strong> Updated its data center strategy with community-first infrastructure plans.</li>\n</ul>\n<h2>Investment Ecosystem</h2>\n<p>Capital flows in the sector have focused on hardware, robotics, and interface technologies. Skild AI raised $1.4 billion, while Parloa secured $350 million in funding. Additionally, OpenAI supported its vision for human-machine interaction by investing in Merge Labs, a developer of brain-computer interfaces.</p>\n",
+  "date": "2026-01-17T23:01:08Z",
+  "modified": "2026-01-17T23:01:08Z",
+  "categories": [
+    {
+      "id": 115,
+      "name": "Webrazzi TV",
+      "slug": "webrazzi-tv"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 142,
+      "name": "AI Agents",
+      "slug": "ai-agents"
+    },
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 81,
+      "name": "Bulut Altyapısı",
+      "slug": "bulut-altyapisi"
+    },
+    {
+      "id": 121,
+      "name": "Google Gemini",
+      "slug": "google-gemini"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 148,
+      "name": "Nvidia",
+      "slug": "nvidia"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 99,
+      "name": "Robotik",
+      "slug": "robotik"
+    },
+    {
+      "id": 268,
+      "name": "Sağlık Teknolojileri",
+      "slug": "saglik-teknolojileri"
+    },
+    {
+      "id": 147,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu-1768690865371.jpg",
+    "alt": "Yapay Zeka Ekosisteminde Sağlık ve Ajan Dönüşümü",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu-1768690865371-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu-1768690865371-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu-1768690865371-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu-1768690865371-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu-1768690865371.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu",
+  "sourceHash": "a0e2b76eccb45b1f"
+}

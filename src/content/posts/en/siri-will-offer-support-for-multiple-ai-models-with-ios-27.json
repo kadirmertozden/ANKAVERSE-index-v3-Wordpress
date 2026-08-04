@@ -1,0 +1,74 @@
+{
+  "id": 422,
+  "slug": "siri-will-offer-support-for-multiple-ai-models-with-ios-27",
+  "lang": "en",
+  "title": "Siri will offer support for multiple AI models with iOS 27",
+  "excerpt": "Selectable LLM Infrastructure for Siri Apple has decided to diversify the AI infrastructure behind its voice assistant, Siri. By expanding its existing integration with OpenAI, the company is said to be offering users alternative large language models (LLMs). Expected to roll out with iOS 27, this new architecture will allow users to choose which AI model will process requests made through Siri [&hellip;]",
+  "content": "<h2>Selectable LLM Infrastructure for Siri</h2>\n<p>Apple has decided to diversify the AI infrastructure behind its voice assistant, Siri. By expanding its existing integration with OpenAI, the company is said to be planning to offer users alternative large language models (LLMs).</p>\n<p>Expected to roll out with iOS 27, this new architecture will allow users to choose which AI model processes their requests via Siri. The core models to be integrated into the system are listed as follows:</p>\n<ul>\n<li><strong>ChatGPT:</strong> The current infrastructure provided by OpenAI.</li>\n<li><strong>Gemini:</strong> Google’s AI model with ecosystem integration.</li>\n<li><strong>Claude:</strong> Anthropic’s model featuring a wide context window and a focus on security.</li>\n</ul>\n<p>This infrastructure change loosens the traditional closed structure of the Apple ecosystem in terms of AI services, while providing a more modular assistant experience for tech enthusiasts and developers.</p>\n",
+  "date": "2026-03-28T23:03:36Z",
+  "modified": "2026-03-28T23:03:36Z",
+  "categories": [
+    {
+      "id": 423,
+      "name": "Chip Galeri",
+      "slug": "chip-galeri"
+    }
+  ],
+  "tags": [
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 197,
+      "name": "Claude",
+      "slug": "claude"
+    },
+    {
+      "id": 193,
+      "name": "Gemini",
+      "slug": "gemini"
+    },
+    {
+      "id": 303,
+      "name": "iOS 27",
+      "slug": "ios-27"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 276,
+      "name": "Siri",
+      "slug": "siri"
+    },
+    {
+      "id": 69,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/siri-ios-27-ile-coklu-yapay-zeka-modeli-destegi-sunacak-1774739015674.jpg",
+    "alt": "Siri, iOS 27 ile çoklu yapay zeka modeli desteği sunacak",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/siri-ios-27-ile-coklu-yapay-zeka-modeli-destegi-sunacak-1774739015674-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/siri-ios-27-ile-coklu-yapay-zeka-modeli-destegi-sunacak-1774739015674-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/siri-ios-27-ile-coklu-yapay-zeka-modeli-destegi-sunacak-1774739015674-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/siri-ios-27-ile-coklu-yapay-zeka-modeli-destegi-sunacak-1774739015674-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/siri-ios-27-ile-coklu-yapay-zeka-modeli-destegi-sunacak-1774739015674.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "siri-ios-27-ile-coklu-yapay-zeka-modeli-destegi-sunacak",
+  "sourceHash": "5d5521dbef39d2d1"
+}

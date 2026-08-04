@@ -1,0 +1,50 @@
+{
+  "eyebrow": "Corporate",
+  "title": "About Us",
+  "subtitle": "At the intersection of technology and innovation, we’re helping businesses move into the future.",
+  "profile": {
+    "title": "Company Profile",
+    "p1": "ANKAVERSE E-Commerce and Technology Ltd. is a trusted technology partner that guides businesses through the complexities of the digital world and integrates modern technologies into their business processes.",
+    "p2": "Since our founding, we have aimed to make a difference in the industry through our software development, automation systems, and AI-based solutions. We serve as not just a service provider but also a strategic solution partner on our customers’ digital transformation journeys.",
+    "p3": "With our innovative approach, robust technical infrastructure, and team of experts, we develop scalable, secure, and sustainable projects tailored to the dynamics of the e-commerce world."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "description": "To be a leading technology brand from Turkey that sets global standards in the tech world, shapes the future with sustainable and people-centered solutions, and reaches out to the world. To drive the ecosystem forward by pushing the boundaries of the digital world through our philosophy of boundless innovation."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "To develop reliable, innovative, and high-performance technology solutions that maximize our customers’ digital potential. While adhering to ethical values, we aim to contribute to the growth of our business partners and develop projects that provide added value to society."
+  },
+  "team": {
+    "title": "Founders and Management",
+    "subtitle": "Our company's management structure and founding partners.",
+    "shareStructure": "Ownership Structure",
+    "roles": {
+      "director": "Company Manager",
+      "boardChair": "Chair of the Board of Directors"
+    },
+    "shares": {
+      "majority": "Major Partner (%{{share}})",
+      "founding": "Co-Founder (%{{share}})"
+    }
+  },
+  "official": {
+    "title": "Official Information",
+    "subtitle": "Our company's legal and official registration information is provided below.",
+    "labels": {
+      "legalName": "Title",
+      "mersis": "MERSIS No.",
+      "tradeRegistryNo": "Commercial Registry No. / File No.",
+      "tax": "Tax Office / No.",
+      "tradeRegistryOffice": "Commercial Registry Directorate",
+      "companyType": "Company Type",
+      "foundingDate": "Date of Establishment",
+      "director": "Company Manager / Major Partner",
+      "boardChair": "Chairman of the Board of Directors / Partner",
+      "address": "Address",
+      "brand": "Brand Status"
+    },
+    "companyType": "LIMITED LIABILITY COMPANY WITH MORE THAN ONE PARTNER"
+  }
+}

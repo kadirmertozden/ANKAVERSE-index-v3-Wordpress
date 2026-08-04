@@ -1,0 +1,79 @@
+{
+  "id": 372,
+  "slug": "third-party-ai-support-is-coming-to-apple-carplay",
+  "lang": "en",
+  "title": "Third-Party AI Support Is Coming to Apple CarPlay",
+  "excerpt": "The CarPlay Ecosystem Is Expanding According to a report from Bloomberg, Apple is making a significant strategic shift for its in-car interface, CarPlay. The company is preparing to open the platform to third-party AI providers such as OpenAI (ChatGPT), Google (Gemini), and Anthropic (Claude). While voice interactions are currently limited to Siri, the new update will allow developers to make their own AI assistants compatible with CarPlay. [&hellip;]",
+  "content": "<h2>The CarPlay Ecosystem Is Expanding</h2>\n<p>According to a report from Bloomberg, Apple is making a significant strategic shift for its in-car interface, CarPlay. The company is preparing to open the platform to third-party AI providers such as OpenAI (ChatGPT), Google (Gemini), and Anthropic (Claude). While voice interactions are currently limited to Siri, the new update will allow developers to make their own AI assistants compatible with CarPlay.</p>\n<h2>Operating Principle and Integration</h2>\n<p>The new integration model will be offered as an alternative layer rather than completely disabling Siri. The system’s key technical details are as follows:</p>\n<ul>\n<li><strong>Manual Launch:</strong> There will be no dedicated wake word for third-party assistants. Users will need to launch the app via the touchscreen.</li>\n<li><strong>Voice Mode:</strong> When the app opens, the voice chat interface will activate immediately, helping to keep the driver’s attention on the road.</li>\n<li><strong>Independent Operation:</strong> These tools will operate independently of the Siri infrastructure but must comply with CarPlay interface standards.</li>\n</ul>\n<h2>Security and Restrictions</h2>\n<p>To ensure in-vehicle safety, Apple will not grant broad permissions to third-party apps. The capabilities of models like ChatGPT or Gemini will be limited to a specific framework:</p>\n<ul>\n<li>Vehicle hardware functions (climate control, windows, driving modes) cannot be controlled.</li>\n<li>Access to the iPhone’s core system settings will not be permitted.</li>\n</ul>\n<p>These restrictions aim to ensure that AI assistants are used solely for information retrieval and answering complex queries. This support is planned to be rolled out in tandem with iOS updates, which are also expected to include enhanced Siri capabilities.</p>\n",
+  "date": "2026-02-14T23:04:22Z",
+  "modified": "2026-02-14T23:04:22Z",
+  "categories": [
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 358,
+      "name": "CarPlay",
+      "slug": "carplay"
+    },
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 197,
+      "name": "Claude",
+      "slug": "claude"
+    },
+    {
+      "id": 121,
+      "name": "Google Gemini",
+      "slug": "google-gemini"
+    },
+    {
+      "id": 357,
+      "name": "iOS Entegrasyonu",
+      "slug": "ios-entegrasyonu"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 356,
+      "name": "Otomotiv Teknolojileri",
+      "slug": "otomotiv-teknolojileri"
+    },
+    {
+      "id": 276,
+      "name": "Siri",
+      "slug": "siri"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-carplaye-ucuncu-taraf-ai-destegi-geliyor-1771110261624.jpg",
+    "alt": "Apple CarPlay'e Üçüncü Taraf AI Desteği Geliyor",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-carplaye-ucuncu-taraf-ai-destegi-geliyor-1771110261624-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-carplaye-ucuncu-taraf-ai-destegi-geliyor-1771110261624-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-carplaye-ucuncu-taraf-ai-destegi-geliyor-1771110261624-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-carplaye-ucuncu-taraf-ai-destegi-geliyor-1771110261624-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-carplaye-ucuncu-taraf-ai-destegi-geliyor-1771110261624.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "apple-carplaye-ucuncu-taraf-ai-destegi-geliyor",
+  "sourceHash": "afa81924e3f55ef6"
+}

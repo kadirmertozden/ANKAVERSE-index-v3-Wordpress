@@ -1,0 +1,50 @@
+{
+  "eyebrow": "Unternehmen",
+  "title": "Über uns",
+  "subtitle": "An der Schnittstelle von Technologie und Innovation führen wir Unternehmen in die Zukunft.",
+  "profile": {
+    "title": "Unternehmensprofil",
+    "p1": "ANKAVERSE E-Commerce und Technologie GmbH ist ein zuverlässiger Technologiepartner, der Unternehmen in der komplexen Welt der Digitalisierung begleitet und moderne Technologien in ihre Geschäftsprozesse integriert.",
+    "p2": "Seit unserer Gründung haben wir uns zum Ziel gesetzt, mit unseren Lösungen in den Bereichen Softwareentwicklung, Automatisierungssysteme und künstliche Intelligenz in der Branche neue Maßstäbe zu setzen. Auf dem Weg unserer Kunden zur digitalen Transformation sind wir nicht nur ein Dienstleister, sondern auch ein strategischer Lösungspartner.",
+    "p3": "Mit unserer innovativen Herangehensweise, unserer leistungsstarken technischen Infrastruktur und unserem Expertenteam entwickeln wir skalierbare, sichere und nachhaltige Projekte, die den Dynamiken der E-Commerce-Welt gerecht werden."
+  },
+  "vision": {
+    "title": "Unsere Vision",
+    "description": "Eine führende Technologiemarke aus der Türkei zu sein, die globale Standards in der Technologiebranche setzt, die Zukunft mit nachhaltigen und menschenorientierten Lösungen gestaltet und sich der Welt öffnet. Mit unserem Konzept der grenzenlosen Innovation die digitalen Grenzen zu erweitern und so das Ökosystem mitzugestalten."
+  },
+  "mission": {
+    "title": "Unsere Mission",
+    "description": "Entwicklung zuverlässiger, innovativer und leistungsstarker Technologielösungen, um das digitale Potenzial unserer Kunden optimal auszuschöpfen. Unter Wahrung ethischer Werte wollen wir zum Wachstum unserer Geschäftspartner beitragen und Projekte entwickeln, die einen Mehrwert für die Gesellschaft schaffen."
+  },
+  "team": {
+    "title": "Gründer und Geschäftsführung",
+    "subtitle": "Die Führungsstruktur unseres Unternehmens und die Gründungsgesellschafter.",
+    "shareStructure": "Gesellschafterstruktur",
+    "roles": {
+      "director": "Geschäftsführer",
+      "boardChair": "Vorsitzender des Vorstands"
+    },
+    "shares": {
+      "majority": "Hauptgesellschafter (%{{share}})",
+      "founding": "Gründungsgesellschafter (%{{share}})"
+    }
+  },
+  "official": {
+    "title": "Offizielle Informationen",
+    "subtitle": "Nachstehend finden Sie die rechtlichen und amtlichen Registrierungsdaten unseres Unternehmens.",
+    "labels": {
+      "legalName": "Titel",
+      "mersis": "MERSİS-Nr.",
+      "tradeRegistryNo": "Handelsregisternummer / Aktenzeichen",
+      "tax": "Finanzamt / Nr.",
+      "tradeRegistryOffice": "Handelsregisteramt",
+      "companyType": "Unternehmensform",
+      "foundingDate": "Gründungsdatum",
+      "director": "Geschäftsführer / Hauptgesellschafter",
+      "boardChair": "Vorsitzender des Vorstands / Gesellschafter",
+      "address": "Adresse",
+      "brand": "Markenstatus"
+    },
+    "companyType": "GESELLSCHAFT MIT MEHR ALS EINEM GESELLSCHAFTER (GmbH)"
+  }
+}

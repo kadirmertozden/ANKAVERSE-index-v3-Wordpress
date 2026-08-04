@@ -1,0 +1,44 @@
+{
+  "brand": "ANKAVERSE",
+  "nav": {
+    "home": "Page d'accueil",
+    "about": "À propos de nous",
+    "services": "Services",
+    "projects": "Projets",
+    "blog": "Blog",
+    "contact": "Contact",
+    "menu": "Menu",
+    "language": "Langue"
+  },
+  "cta": {
+    "quote": "Demander un devis",
+    "start": "Commencez dès maintenant",
+    "viewProjects": "Découvrez nos projets",
+    "contactUs": "Contactez-nous dès maintenant",
+    "store": "Aller à la boutique",
+    "readMore": "Lire la suite",
+    "backToBlog": "Retour au blog",
+    "backToProjects": "Retour aux projets",
+    "backHome": "Retour à la page d'accueil"
+  },
+  "footer": {
+    "tagline": "Des solutions innovantes qui valorisent votre marque dans l'univers numérique. Du commerce en ligne à l'identité d'entreprise, nous construisons ensemble l'avenir.",
+    "quickLinks": "Liens rapides",
+    "ourServices": "Nos services",
+    "contact": "Contact",
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation"
+  },
+  "state": {
+    "loading": "Chargement en cours...",
+    "error": "Une erreur s'est produite lors du chargement du contenu.",
+    "empty": "Aucun contenu à afficher n'a été trouvé."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "heading": "La page que vous recherchez n'existe pas",
+    "description": "Le lien a peut-être été déplacé, renommé ou n'a jamais existé.",
+    "seoDescription": "La page que vous recherchez est introuvable."
+  }
+}

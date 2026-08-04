@@ -1,0 +1,74 @@
+{
+  "id": 406,
+  "slug": "uprock-an-ai-focused-decentralized-data-network",
+  "lang": "en",
+  "title": "UpRock, an AI-Focused Decentralized Data Network",
+  "excerpt": "Decentralized Data and Verification Infrastructure Built on the Solana blockchain, UpRock is a decentralized physical infrastructure (DePIN) network that provides verifiable web data for artificial intelligence systems. The platform aims to transform the raw data necessary for AI agents and automation systems to analyze the actual state of the internet into a reliable layer. Users can utilize idle internet bandwidth through the relevant application [&hellip;]",
+  "content": "<h2>Decentralized Data and Verification Infrastructure</h2>\n<p>Built on the Solana blockchain, UpRock is a decentralized physical infrastructure (DePIN) network that provides verifiable web data for artificial intelligence systems. The platform aims to transform the raw data necessary for AI agents and automation systems to analyze the actual state of the internet into a reliable layer. Users contribute data to the network by sharing their idle internet bandwidth through the relevant application and are rewarded with UPT tokens in return.</p>\n<p>The network currently operates on over 3 million real devices running Windows, Linux, macOS, iOS, and Android in more than 190 countries. This distributed architecture enables internet data to be collected not only from central data centers but directly from end-user devices, thereby establishing the concept of “Ground Truth” (Verified Reality).</p>\n<h2>Data Optimization for Artificial Intelligence</h2>\n<p>The UpRock.ai platform transforms data collected from the internet into structured formats that large language models (LLMs) and AI agents can consume directly. The platform’s infrastructure consists of three core layers:</p>\n<ul>\n<li><strong>Insight Stacks:</strong> A data layer that enables developers to integrate live web data into applications via API calls or simple commands.</li>\n<li><strong>AI Sitemaps:</strong> Creates next-generation site maps for websites based on LLMs.txt. This technology reduces costs and increases data retrieval speed by optimizing the number of tokens used by AI systems when crawling websites.</li>\n<li><strong>UpRock Verify:</strong> A security layer that enables the simultaneous verification of online content and services across devices on the global network.</li>\n</ul>\n<h2>Revenue Sharing and Future Goals</h2>\n<p>The startup, which secured $4 million in early-stage funding, offers a usage-based SaaS model for enterprise customers and developers. Under the token economy established within the system, 40% of the revenue generated from infrastructure fees paid by businesses is redistributed to the hardware owners who provide the data. UpRock’s long-term goal is to create a reliable data ecosystem where every piece of information on the internet is verified at the device level by solving the problem of hallucination (the generation of false information) in AI systems.</p>\n",
+  "date": "2026-03-21T23:01:29Z",
+  "modified": "2026-03-21T23:01:29Z",
+  "categories": [
+    {
+      "id": 396,
+      "name": "Girişim",
+      "slug": "girisim"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 399,
+      "name": "AI Sitemaps",
+      "slug": "ai-sitemaps"
+    },
+    {
+      "id": 397,
+      "name": "DePIN",
+      "slug": "depin"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 402,
+      "name": "Solana",
+      "slug": "solana"
+    },
+    {
+      "id": 400,
+      "name": "UpRock",
+      "slug": "uprock"
+    },
+    {
+      "id": 401,
+      "name": "Veri Doğrulama",
+      "slug": "veri-dogrulama"
+    },
+    {
+      "id": 398,
+      "name": "Web Verisi",
+      "slug": "web-verisi"
+    },
+    {
+      "id": 237,
+      "name": "Yapay Zeka Ajanları",
+      "slug": "yapay-zeka-ajanlari"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock-1774134088316.jpg",
+    "alt": "Yapay Zeka Odaklı Merkeziyetsiz Veri Ağı UpRock",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock-1774134088316-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock-1774134088316-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock-1774134088316-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock-1774134088316-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock-1774134088316.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock",
+  "sourceHash": "58be2937870abcc0"
+}

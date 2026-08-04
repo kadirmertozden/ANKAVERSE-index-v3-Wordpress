@@ -1,0 +1,69 @@
+{
+  "id": 366,
+  "slug": "openai-unveils-gpt-5-3-codex-spark-powered-by-cerebras",
+  "lang": "en",
+  "title": "OpenAI Unveils GPT-5.3-Codex-Spark, Powered by Cerebras",
+  "excerpt": "New Model Focused on Fast Inference OpenAI has announced GPT-5.3-Codex-Spark, a lighter and faster version of its agentic coding model, GPT-5.3-Codex. The company stated that it has optimized this new model for development processes requiring rapid iteration and real-time collaboration. Cerebras Wafer Scale Engine 3 Integration The model’s infrastructure utilizes Wafer Scale Engine 3 (WSE-3) chips from OpenAI’s hardware partner, Cerebras [&hellip;]",
+  "content": "<h2>New Model Focused on Fast Inference</h2>\n<p>OpenAI announced GPT-5.3-Codex-Spark, a lighter and faster version of its agentic coding model, GPT-5.3-Codex. The company stated that it has optimized this new model for development processes requiring rapid iteration and real-time collaboration.</p>\n<h2>Cerebras Wafer Scale Engine 3 Integration</h2>\n<p>The model’s infrastructure utilizes Wafer Scale Engine 3 (WSE-3) chips from OpenAI’s hardware partner, Cerebras. Equipped with 4 trillion transistors, these chips are designed to support workflows that require extremely low latency. This move stands out as a concrete example of OpenAI’s strategy to diversify its infrastructure—currently dominated by Nvidia—by working with manufacturers such as Cerebras, AMD, and Broadcom.</p>\n<h2>Technical Specifications and Performance</h2>\n<p>Although GPT-5.3-Codex-Spark performs slightly worse than the base model, GPT-5.3-Codex, in complex software engineering tasks, it offers an advantage in terms of speed. While the model lags behind in SWE-Bench Pro and Terminal-Bench 2.0 tests, it aims to maintain developers’ creative flow by generating over 1,000 tokens per second.</p>\n<ul>\n<li><strong>Context Window:</strong> 128,000 tokens.</li>\n<li><strong>Data Type:</strong> Text-only support.</li>\n<li><strong>Access:</strong> Research preview in the Codex app and limited API access for ChatGPT Pro users.</li>\n</ul>\n<p>Cerebras CTO Sean Lie emphasizes that this model is a starting point for exploring new interaction models made possible by fast inference.</p>\n",
+  "date": "2026-02-14T23:02:46Z",
+  "modified": "2026-02-14T23:02:46Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 325,
+      "name": "Cerebras",
+      "slug": "cerebras"
+    },
+    {
+      "id": 350,
+      "name": "ChatGPT Pro",
+      "slug": "chatgpt-pro"
+    },
+    {
+      "id": 348,
+      "name": "GPT-5.3-Codex-Spark",
+      "slug": "gpt-5-3-codex-spark"
+    },
+    {
+      "id": 349,
+      "name": "Kodlama",
+      "slug": "kodlama"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 347,
+      "name": "WSE-3",
+      "slug": "wse-3"
+    },
+    {
+      "id": 67,
+      "name": "Yazılım Geliştirme",
+      "slug": "yazilim-gelistirme"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-cerebras-destekli-gpt-5-3-codex-sparki-sundu-1771110165906.jpg",
+    "alt": "OpenAI Cerebras Destekli GPT-5.3-Codex-Spark'ı Sundu",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-cerebras-destekli-gpt-5-3-codex-sparki-sundu-1771110165906-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-cerebras-destekli-gpt-5-3-codex-sparki-sundu-1771110165906-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-cerebras-destekli-gpt-5-3-codex-sparki-sundu-1771110165906-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-cerebras-destekli-gpt-5-3-codex-sparki-sundu-1771110165906-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/openai-cerebras-destekli-gpt-5-3-codex-sparki-sundu-1771110165906.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "openai-cerebras-destekli-gpt-5-3-codex-sparki-sundu",
+  "sourceHash": "8c86e5af534c6543"
+}

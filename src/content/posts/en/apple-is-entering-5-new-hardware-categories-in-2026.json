@@ -1,0 +1,79 @@
+{
+  "id": 288,
+  "slug": "apple-is-entering-5-new-hardware-categories-in-2026",
+  "lang": "en",
+  "title": "Apple Is Entering 5 New Hardware Categories in 2026",
+  "excerpt": "According to Apple’s 2026 product roadmap, the company is focusing on five different hardware categories beyond its current portfolio. While the company is expected to unveil more than 20 products this year, the strategy centers on artificial intelligence integration, home automation (IoT), and new form factors. Foldable iPhone and Display Technology The foldable iPhone (iPhone Fold) model, known to have been in the R&D phase for quite some time, is expected to be unveiled this year [&hellip;]",
+  "content": "<p>According to Apple’s 2026 product roadmap, the company is focusing on five different hardware categories beyond its current portfolio. While the company is expected to unveil more than 20 products this year, the strategy centers on artificial intelligence integration, home automation (IoT), and new form factors.</p>\n<h2>Foldable iPhone and Display Technology</h2>\n<p>The foldable iPhone (iPhone Fold) model, which has long been known to be in the R&amp;D phase, is expected to be unveiled this year. The device, which will feature a book-style design, will include the following technical specifications:</p>\n<ul>\n<li>A 5.3-inch outer display and a 7.7-inch inner display.</li>\n<li>New panel technology that minimizes the fold line.</li>\n<li>Pricing at approximately $2,000.</li>\n</ul>\n<h2>Smart Home Security and On-Device Processing</h2>\n<p>Apple is preparing to enter the smart home market—which it has previously left to third-party manufacturers—with its own hardware. The security camera and smart doorbell currently under development will offer deep integration with the Apple ecosystem. The goal is for these devices to use privacy-focused on-device processing power for tasks such as facial recognition and presence detection, and to trigger automation scenarios.</p>\n<h2>AI-Focused Glasses: Apple Glasses</h2>\n<p>Unlike Vision Pro, Apple Glasses will offer a structure focused on artificial intelligence and voice assistants rather than a full-fledged mixed reality experience. The device, which will feature an array of cameras, speakers, and microphones, will be able to process visual data by syncing with the iPhone.</p>\n<h2>HomePod with a Screen and Entry-Level MacBook</h2>\n<p>The new HomePod Touch model, positioned as a home automation hub, is planned to come with a 7-inch square screen, a FaceTime camera, and widget support. The device is expected to incorporate Siri’s latest AI capabilities.</p>\n<p>On the computer side, a more affordable MacBook model is being developed to increase market share. This model, expected to feature a 12.9-inch screen, is said to be based on the A18 Pro processor architecture used in the iPhone series and will be priced in the $599–$699 range.</p>\n",
+  "date": "2026-01-10T23:04:25Z",
+  "modified": "2026-01-10T23:04:26Z",
+  "categories": [
+    {
+      "id": 253,
+      "name": "Donanım",
+      "slug": "donanim"
+    },
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    }
+  ],
+  "tags": [
+    {
+      "id": 258,
+      "name": "A18 Pro",
+      "slug": "a18-pro"
+    },
+    {
+      "id": 259,
+      "name": "Akıllı Ev",
+      "slug": "akilli-ev"
+    },
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 254,
+      "name": "Apple Glasses",
+      "slug": "apple-glasses"
+    },
+    {
+      "id": 229,
+      "name": "Giyilebilir Teknoloji",
+      "slug": "giyilebilir-teknoloji"
+    },
+    {
+      "id": 256,
+      "name": "HomePod Touch",
+      "slug": "homepod-touch"
+    },
+    {
+      "id": 255,
+      "name": "IoT",
+      "slug": "iot"
+    },
+    {
+      "id": 257,
+      "name": "iPhone Fold",
+      "slug": "iphone-fold"
+    },
+    {
+      "id": 69,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-2026-yilinda-5-yeni-donanim-kategorisine-giriyor-1768086264720.jpg",
+    "alt": "Apple 2026 Yılında 5 Yeni Donanım Kategorisine Giriyor",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-2026-yilinda-5-yeni-donanim-kategorisine-giriyor-1768086264720-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-2026-yilinda-5-yeni-donanim-kategorisine-giriyor-1768086264720-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-2026-yilinda-5-yeni-donanim-kategorisine-giriyor-1768086264720-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-2026-yilinda-5-yeni-donanim-kategorisine-giriyor-1768086264720-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/apple-2026-yilinda-5-yeni-donanim-kategorisine-giriyor-1768086264720.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "apple-2026-yilinda-5-yeni-donanim-kategorisine-giriyor",
+  "sourceHash": "0cbcd175f01a5a2e"
+}

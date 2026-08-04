@@ -1,1 +1,562 @@
-{}
+{
+  "siri-ios-27-ile-coklu-yapay-zeka-modeli-destegi-sunacak": {
+    "tr": "siri-ios-27-ile-coklu-yapay-zeka-modeli-destegi-sunacak",
+    "en": "siri-will-offer-support-for-multiple-ai-models-with-ios-27"
+  },
+  "yapay-zeka-girisimi-aidea-tohum-oncesi-yatirim-aldi": {
+    "tr": "yapay-zeka-girisimi-aidea-tohum-oncesi-yatirim-aldi",
+    "en": "ai-startup-aidea-secures-pre-seed-funding"
+  },
+  "yapay-zeka-ekosistemi-yeni-modeller-ve-altyapilar": {
+    "tr": "yapay-zeka-ekosistemi-yeni-modeller-ve-altyapilar",
+    "en": "artificial-intelligence-ecosystem-new-models-and-infrastructures"
+  },
+  "nvidia-yeni-bilgi-islem-platformu-vera-rubini-tanitti": {
+    "tr": "nvidia-yeni-bilgi-islem-platformu-vera-rubini-tanitti",
+    "en": "nvidia-unveiled-its-new-computing-platform-vera-rubin"
+  },
+  "openai-tum-urunlerini-tek-uygulamada-birlestiriyor": {
+    "tr": "openai-tum-urunlerini-tek-uygulamada-birlestiriyor",
+    "en": "openai-is-bringing-all-its-products-together-in-a-single-app"
+  },
+  "yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock": {
+    "tr": "yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock",
+    "en": "uprock-an-ai-focused-decentralized-data-network"
+  },
+  "nvidia-kurumsal-ai-ajani-nemoclawi-gelistiriyor": {
+    "tr": "nvidia-kurumsal-ai-ajani-nemoclawi-gelistiriyor",
+    "en": "nvidia-is-developing-the-enterprise-ai-agent-nemoclaw"
+  },
+  "yapay-zeka-otomasyonu-gumloop-50-milyon-dolar-yatirim-aldi": {
+    "tr": "yapay-zeka-otomasyonu-gumloop-50-milyon-dolar-yatirim-aldi",
+    "en": "ai-automation-company-gumloop-raises-50-million-in-funding"
+  },
+  "yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar": {
+    "tr": "yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar",
+    "en": "ai-news-new-players-and-investments"
+  },
+  "aws-saglik-sektoru-icin-yapay-zeka-ajani-cozumunu-duyurdu": {
+    "tr": "aws-saglik-sektoru-icin-yapay-zeka-ajani-cozumunu-duyurdu",
+    "en": "aws-announces-ai-agent-solution-for-the-healthcare-industry"
+  },
+  "anthropic-kurumsal-odakli-claude-marketplacei-duyurdu": {
+    "tr": "anthropic-kurumsal-odakli-claude-marketplacei-duyurdu",
+    "en": "anthropic-announces-the-enterprise-focused-claude-marketplace"
+  },
+  "openai-anthropic-krizi-ve-yeni-ai-modelleri": {
+    "tr": "openai-anthropic-krizi-ve-yeni-ai-modelleri",
+    "en": "openai-the-anthropic-crisis-and-new-ai-models"
+  },
+  "turk-telekom-mwcde-yerli-5g-ve-6g-cozumlerini-tanitacak": {
+    "tr": "turk-telekom-mwcde-yerli-5g-ve-6g-cozumlerini-tanitacak",
+    "en": "turk-telekom-will-showcase-its-domestically-developed-5g-and-6g-solutions-at-mwc"
+  },
+  "google-gemini-cihaz-ici-gorev-otomasyonu-ozelligini-sundu": {
+    "tr": "google-gemini-cihaz-ici-gorev-otomasyonu-ozelligini-sundu",
+    "en": "google-has-introduced-gemini-s-on-device-task-automation-feature"
+  },
+  "mena-bolgesi-2026-teknoloji-ve-yapay-zeka-trendleri": {
+    "tr": "mena-bolgesi-2026-teknoloji-ve-yapay-zeka-trendleri",
+    "en": "mena-region-2026-technology-and-artificial-intelligence-trends"
+  },
+  "apple-carplaye-ucuncu-taraf-ai-destegi-geliyor": {
+    "tr": "apple-carplaye-ucuncu-taraf-ai-destegi-geliyor",
+    "en": "third-party-ai-support-is-coming-to-apple-carplay"
+  },
+  "openai-gercek-zamanli-kod-yazan-gpt-5-3-sparki-duyurdu": {
+    "tr": "openai-gercek-zamanli-kod-yazan-gpt-5-3-sparki-duyurdu",
+    "en": "openai-announces-gpt-5-3-spark-which-writes-code-in-real-time"
+  },
+  "openai-cerebras-destekli-gpt-5-3-codex-sparki-sundu": {
+    "tr": "openai-cerebras-destekli-gpt-5-3-codex-sparki-sundu",
+    "en": "openai-unveils-gpt-5-3-codex-spark-powered-by-cerebras"
+  },
+  "ios-26-4-siri-llm-ve-gemini-ile-yenileniyor": {
+    "tr": "ios-26-4-siri-llm-ve-gemini-ile-yenileniyor",
+    "en": "ios-26-4-siri-gets-a-makeover-with-llm-and-gemini"
+  },
+  "yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar": {
+    "tr": "yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar",
+    "en": "new-models-and-investments-in-the-world-of-artificial-intelligence"
+  },
+  "turk-yapay-zeka-ekosistemi-2025-raporu-yayinlandi": {
+    "tr": "turk-yapay-zeka-ekosistemi-2025-raporu-yayinlandi",
+    "en": "the-turkish-ai-ecosystem-2025-report-has-been-published"
+  },
+  "anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu": {
+    "tr": "anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu",
+    "en": "anthropic-opus-4-6-and-ai-agents-announced"
+  },
+  "google-gemini-750-milyon-aktif-kullaniciya-ulasti": {
+    "tr": "google-gemini-750-milyon-aktif-kullaniciya-ulasti",
+    "en": "google-gemini-reaches-750-million-active-users"
+  },
+  "anthropic-claude-opus-4-6-1-milyon-token-destegi": {
+    "tr": "anthropic-claude-opus-4-6-1-milyon-token-destegi",
+    "en": "anthropic-claude-opus-4-6-1-million-token-support"
+  },
+  "yapay-zeka-gundemi-42-openai-nvidia-ve-intel": {
+    "tr": "yapay-zeka-gundemi-42-openai-nvidia-ve-intel",
+    "en": "ai-agenda-42-openai-nvidia-and-intel"
+  },
+  "openai-chatgptden-gpt-4o-modelini-kaldiriyor": {
+    "tr": "openai-chatgptden-gpt-4o-modelini-kaldiriyor",
+    "en": "openai-is-removing-the-gpt-4o-model-from-chatgpt"
+  },
+  "openai-gpt-4o-ve-gpt-5-modellerini-kaldiriyor": {
+    "tr": "openai-gpt-4o-ve-gpt-5-modellerini-kaldiriyor",
+    "en": "openai-is-removing-its-gpt-4o-and-gpt-5-models"
+  },
+  "apple-siri-icin-gemini-ve-ozel-bulut-altyapisini-duyurdu": {
+    "tr": "apple-siri-icin-gemini-ve-ozel-bulut-altyapisini-duyurdu",
+    "en": "apple-announces-gemini-and-a-dedicated-cloud-infrastructure-for-siri"
+  },
+  "yapay-zeka-ile-is-sureclerinin-yeniden-insasi": {
+    "tr": "yapay-zeka-ile-is-sureclerinin-yeniden-insasi",
+    "en": "redesigning-business-processes-with-artificial-intelligence"
+  },
+  "apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi": {
+    "tr": "apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi",
+    "en": "apple-s-acquisition-of-q-ai-and-this-week-s-ai-news-roundup"
+  },
+  "apple-ios-27-ile-siri-sohbet-botuna-donusuyor": {
+    "tr": "apple-ios-27-ile-siri-sohbet-botuna-donusuyor",
+    "en": "with-ios-27-apple-is-turning-siri-into-a-chatbot"
+  },
+  "applein-yeni-nesil-siri-altyapisinda-google-iddiasi": {
+    "tr": "applein-yeni-nesil-siri-altyapisinda-google-iddiasi",
+    "en": "allegations-that-google-is-involved-in-apple-s-next-generation-siri-infrastructu"
+  },
+  "apple-yapay-zeka-yonetimini-craig-federighi-devraldi": {
+    "tr": "apple-yapay-zeka-yonetimini-craig-federighi-devraldi",
+    "en": "craig-federighi-takes-over-as-head-of-apple-s-ai-division"
+  },
+  "ebay-yapay-zeka-alisveris-botlarini-yasakladi": {
+    "tr": "ebay-yapay-zeka-alisveris-botlarini-yasakladi",
+    "en": "ebay-has-banned-ai-shopping-bots"
+  },
+  "yapay-zeka-gundemi-donanim-dava-ve-yatirimlar": {
+    "tr": "yapay-zeka-gundemi-donanim-dava-ve-yatirimlar",
+    "en": "ai-news-hardware-lawsuits-and-investments"
+  },
+  "i10x-yapay-zeka-araclarini-tek-panelde-toplayan-platform": {
+    "tr": "i10x-yapay-zeka-araclarini-tek-panelde-toplayan-platform",
+    "en": "i10x-a-platform-that-brings-together-ai-tools-in-a-single-dashboard"
+  },
+  "uipath-agentic-ai-modeli-ile-otomasyonu-degistiriyor": {
+    "tr": "uipath-agentic-ai-modeli-ile-otomasyonu-degistiriyor",
+    "en": "uipath-is-transforming-automation-with-its-agentic-ai-model"
+  },
+  "apple-cihazlarina-google-gemini-modellerini-ekliyor": {
+    "tr": "apple-cihazlarina-google-gemini-modellerini-ekliyor",
+    "en": "apple-is-adding-google-gemini-models-to-its-devices"
+  },
+  "2025te-avrupada-en-cok-yatirim-alan-25-sirket": {
+    "tr": "2025te-avrupada-en-cok-yatirim-alan-25-sirket",
+    "en": "the-25-companies-that-received-the-most-investment-in-europe-in-2025"
+  },
+  "yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu": {
+    "tr": "yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu",
+    "en": "health-and-agent-transformation-in-the-artificial-intelligence-ecosystem"
+  },
+  "msi-ai-edge-4-litre-kasada-126-tops-ai-performansi": {
+    "tr": "msi-ai-edge-4-litre-kasada-126-tops-ai-performansi",
+    "en": "msi-ai-edge-126-tops-of-ai-performance-in-a-4-liter-case"
+  },
+  "apple-2026-yilinda-5-yeni-donanim-kategorisine-giriyor": {
+    "tr": "apple-2026-yilinda-5-yeni-donanim-kategorisine-giriyor",
+    "en": "apple-is-entering-5-new-hardware-categories-in-2026"
+  },
+  "gemini-3-etkisi-chatgpt-trafiginde-dusus-var": {
+    "tr": "gemini-3-etkisi-chatgpt-trafiginde-dusus-var",
+    "en": "the-gemini-3-effect-chatgpt-traffic-is-down"
+  },
+  "ces-2026-duyurulari-ve-haftanin-yapay-zeka-ozeti": {
+    "tr": "ces-2026-duyurulari-ve-haftanin-yapay-zeka-ozeti",
+    "en": "ces-2026-announcements-and-this-week-s-ai-roundup"
+  },
+  "kurumsal-yapay-zeka-ve-2025-teknoloji-trendleri": {
+    "tr": "kurumsal-yapay-zeka-ve-2025-teknoloji-trendleri",
+    "en": "enterprise-artificial-intelligence-and-technology-trends-for-2025"
+  },
+  "nvidia-ai21-labsi-satin-almaya-hazirlaniyor": {
+    "tr": "nvidia-ai21-labsi-satin-almaya-hazirlaniyor",
+    "en": "nvidia-is-preparing-to-acquire-ai21-labs"
+  },
+  "openai-ses-odakli-donanim-ve-model-gelistiriyor": {
+    "tr": "openai-ses-odakli-donanim-ve-model-gelistiriyor",
+    "en": "openai-is-developing-audio-focused-hardware-and-models"
+  },
+  "medo-metin-komutuyla-uygulama-gelistirme-platformu": {
+    "tr": "medo-metin-komutuyla-uygulama-gelistirme-platformu",
+    "en": "medo-a-text-based-application-development-platform"
+  },
+  "2025-yilinda-yukselise-gecen-10-yapay-zeka-dikeyi": {
+    "tr": "2025-yilinda-yukselise-gecen-10-yapay-zeka-dikeyi",
+    "en": "10-ai-verticals-set-to-take-off-in-2025"
+  },
+  "llm-yonetimi-ve-gozlemlenebilirlik-platformu-helicone": {
+    "tr": "llm-yonetimi-ve-gozlemlenebilirlik-platformu-helicone",
+    "en": "llm-management-and-observability-platform-helicone"
+  },
+  "2025-teknoloji-ozeti-yapay-zeka-ve-sektorel-degisimler": {
+    "tr": "2025-teknoloji-ozeti-yapay-zeka-ve-sektorel-degisimler",
+    "en": "2025-technology-overview-artificial-intelligence-and-industry-specific-changes"
+  },
+  "statcounter-kasim-2025-yapay-zeka-pazar-payi-verileri": {
+    "tr": "statcounter-kasim-2025-yapay-zeka-pazar-payi-verileri",
+    "en": "statcounter-november-2025-artificial-intelligence-market-share-data"
+  },
+  "yapay-zeka-gundemi-yeni-modeller-ve-yatirimlar": {
+    "tr": "yapay-zeka-gundemi-yeni-modeller-ve-yatirimlar",
+    "en": "artificial-intelligence-news-new-models-and-investments"
+  },
+  "2025in-en-onemli-yapay-zeka-gelismeleri-ve-araclari": {
+    "tr": "2025in-en-onemli-yapay-zeka-gelismeleri-ve-araclari",
+    "en": "the-most-important-ai-developments-and-tools-of-2025"
+  },
+  "prompt-muhendisligi-temel-ilkeler-ve-yontemler": {
+    "tr": "prompt-muhendisligi-temel-ilkeler-ve-yontemler",
+    "en": "prompt-engineering-fundamental-principles-and-methods"
+  },
+  "openai-otonom-kodlama-modeli-gpt-5-2-codexi-duyurdu": {
+    "tr": "openai-otonom-kodlama-modeli-gpt-5-2-codexi-duyurdu",
+    "en": "openai-announces-gpt-5-2-codex-an-autonomous-coding-model"
+  },
+  "openai-chatgpt-images-icin-hiz-ve-duzenleme-guncellemesi": {
+    "tr": "openai-chatgpt-images-icin-hiz-ve-duzenleme-guncellemesi",
+    "en": "speed-and-editing-update-for-openai-chatgpt-images"
+  },
+  "openai-yeni-kodlama-modeli-gpt-5-2-codexi-yayinladi": {
+    "tr": "openai-yeni-kodlama-modeli-gpt-5-2-codexi-yayinladi",
+    "en": "openai-releases-new-coding-model-gpt-5-2-codex"
+  },
+  "yapay-zeka-destekli-10-pazarlama-otomasyon-araci": {
+    "tr": "yapay-zeka-destekli-10-pazarlama-otomasyon-araci",
+    "en": "10-ai-powered-marketing-automation-tools"
+  },
+  "yapay-zeka-gundemi-36-yeni-modeller-ve-yatirimlar": {
+    "tr": "yapay-zeka-gundemi-36-yeni-modeller-ve-yatirimlar",
+    "en": "ai-agenda-36-new-models-and-investments"
+  },
+  "openai-is-odakli-gpt-5-2-modelini-duyurdu": {
+    "tr": "openai-is-odakli-gpt-5-2-modelini-duyurdu",
+    "en": "openai-announces-its-business-focused-gpt-5-2-model"
+  },
+  "tiiny-ai-pocket-lab-120-milyar-parametreli-cep-bilgisayari": {
+    "tr": "tiiny-ai-pocket-lab-120-milyar-parametreli-cep-bilgisayari",
+    "en": "tiiny-ai-pocket-lab-a-pocket-sized-computer-with-120-billion-parameters"
+  },
+  "openai-2025-guncellemesi-operator-ve-gpt-5-detaylari": {
+    "tr": "openai-2025-guncellemesi-operator-ve-gpt-5-detaylari",
+    "en": "openai-2025-update-details-on-operator-and-gpt-5"
+  },
+  "openai-yeni-yapay-zeka-modeli-gpt-5-2-yi-duyurdu": {
+    "tr": "openai-yeni-yapay-zeka-modeli-gpt-5-2-yi-duyurdu",
+    "en": "openai-announces-its-new-ai-model-gpt-5-2"
+  },
+  "gpt-5-2-devstral-2-ve-one-cikan-ai-gelismeleri": {
+    "tr": "gpt-5-2-devstral-2-ve-one-cikan-ai-gelismeleri",
+    "en": "gpt-5-2-devstral-2-and-notable-ai-developments"
+  },
+  "paycell-trendyol-ve-dogus-grubu-fintech-paneli": {
+    "tr": "paycell-trendyol-ve-dogus-grubu-fintech-paneli",
+    "en": "paycell-trendyol-and-dogus-group-fintech-panel"
+  },
+  "insansi-robot-girisimi-generative-bionics-e-70-milyon-euro": {
+    "tr": "insansi-robot-girisimi-generative-bionics-e-70-milyon-euro",
+    "en": "70-million-euros-for-the-humanoid-robot-startup-generative-bionics"
+  },
+  "yapay-zeka-projelerinde-deger-odakli-yaklasim": {
+    "tr": "yapay-zeka-projelerinde-deger-odakli-yaklasim",
+    "en": "a-value-driven-approach-to-artificial-intelligence-projects"
+  },
+  "fal-ai-seri-d-turunda-140-milyon-dolar-yatirim-aldi": {
+    "tr": "fal-ai-seri-d-turunda-140-milyon-dolar-yatirim-aldi",
+    "en": "fal-ai-raised-140-million-in-a-series-d-funding-round"
+  },
+  "anthropic-claude-code-slack-entegrasyonu-basladi": {
+    "tr": "anthropic-claude-code-slack-entegrasyonu-basladi",
+    "en": "anthropic-claude-code-slack-integration-has-begun"
+  },
+  "siri-will-offer-support-for-multiple-ai-models-with-ios-27": {
+    "tr": "siri-ios-27-ile-coklu-yapay-zeka-modeli-destegi-sunacak",
+    "en": "siri-will-offer-support-for-multiple-ai-models-with-ios-27"
+  },
+  "ai-startup-aidea-secures-pre-seed-funding": {
+    "tr": "yapay-zeka-girisimi-aidea-tohum-oncesi-yatirim-aldi",
+    "en": "ai-startup-aidea-secures-pre-seed-funding"
+  },
+  "artificial-intelligence-ecosystem-new-models-and-infrastructures": {
+    "tr": "yapay-zeka-ekosistemi-yeni-modeller-ve-altyapilar",
+    "en": "artificial-intelligence-ecosystem-new-models-and-infrastructures"
+  },
+  "nvidia-unveiled-its-new-computing-platform-vera-rubin": {
+    "tr": "nvidia-yeni-bilgi-islem-platformu-vera-rubini-tanitti",
+    "en": "nvidia-unveiled-its-new-computing-platform-vera-rubin"
+  },
+  "openai-is-bringing-all-its-products-together-in-a-single-app": {
+    "tr": "openai-tum-urunlerini-tek-uygulamada-birlestiriyor",
+    "en": "openai-is-bringing-all-its-products-together-in-a-single-app"
+  },
+  "uprock-an-ai-focused-decentralized-data-network": {
+    "tr": "yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock",
+    "en": "uprock-an-ai-focused-decentralized-data-network"
+  },
+  "nvidia-is-developing-the-enterprise-ai-agent-nemoclaw": {
+    "tr": "nvidia-kurumsal-ai-ajani-nemoclawi-gelistiriyor",
+    "en": "nvidia-is-developing-the-enterprise-ai-agent-nemoclaw"
+  },
+  "ai-automation-company-gumloop-raises-50-million-in-funding": {
+    "tr": "yapay-zeka-otomasyonu-gumloop-50-milyon-dolar-yatirim-aldi",
+    "en": "ai-automation-company-gumloop-raises-50-million-in-funding"
+  },
+  "ai-news-new-players-and-investments": {
+    "tr": "yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar",
+    "en": "ai-news-new-players-and-investments"
+  },
+  "aws-announces-ai-agent-solution-for-the-healthcare-industry": {
+    "tr": "aws-saglik-sektoru-icin-yapay-zeka-ajani-cozumunu-duyurdu",
+    "en": "aws-announces-ai-agent-solution-for-the-healthcare-industry"
+  },
+  "anthropic-announces-the-enterprise-focused-claude-marketplace": {
+    "tr": "anthropic-kurumsal-odakli-claude-marketplacei-duyurdu",
+    "en": "anthropic-announces-the-enterprise-focused-claude-marketplace"
+  },
+  "openai-the-anthropic-crisis-and-new-ai-models": {
+    "tr": "openai-anthropic-krizi-ve-yeni-ai-modelleri",
+    "en": "openai-the-anthropic-crisis-and-new-ai-models"
+  },
+  "turk-telekom-will-showcase-its-domestically-developed-5g-and-6g-solutions-at-mwc": {
+    "tr": "turk-telekom-mwcde-yerli-5g-ve-6g-cozumlerini-tanitacak",
+    "en": "turk-telekom-will-showcase-its-domestically-developed-5g-and-6g-solutions-at-mwc"
+  },
+  "google-has-introduced-gemini-s-on-device-task-automation-feature": {
+    "tr": "google-gemini-cihaz-ici-gorev-otomasyonu-ozelligini-sundu",
+    "en": "google-has-introduced-gemini-s-on-device-task-automation-feature"
+  },
+  "mena-region-2026-technology-and-artificial-intelligence-trends": {
+    "tr": "mena-bolgesi-2026-teknoloji-ve-yapay-zeka-trendleri",
+    "en": "mena-region-2026-technology-and-artificial-intelligence-trends"
+  },
+  "third-party-ai-support-is-coming-to-apple-carplay": {
+    "tr": "apple-carplaye-ucuncu-taraf-ai-destegi-geliyor",
+    "en": "third-party-ai-support-is-coming-to-apple-carplay"
+  },
+  "openai-announces-gpt-5-3-spark-which-writes-code-in-real-time": {
+    "tr": "openai-gercek-zamanli-kod-yazan-gpt-5-3-sparki-duyurdu",
+    "en": "openai-announces-gpt-5-3-spark-which-writes-code-in-real-time"
+  },
+  "openai-unveils-gpt-5-3-codex-spark-powered-by-cerebras": {
+    "tr": "openai-cerebras-destekli-gpt-5-3-codex-sparki-sundu",
+    "en": "openai-unveils-gpt-5-3-codex-spark-powered-by-cerebras"
+  },
+  "ios-26-4-siri-gets-a-makeover-with-llm-and-gemini": {
+    "tr": "ios-26-4-siri-llm-ve-gemini-ile-yenileniyor",
+    "en": "ios-26-4-siri-gets-a-makeover-with-llm-and-gemini"
+  },
+  "new-models-and-investments-in-the-world-of-artificial-intelligence": {
+    "tr": "yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar",
+    "en": "new-models-and-investments-in-the-world-of-artificial-intelligence"
+  },
+  "the-turkish-ai-ecosystem-2025-report-has-been-published": {
+    "tr": "turk-yapay-zeka-ekosistemi-2025-raporu-yayinlandi",
+    "en": "the-turkish-ai-ecosystem-2025-report-has-been-published"
+  },
+  "anthropic-opus-4-6-and-ai-agents-announced": {
+    "tr": "anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu",
+    "en": "anthropic-opus-4-6-and-ai-agents-announced"
+  },
+  "google-gemini-reaches-750-million-active-users": {
+    "tr": "google-gemini-750-milyon-aktif-kullaniciya-ulasti",
+    "en": "google-gemini-reaches-750-million-active-users"
+  },
+  "anthropic-claude-opus-4-6-1-million-token-support": {
+    "tr": "anthropic-claude-opus-4-6-1-milyon-token-destegi",
+    "en": "anthropic-claude-opus-4-6-1-million-token-support"
+  },
+  "ai-agenda-42-openai-nvidia-and-intel": {
+    "tr": "yapay-zeka-gundemi-42-openai-nvidia-ve-intel",
+    "en": "ai-agenda-42-openai-nvidia-and-intel"
+  },
+  "openai-is-removing-the-gpt-4o-model-from-chatgpt": {
+    "tr": "openai-chatgptden-gpt-4o-modelini-kaldiriyor",
+    "en": "openai-is-removing-the-gpt-4o-model-from-chatgpt"
+  },
+  "openai-is-removing-its-gpt-4o-and-gpt-5-models": {
+    "tr": "openai-gpt-4o-ve-gpt-5-modellerini-kaldiriyor",
+    "en": "openai-is-removing-its-gpt-4o-and-gpt-5-models"
+  },
+  "apple-announces-gemini-and-a-dedicated-cloud-infrastructure-for-siri": {
+    "tr": "apple-siri-icin-gemini-ve-ozel-bulut-altyapisini-duyurdu",
+    "en": "apple-announces-gemini-and-a-dedicated-cloud-infrastructure-for-siri"
+  },
+  "redesigning-business-processes-with-artificial-intelligence": {
+    "tr": "yapay-zeka-ile-is-sureclerinin-yeniden-insasi",
+    "en": "redesigning-business-processes-with-artificial-intelligence"
+  },
+  "apple-s-acquisition-of-q-ai-and-this-week-s-ai-news-roundup": {
+    "tr": "apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi",
+    "en": "apple-s-acquisition-of-q-ai-and-this-week-s-ai-news-roundup"
+  },
+  "with-ios-27-apple-is-turning-siri-into-a-chatbot": {
+    "tr": "apple-ios-27-ile-siri-sohbet-botuna-donusuyor",
+    "en": "with-ios-27-apple-is-turning-siri-into-a-chatbot"
+  },
+  "allegations-that-google-is-involved-in-apple-s-next-generation-siri-infrastructu": {
+    "tr": "applein-yeni-nesil-siri-altyapisinda-google-iddiasi",
+    "en": "allegations-that-google-is-involved-in-apple-s-next-generation-siri-infrastructu"
+  },
+  "craig-federighi-takes-over-as-head-of-apple-s-ai-division": {
+    "tr": "apple-yapay-zeka-yonetimini-craig-federighi-devraldi",
+    "en": "craig-federighi-takes-over-as-head-of-apple-s-ai-division"
+  },
+  "ebay-has-banned-ai-shopping-bots": {
+    "tr": "ebay-yapay-zeka-alisveris-botlarini-yasakladi",
+    "en": "ebay-has-banned-ai-shopping-bots"
+  },
+  "ai-news-hardware-lawsuits-and-investments": {
+    "tr": "yapay-zeka-gundemi-donanim-dava-ve-yatirimlar",
+    "en": "ai-news-hardware-lawsuits-and-investments"
+  },
+  "i10x-a-platform-that-brings-together-ai-tools-in-a-single-dashboard": {
+    "tr": "i10x-yapay-zeka-araclarini-tek-panelde-toplayan-platform",
+    "en": "i10x-a-platform-that-brings-together-ai-tools-in-a-single-dashboard"
+  },
+  "uipath-is-transforming-automation-with-its-agentic-ai-model": {
+    "tr": "uipath-agentic-ai-modeli-ile-otomasyonu-degistiriyor",
+    "en": "uipath-is-transforming-automation-with-its-agentic-ai-model"
+  },
+  "apple-is-adding-google-gemini-models-to-its-devices": {
+    "tr": "apple-cihazlarina-google-gemini-modellerini-ekliyor",
+    "en": "apple-is-adding-google-gemini-models-to-its-devices"
+  },
+  "the-25-companies-that-received-the-most-investment-in-europe-in-2025": {
+    "tr": "2025te-avrupada-en-cok-yatirim-alan-25-sirket",
+    "en": "the-25-companies-that-received-the-most-investment-in-europe-in-2025"
+  },
+  "health-and-agent-transformation-in-the-artificial-intelligence-ecosystem": {
+    "tr": "yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu",
+    "en": "health-and-agent-transformation-in-the-artificial-intelligence-ecosystem"
+  },
+  "msi-ai-edge-126-tops-of-ai-performance-in-a-4-liter-case": {
+    "tr": "msi-ai-edge-4-litre-kasada-126-tops-ai-performansi",
+    "en": "msi-ai-edge-126-tops-of-ai-performance-in-a-4-liter-case"
+  },
+  "apple-is-entering-5-new-hardware-categories-in-2026": {
+    "tr": "apple-2026-yilinda-5-yeni-donanim-kategorisine-giriyor",
+    "en": "apple-is-entering-5-new-hardware-categories-in-2026"
+  },
+  "the-gemini-3-effect-chatgpt-traffic-is-down": {
+    "tr": "gemini-3-etkisi-chatgpt-trafiginde-dusus-var",
+    "en": "the-gemini-3-effect-chatgpt-traffic-is-down"
+  },
+  "ces-2026-announcements-and-this-week-s-ai-roundup": {
+    "tr": "ces-2026-duyurulari-ve-haftanin-yapay-zeka-ozeti",
+    "en": "ces-2026-announcements-and-this-week-s-ai-roundup"
+  },
+  "enterprise-artificial-intelligence-and-technology-trends-for-2025": {
+    "tr": "kurumsal-yapay-zeka-ve-2025-teknoloji-trendleri",
+    "en": "enterprise-artificial-intelligence-and-technology-trends-for-2025"
+  },
+  "nvidia-is-preparing-to-acquire-ai21-labs": {
+    "tr": "nvidia-ai21-labsi-satin-almaya-hazirlaniyor",
+    "en": "nvidia-is-preparing-to-acquire-ai21-labs"
+  },
+  "openai-is-developing-audio-focused-hardware-and-models": {
+    "tr": "openai-ses-odakli-donanim-ve-model-gelistiriyor",
+    "en": "openai-is-developing-audio-focused-hardware-and-models"
+  },
+  "medo-a-text-based-application-development-platform": {
+    "tr": "medo-metin-komutuyla-uygulama-gelistirme-platformu",
+    "en": "medo-a-text-based-application-development-platform"
+  },
+  "10-ai-verticals-set-to-take-off-in-2025": {
+    "tr": "2025-yilinda-yukselise-gecen-10-yapay-zeka-dikeyi",
+    "en": "10-ai-verticals-set-to-take-off-in-2025"
+  },
+  "llm-management-and-observability-platform-helicone": {
+    "tr": "llm-yonetimi-ve-gozlemlenebilirlik-platformu-helicone",
+    "en": "llm-management-and-observability-platform-helicone"
+  },
+  "2025-technology-overview-artificial-intelligence-and-industry-specific-changes": {
+    "tr": "2025-teknoloji-ozeti-yapay-zeka-ve-sektorel-degisimler",
+    "en": "2025-technology-overview-artificial-intelligence-and-industry-specific-changes"
+  },
+  "statcounter-november-2025-artificial-intelligence-market-share-data": {
+    "tr": "statcounter-kasim-2025-yapay-zeka-pazar-payi-verileri",
+    "en": "statcounter-november-2025-artificial-intelligence-market-share-data"
+  },
+  "artificial-intelligence-news-new-models-and-investments": {
+    "tr": "yapay-zeka-gundemi-yeni-modeller-ve-yatirimlar",
+    "en": "artificial-intelligence-news-new-models-and-investments"
+  },
+  "the-most-important-ai-developments-and-tools-of-2025": {
+    "tr": "2025in-en-onemli-yapay-zeka-gelismeleri-ve-araclari",
+    "en": "the-most-important-ai-developments-and-tools-of-2025"
+  },
+  "prompt-engineering-fundamental-principles-and-methods": {
+    "tr": "prompt-muhendisligi-temel-ilkeler-ve-yontemler",
+    "en": "prompt-engineering-fundamental-principles-and-methods"
+  },
+  "openai-announces-gpt-5-2-codex-an-autonomous-coding-model": {
+    "tr": "openai-otonom-kodlama-modeli-gpt-5-2-codexi-duyurdu",
+    "en": "openai-announces-gpt-5-2-codex-an-autonomous-coding-model"
+  },
+  "speed-and-editing-update-for-openai-chatgpt-images": {
+    "tr": "openai-chatgpt-images-icin-hiz-ve-duzenleme-guncellemesi",
+    "en": "speed-and-editing-update-for-openai-chatgpt-images"
+  },
+  "openai-releases-new-coding-model-gpt-5-2-codex": {
+    "tr": "openai-yeni-kodlama-modeli-gpt-5-2-codexi-yayinladi",
+    "en": "openai-releases-new-coding-model-gpt-5-2-codex"
+  },
+  "10-ai-powered-marketing-automation-tools": {
+    "tr": "yapay-zeka-destekli-10-pazarlama-otomasyon-araci",
+    "en": "10-ai-powered-marketing-automation-tools"
+  },
+  "ai-agenda-36-new-models-and-investments": {
+    "tr": "yapay-zeka-gundemi-36-yeni-modeller-ve-yatirimlar",
+    "en": "ai-agenda-36-new-models-and-investments"
+  },
+  "openai-announces-its-business-focused-gpt-5-2-model": {
+    "tr": "openai-is-odakli-gpt-5-2-modelini-duyurdu",
+    "en": "openai-announces-its-business-focused-gpt-5-2-model"
+  },
+  "tiiny-ai-pocket-lab-a-pocket-sized-computer-with-120-billion-parameters": {
+    "tr": "tiiny-ai-pocket-lab-120-milyar-parametreli-cep-bilgisayari",
+    "en": "tiiny-ai-pocket-lab-a-pocket-sized-computer-with-120-billion-parameters"
+  },
+  "openai-2025-update-details-on-operator-and-gpt-5": {
+    "tr": "openai-2025-guncellemesi-operator-ve-gpt-5-detaylari",
+    "en": "openai-2025-update-details-on-operator-and-gpt-5"
+  },
+  "openai-announces-its-new-ai-model-gpt-5-2": {
+    "tr": "openai-yeni-yapay-zeka-modeli-gpt-5-2-yi-duyurdu",
+    "en": "openai-announces-its-new-ai-model-gpt-5-2"
+  },
+  "gpt-5-2-devstral-2-and-notable-ai-developments": {
+    "tr": "gpt-5-2-devstral-2-ve-one-cikan-ai-gelismeleri",
+    "en": "gpt-5-2-devstral-2-and-notable-ai-developments"
+  },
+  "paycell-trendyol-and-dogus-group-fintech-panel": {
+    "tr": "paycell-trendyol-ve-dogus-grubu-fintech-paneli",
+    "en": "paycell-trendyol-and-dogus-group-fintech-panel"
+  },
+  "70-million-euros-for-the-humanoid-robot-startup-generative-bionics": {
+    "tr": "insansi-robot-girisimi-generative-bionics-e-70-milyon-euro",
+    "en": "70-million-euros-for-the-humanoid-robot-startup-generative-bionics"
+  },
+  "a-value-driven-approach-to-artificial-intelligence-projects": {
+    "tr": "yapay-zeka-projelerinde-deger-odakli-yaklasim",
+    "en": "a-value-driven-approach-to-artificial-intelligence-projects"
+  },
+  "fal-ai-raised-140-million-in-a-series-d-funding-round": {
+    "tr": "fal-ai-seri-d-turunda-140-milyon-dolar-yatirim-aldi",
+    "en": "fal-ai-raised-140-million-in-a-series-d-funding-round"
+  },
+  "anthropic-claude-code-slack-integration-has-begun": {
+    "tr": "anthropic-claude-code-slack-entegrasyonu-basladi",
+    "en": "anthropic-claude-code-slack-integration-has-begun"
+  }
+}

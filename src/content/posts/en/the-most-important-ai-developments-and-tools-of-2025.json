@@ -1,0 +1,79 @@
+{
+  "id": 252,
+  "slug": "the-most-important-ai-developments-and-tools-of-2025",
+  "lang": "en",
+  "title": "The Most Important AI Developments and Tools of 2025",
+  "excerpt": "The Shift from Generative AI to Action-Oriented Agents The year 2025 marked a period in which AI technologies evolved from being merely tools that generate text or images to systems capable of autonomously performing complex tasks. Large Language Models (LLMs) have gradually given way to Large Action Models. Visual and Video Processing Technologies Models released this year, [&hellip;]",
+  "content": "<h2>The Transition from Generative AI to Action-Oriented Agents</h2>\n<p>The year 2025 marked a period in which AI technologies evolved from being merely tools that generate text or images to systems capable of autonomously performing complex tasks. Large Language Models (LLMs) gradually gave way to Large Action Models.</p>\n<h2>Visual and Video Processing Technologies</h2>\n<p>Models released this year made significant strides, particularly in terms of physical consistency and editing capabilities.</p>\n<ul>\n<li><strong>Nano Banana (Google DeepMind):</strong> Powered by the Gemini 2.5 Flash and Gemini 3 Pro infrastructure, this model stands out particularly in 3D modeling and stylization. With its “3D Figurine” mode, it can transform objects and people into highly accurate figurines.</li>\n<li><strong>Sora 2 (OpenAI):</strong> Unlike the previous version, it now includes voice generation, character management, and storytelling capabilities. Thanks to the &quot;Cameo&quot; feature, users can integrate their own faces or specific characters into videos.</li>\n<li><strong>Veo Series (Google):</strong> Focused on professional content creation, Veo 2 and 3 offer high realism in lighting, shadows, and fluid dynamics with physics engine support.</li>\n</ul>\n<h2>Gemini 3 and Software Development Processes</h2>\n<p>Google’s newly introduced Gemini 3 features a structure that enables it to plan complex tasks and write code to build its own tools using “Thinking Mode.” The model, which integrates with Google’s Antigravity platform, has accelerated the transition from a no-code approach to an AI-code approach.</p>\n<h2>Autonomous Browsers: Atlas and Comet</h2>\n<p>Browser technologies have evolved from passive page viewing to active task management.</p>\n<ul>\n<li><strong>OpenAI Atlas:</strong> This Chromium-based browser uses “Agent Mode” to autonomously execute user commands (such as product comparisons and adding items to a cart).</li>\n<li><strong>Perplexity Comet:</strong> Specializing in knowledge-based tasks, Comet can scan academic sources and documents to generate reports with verified references.</li>\n</ul>\n",
+  "date": "2025-12-27T23:02:41Z",
+  "modified": "2025-12-27T23:02:42Z",
+  "categories": [
+    {
+      "id": 1,
+      "name": "Genel",
+      "slug": "genel"
+    }
+  ],
+  "tags": [
+    {
+      "id": 142,
+      "name": "AI Agents",
+      "slug": "ai-agents"
+    },
+    {
+      "id": 124,
+      "name": "Gemini 3",
+      "slug": "gemini-3"
+    },
+    {
+      "id": 181,
+      "name": "Google Antigravity",
+      "slug": "google-antigravity"
+    },
+    {
+      "id": 182,
+      "name": "Google Veo",
+      "slug": "google-veo"
+    },
+    {
+      "id": 179,
+      "name": "Large Action Models",
+      "slug": "large-action-models"
+    },
+    {
+      "id": 183,
+      "name": "Nano Banana",
+      "slug": "nano-banana"
+    },
+    {
+      "id": 180,
+      "name": "OpenAI Atlas",
+      "slug": "openai-atlas"
+    },
+    {
+      "id": 184,
+      "name": "Perplexity Comet",
+      "slug": "perplexity-comet"
+    },
+    {
+      "id": 178,
+      "name": "Sora 2",
+      "slug": "sora-2"
+    },
+    {
+      "id": 69,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/2025in-en-onemli-yapay-zeka-gelismeleri-ve-araclari-1766876560659.jpg",
+    "alt": "2025'in En Önemli Yapay Zeka Gelişmeleri ve Araçları",
+    "width": 1376,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/2025in-en-onemli-yapay-zeka-gelismeleri-ve-araclari-1766876560659-300x167.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/2025in-en-onemli-yapay-zeka-gelismeleri-ve-araclari-1766876560659-1024x572.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/2025in-en-onemli-yapay-zeka-gelismeleri-ve-araclari-1766876560659-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/2025in-en-onemli-yapay-zeka-gelismeleri-ve-araclari-1766876560659-768x429.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/2025in-en-onemli-yapay-zeka-gelismeleri-ve-araclari-1766876560659.jpg 1376w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "2025in-en-onemli-yapay-zeka-gelismeleri-ve-araclari",
+  "sourceHash": "273eee72b40e8f8e"
+}

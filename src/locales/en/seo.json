@@ -1,0 +1,50 @@
+{
+  "home": {
+    "title": "ANKAVERSE – Software, AI and E-Commerce Technology",
+    "description": "ANKAVERSE is a technology company that helps businesses move toward the future with software development, automation, artificial intelligence, and e-commerce solutions."
+  },
+  "about": {
+    "title": "About Us | ANKAVERSE",
+    "description": "ANKAVERSE corporate information: vision, mission, management team, and official company records."
+  },
+  "services": {
+    "title": "Services | ANKAVERSE",
+    "description": "Software development, automation and integration, e-commerce infrastructure, artificial intelligence solutions, and 3D modeling services."
+  },
+  "projects": {
+    "title": "Projects | ANKAVERSE",
+    "description": "A selection of e-commerce, automation, and artificial intelligence projects developed by ANKAVERSE."
+  },
+  "projectDetail": {
+    "title": "Project | ANKAVERSE",
+    "description": "ANKAVERSE Project Details."
+  },
+  "blog": {
+    "title": "Blog | ANKAVERSE",
+    "description": "ANKAVERSE articles on technology, artificial intelligence, e-commerce, and software development."
+  },
+  "blogDetail": {
+    "title": "Blog | ANKAVERSE",
+    "description": "ANKAVERSE blog post."
+  },
+  "contact": {
+    "title": "Contact | ANKAVERSE",
+    "description": "Contact ANKAVERSE: address, phone number, email, and quote request form."
+  },
+  "privacy": {
+    "title": "Privacy Policy | ANKAVERSE",
+    "description": "ANKAVERSE Privacy Policy and Information on the Protection of Personal Data."
+  },
+  "terms": {
+    "title": "Terms of Use | ANKAVERSE",
+    "description": "Terms of Use for the ANKAVERSE website: use of the service, intellectual property, disclaimer of liability, and terms regarding changes."
+  },
+  "notFound": {
+    "title": "Page Not Found | ANKAVERSE",
+    "description": "The page you are looking for could not be found. You can access our services, projects, and blog posts from the ANKAVERSE homepage."
+  },
+  "vaktiaPrivacy": {
+    "title": "Vaktia Privacy Policy | ANKAVERSE",
+    "description": "Vaktia Mobile App Privacy Policy: Data Collected, Purposes of Use, Advertising Partners, and User Rights."
+  }
+}

@@ -10,7 +10,7 @@
  * own content. Gating on real files makes that state unreachable rather than
  * merely unlikely.
  */
-export const PUBLISHED_LOCALES = ['tr'];
+export const PUBLISHED_LOCALES = ['tr', 'en', 'de', 'fr', 'es', 'ar'];
 
 /** Every locale the site is designed for, published or not. */
 export const PLANNED_LOCALES = ['tr', 'en', 'de', 'fr', 'es', 'ar'];

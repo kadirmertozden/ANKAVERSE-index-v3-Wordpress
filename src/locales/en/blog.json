@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Blog",
+  "title": "News and Insights",
+  "subtitle": "The digital world, technology trends, and the latest news from our company.",
+  "search": {
+    "placeholder": "Search within the articles...",
+    "clear": "Clear Filters",
+    "resultsFor": "Results for \"{{query}}\"",
+    "noResults": "No posts matching your search were found."
+  },
+  "categories": {
+    "all": "All",
+    "label": "Categories",
+    "default": "General"
+  },
+  "card": {
+    "readMore": "Read More",
+    "readTime": "{{count}} min read"
+  },
+  "detail": {
+    "publishedOn": "Publication",
+    "author": "Author",
+    "tags": "Tags",
+    "related": "Related Articles",
+    "notFound": "The article could not be found."
+  }
+}

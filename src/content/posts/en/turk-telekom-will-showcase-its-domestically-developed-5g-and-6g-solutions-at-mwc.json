@@ -1,0 +1,84 @@
+{
+  "id": 381,
+  "slug": "turk-telekom-will-showcase-its-domestically-developed-5g-and-6g-solutions-at-mwc",
+  "lang": "en",
+  "title": "Türk Telekom will showcase its domestically developed 5G and 6G solutions at MWC",
+  "excerpt": "Domestic 5G and 6G Technologies at MWC Türk Telekom will showcase the 5G and beyond technology solutions it has developed in collaboration with domestic ecosystem partners at the Mobile World Congress (MWC), to be held in Barcelona from March 2–5. The company will present the projects it has carried out in collaboration with Argela, i2i Systems, P.I. Works, Plan-S, and Qubitrium to global technology professionals. The solutions to be showcased at the event range from 5G core network architectures to artificial [&hellip;]",
+  "content": "<h2>Domestic 5G and 6G Technologies at MWC</h2>\n<p>Türk Telekom will showcase the 5G and beyond technology solutions it has developed in collaboration with partners from the domestic ecosystem at the Mobile World Congress (MWC), to be held in Barcelona from March 2–5. The company will present projects it has carried out in collaboration with Argela, i2i Systems, P.I. Works, Plan-S, and Qubitrium to global technology professionals.</p>\n<p>The solutions to be showcased at the event cover a wide range of topics, from 5G core network architectures to AI-powered network automation, and from the integration of non-terrestrial networks (NTN) to quantum security protocols. These technologies aim to transform mobile networks into service platforms that are not only faster but also customizable to meet industry-specific needs.</p>\n<h2>Featured Solutions and Partnerships</h2>\n<p>The key technological developments to be highlighted at Türk Telekom’s MWC 2026 booth and in related partner presentations will include:</p>\n<ul>\n<li><strong>Argela:</strong> CAMARA Application Programming Interfaces (API)-based 5G FPV UAV use cases and real-time data processing solutions for airspace management.</li>\n<li><strong>i2i Systems:</strong> A national 5G Core Network architecture that is compliant with open standards, cloud-based, and scalable.</li>\n<li><strong>P.I. Works:</strong> An AI-powered 5G RAN Slice Assurance automation solution that provides real-time performance assurance in network slicing processes.</li>\n<li><strong>Plan-S:</strong> Integration efforts for Non-Terrestrial Networks (NTN) systems into 5G-Advanced and 6G mobile network infrastructures.</li>\n<li><strong>Qubitrium:</strong> Hardware and network solutions based on Quantum Key Distribution (QKD) aimed at enhancing end-to-end security in 5G and 6G networks.</li>\n</ul>\n",
+  "date": "2026-02-28T23:03:57Z",
+  "modified": "2026-02-28T23:03:57Z",
+  "categories": [
+    {
+      "id": 261,
+      "name": "Basın Bülteni",
+      "slug": "basin-bulteni"
+    },
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    }
+  ],
+  "tags": [
+    {
+      "id": 367,
+      "name": "5G",
+      "slug": "5g"
+    },
+    {
+      "id": 374,
+      "name": "5G Core",
+      "slug": "5g-core"
+    },
+    {
+      "id": 371,
+      "name": "6G",
+      "slug": "6g"
+    },
+    {
+      "id": 375,
+      "name": "Ağ Dilimleme",
+      "slug": "ag-dilimleme"
+    },
+    {
+      "id": 369,
+      "name": "Kuantum Ağları",
+      "slug": "kuantum-aglari"
+    },
+    {
+      "id": 370,
+      "name": "MWC 2026",
+      "slug": "mwc-2026"
+    },
+    {
+      "id": 373,
+      "name": "NTN",
+      "slug": "ntn"
+    },
+    {
+      "id": 372,
+      "name": "RAN",
+      "slug": "ran"
+    },
+    {
+      "id": 368,
+      "name": "Türk Telekom",
+      "slug": "turk-telekom"
+    },
+    {
+      "id": 69,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/turk-telekom-mwcde-yerli-5g-ve-6g-cozumlerini-tanitacak-1772319836608.jpg",
+    "alt": "Türk Telekom, MWC'de yerli 5G ve 6G çözümlerini tanıtacak",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/turk-telekom-mwcde-yerli-5g-ve-6g-cozumlerini-tanitacak-1772319836608-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/turk-telekom-mwcde-yerli-5g-ve-6g-cozumlerini-tanitacak-1772319836608-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/turk-telekom-mwcde-yerli-5g-ve-6g-cozumlerini-tanitacak-1772319836608-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/turk-telekom-mwcde-yerli-5g-ve-6g-cozumlerini-tanitacak-1772319836608-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/turk-telekom-mwcde-yerli-5g-ve-6g-cozumlerini-tanitacak-1772319836608.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "turk-telekom-mwcde-yerli-5g-ve-6g-cozumlerini-tanitacak",
+  "sourceHash": "57a6d5f9cddd05ae"
+}

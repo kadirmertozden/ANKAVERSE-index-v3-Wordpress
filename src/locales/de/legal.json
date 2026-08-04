@@ -1,0 +1,79 @@
+{
+  "lastUpdated": "Letzte Aktualisierung",
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "sections": [
+      {
+        "heading": "1. Einleitung",
+        "body": [
+          "Als ANKAVERSE („das Unternehmen“) legen wir großen Wert auf die Privatsphäre unserer Nutzer und den Schutz ihrer personenbezogenen Daten. Diese Datenschutzerklärung erläutert, wie die bei Ihrem Besuch auf unserer Website erhobenen Daten verwendet werden."
+        ]
+      },
+      {
+        "heading": "2. Erfasste Daten",
+        "body": [
+          "Wenn Sie unsere Website besuchen, können technische Daten wie Ihre IP-Adresse, der Browsertyp und die Verweildauer automatisch erfasst werden. Darüber hinaus können Sie uns über Kontaktformulare oder das Abonnement unseres Newsletters personenbezogene Daten wie Ihren Namen, Ihre E-Mail-Adresse und Ihre Telefonnummer übermitteln."
+        ]
+      },
+      {
+        "heading": "3. Verwendung der Daten",
+        "body": [
+          "Die erhobenen Daten können für folgende Zwecke verwendet werden:"
+        ],
+        "list": [
+          "Bereitstellung und Verbesserung unserer Dienstleistungen",
+          "Beantwortung Ihrer Kontaktanfragen",
+          "Erfüllung gesetzlicher Verpflichtungen",
+          "Marketing und Information (mit Ihrer Zustimmung)"
+        ]
+      },
+      {
+        "heading": "4. Cookies",
+        "body": [
+          "Unsere Website verwendet möglicherweise Cookies, um das Nutzererlebnis zu verbessern. Sie können Cookies über Ihre Browsereinstellungen verwalten."
+        ]
+      },
+      {
+        "heading": "5. Kontakt",
+        "body": [
+          "Bei Fragen zu unserer Datenschutzerklärung können Sie uns über die unten angegebene E-Mail-Adresse kontaktieren."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "sections": [
+      {
+        "heading": "1. Annahme",
+        "body": [
+          "Durch den Besuch dieser Website oder die Nutzung unserer Dienste erklären Sie sich mit diesen Nutzungsbedingungen einverstanden."
+        ]
+      },
+      {
+        "heading": "2. Nutzung des Dienstes",
+        "body": [
+          "Sie dürfen die Inhalte unserer Website ausschließlich für rechtmäßige Zwecke nutzen. Handlungen, die gegen Urheberrechte, Markenrechte oder andere Rechte des geistigen Eigentums verstoßen, sind untersagt."
+        ]
+      },
+      {
+        "heading": "3. Haftungsausschluss",
+        "body": [
+          "ANKAVERSE achtet mit größter Sorgfalt auf die Richtigkeit und Aktualität der Informationen auf seiner Website, übernimmt jedoch keine Gewähr dafür. Die Inhalte der Website dienen ausschließlich zu Informationszwecken."
+        ]
+      },
+      {
+        "heading": "4. Änderungen",
+        "body": [
+          "ANKAVERSE behält sich das Recht vor, diese Nutzungsbedingungen jederzeit zu aktualisieren. Änderungen treten mit dem Datum ihrer Veröffentlichung in Kraft."
+        ]
+      },
+      {
+        "heading": "5. Kontakt",
+        "body": [
+          "Bei Fragen können Sie uns unter der unten angegebenen E-Mail-Adresse erreichen."
+        ]
+      }
+    ]
+  }
+}

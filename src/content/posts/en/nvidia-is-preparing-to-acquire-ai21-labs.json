@@ -1,0 +1,84 @@
+{
+  "id": 276,
+  "slug": "nvidia-is-preparing-to-acquire-ai21-labs",
+  "lang": "en",
+  "title": "Nvidia Is Preparing to Acquire AI21 Labs",
+  "excerpt": "Acquisition Talks and Valuation Nvidia has begun talks to acquire AI21 Labs, an Israel-based company working on large language models (LLMs) and AI agents. According to industry sources, the potential deal is estimated to be worth between $2 billion and $3 billion. If this acquisition goes through, it will significantly expand Nvidia’s ecosystem on the software and model side. AI21 [&hellip;]",
+  "content": "<h2>Acquisition Talks and Valuation</h2>\n<p>Nvidia has begun negotiations to acquire AI21 Labs, an Israel-based company working on large language models (LLMs) and AI agents. According to industry sources, the potential deal is estimated to be worth between $2 billion and $3 billion. If the acquisition goes through, it will significantly expand Nvidia’s ecosystem on the software and model side.</p>\n<p>AI21 Labs had previously secured funding from tech giants such as Nvidia, Google, and Samsung during earlier investment rounds. It is also reported that the company recently received an additional $300 million in investment and generates approximately $50 million in annual revenue.</p>\n<h2>Technical Infrastructure: Jamba and Mamba Architectures</h2>\n<p>AI21 Labs is drawing attention in technical circles, particularly with its Jamba series of models. These models hybridize the standard Transformer architecture with a neural network design called Mamba. The Mamba architecture uses a “state space model” structure instead of the attention mechanism employed by Transformers. This architectural approach offers the following technical advantages:</p>\n<ul>\n<li>Faster processing of long context windows compared to Transformer models.</li>\n<li>Lower memory consumption during processing.</li>\n<li>Increased inference speed and efficiency.</li>\n</ul>\n<h2>AI Agents and the Maestro Platform</h2>\n<p>Maestro, another key product of the company, is a commercial platform that enables developers to create and manage AI agents. Maestro ensures that raw data is optimized, unnecessary information is filtered out, and different file formats are made suitable for analysis before being processed by the agents.</p>\n<p>With this acquisition, Nvidia is expected to integrate the Maestro platform into its own enterprise AI software suite, Nvidia AI Enterprise. This integration could make it easier to provide end-to-end solutions for hardware-accelerated LLM and agent development processes to developers using Nvidia hardware.</p>\n",
+  "date": "2026-01-03T23:05:05Z",
+  "modified": "2026-01-03T23:05:05Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    },
+    {
+      "id": 76,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "tags": [
+    {
+      "id": 231,
+      "name": "AI21 Labs",
+      "slug": "ai21-labs"
+    },
+    {
+      "id": 232,
+      "name": "Jamba",
+      "slug": "jamba"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 233,
+      "name": "Maestro",
+      "slug": "maestro"
+    },
+    {
+      "id": 230,
+      "name": "Mamba Mimarisi",
+      "slug": "mamba-mimarisi"
+    },
+    {
+      "id": 148,
+      "name": "Nvidia",
+      "slug": "nvidia"
+    },
+    {
+      "id": 236,
+      "name": "Nvidia AI Enterprise",
+      "slug": "nvidia-ai-enterprise"
+    },
+    {
+      "id": 235,
+      "name": "Satın Alma",
+      "slug": "satin-alma"
+    },
+    {
+      "id": 234,
+      "name": "State Space Model",
+      "slug": "state-space-model"
+    },
+    {
+      "id": 237,
+      "name": "Yapay Zeka Ajanları",
+      "slug": "yapay-zeka-ajanlari"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/nvidia-ai21-labsi-satin-almaya-hazirlaniyor-1767481503493.jpg",
+    "alt": "Nvidia, AI21 Labs'i Satın Almaya Hazırlanıyor",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/nvidia-ai21-labsi-satin-almaya-hazirlaniyor-1767481503493-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/nvidia-ai21-labsi-satin-almaya-hazirlaniyor-1767481503493-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/nvidia-ai21-labsi-satin-almaya-hazirlaniyor-1767481503493-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/nvidia-ai21-labsi-satin-almaya-hazirlaniyor-1767481503493-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/nvidia-ai21-labsi-satin-almaya-hazirlaniyor-1767481503493.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "nvidia-ai21-labsi-satin-almaya-hazirlaniyor",
+  "sourceHash": "4e1fb0cec6f303d8"
+}

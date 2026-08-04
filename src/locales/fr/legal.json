@@ -1,0 +1,79 @@
+{
+  "lastUpdated": "Dernière mise à jour",
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "sections": [
+      {
+        "heading": "1. Introduction",
+        "body": [
+          "En tant qu'ANKAVERSE (ci-après dénommée « la Société »), nous accordons une grande importance à la confidentialité de nos utilisateurs et à la protection de leurs données personnelles. La présente Politique de confidentialité explique comment sont utilisées les informations collectées lorsque vous visitez notre site web."
+        ]
+      },
+      {
+        "heading": "2. Informations collectées",
+        "body": [
+          "Lorsque vous visitez notre site, certaines données techniques, telles que votre adresse IP, le type de navigateur utilisé et la durée de votre visite, peuvent être collectées automatiquement. Par ailleurs, vous pouvez nous communiquer des informations personnelles, telles que votre nom, votre adresse e-mail et votre numéro de téléphone, via les formulaires de contact ou en vous abonnant à notre newsletter."
+        ]
+      },
+      {
+        "heading": "3. Utilisation des informations",
+        "body": [
+          "Les informations collectées peuvent être utilisées aux fins suivantes :"
+        ],
+        "list": [
+          "La fourniture et l'amélioration de nos services",
+          "Réponse à vos demandes de contact",
+          "Respect des obligations légales",
+          "Marketing et communication (avec votre accord)"
+        ]
+      },
+      {
+        "heading": "4. Cookies",
+        "body": [
+          "Notre site web peut utiliser des cookies afin d'améliorer l'expérience utilisateur. Vous pouvez gérer les cookies depuis les paramètres de votre navigateur."
+        ]
+      },
+      {
+        "heading": "5. Communication",
+        "body": [
+          "Pour toute question concernant notre politique de confidentialité, vous pouvez nous contacter à l'adresse e-mail ci-dessous."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "sections": [
+      {
+        "heading": "1. Acceptation",
+        "body": [
+          "En visitant ce site web ou en utilisant nos services, vous êtes réputé accepter les présentes Conditions d'utilisation."
+        ]
+      },
+      {
+        "heading": "2. Utilisation du service",
+        "body": [
+          "Vous ne pouvez utiliser les contenus de notre site qu'à des fins légales. Tout acte enfreignant les droits d'auteur, les droits des marques ou tout autre droit de propriété intellectuelle est interdit."
+        ]
+      },
+      {
+        "heading": "3. Clause de non-responsabilité",
+        "body": [
+          "ANKAVERSE apporte le plus grand soin à l'exactitude et à l'actualité des informations figurant sur son site web, mais ne donne aucune garantie à cet égard. Les contenus du site sont fournis à titre informatif."
+        ]
+      },
+      {
+        "heading": "4. Modifications",
+        "body": [
+          "ANKAVERSE se réserve le droit de mettre à jour les présentes conditions d'utilisation à tout moment. Les modifications entrent en vigueur à la date de leur publication."
+        ]
+      },
+      {
+        "heading": "5. Communication",
+        "body": [
+          "Pour toute question, vous pouvez nous contacter à l'adresse e-mail ci-dessous."
+        ]
+      }
+    ]
+  }
+}

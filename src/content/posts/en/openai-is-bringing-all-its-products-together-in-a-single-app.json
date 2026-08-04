@@ -1,0 +1,74 @@
+{
+  "id": 409,
+  "slug": "openai-is-bringing-all-its-products-together-in-a-single-app",
+  "lang": "en",
+  "title": "OpenAI Is Bringing All Its Products Together in a Single App",
+  "excerpt": "OpenAI’s New Desktop Ecosystem OpenAI is developing a new desktop application designed specifically for Mac users that brings together ChatGPT, the Codex software development platform, and the Atlas browser in a single hub. The application aims to allow developers and professionals to manage their workflows from a single window, eliminating the need to switch between disparate services. The most important technical component of this all-in-one platform is the autonomous [&hellip;]",
+  "content": "<h2>OpenAI’s New Desktop Ecosystem</h2>\n<p>OpenAI is developing a new desktop application designed specifically for Mac users that brings ChatGPT, the Codex software development platform, and the Atlas browser together in a single hub. The application aims to allow developers and professionals to manage their workflows from a single window, eliminating the need to switch between disparate services.</p>\n<p>The most important technical component of this all-in-one platform will be an agentic AI infrastructure capable of operating autonomously. These autonomous systems will be able to perform complex tasks—such as writing code, debugging, or conducting comprehensive data analysis—on their own, without requiring user guidance.</p>\n<p>It is understood that behind OpenAI’s consolidation strategy lies the momentum Anthropic has gained in the enterprise market with products like Code Claude and Cowork. According to internal communications, as competition intensifies, the company is prioritizing core products and integration processes that fully address the needs of enterprise customers over side projects. The current mobile app is not expected to be affected by this infrastructure change in the short term.</p>\n<ul>\n<li>ChatGPT, Codex, and Atlas are merging into a single desktop application.</li>\n<li>Agents will be able to perform autonomous code writing and data analysis using AI capabilities.</li>\n<li>This move aims to maintain market share against Anthropic’s enterprise tools.</li>\n</ul>\n",
+  "date": "2026-03-21T23:02:15Z",
+  "modified": "2026-03-21T23:02:16Z",
+  "categories": [
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 285,
+      "name": "Agentic AI",
+      "slug": "agentic-ai"
+    },
+    {
+      "id": 405,
+      "name": "Ajan Yapay Zeka",
+      "slug": "ajan-yapay-zeka"
+    },
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 88,
+      "name": "ChatGPT",
+      "slug": "chatgpt"
+    },
+    {
+      "id": 403,
+      "name": "Codex",
+      "slug": "codex"
+    },
+    {
+      "id": 404,
+      "name": "Geliştirici Araçları",
+      "slug": "gelistirici-araclari"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 406,
+      "name": "Otonom Sistemler",
+      "slug": "otonom-sistemler"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-tum-urunlerini-tek-uygulamada-birlestiriyor-1774134133978.jpg",
+    "alt": "OpenAI Tüm Ürünlerini Tek Uygulamada Birleştiriyor",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-tum-urunlerini-tek-uygulamada-birlestiriyor-1774134133978-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-tum-urunlerini-tek-uygulamada-birlestiriyor-1774134133978-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-tum-urunlerini-tek-uygulamada-birlestiriyor-1774134133978-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-tum-urunlerini-tek-uygulamada-birlestiriyor-1774134133978-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/openai-tum-urunlerini-tek-uygulamada-birlestiriyor-1774134133978.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "openai-tum-urunlerini-tek-uygulamada-birlestiriyor",
+  "sourceHash": "fc86e7157af0c722"
+}

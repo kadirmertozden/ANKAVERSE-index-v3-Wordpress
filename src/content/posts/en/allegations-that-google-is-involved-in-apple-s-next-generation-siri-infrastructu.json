@@ -1,0 +1,79 @@
+{
+  "id": 325,
+  "slug": "allegations-that-google-is-involved-in-apple-s-next-generation-siri-infrastructu",
+  "lang": "en",
+  "title": "Allegations That Google Is Involved in Apple's Next-Generation Siri Infrastructure",
+  "excerpt": "Infrastructure Talks Between Apple and Google According to a new report from Bloomberg, Apple is in talks with Google regarding infrastructure for future versions of its digital assistant, Siri. The reports suggest that Apple may use servers equipped with Google’s Tensor Processing Units (TPUs)—which are specifically designed for AI processing—instead of its own “Private Cloud Compute” architecture. This potential collaboration could, in particular, [&hellip;]",
+  "content": "<h2>Infrastructure Talks Between Apple and Google</h2>\n<p>According to a new report from Bloomberg, Apple is holding infrastructure talks with Google regarding future versions of its digital assistant, Siri. The claims suggest that Apple may use servers equipped with Google’s Tensor Processing Units (TPUs)—which are specifically designed for AI processing—instead of its own “Private Cloud Compute” architecture. It is noted that this potential collaboration is being considered specifically for a much more capable chatbot planned to be introduced with iOS 27.</p>\n<p>It is reported that the new large language model (LLM), developed internally at Apple under the codename “Apple Foundation Models v11,” requires a level of processing power that will push the limits of Apple’s current Apple Silicon-based servers. To make this AI system—which is intended to compete with Google’s Gemini models—available on a global scale, Google’s existing, scalable TPU infrastructure may have become a technical necessity.</p>\n<h2>Technical Details and Privacy Protocols</h2>\n<ul>\n<li><strong>Infrastructure Shift:</strong> Apple’s move away from its own hardware ecosystem toward Google TPUs highlights the rising computational costs and hardware requirements of AI models.</li>\n<li><strong>Timing:</strong> While upcoming iOS 26 interim updates (26.4, etc.) are expected to continue running on existing Apple servers, the major architectural change is anticipated to occur with iOS 27.</li>\n<li><strong>Data Security Model:</strong> Apple may adapt its strategy of encrypting data and hosting it on third-party servers (Google Cloud, AWS)—as it does with iCloud services—to Siri as well. In this scenario, control over the encryption keys would remain entirely with Apple, preventing Google from reading the data.</li>\n</ul>\n<p>Although this development marks a departure from Apple’s “everything on-device” (or Private Cloud) approach, a transition to a hybrid infrastructure model appears inevitable given the nature of cloud-based generative AI services.</p>\n",
+  "date": "2026-01-24T23:04:55Z",
+  "modified": "2026-01-24T23:04:55Z",
+  "categories": [
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 279,
+      "name": "Bulut Bilişim",
+      "slug": "bulut-bilisim"
+    },
+    {
+      "id": 198,
+      "name": "Google",
+      "slug": "google"
+    },
+    {
+      "id": 303,
+      "name": "iOS 27",
+      "slug": "ios-27"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 299,
+      "name": "Private Cloud Compute",
+      "slug": "private-cloud-compute"
+    },
+    {
+      "id": 276,
+      "name": "Siri",
+      "slug": "siri"
+    },
+    {
+      "id": 302,
+      "name": "TPU",
+      "slug": "tpu"
+    },
+    {
+      "id": 304,
+      "name": "Veri Gizliliği",
+      "slug": "veri-gizliligi"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/applein-yeni-nesil-siri-altyapisinda-google-iddiasi-1769295895116.jpg",
+    "alt": "Apple'ın Yeni Nesil Siri Altyapısında Google İddiası",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/applein-yeni-nesil-siri-altyapisinda-google-iddiasi-1769295895116-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/applein-yeni-nesil-siri-altyapisinda-google-iddiasi-1769295895116-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/applein-yeni-nesil-siri-altyapisinda-google-iddiasi-1769295895116-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/applein-yeni-nesil-siri-altyapisinda-google-iddiasi-1769295895116-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/01/applein-yeni-nesil-siri-altyapisinda-google-iddiasi-1769295895116.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "applein-yeni-nesil-siri-altyapisinda-google-iddiasi",
+  "sourceHash": "4af15181e1bd14c9"
+}

@@ -1,0 +1,84 @@
+{
+  "id": 330,
+  "slug": "apple-s-acquisition-of-q-ai-and-this-week-s-ai-news-roundup",
+  "lang": "en",
+  "title": "Apple's Acquisition of Q.ai and This Week's AI News Roundup",
+  "excerpt": "Product and Integration Developments Integration efforts and new product launches gained momentum in the AI ecosystem this week. As Apple prepares to unveil the new Gemini-powered Siri in February, it stated that it will use a dedicated cloud infrastructure to ensure the security of user data. Meanwhile, OpenAI announced Prism, a LaTeX-based tool for scientific research, and it was discovered that ChatGPT has begun using Grokipedia data owned by xAI [&hellip;]",
+  "content": "<h2>Product and Integration Updates</h2>\n<p>This week, integration efforts and new product launches gained momentum in the AI ecosystem. Apple, which is preparing to unveil the new Gemini-powered Siri in February, stated that it will use a dedicated cloud infrastructure to ensure the security of user data. Meanwhile, OpenAI announced Prism, a LaTeX-based tool for scientific research, and it was discovered that ChatGPT has begun using Grokipedia data owned by xAI.</p>\n<p>Other notable developments include:</p>\n<ul>\n<li><strong>Anthropic:</strong> Claude has begun integrating with business applications such as Slack, Figma, and Asana. However, the company is facing a $3 billion copyright lawsuit filed by music publishers.</li>\n<li><strong>Google:</strong> Gemini features have been added to the Chrome browser, and Project Genie—which enables the creation of interactive worlds—has been launched.</li>\n</ul>\n<h2>Agentic AI and Hardware</h2>\n<p>Autonomous agents and the hardware that supports these models remain a key focus. Microsoft introduced the Maia 200 chip to scale AI inference. Apple, meanwhile, invested in sensor-based nonverbal communication technologies by acquiring the voice technology startup Q.ai for $2 billion.</p>\n<ul>\n<li><strong>Wonderful:</strong> The Agent Builder platform, which enables companies to create autonomous agents, was announced.</li>\n<li><strong>Clawdbot:</strong> An open-source personal AI assistant has been made available to developers.</li>\n<li><strong>Snap:</strong> It is spinning off its AR glasses division into an independent company open to outside investment.</li>\n</ul>\n<h2>New Models and Open Source</h2>\n<p>This week’s model-related innovations focused primarily on computer vision and coding:</p>\n<ul>\n<li><strong>DeepSeek:</strong> Released its OCR 2 model, focused on text extraction from documents, as open source.</li>\n<li><strong>Luma AI:</strong> The video generation model Ray3.14 was released with faster processing capabilities.</li>\n<li><strong>Gemini 3 Flash:</strong> The “Agentic Vision” capability, which combines visual reasoning with code execution, was introduced.</li>\n<li><strong>AI2:</strong> SERA, an open-source coding agent powered by Claude Code, was announced.</li>\n<li><strong>NVIDIA:</strong> The PersonaPlex bidirectional conversation model was introduced.</li>\n</ul>\n<h2>Investment Activity</h2>\n<p>Cash flow in the sector continues with large-scale acquisitions and investments:</p>\n<ul>\n<li><strong>NVIDIA:</strong> Invested $2 billion in CoreWeave.</li>\n<li><strong>Tesla:</strong> Provided $2 billion in funding for Elon Musk’s xAI venture.</li>\n<li><strong>Synthesia:</strong> Raised $200 million at a $4 billion valuation.</li>\n<li><strong>Ricursive Intelligence:</strong> Completed a $300 million Series A funding round.</li>\n<li><strong>Microsoft:</strong> Announced that its partnership with OpenAI contributed $7.6 billion to its quarterly profit.</li>\n</ul>\n",
+  "date": "2026-01-31T23:01:23Z",
+  "modified": "2026-01-31T23:01:24Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 116,
+      "name": "Açık Kaynak",
+      "slug": "acik-kaynak"
+    },
+    {
+      "id": 285,
+      "name": "Agentic AI",
+      "slug": "agentic-ai"
+    },
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 251,
+      "name": "DeepSeek",
+      "slug": "deepseek"
+    },
+    {
+      "id": 193,
+      "name": "Gemini",
+      "slug": "gemini"
+    },
+    {
+      "id": 311,
+      "name": "Luma AI",
+      "slug": "luma-ai"
+    },
+    {
+      "id": 310,
+      "name": "Microsoft Maia",
+      "slug": "microsoft-maia"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 309,
+      "name": "Q.ai",
+      "slug": "q-ai"
+    },
+    {
+      "id": 190,
+      "name": "Yapay Zeka Yatırımları",
+      "slug": "yapay-zeka-yatirimlari"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi-1769900482358.jpg",
+    "alt": "Apple Q.ai Satın Alımı ve Haftanın Yapay Zeka Gündemi",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi-1769900482358-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi-1769900482358-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi-1769900482358-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi-1769900482358-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi-1769900482358.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi",
+  "sourceHash": "8a80ad300817853f"
+}

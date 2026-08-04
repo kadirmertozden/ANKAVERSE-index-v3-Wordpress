@@ -1,0 +1,69 @@
+{
+  "id": 357,
+  "slug": "the-turkish-ai-ecosystem-2025-report-has-been-published",
+  "lang": "en",
+  "title": "The \"Turkish AI Ecosystem 2025\" Report Has Been Published",
+  "excerpt": "Ecosystem Data and Investment Trends: The findings of the \"Turkish AI Ecosystem and Global Impact Report,\" prepared in collaboration with AI Factory, Endeavor, and Startups.Watch, have been released. According to the data, there are 1,188 active AI startups in Turkey, and approximately 70 percent of them were founded in 2020 or later. On the corporate side, efforts to adopt AI through partnerships with startups [&hellip;]",
+  "content": "<h2>Ecosystem Data and Investment Trends</h2>\n<p>The findings of the “Turkish AI Ecosystem and Global Impact Report,” prepared in collaboration with AI Factory, Endeavor, and Startups.Watch, have been released. According to the data, there are 1,188 AI startups actively operating in Turkey, and approximately 70 percent of them were founded in 2020 or later. On the corporate side, the rate of collaboration with startups for AI adoption remained at 6.25 percent.</p>\n<h2>Comparison of Technical Focus and the Diaspora</h2>\n<p>The report clearly highlights the differences in technical focus between Turkey-based startups and the Turkish diaspora abroad. While 16 percent of startups in Turkey focus on Computer Vision, GenAI (Generative AI) ranks second at 12 percent. In contrast, within the Turkish diaspora, GenAI takes the top spot at 25%, followed by Agentic AI (Autonomous AI Agents) at 21%.</p>\n<p>On the investment front, the gap has widened. In 2025, the median investment amount received by the Turkish diaspora reached $2.4 million. This amount is 24 times the median investment amount received by Turkey-based startups. This data indicates that startups in the diaspora are moving more quickly in terms of scaling and accessing capital.</p>\n<h2>Unicorns and B2B Focus</h2>\n<p>The ecosystem’s business model preferences show a strong emphasis on B2B solutions. While approximately 75 percent of both local and diaspora startups are B2B-focused, the share of B2C-focused startups remains below 10 percent. The report also notes that Turkey has strengthened its position in the region with Insider achieving unicorn status, and that diaspora startups such as Periodic Labs and Fal.ai have also made it onto global unicorn lists.</p>\n",
+  "date": "2026-02-07T23:04:37Z",
+  "modified": "2026-02-07T23:04:37Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 285,
+      "name": "Agentic AI",
+      "slug": "agentic-ai"
+    },
+    {
+      "id": 341,
+      "name": "B2B",
+      "slug": "b2b"
+    },
+    {
+      "id": 340,
+      "name": "Computer Vision",
+      "slug": "computer-vision"
+    },
+    {
+      "id": 306,
+      "name": "GenAI",
+      "slug": "genai"
+    },
+    {
+      "id": 343,
+      "name": "Rapor",
+      "slug": "rapor"
+    },
+    {
+      "id": 339,
+      "name": "Startup",
+      "slug": "startup"
+    },
+    {
+      "id": 342,
+      "name": "Unicorn",
+      "slug": "unicorn"
+    },
+    {
+      "id": 147,
+      "name": "Yatırım",
+      "slug": "yatirim"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/turk-yapay-zeka-ekosistemi-2025-raporu-yayinlandi-1770505476651.jpg",
+    "alt": "Türk Yapay Zeka Ekosistemi 2025 Raporu Yayınlandı",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/turk-yapay-zeka-ekosistemi-2025-raporu-yayinlandi-1770505476651-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/turk-yapay-zeka-ekosistemi-2025-raporu-yayinlandi-1770505476651-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/turk-yapay-zeka-ekosistemi-2025-raporu-yayinlandi-1770505476651-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/turk-yapay-zeka-ekosistemi-2025-raporu-yayinlandi-1770505476651-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/turk-yapay-zeka-ekosistemi-2025-raporu-yayinlandi-1770505476651.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "turk-yapay-zeka-ekosistemi-2025-raporu-yayinlandi",
+  "sourceHash": "2d022f7363b22ed1"
+}

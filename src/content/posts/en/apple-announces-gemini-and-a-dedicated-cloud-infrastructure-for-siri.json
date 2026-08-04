@@ -1,0 +1,79 @@
+{
+  "id": 336,
+  "slug": "apple-announces-gemini-and-a-dedicated-cloud-infrastructure-for-siri",
+  "lang": "en",
+  "title": "Apple Announces Gemini and a Dedicated Cloud Infrastructure for Siri",
+  "excerpt": "Siri and Gemini Integration Confirmed Apple CEO Tim Cook confirmed the strategic partnership with Google and announced that the Gemini model will be integrated into the iPhone ecosystem and Siri. This move is part of Apple’s strategy to bolster its own AI vision, Apple Intelligence, with powerful third-party LLM (Large Language Model) capabilities. Private Cloud Compute (PCC) Architecture Partnership [&hellip;]",
+  "content": "<h2>Siri and Gemini Integration Confirmed</h2>\n<p>Apple CEO Tim Cook confirmed the strategic partnership with Google and announced that the Gemini model will be integrated into the iPhone ecosystem and Siri. This move is part of Apple’s strategy to bolster its own AI vision, Apple Intelligence, with powerful third-party LLM (Large Language Model) capabilities.</p>\n<h2>Private Cloud Compute (PCC) Architecture</h2>\n<p>The most critical component of the partnership from a technical standpoint is Apple’s “Private Cloud Compute” (PCC) architecture. In scenarios where Siri relies on Gemini to process complex queries, the data flow does not go directly to Google’s servers. Instead, the processing takes place in a private cloud environment that is encrypted and operates without logging, as specified by Apple.</p>\n<p>The system’s technical features include the following:</p>\n<ul>\n<li><strong>Data Isolation:</strong> Google cannot view or record the processed data.</li>\n<li><strong>Ad Blocking:</strong> The use of data for ad targeting is blocked.</li>\n<li><strong>Hybrid Processing:</strong> When on-device processing power is insufficient, cloud-based resources are utilized via a secure tunnel.</li>\n</ul>\n<p>This architecture was developed to ensure that users can access advanced AI models without compromising Apple’s privacy standards.</p>\n",
+  "date": "2026-01-31T23:02:55Z",
+  "modified": "2026-01-31T23:02:55Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 301,
+      "name": "Apple Intelligence",
+      "slug": "apple-intelligence"
+    },
+    {
+      "id": 279,
+      "name": "Bulut Bilişim",
+      "slug": "bulut-bilisim"
+    },
+    {
+      "id": 193,
+      "name": "Gemini",
+      "slug": "gemini"
+    },
+    {
+      "id": 198,
+      "name": "Google",
+      "slug": "google"
+    },
+    {
+      "id": 315,
+      "name": "PCC",
+      "slug": "pcc"
+    },
+    {
+      "id": 299,
+      "name": "Private Cloud Compute",
+      "slug": "private-cloud-compute"
+    },
+    {
+      "id": 276,
+      "name": "Siri",
+      "slug": "siri"
+    },
+    {
+      "id": 316,
+      "name": "Tim Cook",
+      "slug": "tim-cook"
+    },
+    {
+      "id": 304,
+      "name": "Veri Gizliliği",
+      "slug": "veri-gizliligi"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-siri-icin-gemini-ve-ozel-bulut-altyapisini-duyurdu-1769900574735.jpg",
+    "alt": "Apple, Siri için Gemini ve Özel Bulut Altyapısını Duyurdu",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-siri-icin-gemini-ve-ozel-bulut-altyapisini-duyurdu-1769900574735-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-siri-icin-gemini-ve-ozel-bulut-altyapisini-duyurdu-1769900574735-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-siri-icin-gemini-ve-ozel-bulut-altyapisini-duyurdu-1769900574735-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-siri-icin-gemini-ve-ozel-bulut-altyapisini-duyurdu-1769900574735-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/apple-siri-icin-gemini-ve-ozel-bulut-altyapisini-duyurdu-1769900574735.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "apple-siri-icin-gemini-ve-ozel-bulut-altyapisini-duyurdu",
+  "sourceHash": "ee0ef780f54aea2d"
+}

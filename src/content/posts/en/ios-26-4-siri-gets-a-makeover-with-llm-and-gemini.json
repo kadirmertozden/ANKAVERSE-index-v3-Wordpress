@@ -1,0 +1,74 @@
+{
+  "id": 363,
+  "slug": "ios-26-4-siri-gets-a-makeover-with-llm-and-gemini",
+  "lang": "en",
+  "title": "iOS 26.4: Siri Gets a Makeover with LLM and Gemini",
+  "excerpt": "New LLM-Based Siri Architecture Apple is making a fundamental change to the infrastructure of its voice assistant, Siri, with iOS 26.4, scheduled for release in the spring of 2026. The current keyword-based recognition system is being replaced by a generative AI architecture built on Large Language Models (LLMs). This update aims to fundamentally change the way Siri processes commands and its ability to understand user intent. Google [&hellip;]",
+  "content": "<h2>New LLM-Based Siri Architecture</h2>\n<p>Apple is making a fundamental change to the infrastructure of its voice assistant, Siri, with iOS 26.4, scheduled for release in the spring of 2026. The current keyword-based recognition system is being replaced by a generative AI architecture built on Large Language Models (LLMs). This update aims to fundamentally change the way Siri processes commands and its ability to understand user intent.</p>\n<h2>Google Gemini and Hybrid Processing</h2>\n<p>The new infrastructure is powered by a custom model developed by Apple in collaboration with the Google Gemini team. This model will analyze the context and intent behind what the user says to deliver a more natural interaction. Maintaining its commitment to data privacy, Apple will implement a hybrid solution by distributing processing between on-device processing and the Private Cloud Compute infrastructure.</p>\n<h2>Technical Capabilities and Automation</h2>\n<p>With its updated architecture, Siri will be able to go beyond simple commands to perform more complex automation tasks. The core capabilities expected with iOS 26.4 include:</p>\n<ul>\n<li><strong>Contextual Awareness:</strong> Generating responses by analyzing the user’s previous activities and personal data.</li>\n<li><strong>Screen Awareness:</strong> Detecting content currently displayed on the screen and taking appropriate action.</li>\n<li><strong>Cross-App Integration:</strong> Performing multi-step tasks with a single command (for example, editing a photo and sending it as a message to a specific person).</li>\n</ul>\n<h2>Development Process and Reasons for Delays</h2>\n<p>It is reported that these features, originally planned for release with iOS 18, were delayed due to failures in the hybrid model, which attempted to combine the legacy architecture with the new LLM system. According to statements by Apple’s Chief Software Engineer Craig Federighi, the restructuring of the AI team and the complete overhaul of the architecture resulted in a more extensive upgrade than expected. The beta process is expected to begin in the coming months.</p>\n",
+  "date": "2026-02-14T23:02:03Z",
+  "modified": "2026-02-14T23:02:03Z",
+  "categories": [
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 260,
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "id": 121,
+      "name": "Google Gemini",
+      "slug": "google-gemini"
+    },
+    {
+      "id": 346,
+      "name": "iOS 26.4",
+      "slug": "ios-26-4"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 175,
+      "name": "NLP",
+      "slug": "nlp"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    },
+    {
+      "id": 299,
+      "name": "Private Cloud Compute",
+      "slug": "private-cloud-compute"
+    },
+    {
+      "id": 276,
+      "name": "Siri",
+      "slug": "siri"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/ios-26-4-siri-llm-ve-gemini-ile-yenileniyor-1771110121815.jpg",
+    "alt": "iOS 26.4: Siri, LLM ve Gemini ile Yenileniyor",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/ios-26-4-siri-llm-ve-gemini-ile-yenileniyor-1771110121815-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/ios-26-4-siri-llm-ve-gemini-ile-yenileniyor-1771110121815-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/ios-26-4-siri-llm-ve-gemini-ile-yenileniyor-1771110121815-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/ios-26-4-siri-llm-ve-gemini-ile-yenileniyor-1771110121815-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/ios-26-4-siri-llm-ve-gemini-ile-yenileniyor-1771110121815.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "ios-26-4-siri-llm-ve-gemini-ile-yenileniyor",
+  "sourceHash": "27491f567ce2fba0"
+}

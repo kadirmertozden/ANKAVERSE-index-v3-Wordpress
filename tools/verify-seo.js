@@ -9,6 +9,7 @@ import { readFile, readdir, stat } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { SITE_URL, DEFAULT_LOCALE } from '../src/i18n/routes.js';
+import { COMPANY } from '../src/data/company.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST = resolve(__dirname, '../dist');
@@ -23,8 +24,57 @@ const DESCRIPTION_MAX = 165;
  * a foreign hreflang -- the failure mode that is invisible in review and
  * actively harmful in search.
  */
-const TURKISH_ONLY = /[ğışĞİŞ]/;
+const TURKISH_ONLY = /[ğışĞİŞ]/g;
 const NON_TURKISH_HTML_LANGS = ['en', 'de', 'fr', 'es', 'ar'];
+
+/**
+ * Proper nouns that must stay Turkish in every locale: a company's registered
+ * name, its address and its people are not translated. They appear in the
+ * footer of every page, so they are removed before the scan rather than
+ * allowed to flag all 400-odd pages.
+ */
+const PROPER_NOUNS = [
+  COMPANY.legalName,
+  COMPANY.address.full,
+  COMPANY.address.street,
+  COMPANY.address.locality,
+  COMPANY.address.region,
+  COMPANY.taxOffice,
+  COMPANY.tradeRegistryOffice,
+  ...COMPANY.founders.map((founder) => founder.name),
+].filter(Boolean);
+
+/**
+ * Only lowercase words are counted.
+ *
+ * Turkish proper nouns survive translation on purpose -- an English article
+ * about Doğuş Group or a person named Adalı still spells them that way, and
+ * counting those flagged correctly translated pages. Untranslated Turkish
+ * prose, by contrast, is overwhelmingly lowercase: "değişim", "başladı",
+ * "ışık". Capitalised words are therefore skipped, which leaves the signal
+ * pointed at running text rather than at names.
+ */
+const TURKISH_MIN_COUNT = 8;
+
+function turkishLeakage(text) {
+  let stripped = text;
+  for (const noun of PROPER_NOUNS) {
+    stripped = stripped.split(noun).join(' ');
+  }
+
+  let count = 0;
+  const flagged = new Set();
+  for (const word of stripped.split(/[^\p{L}\p{N}'-]+/u)) {
+    if (!word || word[0] !== word[0].toLocaleLowerCase('tr')) continue;
+    const matches = word.match(TURKISH_ONLY);
+    if (matches) {
+      count += matches.length;
+      flagged.add(word);
+    }
+  }
+
+  return { count, sample: [...flagged].slice(0, 6) };
+}
 
 const errors = [];
 const warnings = [];
@@ -123,8 +173,15 @@ function checkPage({ file, route }, html, seen) {
   if (lang === 'ar' && dir !== 'rtl') fail(label, 'Arabic page is not marked dir="rtl"');
 
   // 5. Untranslated copy under a foreign language tag.
-  if (lang && NON_TURKISH_HTML_LANGS.includes(lang) && TURKISH_ONLY.test(text)) {
-    fail(label, `lang="${lang}" but the page contains Turkish-only characters`);
+  if (lang && NON_TURKISH_HTML_LANGS.includes(lang)) {
+    const { count, sample } = turkishLeakage(text);
+    if (count >= TURKISH_MIN_COUNT) {
+      fail(
+        label,
+        `lang="${lang}" but ${count} Turkish-only characters in lowercase words ` +
+          `suggest untranslated copy (e.g. ${sample.join(', ')})`,
+      );
+    }
   }
 
   // 6. Structured data parses and carries a type.

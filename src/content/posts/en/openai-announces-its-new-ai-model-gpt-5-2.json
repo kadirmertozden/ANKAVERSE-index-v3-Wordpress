@@ -1,0 +1,74 @@
+{
+  "id": 222,
+  "slug": "openai-announces-its-new-ai-model-gpt-5-2",
+  "lang": "en",
+  "title": "OpenAI Announces Its New AI Model, GPT-5.2",
+  "excerpt": "GPT-5.2 Models and Technical Capabilities OpenAI has launched the GPT-5.2 model, designed for developers and professional use cases. Described by the company as its most advanced model to date, this new version is available in three different variants tailored to specific use cases: Instant, Thinking, and Pro. Instant: Low latency and speed for routine tasks such as information retrieval, text generation, and translation [&hellip;]",
+  "content": "<h2>GPT-5.2 Models and Technical Capabilities</h2>\n<p>OpenAI has released the GPT-5.2 model, designed for developers and professional use cases. Described by the company as its most advanced model to date, this new version is available in three different variants—Instant, Thinking, and Pro—each tailored to specific use cases.</p>\n<ul>\n<li><strong>Instant:</strong> Provides low latency and speed optimization for routine tasks such as information retrieval, text generation, and translation.</li>\n<li><strong>Thinking:</strong> Excels at complex, structured tasks such as coding, long-document analysis, mathematical problems, and planning.</li>\n<li><strong>Pro:</strong> Positioned as the top-tier model, it aims for maximum accuracy and reliability in solving challenging problems.</li>\n</ul>\n<h2>Performance Criteria and Competition</h2>\n<p>The GPT-5.2 series has been enhanced to be more capable than previous models in creating spreadsheets, preparing presentations, image recognition, and managing multi-step projects. In particular, the Thinking model is noted to produce fewer hallucinations compared to previous versions and to handle long contexts more effectively.</p>\n<p>On the benchmark front, GPT-5.2 competes directly with Google’s Gemini 3 model. According to data shared by OpenAI, GPT-5.2 Thinking outperforms Gemini 3 and Anthropic’s Claude Opus 4.5 in the vast majority of reasoning tests. However, in independent LMArena coding benchmarks, Claude Opus 4.5 appears to maintain its lead.</p>\n<p>The new models are being made available to developers via the API and are also being gradually rolled out to ChatGPT Plus, Pro, Team, and Enterprise users.</p>\n",
+  "date": "2025-12-13T23:02:27Z",
+  "modified": "2025-12-13T23:02:27Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 123,
+      "name": "API",
+      "slug": "api"
+    },
+    {
+      "id": 125,
+      "name": "Claude Opus 4.5",
+      "slug": "claude-opus-4-5"
+    },
+    {
+      "id": 124,
+      "name": "Gemini 3",
+      "slug": "gemini-3"
+    },
+    {
+      "id": 73,
+      "name": "Generative AI",
+      "slug": "generative-ai"
+    },
+    {
+      "id": 117,
+      "name": "GPT-5.2",
+      "slug": "gpt-5-2"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 122,
+      "name": "Machine Learning",
+      "slug": "machine-learning"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 67,
+      "name": "Yazılım Geliştirme",
+      "slug": "yazilim-gelistirme"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-yeni-yapay-zeka-modeli-gpt-5-2-yi-duyurdu-1765666945829.jpg",
+    "alt": "OpenAI, Yeni Yapay Zeka Modeli GPT-5.2'yi Duyurdu",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-yeni-yapay-zeka-modeli-gpt-5-2-yi-duyurdu-1765666945829-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-yeni-yapay-zeka-modeli-gpt-5-2-yi-duyurdu-1765666945829-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-yeni-yapay-zeka-modeli-gpt-5-2-yi-duyurdu-1765666945829-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-yeni-yapay-zeka-modeli-gpt-5-2-yi-duyurdu-1765666945829-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2025/12/openai-yeni-yapay-zeka-modeli-gpt-5-2-yi-duyurdu-1765666945829.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "openai-yeni-yapay-zeka-modeli-gpt-5-2-yi-duyurdu",
+  "sourceHash": "1e6eecd57e39d794"
+}

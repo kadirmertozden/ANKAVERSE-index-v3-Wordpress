@@ -1,0 +1,74 @@
+{
+  "id": 416,
+  "slug": "artificial-intelligence-ecosystem-new-models-and-infrastructures",
+  "lang": "en",
+  "title": "Artificial Intelligence Ecosystem: New Models and Infrastructures",
+  "excerpt": "Models and Corporate Strategies: OpenAI is discontinuing its Sora application, which generates video from text, in order to shift its resources toward broader AI systems and enterprise products. The company has also strengthened its pre-IPO strategy by offering a minimum return guarantee of 17.5 percent to attract private equity firms to its corporate joint venture. Meanwhile, Anthropic won its lawsuit against the U.S. Department of Defense [&hellip;]",
+  "content": "<h2>Models and Corporate Strategies</h2>\n<p>OpenAI is shutting down its Sora application, which generates video from text, in order to shift its resources toward broader AI systems and enterprise products. The company has also strengthened its pre-IPO strategy by offering a minimum return guarantee of 17.5 percent to attract private equity firms to its corporate joint venture. Meanwhile, Anthropic won its lawsuit against the U.S. Department of Defense, and the company’s “supply chain risk” designation was rescinded. On the Meta front, it was reported that Mark Zuckerberg is developing a private AI CEO assistant for personal use, and that the company has acquired the Dreamer team, the developers behind Agentic.</p>\n<h2>Developer Tools and Infrastructure</h2>\n<p>On the developer and infrastructure side, new tools were released to accelerate coding and integration processes:</p>\n<ul>\n<li><strong>Cloudflare Dynamic Workers:</strong> A new infrastructure was announced that enables AI agents to execute the code they write 100 times faster and more securely than standard options.</li>\n<li><strong>Claude Code and Cowork:</strong> Anthropic’s models now have the ability to directly use the computer environment to perform tasks.</li>\n<li><strong>TurboQuant:</strong> Google introduced a memory compression algorithm that reduces the amount of KV memory used by the model by an average of 6 times and delivers an 8-fold performance increase in attention calculations.</li>\n<li><strong>Figma Agent Integration:</strong> Figma has opened its design canvas to coding tools, enabling agents like Claude Code to directly create or edit designs.</li>\n</ul>\n<h2>Hardware and Robotics Ecosystem</h2>\n<p>Investments in the integration of AI models into the physical world and in chip production capacity have gained momentum. Elon Musk announced plans for a large-scale chip manufacturing facility through the Terafab project, a joint venture between Tesla, SpaceX, and xAI. Meanwhile, Figure AI founder Brett Adcock introduced Hark, a new hardware startup aimed at developing specialized hardware and interfaces for AGI. It was reported that the company has ordered thousands of NVIDIA B200 GPUs and will release its first software models soon. Additionally, Amazon made a significant move toward operational automation by acquiring Fauna Robotics to expand its humanoid robot ecosystem.</p>\n<h2>Generative AI and 3D Modeling</h2>\n<p>Google announced Lyria 3 Pro, a text-to-music generation model focused on professional use and developer integration. The 3D content platform Spline, meanwhile, launched the Omma platform, which brings code generation (LLM), 3D AI mesh generation, and image generation processes under one roof. In the open-source world, Cohere introduced Transcribe, a speech-to-text model with high accuracy, while Meta made the TRIBE v2 model—which simulates neural activity in the areas of vision, hearing, and language using fMRI data—available as open source.</p>\n",
+  "date": "2026-03-28T23:01:42Z",
+  "modified": "2026-03-28T23:01:42Z",
+  "categories": [
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 415,
+      "name": "3D Modelleme",
+      "slug": "3d-modelleme"
+    },
+    {
+      "id": 414,
+      "name": "AGI",
+      "slug": "agi"
+    },
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 70,
+      "name": "Claude Code",
+      "slug": "claude-code"
+    },
+    {
+      "id": 413,
+      "name": "Cloudflare Workers",
+      "slug": "cloudflare-workers"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 118,
+      "name": "OpenAI",
+      "slug": "openai"
+    },
+    {
+      "id": 99,
+      "name": "Robotik",
+      "slug": "robotik"
+    },
+    {
+      "id": 416,
+      "name": "Yapay Zeka Donanımları",
+      "slug": "yapay-zeka-donanimlari"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-ekosistemi-yeni-modeller-ve-altyapilar-1774738901053.jpg",
+    "alt": "Yapay Zeka Ekosistemi: Yeni Modeller ve Altyapılar",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-ekosistemi-yeni-modeller-ve-altyapilar-1774738901053-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-ekosistemi-yeni-modeller-ve-altyapilar-1774738901053-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-ekosistemi-yeni-modeller-ve-altyapilar-1774738901053-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-ekosistemi-yeni-modeller-ve-altyapilar-1774738901053-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/03/yapay-zeka-ekosistemi-yeni-modeller-ve-altyapilar-1774738901053.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "yapay-zeka-ekosistemi-yeni-modeller-ve-altyapilar",
+  "sourceHash": "579239dec06b25be"
+}

@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Blog",
+  "title": "Nachrichten und Einblicke",
+  "subtitle": "Die digitale Welt, Technologietrends und aktuelle Nachrichten aus unserem Unternehmen.",
+  "search": {
+    "placeholder": "In den Artikeln suchen...",
+    "clear": "Filter löschen",
+    "resultsFor": "Ergebnisse für „{{query}}“",
+    "noResults": "Es wurde kein Artikel gefunden, der Ihrer Suche entspricht."
+  },
+  "categories": {
+    "all": "Alle",
+    "label": "Kategorien",
+    "default": "Allgemeines"
+  },
+  "card": {
+    "readMore": "Weiterlesen",
+    "readTime": "{{count}} Minuten Lesezeit"
+  },
+  "detail": {
+    "publishedOn": "Veröffentlichung",
+    "author": "Autor",
+    "tags": "Stichwörter",
+    "related": "Verwandte Artikel",
+    "notFound": "Der Artikel wurde nicht gefunden."
+  }
+}

@@ -43,15 +43,15 @@ export function createClient(apiKey = process.env.DEEPL_API_KEY) {
   }
 
   const base = endpointFor(apiKey);
-  const headers = {
-    Authorization: `DeepL-Auth-Key ${apiKey.trim()}`,
-    'Content-Type': 'application/json',
-  };
+  const auth = { Authorization: `DeepL-Auth-Key ${apiKey.trim()}` };
 
   async function call(path, body) {
+    // Content-Type is set only when there is a body: DeepL rejects a bodyless
+    // GET that declares application/json with "a non-empty request body is
+    // required".
     const response = await fetch(`${base}${path}`, {
       method: body ? 'POST' : 'GET',
-      headers,
+      headers: body ? { ...auth, 'Content-Type': 'application/json' } : auth,
       body: body ? JSON.stringify(body) : undefined,
     });
 

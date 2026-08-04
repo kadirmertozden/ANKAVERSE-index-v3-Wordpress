@@ -1,0 +1,27 @@
+{
+  "eyebrow": "Contact",
+  "title": "Contact Us",
+  "info": {
+    "title": "Contact Information",
+    "description": "Let’s get to know each other over a cup of coffee to discuss your projects. We’re here to offer you the solutions that best suit your needs.",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "form": {
+    "name": "First Name Last Name",
+    "namePlaceholder": "Ex.: Ahmet Yılmaz",
+    "email": "Your Email Address",
+    "emailPlaceholder": "orn@sirket.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "05XX XXX XX XX",
+    "subject": "Subject",
+    "subjectPlaceholder": "Subject of your message",
+    "message": "Your message",
+    "messagePlaceholder": "Tell us about your project...",
+    "submit": "Send",
+    "submitting": "Sending...",
+    "success": "We have received your message. We will get back to you as soon as possible.",
+    "error": "The message could not be sent. Please try again later."
+  }
+}

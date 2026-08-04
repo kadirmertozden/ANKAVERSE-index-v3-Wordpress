@@ -1,0 +1,16 @@
+{
+  "eyebrow": "Portfolio",
+  "title": "Nos réussites",
+  "subtitle": "Découvrez les projets que nous avons réalisés et ceux en cours. Chaque projet est le reflet de notre créativité et de notre expertise technologique.",
+  "card": {
+    "view": "Consulter",
+    "defaultCategory": "Généralités"
+  },
+  "detail": {
+    "client": "Client",
+    "date": "Date",
+    "technologies": "Technologies utilisées",
+    "overview": "À propos du projet",
+    "notFound": "Aucun projet n'a été trouvé."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "eyebrow": "Empresarial",
+  "title": "Quiénes somos",
+  "subtitle": "En la encrucijada entre la tecnología y la innovación, llevamos a las empresas hacia el futuro.",
+  "profile": {
+    "title": "Perfil de la empresa",
+    "p1": "ANKAVERSE E-Commerce and Technology, S.L., es un socio tecnológico de confianza que orienta a las empresas en la compleja estructura del mundo digital e integra las tecnologías modernas en sus procesos de negocio.",
+    "p2": "Desde el día en que nos constituimos, nuestro objetivo ha sido marcar la diferencia en el sector con nuestras soluciones de desarrollo de software, sistemas de automatización e inteligencia artificial. En el proceso de transformación digital de nuestros clientes, no solo actuamos como un proveedor de servicios, sino también como un socio estratégico en la búsqueda de soluciones.",
+    "p3": "Gracias a nuestra visión innovadora, nuestra sólida infraestructura técnica y nuestro equipo de expertos, desarrollamos proyectos adaptados a la dinámica del mundo del comercio electrónico, que son escalables, seguros y sostenibles."
+  },
+  "vision": {
+    "title": "Nuestra visión",
+    "description": "Ser una marca tecnológica líder con sede en Turquía que se expande al resto del mundo, que establece los estándares globales en el sector tecnológico y que da forma al futuro con soluciones sostenibles y centradas en las personas. Marcar el rumbo del ecosistema superando los límites digitales gracias a nuestra visión de innovación sin límites."
+  },
+  "mission": {
+    "title": "Nuestra misión",
+    "description": "Crear soluciones tecnológicas fiables, innovadoras y de alto rendimiento para maximizar el potencial digital de nuestros clientes. Contribuir al crecimiento de nuestros socios comerciales, respetando siempre los valores éticos, y desarrollar proyectos que aporten valor añadido a la sociedad."
+  },
+  "team": {
+    "title": "Fundadores y Dirección",
+    "subtitle": "La estructura directiva de nuestra empresa y sus socios fundadores.",
+    "shareStructure": "Estructura de la sociedad",
+    "roles": {
+      "director": "Director de la empresa",
+      "boardChair": "Presidente del Consejo de Administración"
+    },
+    "shares": {
+      "majority": "Socio mayoritario (%{{share}})",
+      "founding": "Socio fundador (%{{share}})"
+    }
+  },
+  "official": {
+    "title": "Información oficial",
+    "subtitle": "A continuación se detallan los datos legales y de registro oficial de nuestra empresa.",
+    "labels": {
+      "legalName": "Cargo",
+      "mersis": "N.º MERSİS",
+      "tradeRegistryNo": "N.º del Registro Mercantil / N.º de expediente",
+      "tax": "Oficina de Hacienda / N.º",
+      "tradeRegistryOffice": "Dirección del Registro Mercantil",
+      "companyType": "Tipo de empresa",
+      "foundingDate": "Fecha de constitución",
+      "director": "Director de la empresa / Socio mayoritario",
+      "boardChair": "Presidente del Consejo de Administración / Socio",
+      "address": "Dirección",
+      "brand": "Situación de la marca"
+    },
+    "companyType": "SOCIEDAD DE RESPONSABILIDAD LIMITADA CON MÁS DE UN SOCIO"
+  }
+}

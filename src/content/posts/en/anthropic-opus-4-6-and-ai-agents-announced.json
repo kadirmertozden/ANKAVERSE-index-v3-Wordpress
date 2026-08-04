@@ -1,0 +1,84 @@
+{
+  "id": 354,
+  "slug": "anthropic-opus-4-6-and-ai-agents-announced",
+  "lang": "en",
+  "title": "Anthropic Opus 4.6 and AI Agents Announced",
+  "excerpt": "Anthropic has updated its flagship language model series and released Opus 4.6. Following the previous version, Opus 4.5, this update includes technical improvements specifically designed for enterprise workflows and software development processes. Multi-Agent Architecture The most significant feature introduced with Opus 4.6 is a system called “agent teams.” This structure enables complex operations [&hellip;]",
+  "content": "<p>Anthropic has updated its flagship language model series and released Opus 4.6. Following the previous version, Opus 4.5, this update includes technical improvements specifically designed for enterprise workflows and software development processes.</p>\n<h2>Multi-Agent Architecture</h2>\n<p>The most significant feature introduced with Opus 4.6 is a system called “agent teams.” This structure allows complex operations to be distributed across multiple AI agents rather than handled by a single model. Agents can work in coordination with one another by processing tasks in parallel.</p>\n<p>According to Anthropic Product Manager Scott White, this distribution of responsibilities significantly speeds up processes compared to executing tasks sequentially. This feature is currently available as a research preview for API users and select subscribers.</p>\n<h2>Context Capacity and Integration</h2>\n<p>The model’s technical features and innovations include the following:</p>\n<ul>\n<li><strong>1 Million Token Context:</strong> This capacity, on par with the Sonnet series, enables the processing of large codebases and lengthy technical documents in a single session.</li>\n<li><strong>PowerPoint Integration:</strong> Users can create and edit presentation files directly through the Claude interface without transferring external files.</li>\n</ul>\n<p>Thanks to its expanded memory management, the new model aims to increase efficiency in the software development ecosystem and data-intensive professional fields.</p>\n",
+  "date": "2026-02-07T23:03:39Z",
+  "modified": "2026-02-07T23:03:39Z",
+  "categories": [
+    {
+      "id": 140,
+      "name": "Haber",
+      "slug": "haber"
+    },
+    {
+      "id": 65,
+      "name": "Yapay Zeka",
+      "slug": "yapay-zeka"
+    }
+  ],
+  "tags": [
+    {
+      "id": 332,
+      "name": "1 Milyon Token",
+      "slug": "1-milyon-token"
+    },
+    {
+      "id": 338,
+      "name": "Agent Teams",
+      "slug": "agent-teams"
+    },
+    {
+      "id": 66,
+      "name": "Anthropic",
+      "slug": "anthropic"
+    },
+    {
+      "id": 197,
+      "name": "Claude",
+      "slug": "claude"
+    },
+    {
+      "id": 113,
+      "name": "LLM",
+      "slug": "llm"
+    },
+    {
+      "id": 336,
+      "name": "Opus 4.6",
+      "slug": "opus-4-6"
+    },
+    {
+      "id": 62,
+      "name": "Otomasyon",
+      "slug": "otomasyon"
+    },
+    {
+      "id": 337,
+      "name": "PowerPoint",
+      "slug": "powerpoint"
+    },
+    {
+      "id": 215,
+      "name": "Vibe Coding",
+      "slug": "vibe-coding"
+    },
+    {
+      "id": 237,
+      "name": "Yapay Zeka Ajanları",
+      "slug": "yapay-zeka-ajanlari"
+    }
+  ],
+  "image": {
+    "url": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu-1770505418926.jpg",
+    "alt": "Anthropic Opus 4.6 ve Yapay Zeka Ajanları Duyuruldu",
+    "width": 1408,
+    "height": 768,
+    "srcset": "https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu-1770505418926-300x164.jpg 300w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu-1770505418926-1024x559.jpg 1024w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu-1770505418926-150x150.jpg 150w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu-1770505418926-768x419.jpg 768w, https://wordpress.ankaverse.com.tr/wp-content/uploads/2026/02/anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu-1770505418926.jpg 1408w"
+  },
+  "author": "kadirmertozden",
+  "sourceSlug": "anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu",
+  "sourceHash": "90214cee8194b25b"
+}
