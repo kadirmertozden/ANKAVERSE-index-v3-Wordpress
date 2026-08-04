@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "vite --host :: --port 3000",
-    "build": "node tools/generate-llms.js && vite-react-ssg build && node tools/generate-sitemap.js && node tools/verify-seo.js",
+    "build": "vite-react-ssg build && node tools/generate-sitemap.js && node tools/generate-llms.js && node tools/verify-seo.js",
     "preview": "vite preview --host :: --port 3000",
     "content:fetch": "node --env-file-if-exists=.env tools/fetch-content.js",
     "content:translate": "node --env-file-if-exists=.env tools/translate-content.js",
