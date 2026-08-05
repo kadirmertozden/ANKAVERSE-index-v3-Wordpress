@@ -10,10 +10,12 @@ import {
   ModelOutputError,
   TranslationError,
   assertHtmlIntact,
+  assertNoEnvelopeLeftovers,
   assertTranslated,
   countCharacters,
   estimateCostUsd,
   orderedBatch,
+  outputCeiling,
   restoreProtectedTerms,
 } from './translation-guards.js';
 
@@ -51,12 +53,14 @@ const GENERATION_RETRIES = 2;
 
 const sleep = (ms) => new Promise((done) => setTimeout(done, ms));
 
-function systemPrompt(languageName, html) {
+function systemPrompt(languageName, html, envelope) {
   return [
     `You are a professional translator. Translate from Turkish into ${languageName}.`,
     '',
     'Rules:',
-    '- Return ONLY a JSON object whose keys are the same index strings you were given.',
+    envelope
+      ? '- Return ONLY a JSON object whose keys are the same index strings you were given.'
+      : `- Return ONLY the translated ${html ? 'HTML' : 'text'}, with nothing before or after it.`,
     '- Translate every value. Never copy the Turkish text through unchanged.',
     '- Never add commentary, notes, or explanation.',
     '- Keep these names exactly as written: ANKAVERSE, ANKAVERSE Nexus, ANKAVERSE Hub, Vaktia, Suguya.',
@@ -127,15 +131,24 @@ export function createClient({ apiKey = process.env.OPENROUTER_API_KEY, model } 
 
       /** One generation of one batch, validated. Throws ModelOutputError. */
       const generate = async (batch, offset) => {
+        // The JSON envelope only earns its keep when there is an order to
+        // preserve. For one text it adds nothing and costs a great deal:
+        // escaping a two-thousand-character HTML body into a JSON string sent
+        // the model into a repeating loop that ran to its 16384-token output
+        // limit, where the same body sent raw came back in 459.
+        const envelope = batch.length > 1;
         const payload = Object.fromEntries(batch.map((text, index) => [String(index), text]));
 
         const data = await call('/chat/completions', {
           model,
           temperature: 0,
-          response_format: { type: 'json_object' },
+          // A ceiling turns a runaway generation into a fast failure instead of
+          // ninety seconds of billed repetition, three times over with retries.
+          max_tokens: outputCeiling(countCharacters(batch)),
+          ...(envelope ? { response_format: { type: 'json_object' } } : {}),
           messages: [
-            { role: 'system', content: systemPrompt(languageName, html) },
-            { role: 'user', content: JSON.stringify(payload) },
+            { role: 'system', content: systemPrompt(languageName, html, envelope) },
+            { role: 'user', content: envelope ? JSON.stringify(payload) : batch[0] },
           ],
         });
 
@@ -156,19 +169,27 @@ export function createClient({ apiKey = process.env.OPENROUTER_API_KEY, model } 
           );
         }
 
-        let parsed;
-        try {
-          parsed = JSON.parse(content);
-        } catch (error) {
-          // The end, not the beginning: malformed JSON breaks where it stops.
-          throw new ModelOutputError(
-            `OpenRouter returned content that is not JSON for ${label} ` +
-              `(provider ${data?.provider}, finish ${choice.finish_reason}): ${error.message}\n` +
-              `  ...ends with: ${JSON.stringify(content.slice(-160))}`,
-          );
+        let translated;
+        if (envelope) {
+          let parsed;
+          try {
+            parsed = JSON.parse(content);
+          } catch (error) {
+            // The end, not the beginning: malformed JSON breaks where it stops.
+            throw new ModelOutputError(
+              `OpenRouter returned content that is not JSON for ${label} ` +
+                `(provider ${data?.provider}, finish ${choice.finish_reason}): ${error.message}\n` +
+                `  ...ends with: ${JSON.stringify(content.slice(-160))}`,
+            );
+          }
+          translated = orderedBatch(batch, parsed);
+        } else {
+          // Without the envelope the whole reply is the translation, so a code
+          // fence or a preamble would land in the file verbatim.
+          if (html) assertNoEnvelopeLeftovers(content, label);
+          translated = [content.trim()];
         }
 
-        const translated = orderedBatch(batch, parsed);
         translated.forEach((value, index) => {
           const itemLabel = `${label}[${offset + index}]`;
           assertTranslated(batch[index], value, itemLabel);

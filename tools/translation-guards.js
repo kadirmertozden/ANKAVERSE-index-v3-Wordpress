@@ -133,6 +133,39 @@ export function assertHtmlIntact(source, translated, label) {
 }
 
 /**
+ * Catch a reply that carries more than the translation.
+ *
+ * A single HTML body is sent as plain text rather than wrapped in JSON: asking
+ * the model to escape a two-thousand-character document into a JSON string sent
+ * it into a repeating loop that ran to the 16384-token output limit, while the
+ * same body sent raw came back in 459. Without the envelope, though, the whole
+ * reply becomes the translation, so a code fence or a "Here is the translation:"
+ * preamble would be written straight into the file -- and assertHtmlIntact
+ * would not object, because neither of those adds an HTML tag.
+ */
+export function assertNoEnvelopeLeftovers(translated, label) {
+  const trimmed = translated.trim();
+  if (trimmed.startsWith('<')) return;
+
+  throw new ModelOutputError(
+    `Model wrapped the translation of ${label} in something other than markup: ` +
+      `${JSON.stringify(trimmed.slice(0, 80))}`,
+  );
+}
+
+/**
+ * An upper bound on output tokens for a request.
+ *
+ * A model that starts repeating itself otherwise runs to its own limit, which
+ * costs a minute and a half and the tokens to go with it, three times over once
+ * retries are counted. Generous enough that a language wordier than the source
+ * still fits: translations do not triple in length.
+ */
+export function outputCeiling(characters) {
+  return Math.max(1000, Math.ceil((characters / CHARS_PER_TOKEN) * 4));
+}
+
+/**
  * Restore brand names the model transliterated or case-folded. Cheaper and
  * safer than wrapping every occurrence in markup, which would leak tags into
  * plain-text fields.

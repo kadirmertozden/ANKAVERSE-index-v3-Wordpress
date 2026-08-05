@@ -15,9 +15,11 @@ import {
   TranslationError,
   UNTRANSLATED_MIN_LENGTH,
   assertHtmlIntact,
+  assertNoEnvelopeLeftovers,
   assertTranslated,
   countCharacters,
   estimateCostUsd,
+  outputCeiling,
   orderedBatch,
   restoreProtectedTerms,
   tagSequence,
@@ -127,6 +129,30 @@ test('a brand name absent from the source is left alone', () => {
 test('characters are counted across a set of strings', () => {
   assert.equal(countCharacters(['abc', 'de']), 5);
   assert.equal(countCharacters([]), 0);
+});
+
+test('an html body returned without its markup is rejected', () => {
+  // Sent without the JSON envelope, the whole reply is the translation -- so a
+  // code fence or a "Here is the translation:" preamble ends up in the file.
+  // tagSequence would not notice: neither adds an HTML tag.
+  assert.throws(() => assertNoEnvelopeLeftovers('```html\n<p>Hello</p>\n```', 'en/x'), ModelOutputError);
+  assert.throws(() => assertNoEnvelopeLeftovers('Here is the translation: <p>Hello</p>', 'en/x'), ModelOutputError);
+  assert.doesNotThrow(() => assertNoEnvelopeLeftovers('  <p>Hello</p>  ', 'en/x'));
+  assert.doesNotThrow(() => assertNoEnvelopeLeftovers('<!-- note --><p>Hi</p>', 'en/x'));
+});
+
+test('the output ceiling leaves room to translate but not to loop', () => {
+  // 2237 characters of Turkish is roughly 745 tokens, and the runaway
+  // generation that started this ran to 16384.
+  const ceiling = outputCeiling(2237);
+  assert.ok(ceiling > 745 * 2, `too tight: ${ceiling}`);
+  assert.ok(ceiling < 16384, `too loose: ${ceiling}`);
+});
+
+test('the output ceiling never drops below a floor', () => {
+  // A three-word title must not be capped so tightly that a longer language
+  // cannot express it.
+  assert.ok(outputCeiling(12) >= 1000);
 });
 
 test('a bad generation is distinguishable from a bad request', () => {
