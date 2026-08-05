@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navigate, Outlet } from 'react-router-dom';
 import SiteLayout from '@/components/SiteLayout';
+import RouteErrorBoundary from '@/components/RouteErrorBoundary';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import { Toaster } from '@/components/ui/toaster';
 import { LOCALES, DEFAULT_LOCALE, localesForRoute, pathFor } from '@/i18n/routes';
@@ -104,6 +105,11 @@ const LEGACY_REDIRECTS = ['/giris', '/giris.html', '/kurumsal'];
 export const routes = [
   {
     element: <AppShell />,
+    // Catches every loader and render failure below it. vite-react-ssg swaps
+    // each route's loader for a fetch of a build-hashed manifest, so a tab left
+    // open across a deploy throws here on a file that no longer exists; without
+    // a boundary React Router shows the visitor its raw error screen instead.
+    errorElement: <RouteErrorBoundary />,
     children: [
       ...LOCALES.map((locale) => ({
         element: <SiteLayout locale={locale} />,
