@@ -24,6 +24,44 @@ const API_URL =
 /** Posts carrying this tag are already written in English and are not translated. */
 const ENGLISH_TAG = 'en';
 
+/**
+ * fetch, retried when the connection itself fails.
+ *
+ * The hourly sync reaches WordPress on the same VPS from a GitHub runner, and
+ * that hop drops often enough to matter: on 2026-08-05 two of four scheduled
+ * runs died on `fetch failed` -- a connection error, not an HTTP status --
+ * while the same URL answered in under a second from elsewhere. The cause is
+ * still unknown, so this covers the symptom deliberately: a sync that has to
+ * wait an hour for the next attempt publishes nothing in the meantime.
+ *
+ * Only transport failures and 5xx are retried. A 404 or a 401 is an answer,
+ * and asking again will get the same one.
+ */
+const RETRIES = 3;
+const sleep = (ms) => new Promise((done) => setTimeout(done, ms));
+
+async function fetchWithRetry(url) {
+  let lastError;
+
+  for (let attempt = 0; attempt <= RETRIES; attempt += 1) {
+    try {
+      const response = await fetch(url);
+      if (response.status < 500) return response;
+      lastError = new Error(`${response.status} ${response.statusText}`);
+    } catch (error) {
+      lastError = error;
+    }
+
+    if (attempt < RETRIES) {
+      const wait = 2 ** attempt * 1000;
+      console.warn(`  ! ${lastError.message} -- retrying in ${wait / 1000}s (${attempt + 1}/${RETRIES})`);
+      await sleep(wait);
+    }
+  }
+
+  throw lastError;
+}
+
 async function fetchAll(endpoint, params = {}) {
   const results = [];
   let page = 1;
@@ -36,7 +74,7 @@ async function fetchAll(endpoint, params = {}) {
       url.searchParams.set(key, String(value));
     }
 
-    const response = await fetch(url);
+    const response = await fetchWithRetry(url);
     if (response.status === 400 && page > 1) break; // past the last page
     if (!response.ok) {
       throw new Error(`${endpoint} page ${page}: ${response.status} ${response.statusText}`);
