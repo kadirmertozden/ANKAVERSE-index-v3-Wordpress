@@ -75,5 +75,12 @@
         ]
       }
     ]
+  },
+  "consent": {
+    "title": "Préférence de cookies",
+    "body": "Nous utilisons des cookies pour comprendre comment vous utilisez notre site et mesurer les publicités. Ils ne sont pas nécessaires au fonctionnement du site ; si vous refusez, aucune mesure ne sera effectuée.",
+    "accept": "Accepter",
+    "reject": "Refuser",
+    "policyLink": "Politique de confidentialité"
   }
 }

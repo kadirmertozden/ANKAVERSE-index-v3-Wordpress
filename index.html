@@ -10,6 +10,46 @@
 			attribute above is a placeholder that Seo overwrites per locale.
 		-->
 		<link rel="preconnect" href="https://wordpress.ankaverse.com.tr" crossorigin />
+		<!--
+			Consent Mode v2 defaults. This block has to run before AdSense and
+			gtag.js below it, not after: a default set late leaves a window in
+			which the tags have already stored and sent for a visitor who never
+			agreed, which is the whole thing the banner exists to prevent.
+
+			Denied everywhere rather than by region. GDPR covers the European
+			visitors this site is written for and KVKK covers the Turkish ones,
+			so there is no meaningful population left to treat differently.
+
+			A previous answer is read back synchronously here so a returning
+			visitor who accepted is not measured a page late. src/lib/consent.js
+			holds the same logic for the banner; the duplication is deliberate,
+			because this must run before any module loads.
+		-->
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+
+			gtag('consent', 'default', {
+				ad_storage: 'denied',
+				ad_user_data: 'denied',
+				ad_personalization: 'denied',
+				analytics_storage: 'denied',
+				wait_for_update: 500
+			});
+
+			try {
+				if (localStorage.getItem('ankaverse:consent') === 'granted') {
+					gtag('consent', 'update', {
+						ad_storage: 'granted',
+						ad_user_data: 'granted',
+						ad_personalization: 'granted',
+						analytics_storage: 'granted'
+					});
+				}
+			} catch (e) {
+				/* Private browsing denies storage access; the default stands. */
+			}
+		</script>
 		<!-- Google AdSense -->
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8018604164128885" crossorigin="anonymous"></script>
 		<!--
@@ -23,8 +63,6 @@
 		-->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18324882869"></script>
 		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 			gtag('config', 'AW-18324882869');
 			gtag('config', 'G-G242C7TQGR');

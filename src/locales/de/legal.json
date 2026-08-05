@@ -75,5 +75,12 @@
         ]
       }
     ]
+  },
+  "consent": {
+    "title": "Cookie-Einstellung",
+    "body": "Wir verwenden Cookies, um zu verstehen, wie Sie unsere Website nutzen, und um Werbung zu messen. Sie sind für den Betrieb der Website nicht erforderlich; wenn Sie sie ablehnen, erfolgt keinerlei Messung.",
+    "accept": "Akzeptieren",
+    "reject": "Ablehnen",
+    "policyLink": "Datenschutzrichtlinie"
   }
 }

@@ -13,7 +13,8 @@
     "content:sync": "npm run content:fetch && npm run locales:translate && npm run content:translate",
     "verify:seo": "node tools/verify-seo.js",
     "verify:stale-deploy": "node tools/verify-stale-deploy.js",
-    "verify:translation": "node tools/verify-translation.js"
+    "verify:translation": "node tools/verify-translation.js",
+    "verify:consent": "node tools/verify-consent.js"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.1.4",

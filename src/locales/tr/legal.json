@@ -17,7 +17,9 @@
       },
       {
         "heading": "3. Bilgilerin Kullanımı",
-        "body": ["Toplanan bilgiler şu amaçlarla kullanılabilir:"],
+        "body": [
+          "Toplanan bilgiler şu amaçlarla kullanılabilir:"
+        ],
         "list": [
           "Hizmetlerimizin sunulması ve iyileştirilmesi",
           "İletişim taleplerinize yanıt verilmesi",
@@ -68,8 +70,17 @@
       },
       {
         "heading": "5. İletişim",
-        "body": ["Sorularınız için aşağıdaki e-posta adresinden bize ulaşabilirsiniz."]
+        "body": [
+          "Sorularınız için aşağıdaki e-posta adresinden bize ulaşabilirsiniz."
+        ]
       }
     ]
+  },
+  "consent": {
+    "title": "Çerez tercihi",
+    "body": "Sitemizi nasıl kullandığınızı anlamak ve reklamları ölçmek için çerez kullanıyoruz. Bunlar sitenin çalışması için zorunlu değil; reddederseniz hiçbir ölçüm yapılmaz.",
+    "accept": "Kabul et",
+    "reject": "Reddet",
+    "policyLink": "Gizlilik politikası"
   }
 }
