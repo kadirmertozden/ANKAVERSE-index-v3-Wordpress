@@ -50,6 +50,24 @@
 				/* Private browsing denies storage access; the default stands. */
 			}
 		</script>
+		<!--
+			Google Tag Manager. Google's instructions say to paste this as high in
+			the head as possible; here it goes below the consent defaults instead.
+			Above them it would load, and could fire tags, before anything had
+			told it that storage is denied until the visitor agrees.
+
+			GTM shares the dataLayer declared above, so it inherits that default.
+			Do not add a GA4 tag inside GTM: G-G242C7TQGR is already configured
+			through gtag.js below, and configuring it in both counts every visit
+			twice.
+		-->
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-WQJRH2G3');</script>
+		<!-- End Google Tag Manager -->
 		<!-- Google AdSense -->
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8018604164128885" crossorigin="anonymous"></script>
 		<!--
@@ -69,6 +87,10 @@
 		</script>
 	</head>
 	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQJRH2G3"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
 		<div id="root"></div>
 		<script type="module" src="/src/main.jsx"></script>
 	</body>

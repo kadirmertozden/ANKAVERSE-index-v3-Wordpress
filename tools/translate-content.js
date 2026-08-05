@@ -375,8 +375,13 @@ async function main() {
 
   if (required === 0) {
     console.log('Content translations are up to date; nothing to do.');
-    await rebuildIndexes(postLocales, { prune: !backfill });
-    await rebuildSlugAlternates();
+    // A dry run reports and touches nothing. These two rewrite files, so
+    // running them here made --dry-run modify the working tree even when it
+    // had decided there was nothing to translate.
+    if (!dryRun) {
+      await rebuildIndexes(postLocales, { prune: !backfill });
+      await rebuildSlugAlternates();
+    }
     return;
   }
 
