@@ -16,6 +16,7 @@ import {
   assertHtmlIntact,
   assertTranslated,
   countCharacters,
+  estimateCostUsd,
   orderedBatch,
   restoreProtectedTerms,
   tagSequence,
@@ -125,6 +126,29 @@ test('a brand name absent from the source is left alone', () => {
 test('characters are counted across a set of strings', () => {
   assert.equal(countCharacters(['abc', 'de']), 5);
   assert.equal(countCharacters([]), 0);
+});
+
+test('cost is estimated from the real per-token price', () => {
+  // OpenRouter prices are USD per token, as strings.
+  const pricing = { prompt: '0.00000015', completion: '0.0000006' };
+  // 3000 characters is ~1000 prompt tokens, and a translation comes back at
+  // roughly the length it went in, so ~1000 completion tokens.
+  const cost = estimateCostUsd(3000, pricing);
+  assert.ok(Math.abs(cost - 0.00075) < 1e-9, `got ${cost}`);
+});
+
+test('the expensive model costs more for the same text', () => {
+  const cheap = estimateCostUsd(3000, { prompt: '0.00000015', completion: '0.0000006' });
+  const dear = estimateCostUsd(3000, { prompt: '0.0000025', completion: '0.000015' });
+  assert.ok(dear > cheap * 10);
+});
+
+test('pricing that cannot be read fails rather than estimating zero', () => {
+  // An unreadable price silently estimating $0 would make the budget guard
+  // wave through a run that empties the balance.
+  assert.throws(() => estimateCostUsd(3000, undefined), TranslationError);
+  assert.throws(() => estimateCostUsd(3000, {}), TranslationError);
+  assert.throws(() => estimateCostUsd(3000, { prompt: 'free' }), TranslationError);
 });
 
 let failed = 0;

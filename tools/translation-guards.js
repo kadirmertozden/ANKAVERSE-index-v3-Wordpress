@@ -133,3 +133,36 @@ export function restoreProtectedTerms(translated, source) {
 
 /** Characters in a set of strings, used for cost estimation. */
 export const countCharacters = (texts) => texts.reduce((total, text) => total + text.length, 0);
+
+/**
+ * Roughly how many characters of Turkish or a European language fit in a token.
+ * Deliberately low, so the estimate leans expensive.
+ */
+const CHARS_PER_TOKEN = 3;
+
+/**
+ * What a run will cost, from the model's own advertised price.
+ *
+ * OpenRouter reports prices as USD per token, as decimal strings. Reading them
+ * rather than assuming a rate matters: the cheap and the expensive model here
+ * are a factor of twenty-five apart on output, so a single assumed rate either
+ * waves through a run that empties the balance or blocks one that costs cents.
+ *
+ * A translation comes back at roughly the length it went in, so output tokens
+ * are estimated at the same count as input.
+ */
+export function estimateCostUsd(characters, pricing) {
+  const prompt = Number(pricing?.prompt);
+  const completion = Number(pricing?.completion);
+
+  if (!Number.isFinite(prompt) || !Number.isFinite(completion)) {
+    throw new TranslationError(
+      `Could not read the model price: ${JSON.stringify(pricing)}. ` +
+        'Refusing to estimate, because a price read as zero would let the budget ' +
+        'check pass on any run.',
+    );
+  }
+
+  const tokens = characters / CHARS_PER_TOKEN;
+  return tokens * prompt + tokens * completion;
+}

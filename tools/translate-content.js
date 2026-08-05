@@ -382,6 +382,9 @@ async function main() {
 
   if (dryRun) {
     console.log(`Dry run: would translate ${required.toLocaleString('en-US')} characters.`);
+    // The point of a dry run is choosing a model by what it costs, so it prices
+    // the job at the model's advertised rate. Nothing is sent to be translated.
+    await assertBudget(client, required);
     return;
   }
 

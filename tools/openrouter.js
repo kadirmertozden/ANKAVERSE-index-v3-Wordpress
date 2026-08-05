@@ -11,6 +11,7 @@ import {
   assertHtmlIntact,
   assertTranslated,
   countCharacters,
+  estimateCostUsd,
   orderedBatch,
   restoreProtectedTerms,
 } from './translation-guards.js';
@@ -96,9 +97,13 @@ export function createClient({ apiKey = process.env.OPENROUTER_API_KEY, model } 
     throw lastError;
   }
 
+  // The catalogue is read twice per run -- once to check the model exists, once
+  // for its price -- and it does not change mid-run.
+  let modelsPromise;
+
   return {
     model,
-    models: () => call('/models'),
+    models: () => (modelsPromise ??= call('/models')),
     credits: () => call('/credits'),
 
     async translate(texts, targetLocale, { html = false, label = targetLocale } = {}) {
@@ -170,19 +175,24 @@ export async function assertModelAvailable(client) {
   }
 }
 
+/** The configured model's advertised price, per token, as OpenRouter reports it. */
+async function pricingFor(client) {
+  const data = await client.models();
+  const entry = (data?.data ?? []).find((model) => model.id === client.model);
+  return entry?.pricing;
+}
+
 /**
  * Replaces DeepL's quota check, and exists for the same reason: a run that
  * stops halfway leaves some pages translated and some Turkish under a foreign
  * hreflang. Pay-as-you-go makes this worse than a monthly quota -- DeepL simply
  * stopped, whereas here the balance drains until it runs out mid-job.
  *
- * Characters are converted to a rough token estimate, then to a rough cost. The
- * numbers are deliberately pessimistic: the point is to refuse to start a run
- * that plainly cannot finish, not to bill accurately.
+ * The estimate uses the model's own advertised price rather than an assumed
+ * rate. The two models this pipeline runs are a factor of twenty-five apart on
+ * output, so one assumed rate would either wave through a run that empties the
+ * balance or block one that costs cents.
  */
-const CHARS_PER_TOKEN = 3;
-const USD_PER_MILLION_TOKENS_ASSUMED = 15;
-
 export async function assertBudget(client, estimatedCharacters) {
   const data = await client.credits();
   const total = data?.data?.total_credits;
@@ -195,19 +205,17 @@ export async function assertBudget(client, estimatedCharacters) {
   }
 
   const remaining = total - used;
-  // Output roughly matches input in length for translation, hence the doubling.
-  const tokens = (estimatedCharacters / CHARS_PER_TOKEN) * 2;
-  const estimate = (tokens / 1_000_000) * USD_PER_MILLION_TOKENS_ASSUMED;
+  const estimate = estimateCostUsd(estimatedCharacters, await pricingFor(client));
 
   console.log(
     `OpenRouter credits: $${remaining.toFixed(2)} left; ` +
-      `this run is estimated at $${estimate.toFixed(2)} ` +
+      `this run is estimated at $${estimate.toFixed(4)} ` +
       `(${estimatedCharacters.toLocaleString('en-US')} characters, model ${client.model})`,
   );
 
   if (estimate > remaining) {
     throw new TranslationError(
-      `Not enough credit: estimated $${estimate.toFixed(2)}, $${remaining.toFixed(2)} left. ` +
+      `Not enough credit: estimated $${estimate.toFixed(4)}, $${remaining.toFixed(2)} left. ` +
         'Nothing was translated -- a half-finished run would leave some pages in Turkish ' +
         'under a foreign hreflang.',
     );
