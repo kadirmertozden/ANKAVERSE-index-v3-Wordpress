@@ -157,7 +157,7 @@ async function translateItem(client, item, fields, locale) {
 }
 
 /** Items needing work, with their character cost, before anything is spent. */
-async function planPosts(locales, { backfill = false } = {}) {
+async function planPosts(locales, { backfill = false, model = null } = {}) {
   const index = (await readJson(resolve(CONTENT, `index/${SOURCE}.json`))) ?? [];
   const fields = FIELD_SETS.post;
   const jobs = [];
@@ -183,8 +183,13 @@ async function planPosts(locales, { backfill = false } = {}) {
       // The backfill exists to redo posts that already have a translation, so
       // a matching hash is exactly what it is looking for rather than a reason
       // to skip. A post with no translation yet is left to a normal run.
+      //
+      // It resumes, though. A run over the whole archive takes ten minutes or
+      // more, and one that dies partway should cost the remainder rather than
+      // the lot: a post already carrying this model's name is done.
       if (backfill) {
         if (!existing) continue;
+        if (existing.sourceHash === currentHash && existing.translatedBy === model) continue;
       } else if (existing?.sourceHash === currentHash) {
         continue;
       }
@@ -358,7 +363,7 @@ async function main() {
   await assertModelAvailable(client);
 
   const [postJobs, projectJobs, serviceJobs] = await Promise.all([
-    planPosts(postLocales, { backfill }),
+    planPosts(postLocales, { backfill, model: client.model }),
     // A backfill must not sweep the corporate collections into the cheap pass.
     backfill ? [] : planCollection('projects', 'project', PAGE_LOCALES),
     backfill ? [] : planCollection('services', 'service', PAGE_LOCALES),
@@ -419,6 +424,9 @@ async function main() {
       sourceSlug: job.source.slug,
       lang: job.locale,
       sourceHash: job.sourceHash,
+      // Which model wrote this. Lets a killed backfill resume, and makes a
+      // diff answer "who translated this line" without guesswork.
+      translatedBy: client.model,
     };
 
     await writeJson(`posts/${job.locale}/${slug}.json`, record);
