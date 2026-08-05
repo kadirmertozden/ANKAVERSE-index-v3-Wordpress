@@ -53,7 +53,19 @@ const GENERATION_RETRIES = 2;
 
 const sleep = (ms) => new Promise((done) => setTimeout(done, ms));
 
-function systemPrompt(languageName, html, envelope) {
+/**
+ * Terms English technical writing keeps short.
+ *
+ * The first backfill spelled "yapay zeka" out as "Artificial Intelligence"
+ * everywhere: 287 uses of "AI" became 145, and 35 spelled-out uses became 176.
+ * Titles grew with it and six more crossed the 65 characters verify-seo warns
+ * at, where Google truncates them. Both the cheap and the expensive model did
+ * it identically, so it is the prompt that was missing a glossary, not the
+ * model that was too small.
+ */
+const GLOSSARY = 'AI, LLM, GPU, CPU, API, SaaS, MoE, SDK, UI, UX';
+
+export function systemPrompt(languageName, html, envelope) {
   return [
     `You are a professional translator. Translate from Turkish into ${languageName}.`,
     '',
@@ -65,6 +77,9 @@ function systemPrompt(languageName, html, envelope) {
     '- Never add commentary, notes, or explanation.',
     '- Keep these names exactly as written: ANKAVERSE, ANKAVERSE Nexus, ANKAVERSE Hub, Vaktia, Suguya.',
     '- Keep i18next placeholders such as {{count}} byte-for-byte identical.',
+    `- Use the short form English technical writing uses: ${GLOSSARY}. Write "AI", never "Artificial Intelligence".`,
+    '- Add no words the source does not have. Where two phrasings are equally faithful, use the shorter one. Titles and headings must not grow.',
+    '- A short line that names the piece takes no final full stop. A sentence keeps its punctuation.',
     html
       ? '- The values are HTML. Translate only the text between tags. Do not add, remove, reorder or rename any tag or attribute.'
       : '- The values are plain text. Do not add HTML.',
