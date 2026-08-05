@@ -3,9 +3,9 @@
  * Generate src/locales/<lang>/*.json from the Turkish source.
  *
  * These are the corporate strings a visitor and an investor actually read, so
- * DeepL only produces the first draft: the output is committed and then hand
- * corrected. Re-running never overwrites an existing key -- only missing ones
- * are fetched -- so manual fixes survive.
+ * the model only produces the first draft: the output is committed and then
+ * hand corrected. Re-running never overwrites an existing key -- only missing
+ * ones are fetched -- so manual fixes survive.
  *
  *   node tools/translate-locales.js            # fill in what is missing
  *   node tools/translate-locales.js --force    # retranslate everything
@@ -64,8 +64,8 @@ async function readJson(path) {
 }
 
 /**
- * i18next interpolation placeholders must survive verbatim. DeepL leaves
- * {{share}} alone in practice, but a mangled placeholder renders as literal
+ * i18next interpolation placeholders must survive verbatim. The prompt asks
+ * for {{share}} to be left alone, but a mangled placeholder renders as literal
  * braces on the page, so it is checked rather than assumed.
  */
 const placeholders = (text) => (text.match(/\{\{[^}]+\}\}/g) ?? []).sort().join('|');

@@ -4,8 +4,9 @@ name: Content sync
 #
 # This runs here rather than in the Coolify build because Coolify builds in a
 # throwaway container: a translation cache written there is discarded, so every
-# deploy would retranslate all 70 posts and exhaust the DeepL quota within a
-# few pushes. Committing the translations makes each item cost exactly one
+# deploy would retranslate all 70 posts and bill for them again. Translation is
+# pay-as-you-go, so that has no ceiling other than the credit balance running
+# out mid-run. Committing the translations makes each item cost exactly one
 # translation for its lifetime, keeps the text stable at a given URL, and lets
 # a bad translation be corrected by editing a file.
 #
@@ -56,14 +57,18 @@ jobs:
 
       - name: Translate UI strings
         env:
-          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # A variable, not a secret: the model id is not sensitive, and keeping
+          # it readable means a wrong one can be spotted in the run log.
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
         run: |
           node tools/translate-locales.js \
             ${{ inputs.force_locales && '--force' || '' }}
 
       - name: Translate content
         env:
-          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
           CONTENT_LOCALES: ${{ inputs.post_locales || 'en' }}
         run: node tools/translate-content.js
 

@@ -267,7 +267,7 @@ async function rebuildIndexes(locales, { prune = true } = {}) {
 /**
  * Remove translated posts orphaned by a slug change.
  *
- * The slug is derived from the translated title, and DeepL does not return a
+ * The slug is derived from the translated title, and no translator returns a
  * byte-identical title every time. Retranslating a post therefore writes a
  * second file for the same source and leaves the first one behind, which
  * publishes two URLs for one article with canonicals pointing at each other.
