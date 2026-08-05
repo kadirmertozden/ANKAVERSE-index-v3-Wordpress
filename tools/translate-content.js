@@ -19,12 +19,11 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   createClient,
-  DEEPL_TARGETS,
-  assertQuota,
-  assertTargetsSupported,
+  assertBudget,
+  assertModelAvailable,
   countCharacters,
   restoreProtectedTerms,
-} from './deepl.js';
+} from './openrouter.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT = resolve(__dirname, '../src/content');
@@ -41,6 +40,17 @@ const PAGE_LOCALES = ['en', 'de', 'fr', 'es', 'ar'];
 const dryRun = process.argv.includes('--dry-run');
 const localesArg = process.argv.find((arg) => arg.startsWith('--locales='));
 const postLocales = localesArg ? localesArg.split('=')[1].split(',') : DEFAULT_POST_LOCALES;
+
+/**
+ * Retranslate posts that already have a translation, pinning each one to the
+ * slug already on disk.
+ *
+ * The slug comes from the translated title, so a plain retranslation would
+ * write a new file, orphan the old one and move 70 indexed URLs. Pinning keeps
+ * the URL and changes only what is on the page.
+ */
+const backfill = process.argv.includes('--backfill');
+const bulkModel = process.env.OPENROUTER_MODEL_BULK ?? process.env.OPENROUTER_MODEL;
 
 const hash = (value) => createHash('sha256').update(value).digest('hex').slice(0, 16);
 
@@ -127,7 +137,7 @@ async function translateItem(client, item, fields, locale) {
   }
 
   if (texts.length > 0) {
-    const results = await client.translate(texts, DEEPL_TARGETS[locale]);
+    const results = await client.translate(texts, locale, { label: `${locale}/${item.slug}` });
     slots.forEach((slot, position) => {
       const restored = restoreProtectedTerms(results[position], texts[position]);
       if (slot.index === null) translated[slot.key] = restored;
@@ -136,8 +146,9 @@ async function translateItem(client, item, fields, locale) {
   }
 
   for (const field of fields.filter((entry) => entry.html && item[entry.key])) {
-    const [result] = await client.translate([item[field.key]], DEEPL_TARGETS[locale], {
+    const [result] = await client.translate([item[field.key]], locale, {
       html: true,
+      label: `${locale}/${item.slug}#${field.key}`,
     });
     translated[field.key] = restoreProtectedTerms(result, item[field.key]);
   }
@@ -146,7 +157,7 @@ async function translateItem(client, item, fields, locale) {
 }
 
 /** Items needing work, with their character cost, before anything is spent. */
-async function planPosts(locales) {
+async function planPosts(locales, { backfill = false } = {}) {
   const index = (await readJson(resolve(CONTENT, `index/${SOURCE}.json`))) ?? [];
   const fields = FIELD_SETS.post;
   const jobs = [];
@@ -168,7 +179,15 @@ async function planPosts(locales) {
       const translatedSlug = bySourceSlug.get(entry.slug) ?? entry.slug;
       const existing = await readJson(resolve(CONTENT, `posts/${locale}/${translatedSlug}.json`));
       const currentHash = sourceHashFor(source, fields);
-      if (existing?.sourceHash === currentHash) continue;
+
+      // The backfill exists to redo posts that already have a translation, so
+      // a matching hash is exactly what it is looking for rather than a reason
+      // to skip. A post with no translation yet is left to a normal run.
+      if (backfill) {
+        if (!existing) continue;
+      } else if (existing?.sourceHash === currentHash) {
+        continue;
+      }
 
       jobs.push({
         type: 'post',
@@ -176,6 +195,9 @@ async function planPosts(locales) {
         source,
         fields,
         sourceHash: currentHash,
+        // Pinned only in backfill mode; a normal run derives the slug from the
+        // freshly translated title as before.
+        pinnedSlug: backfill ? translatedSlug : null,
         characters: countCharacters(fields.map((field) => source[field.key] ?? '')),
       });
     }
@@ -218,9 +240,12 @@ async function planCollection(name, type, locales) {
  * Rebuild each locale index from what is actually on disk, so posts
  * translated in earlier runs survive and orphans are dropped.
  */
-async function rebuildIndexes(locales) {
+async function rebuildIndexes(locales, { prune = true } = {}) {
   for (const locale of locales) {
-    const posts = await pruneDuplicates(locale);
+    // pruneDuplicates deletes files. A backfill writes to the filenames that
+    // are already there and creates no duplicates, so there is nothing for it
+    // to clean up and every deletion it made would be a lost post.
+    const posts = prune ? await pruneDuplicates(locale) : await readPosts(locale);
     const entries = posts
       .map((post) => ({
         id: post.id,
@@ -275,6 +300,24 @@ async function pruneDuplicates(locale) {
   return [...bySource.values()].map((entry) => entry.post);
 }
 
+/** Every translated post on disk for a locale, without deleting anything. */
+async function readPosts(locale) {
+  const dir = resolve(CONTENT, `posts/${locale}`);
+  let files = [];
+  try {
+    files = (await readdir(dir)).filter((name) => name.endsWith('.json'));
+  } catch {
+    return [];
+  }
+
+  const posts = [];
+  for (const file of files) {
+    const post = await readJson(resolve(dir, file));
+    if (post) posts.push(post);
+  }
+  return posts;
+}
+
 async function rebuildSlugAlternates() {
   const alternates = {};
   const trIndex = (await readJson(resolve(CONTENT, `index/${SOURCE}.json`))) ?? [];
@@ -309,14 +352,16 @@ async function rebuildSlugAlternates() {
 }
 
 async function main() {
-  const client = createClient();
-  const allLocales = [...new Set([...PAGE_LOCALES, ...postLocales])];
-  await assertTargetsSupported(client, allLocales);
+  // The backfill is a bulk pass over thin archive posts, so it may run on a
+  // cheaper model than the one new copy is translated with.
+  const client = createClient({ model: backfill ? bulkModel : process.env.OPENROUTER_MODEL });
+  await assertModelAvailable(client);
 
   const [postJobs, projectJobs, serviceJobs] = await Promise.all([
-    planPosts(postLocales),
-    planCollection('projects', 'project', PAGE_LOCALES),
-    planCollection('services', 'service', PAGE_LOCALES),
+    planPosts(postLocales, { backfill }),
+    // A backfill must not sweep the corporate collections into the cheap pass.
+    backfill ? [] : planCollection('projects', 'project', PAGE_LOCALES),
+    backfill ? [] : planCollection('services', 'service', PAGE_LOCALES),
   ]);
 
   const required =
@@ -325,7 +370,7 @@ async function main() {
 
   if (required === 0) {
     console.log('Content translations are up to date; nothing to do.');
-    await rebuildIndexes(postLocales);
+    await rebuildIndexes(postLocales, { prune: !backfill });
     await rebuildSlugAlternates();
     return;
   }
@@ -340,7 +385,7 @@ async function main() {
     return;
   }
 
-  await assertQuota(client, required);
+  await assertBudget(client, required);
 
   // Collections first: they are small, and the site is unusable in a locale
   // whose navigation and service names are still Turkish.
@@ -363,7 +408,7 @@ async function main() {
   const indexes = new Map();
   for (const job of postJobs) {
     const translated = await translateItem(client, job.source, job.fields, job.locale);
-    const slug = slugify(translated.title, job.source.slug);
+    const slug = job.pinnedSlug ?? slugify(translated.title, job.source.slug);
 
     const record = {
       ...translated,
@@ -381,7 +426,7 @@ async function main() {
     console.log(`posts/${job.locale}/${slug}`);
   }
 
-  await rebuildIndexes([...indexes.keys()]);
+  await rebuildIndexes([...indexes.keys()], { prune: !backfill });
 
   const mapped = await rebuildSlugAlternates();
   console.log(`\nTranslated ${required.toLocaleString('en-US')} characters; ${mapped} slug mappings.`);
