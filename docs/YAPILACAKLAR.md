@@ -1,82 +1,76 @@
 > Kaynak nüsha ANKAVERSE-Brain'de:
 > `01_Projects/ankaverse-web/Yapilacaklar.md` — değişiklikler orada yapılır, buraya kopyalanır.
 
-
-> **Yaşayan belge.** Madde bitince buradan silinir, ilgili kalıcı belgeye yazılır.
-> 2026-08-05 sonunda oluşturuldu.
+> Son güncelleme: 2026-08-05 akşamı.
 
 # Yapılacaklar
 
-Etkiye göre sıralı. Üstteki madde alttakinden daha çok fark yaratır.
+Etkiye göre sıralı.
 
 ## 1. İçerik derinliği — en büyük SEO riski
 
-70 blog yazısının **medyanı 216 kelime**, 60 tanesi 300 kelimenin altında, hiçbiri
-500'ü geçmiyor. TR+EN ile ~140 URL, hepsi kısa haber özeti.
+70 blog yazısının **medyanı 216 kelime**, 60 tanesi 300'ün altında, hiçbiri 500'ü
+geçmiyor. TR+EN ile ~140 URL, hepsi kısa haber özeti.
 
-Google'ın helpful content sistemi tam bu profili düşürüyor ve etkisi tek tek
-yazılarla sınırlı kalmayıp alan adına yayılıyor. **Çeviri kalitesi bunu
-çözmüyor** — 2026-08-05'te arşiv baştan çevrildi, uzunluk sorunu aynen duruyor.
+Google'ın helpful content sistemi tam bu profili düşürüyor ve etkisi alan adına
+yayılıyor. **Çeviri kalitesi bunu çözmedi** — 2026-08-05'te arşiv gpt-5.4 ile
+baştan çevrildi, uzunluk sorunu aynen duruyor.
 
-Seçenekler: daha az ama 800+ kelimelik özgün yazı; ya da arşivi seyreltip zayıf
-olanları birleştirmek.
+> ⚠️ Yazıları yapay zekâyla **uzatma**. İçerik zaten yapay zekâ özeti; üstüne bir
+> kat daha makine metni koymak cezalandırılan profili derinleştirir. 216 kelimelik
+> zayıf bir yazı, 900 kelimelik dolgulu bir yazıdan az zarar verir.
 
-> ⚠️ Bu madde çözülmeden **blogu yeni dile açma**. Mekanik olarak kolay ve dil
-> başına ~$0,76, ama 140 ince URL'i 420'ye çıkarır.
+İki aşama:
 
-## 2. WordPress çekme adımı aralıklı düşüyor
+- **Budama** (Claude yapabilir, yarım gün) — en zayıf 30-40 yazıyı ayıkla,
+  benzerleri birleştir. Silinen her URL için 301 gerekir.
+- **Yeniden yazmak** (Kadir, haftalar) — ayda 2-3 tane, 800+ kelime, ANKAVERSE'in
+  kendi görüşünü taşıyan. Yatırımcıya gösterilecek olan bu.
 
-`content-sync` workflow'u "Fetch WordPress content" adımında zaman zaman
-`Content fetch failed: fetch failed` veriyor — bağlantı ~10 sn sonra kopuyor.
+> ⚠️ Bu madde çözülmeden **blogu yeni dile açma**. Dil başına ~$0,76 ve mekanik
+> olarak kolay, ama 140 ince URL'i 420'ye çıkarır.
 
-Gözlem (2026-08-05): 06:43 ✓, 09:58 ✗, 12:18 ✓, 13:41 ✗.
+## 2. Coolify Build Pack → `dockerfile`
 
-WordPress aynı anda başka yerden 200 dönüyor ve önünde Cloudflare yok (doğrudan
-VPS'teki Apache). Yani GitHub runner'ından VPS'e erişim sorunu.
+**2026-08-05'te doğrulandı: Build Pack `Nixpacks`.** Yani repodaki `Dockerfile`
+kullanılmıyor ve canlı nginx yapılandırması panelin "Custom Nginx Configuration"
+kutusunda, Coolify'ın veritabanında duruyor. Repodaki `deploy/nginx.conf` şu an
+dekoratif — kimse okumuyor, ikisi sessizce ayrışabilir.
 
-Muhtemel çözüm: `tools/fetch-content.js`'e yeniden deneme + geri çekilme. Bugün
-`tools/openrouter.js`'e eklenen desenin aynısı. Sebep bulunana kadar en azından
-kesintiyi maskeler.
+[[Deploy-ve-Altyapi]] belgesindeki 2. ve 3. tuzak (base64 bozulması, konteyner
+içi düzeltmenin kalıcı olmaması) tam olarak bu kurulumdan çıkmıştı.
 
-**Bu düzelene kadar hattın OpenRouter ayağı sınanmış sayılmaz** — çeviri
-adımlarına hiç gelinmedi.
+**Sıra önemli, atlanırsa pahalıya patlıyor:**
 
-## 3. Search Console
+1. Paneldeki yapılandırmayı repodakiyle satır satır karşılaştır; fark varsa
+   **canlı olan kazanır**, repoya işlenir
+2. Ayrı bir konteynerde sına:
+   `docker run --rm -v /tmp/n.conf:/etc/nginx/conf.d/default.conf:ro nginx:alpine nginx -t`
+3. Build Pack'i `dockerfile`'a çevir, deploy et, doğrula
 
-Sitemap gönderildi (2026-08-05, Kadir). İzlenecekler: kaç sayfa indekslendi,
-hreflang kümeleri kabul edildi mi, thin content uyarısı düşüyor mu.
+Yarım saatlik iş. Bu alan siteyi üç kez kapattı, aceleye getirme.
 
-## 4. Proje sayfalarının başlıkları uzun
+> ⚠️ Panelde **"Is it a SPA?" işaretsiz kalmalı.** İşaretlenirse nginx her
+> bilinmeyen adrese `index.html`'i 200 ile döndürür, `/yok` 404 vermez ve site
+> geneline soft-404 geri gelir.
 
-`verify-seo` 13 uyarı veriyor, neredeyse tamamı 65 karakteri aşan **proje
-sayfası başlığı** (tr/de/fr/es/ar). Google bu uzunlukta başlığı kırpıyor.
+## 3. Proje sayfalarının başlıkları uzun
 
-Bunlar DeepL zamanından kalma. 2026-08-05'te eklenen kısaltma ve sözlük kuralları
-yalnız bloga uygulandı; dolgu koleksiyonları kapsam dışı bırakıyor.
+`verify-seo` 13 uyarı veriyor, neredeyse tamamı 65 karakteri aşan **proje sayfası
+başlığı** (tr/de/fr/es/ar). Google bu uzunlukta başlığı SERP'te kırpıyor.
+
+Bunlar DeepL zamanından kalma; 2026-08-05'te eklenen sözlük ve kısaltma kuralları
+yalnız bloga uygulandı, dolgu koleksiyonları kapsam dışı bırakıyor.
 
 İki yol: proje/hizmet çevirilerini yeni promptla zorla yenilemek (~$0,10, ama
-`--backfill` koleksiyonları kapsamıyor, küçük bir kod eklemesi gerekir); ya da
-beş dildeki dört proje başlığını elle düzeltmek (20 başlık, cache elle
-düzeltmeyi korur).
+`--backfill` koleksiyonları kapsamadığı için küçük bir kod eklemesi gerekir); ya
+da 5 dildeki ~20 başlığı elle düzeltmek (cache elle düzeltmeyi korur).
 
-## 5. `--dry-run` diske yazıyor
+Beklenen sonuç: 13 uyarı → ~4.
 
-`tools/translate-content.js` içinde `required === 0` dalı `dryRun` kontrolünden
-**önce** geliyor, dolayısıyla kuru koşturma da indeks dosyalarını yeniden yazıyor.
-Zararı bugün satır sonu farkıyla sınırlı kaldı ama "kuru" olması gereken bir
-komutun diske dokunması yanlış.
+## 4. Ufak temizlik
 
-## 6. Coolify Build Pack `dockerfile` mı
-
-Repoda `Dockerfile` hazır ve nginx yapılandırmasını imaja gömüyor. Panelde Build
-Pack hâlâ `nixpacks` ise yapılandırma panelde saklanmaya devam eder ve repodan
-sapabilir — [[Deploy-ve-Altyapi]] belgesindeki 2. ve 3. tuzağın kaynağı buydu.
-
-Dışarıdan doğrulanamıyor, panelden bakmak gerek.
-
-## 7. Ufak temizlik
-
-- `DEEPL_API_KEY` secret'ı GitHub'da duruyor, artık okunmuyor — silinebilir
+- GitHub'daki `DEEPL_API_KEY` secret'ı — artık okunmuyor, silinebilir
 - Yerel `.env`'deki `DEEPL_API_KEY` satırı da öyle
 
 ## Bilinçli yapılmayanlar
@@ -86,3 +80,26 @@ Dışarıdan doğrulanamıyor, panelden bakmak gerek.
 | `http://` → `https://` 302'nin 301 yapılması | Cloudflare hallediyor |
 | Blogu DE/FR/ES/AR'a açmak | 1. madde çözülmeden zarar verir |
 | `dist`'teki kullanılmayan manifest dosyasının silinmesi | Dursun ki kaldırma düzeneği bozulursa site yavaşlasın, çökmesin |
+| GA4'ün GTM içine de eklenmesi | `G-G242C7TQGR` zaten gtag.js'te; ikisinde birden tanımlamak her ziyareti iki kez sayar |
+
+---
+
+# 2026-08-05'te kapananlar
+
+| İş | Sonuç |
+| --- | --- |
+| `Unexpected token '<'` çökmesi | Hata sınırı + tek seferlik otomatik yenileme. [[Deploy-ve-Altyapi]] tuzak 6 |
+| Çeviri hattı DeepL → OpenRouter | 70 yazı gpt-5.4 ile yeniden çevrildi, 208 URL sabit, $1,07 |
+| Manifest yükü | İlk yükleme 598 KB → 196 KB |
+| GA4 | `G-G242C7TQGR` eklendi; öncesinde hiç trafik ölçümü yoktu |
+| GDPR/KVKK onayı | Consent Mode v2, varsayılan ret, 6 dil, 4 sinyalin dördü |
+| Google Tag Manager | `GTM-WQJRH2G3`, onay bloğunun **altına** |
+| WordPress çekme adımı | 3 yeniden deneme + geri çekilme (4 CI koşturmasından 2'si düşüyordu) |
+| `--dry-run` diske yazıyordu | Düzeltildi |
+| Search Console | Sitemap gönderildi (Kadir) |
+
+Test sayısı 0 → 41. `verify-seo` uyarısı 23 → 13.
+
+**Sınanmamış kalan:** çeviri hattının OpenRouter ayağı üretimde yalnız bir kez
+çalıştı (çerez metinleri, $0,0062). Saatlik senkron OpenRouter ile henüz tam tur
+atmadı — çekme adımı düşüyordu, yeniden deneme onun için eklendi.
