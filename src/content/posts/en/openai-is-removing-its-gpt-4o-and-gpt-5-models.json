@@ -2,9 +2,9 @@
   "id": 339,
   "slug": "openai-is-removing-its-gpt-4o-and-gpt-5-models",
   "lang": "en",
-  "title": "OpenAI Is Removing Its GPT-4o and GPT-5 Models",
-  "excerpt": "Major Change to OpenAI Models OpenAI has announced that it will end support for some popular versions by updating the model lifecycles in its AI infrastructure. According to the company’s official statement, certain models available to developers and end users will be retired as of Friday, February 13. While it is a standard process in the tech world for older models to be replaced by newer ones, this list includes GPT-4o and [&hellip;]",
-  "content": "<h2>Major Changes to OpenAI Models</h2>\n<p>OpenAI announced that it will end support for some popular versions by updating model lifecycles in its AI infrastructure. According to the company’s official statement, certain models available to developers and end users will be retired as of Friday, February 13.</p>\n<p>While it is a standard process in the tech world for older models to be replaced by newer ones, the inclusion of widely used models such as GPT-4o and GPT-5 on this list is noteworthy. Developers who have built their systems on these models must complete their migration processes by the specified date.</p>\n<h2>Models to Be Discontinued</h2>\n<p>According to the list shared by OpenAI, API and interface access to the following models will be discontinued:</p>\n<ul>\n<li>GPT-4o</li>\n<li>GPT-5</li>\n<li>GPT-4.1</li>\n<li>GPT-4.1 mini</li>\n<li>o4-mini</li>\n</ul>\n<p>This change is seen as part of OpenAI’s strategy to redirect its resources toward newer architectures and optimized models.</p>\n",
+  "title": "OpenAI Is Removing GPT-4o and GPT-5 Models",
+  "excerpt": "Major change in OpenAI models OpenAI announced that it will end support for some popular versions by updating model life cycles in its AI infrastructure. According to the company’s official statement, certain models available to developers and end users will be retired as of Friday, February 13. Although it is a standard process in the tech world for outdated models to give way to new ones, this list includes GPT-4o and [&hellip;]",
+  "content": "<h2>Important Change in OpenAI Models</h2>\n<p>OpenAI announced that it will end support for some popular versions by updating model life cycles in its AI infrastructure. According to the company’s official statement, certain models open to developers’ and end users’ access are being retired as of Friday, February 13.</p>\n<p>Although it is a standard process in the technology world for outdated models to give way to newer ones, it is noteworthy that widely used models such as GPT-4o and GPT-5 are on this list. Developers who built their systems on these models must complete their migration processes by the stated date.</p>\n<h2>Models to Be Discontinued</h2>\n<p>According to the list shared by OpenAI, API and interface access for the following models will be shut down:</p>\n<ul>\n<li>GPT-4o</li>\n<li>GPT-5</li>\n<li>GPT-4.1</li>\n<li>GPT-4.1 mini</li>\n<li>o4-mini</li>\n</ul>\n<p>This change is considered part of OpenAI’s strategy to direct its resources toward newer architectures and optimized models.</p>",
   "date": "2026-01-31T23:03:42Z",
   "modified": "2026-01-31T23:03:42Z",
   "categories": [
@@ -75,5 +75,6 @@
   },
   "author": "kadirmertozden",
   "sourceSlug": "openai-gpt-4o-ve-gpt-5-modellerini-kaldiriyor",
-  "sourceHash": "c847b948fe5dd87f"
+  "sourceHash": "c847b948fe5dd87f",
+  "translatedBy": "openai/gpt-5.4"
 }

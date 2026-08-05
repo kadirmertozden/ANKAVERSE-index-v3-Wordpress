@@ -2,9 +2,9 @@
   "id": 342,
   "slug": "openai-is-removing-the-gpt-4o-model-from-chatgpt",
   "lang": "en",
-  "title": "OpenAI Is Removing the GPT-4o Model from ChatGPT",
-  "excerpt": "The GPT-4o Era Is Coming to an End OpenAI has decided to streamline the variety of models on the ChatGPT platform. In a statement released by the company, it was noted that certain older versions, including GPT-4o, will be removed from the platform as of February 13. The primary reason cited for the decision was a shift in user habits. According to the data, a large portion of ChatGPT users are conducting their tasks through the GPT-5.2 model, which features a newer architecture [&hellip;]",
-  "content": "<h2>The GPT-4o Era Is Coming to an End</h2>\n<p>OpenAI has decided to streamline the variety of models on the ChatGPT platform. In a statement released by the company, it was noted that certain older versions, including GPT-4o, will be removed from the platform as of <strong>February 13</strong>.</p>\n<p>The primary reason cited for the decision was a shift in user habits. According to data, a large portion of ChatGPT users are now conducting their tasks using <strong>the GPT-5.2</strong> model<strong>,</strong> which features a newer architecture. Low usage rates and the need for resource optimization have accelerated the process of phasing out GPT-4o.</p>\n<ul>\n<li><strong>Models to Be Removed:</strong> GPT-4o and related sub-versions.</li>\n<li><strong>Shutdown Date:</strong> February 13.</li>\n<li><strong>Focused Model:</strong> GPT-5.2.</li>\n</ul>\n<p>This change aims to allow OpenAI to use its computing power more efficiently and focus its development efforts on the most up-to-date models.</p>\n",
+  "title": "OpenAI Removes the GPT-4o Model from ChatGPT",
+  "excerpt": "The GPT-4o Era Is Ending OpenAI decided to simplify model diversity on the ChatGPT platform. In a statement by the company, it was stated that some older versions, including GPT-4o, will be removed from the platform as of February 13. The main reason behind the decision was cited as changing user habits. According to the data, a large majority of ChatGPT users carry out their operations through the GPT-5.2 model, which has a newer architecture [&hellip;]",
+  "content": "<h2>The GPT-4o Era Is Ending</h2>\n<p>OpenAI has decided to simplify model diversity on the ChatGPT platform. In the statement made by the company, it was noted that some older versions, including GPT-4o, will be removed from the platform as of <strong>February 13</strong>.</p>\n<p>The main reason behind the decision was cited as changing user habits. According to the data, a large majority of ChatGPT users carry out their operations through the <strong>GPT-5.2</strong> model, which has a newer architecture. Low usage rates and the need for resource optimization accelerated the process of retiring GPT-4o.</p>\n<ul>\n<li><strong>Model to Be Removed:</strong> GPT-4o and related subversions.</li>\n<li><strong>Shutdown Date:</strong> February 13.</li>\n<li><strong>Focus Model:</strong> GPT-5.2.</li>\n</ul>\n<p>This change aims to enable OpenAI to use its computing power more efficiently and concentrate its development processes on the most up-to-date models.</p>",
   "date": "2026-01-31T23:04:24Z",
   "modified": "2026-01-31T23:04:24Z",
   "categories": [
@@ -70,5 +70,6 @@
   },
   "author": "kadirmertozden",
   "sourceSlug": "openai-chatgptden-gpt-4o-modelini-kaldiriyor",
-  "sourceHash": "f794cbb3cdb2ba5f"
+  "sourceHash": "f794cbb3cdb2ba5f",
+  "translatedBy": "openai/gpt-5.4"
 }

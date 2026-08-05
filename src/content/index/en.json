@@ -3,8 +3,8 @@
     "id": 422,
     "slug": "siri-will-offer-support-for-multiple-ai-models-with-ios-27",
     "sourceSlug": "siri-ios-27-ile-coklu-yapay-zeka-modeli-destegi-sunacak",
-    "title": "Siri will offer support for multiple AI models with iOS 27",
-    "excerpt": "Selectable LLM Infrastructure for Siri Apple has decided to diversify the AI infrastructure behind its voice assistant, Siri. By expanding its existing integration with OpenAI, the company is said to be offering users alternative large language models (LLMs). Expected to roll out with iOS 27, this new architecture will allow users to choose which AI model will process requests made through Siri [&hellip;]",
+    "title": "Siri will offer multi-AI model support with iOS 27",
+    "excerpt": "Selectable LLM Infrastructure for Siri Apple has decided to diversify the AI infrastructure behind the voice assistant Siri. It is stated that by loosening its current integration with OpenAI, the company will offer users alternative large language models (LLMs). This new architecture, expected to go live with iOS 27, will let users choose which AI model will process requests coming through Siri [&hellip;]",
     "date": "2026-03-28T23:03:36Z",
     "categories": [
       {
@@ -73,8 +73,8 @@
     "id": 419,
     "slug": "ai-startup-aidea-secures-pre-seed-funding",
     "sourceSlug": "yapay-zeka-girisimi-aidea-tohum-oncesi-yatirim-aldi",
-    "title": "AI startup Aidea secures pre-seed funding",
-    "excerpt": "From Corporate Data to Interactive Content: Aidea, an AI startup that transforms organizations’ documents and information sources into interactive, animated content in a matter of minutes, has secured a pre-seed investment from ENA Venture Capital and RePie Portföy. While the financial details of the investment were not disclosed, it was stated that the startup will use these funds to develop its product and expand into the MENA and European markets. Aidea utilizes various AI tools and [&hellip;]",
+    "title": "AI startup Aidea received pre-seed investment",
+    "excerpt": "From corporate knowledge to interactive content, AI startup Aidea, which transforms companies' documents and information sources into interactive, animated content within minutes, received pre-seed investment from ENA Venture Capital and RePie Portföy. While the financial size of the investment was not disclosed, it was stated that the startup will use this funding to develop the product and grow in the MENA and European markets. Aidea, different AI tools and [&hellip;]",
     "date": "2026-03-28T23:02:42Z",
     "categories": [
       {
@@ -143,8 +143,8 @@
     "id": 416,
     "slug": "artificial-intelligence-ecosystem-new-models-and-infrastructures",
     "sourceSlug": "yapay-zeka-ekosistemi-yeni-modeller-ve-altyapilar",
-    "title": "Artificial Intelligence Ecosystem: New Models and Infrastructures",
-    "excerpt": "Models and Corporate Strategies: OpenAI is discontinuing its Sora application, which generates video from text, in order to shift its resources toward broader AI systems and enterprise products. The company has also strengthened its pre-IPO strategy by offering a minimum return guarantee of 17.5 percent to attract private equity firms to its corporate joint venture. Meanwhile, Anthropic won its lawsuit against the U.S. Department of Defense [&hellip;]",
+    "title": "AI Ecosystem: New Models and Infrastructures",
+    "excerpt": "Models and Company Strategies OpenAI is discontinuing the text-to-video app Sora to shift its resources to broader AI systems and enterprise products. The company also strengthened its pre-IPO strategy by offering a 17.5 percent minimum return guarantee to attract private equity firms to its enterprise venture. On Anthropic's side, the lawsuit filed against the US Department of Defense was won […]",
     "date": "2026-03-28T23:01:42Z",
     "categories": [
       {
@@ -213,8 +213,8 @@
     "id": 412,
     "slug": "nvidia-unveiled-its-new-computing-platform-vera-rubin",
     "sourceSlug": "nvidia-yeni-bilgi-islem-platformu-vera-rubini-tanitti",
-    "title": "Nvidia Unveiled Its New Computing Platform, Vera Rubin",
-    "excerpt": "Key Features of the Nvidia Vera Rubin Architecture At the GTC 2026 event, Nvidia unveiled Vera Rubin, its next-generation computing platform consisting of seven different chips. Designed to replace the Blackwell systems, the platform delivers up to 10 times higher inference efficiency per watt while reducing the processing cost per token by a factor of ten. According to Nvidia’s data, the new architecture enables large model-of-experts (MoE) [&hellip;]",
+    "title": "Nvidia introduced the new computing platform Vera Rubin",
+    "excerpt": "Core Features of the Nvidia Vera Rubin Architecture Nvidia introduced Vera Rubin, a next-generation computing platform consisting of seven different chips, at the GTC 2026 event. The platform, intended to replace Blackwell systems, delivers up to 10 times more inference throughput per watt while reducing processing cost per token by one tenth. According to Nvidia's data, the new architecture, large mixture of experts (MoE) [&hellip;]",
     "date": "2026-03-21T23:03:05Z",
     "categories": [
       {
@@ -283,8 +283,8 @@
     "id": 409,
     "slug": "openai-is-bringing-all-its-products-together-in-a-single-app",
     "sourceSlug": "openai-tum-urunlerini-tek-uygulamada-birlestiriyor",
-    "title": "OpenAI Is Bringing All Its Products Together in a Single App",
-    "excerpt": "OpenAI’s New Desktop Ecosystem OpenAI is developing a new desktop application designed specifically for Mac users that brings together ChatGPT, the Codex software development platform, and the Atlas browser in a single hub. The application aims to allow developers and professionals to manage their workflows from a single window, eliminating the need to switch between disparate services. The most important technical component of this all-in-one platform is the autonomous [&hellip;]",
+    "title": "OpenAI Is Unifying All Its Products in a Single App",
+    "excerpt": "OpenAI's New Desktop Ecosystem OpenAI is developing a new desktop app focused on Mac users that brings together ChatGPT, the software development platform Codex, and the Atlas browser in a single hub. The app aims to let developers and professionals manage their workflows from a single window by removing the need to switch between fragmented services. The most important technical component of the all-in-one platform being developed is the autonomous [&hellip;]",
     "date": "2026-03-21T23:02:15Z",
     "categories": [
       {
@@ -353,8 +353,8 @@
     "id": 406,
     "slug": "uprock-an-ai-focused-decentralized-data-network",
     "sourceSlug": "yapay-zeka-odakli-merkeziyetsiz-veri-agi-uprock",
-    "title": "UpRock, an AI-Focused Decentralized Data Network",
-    "excerpt": "Decentralized Data and Verification Infrastructure Built on the Solana blockchain, UpRock is a decentralized physical infrastructure (DePIN) network that provides verifiable web data for artificial intelligence systems. The platform aims to transform the raw data necessary for AI agents and automation systems to analyze the actual state of the internet into a reliable layer. Users can utilize idle internet bandwidth through the relevant application [&hellip;]",
+    "title": "AI-Focused Decentralized Data Network UpRock",
+    "excerpt": "Decentralized Data and Verification Infrastructure Built on the Solana blockchain, UpRock is a decentralized physical infrastructure (DePIN) network that provides verifiable web data for AI systems. The platform aims to turn the raw data needed for AI agents and automation systems to analyze the real state of the internet into a reliable layer. Users, through the relevant app, use their idle internet bandwidth [&hellip;]",
     "date": "2026-03-21T23:01:29Z",
     "categories": [
       {
@@ -423,8 +423,8 @@
     "id": 399,
     "slug": "nvidia-is-developing-the-enterprise-ai-agent-nemoclaw",
     "sourceSlug": "nvidia-kurumsal-ai-ajani-nemoclawi-gelistiriyor",
-    "title": "NVIDIA Is Developing the Enterprise AI Agent NemoClaw",
-    "excerpt": "NVIDIA’s Enterprise AI Agent: NemoClaw NVIDIA, which is extending its dominance in the hardware market to the software ecosystem, is developing the NemoClaw platform, which enables businesses to create their own customized AI agents. Centered on enterprise data privacy and workflow automation, the system enables companies to manage complex operational tasks through a single assistant. According to current reports, the platform is used by companies such as Google, Salesforce, Cisco, Adobe, and CrowdStrike [&hellip;]",
+    "title": "NVIDIA Develops the Enterprise AI Agent NemoClaw",
+    "excerpt": "Enterprise AI Agent from NVIDIA: NVIDIA, extending its dominance in the hardware market into the software ecosystem, is developing the NemoClaw platform, which enables businesses to create their own customized AI agents. Centering on enterprise data privacy and workflow automation, the system allows companies to manage complex operational tasks through a single assistant. According to current reports, the platform; Google, Salesforce, Cisco, Adobe, and CrowdStrike like [&hellip;]",
     "date": "2026-03-14T23:03:21Z",
     "categories": [
       {
@@ -488,8 +488,8 @@
     "id": 396,
     "slug": "ai-automation-company-gumloop-raises-50-million-in-funding",
     "sourceSlug": "yapay-zeka-otomasyonu-gumloop-50-milyon-dolar-yatirim-aldi",
-    "title": "AI Automation Company Gumloop Raises $50 Million in Funding",
-    "excerpt": "$50 Million Series B Round for Gumloop Canada-based AI automation platform Gumloop raised $50 million in a Series B funding round led by Benchmark. The round also included participation from major institutional investors such as Nexus VP, First Round Capital, Y Combinator, BoxGroup, The Cannon Project, and Shopify. The funding will be used to further develop the platform’s AI agent (AI [&hellip;]",
+    "title": "AI Automation Gumloop Raised $50 Million",
+    "excerpt": "$50 Million Series B for Gumloop Canada-based AI automation platform Gumloop secured $50 million in a Series B funding round led by Benchmark. Major institutional investors including Nexus VP, First Round Capital, Y Combinator, BoxGroup, The Cannon Project, and Shopify also participated in the round. The financing obtained will support the platform's AI agent (AI [&hellip;]",
     "date": "2026-03-14T23:02:21Z",
     "categories": [
       {
@@ -563,8 +563,8 @@
     "id": 393,
     "slug": "ai-news-new-players-and-investments",
     "sourceSlug": "yapay-zeka-gundemi-yeni-ajanlar-ve-yatirimlar",
-    "title": "AI News: New Players and Investments",
-    "excerpt": "Defense Industry and Artificial Intelligence Policies This week, relations between artificial intelligence companies and the U.S. Department of Defense (Pentagon) took different turns. Anthropic filed a lawsuit against the Pentagon, objecting to its classification as a supply chain risk, while Microsoft submitted a legal opinion supporting Anthropic during this process. Meanwhile, Google is helping Pentagon employees automate their repetitive administrative tasks using Gemini-powered AI [&hellip;]",
+    "title": "AI Agenda: New Agents and Investments",
+    "excerpt": "Defense Industry and AI Policies This week, relations between AI companies and the US Department of Defense (Pentagon) developed in different directions. While Anthropic sued the Pentagon, objecting to being defined as a supply chain risk, Microsoft submitted a legal opinion supporting Anthropic in this process. On the other hand, Google announced a Gemini-powered AI [&hellip;] for Pentagon employees to automate repetitive administrative tasks.",
     "date": "2026-03-14T23:01:29Z",
     "categories": [
       {
@@ -633,8 +633,8 @@
     "id": 390,
     "slug": "aws-announces-ai-agent-solution-for-the-healthcare-industry",
     "sourceSlug": "aws-saglik-sektoru-icin-yapay-zeka-ajani-cozumunu-duyurdu",
-    "title": "AWS Announces AI Agent Solution for the Healthcare Industry",
-    "excerpt": "Operational Automation with Amazon Connect Health Amazon Web Services (AWS) has launched Amazon Connect Health, an AI agent platform developed to optimize operational processes at healthcare organizations. Focused on reducing the administrative burden on doctors and healthcare staff, the platform automates call center and registration desk operations at hospitals. Equipped with natural language processing (NLP) capabilities, the system handles appointment scheduling, [&hellip;]",
+    "title": "AWS Announced an AI Agent Solution for the Healthcare Sector",
+    "excerpt": "Operational Automation with Amazon Connect Health Amazon Web Services (AWS) launched Amazon Connect Health, an AI agent platform it developed to optimize operational processes in healthcare institutions. Focused on reducing the administrative burden on doctors and healthcare staff, the platform makes hospitals' call center and registration desk operations autonomous. Equipped with natural language processing (NLP) capabilities, the system handles appointment scheduling, [&hellip;]",
     "date": "2026-03-07T23:03:19Z",
     "categories": [
       {
@@ -698,8 +698,8 @@
     "id": 387,
     "slug": "anthropic-announces-the-enterprise-focused-claude-marketplace",
     "sourceSlug": "anthropic-kurumsal-odakli-claude-marketplacei-duyurdu",
-    "title": "Anthropic Announces the Enterprise-Focused Claude Marketplace",
-    "excerpt": "A Centralized Approach to Enterprise AI Procurement: Anthropic has launched Claude Marketplace, a new e-commerce platform that makes it easier for businesses to purchase third-party software powered by the Claude infrastructure. Currently in a limited preview phase, the platform aims to simplify the software procurement process and consolidate enterprise AI spending in a single hub. Thanks to the new marketplace, companies can access multiple cloud services and [&hellip;]",
+    "title": "Anthropic Announced the Enterprise-Focused Claude Marketplace",
+    "excerpt": "A Central Approach to Enterprise AI Procurement Anthropic launched Claude Marketplace, a new e-commerce platform that makes it easier for businesses to buy third-party software using Claude infrastructure. The platform, in limited preview, aims to simplify the software procurement process and consolidate enterprise AI spending in a single center. Thanks to the new marketplace, companies can use multiple cloud services and [&hellip;]",
     "date": "2026-03-07T23:02:22Z",
     "categories": [
       {
@@ -769,7 +769,7 @@
     "slug": "openai-the-anthropic-crisis-and-new-ai-models",
     "sourceSlug": "openai-anthropic-krizi-ve-yeni-ai-modelleri",
     "title": "OpenAI, the Anthropic Crisis, and New AI Models",
-    "excerpt": "The Pentagon-Centered OpenAI and Anthropic Crisis: Uncertainties surrounding OpenAI’s military contract with the Pentagon and the scope of that agreement have caused a major stir in the industry. Anthropic, which decided to remain independent by resisting military pressure during this process, was classified as a “supply chain risk” by the U.S. Department of Defense. These policy differences have also been reflected in end-user metrics; while the migration from ChatGPT to Claude has accelerated, the Claude app has seen [&hellip;] in app store downloads.",
+    "excerpt": "The Pentagon-focused OpenAI and Anthropic crisis. OpenAI's military deal with the Pentagon and uncertainties about its limits resonated widely across the sector. In this process, Anthropic, which decided to stay independent by resisting military pressure, was classified by the U.S. Department of Defense as a \"supply chain risk.\" Policy differences were also reflected in end-user metrics; while migration from ChatGPT to Claude accelerated, the Claude app in store downloads [&hellip;]",
     "date": "2026-03-07T23:01:33Z",
     "categories": [
       {
@@ -838,8 +838,8 @@
     "id": 381,
     "slug": "turk-telekom-will-showcase-its-domestically-developed-5g-and-6g-solutions-at-mwc",
     "sourceSlug": "turk-telekom-mwcde-yerli-5g-ve-6g-cozumlerini-tanitacak",
-    "title": "Türk Telekom will showcase its domestically developed 5G and 6G solutions at MWC",
-    "excerpt": "Domestic 5G and 6G Technologies at MWC Türk Telekom will showcase the 5G and beyond technology solutions it has developed in collaboration with domestic ecosystem partners at the Mobile World Congress (MWC), to be held in Barcelona from March 2–5. The company will present the projects it has carried out in collaboration with Argela, i2i Systems, P.I. Works, Plan-S, and Qubitrium to global technology professionals. The solutions to be showcased at the event range from 5G core network architectures to artificial [&hellip;]",
+    "title": "Türk Telekom to introduce domestic 5G and 6G solutions at MWC",
+    "excerpt": "Domestic 5G and 6G Technologies At MWC, Türk Telekom will introduce 5G and beyond technology solutions it developed with domestic ecosystem partners at the Mobile World Congress (MWC) to be held in Barcelona on 2-5 March. The company will present to global technology professionals the projects it carries out together with Argela, i2i Systems, P.I. Works, Plan-S and Qubitrium. The solutions to be exhibited within the scope of the event range from 5G core network architectures to AI [&hellip;]",
     "date": "2026-02-28T23:03:57Z",
     "categories": [
       {
@@ -918,8 +918,8 @@
     "id": 378,
     "slug": "google-has-introduced-gemini-s-on-device-task-automation-feature",
     "sourceSlug": "google-gemini-cihaz-ici-gorev-otomasyonu-ozelligini-sundu",
-    "title": "Google has introduced Gemini's on-device task automation feature",
-    "excerpt": "Gemini Is Becoming an Autonomous Agent Google has announced a new \"task automation\" feature that transforms its AI assistant, Gemini, from a standard chat interface into a task-oriented autonomous agent. Available on Pixel 10 and Samsung Galaxy S26 series devices, this infrastructure enables Gemini to independently perform multi-step tasks within third-party apps like Uber or DoorDash [&hellip;]",
+    "title": "Google introduced the on-device task automation feature for Gemini",
+    "excerpt": "Gemini Is Becoming an Autonomous Agent Google announced the new \"task automation\" feature that turns the AI assistant Gemini from a standard chat interface into a task-focused autonomous agent. This infrastructure, made available on Pixel 10 and Samsung Galaxy S26 series devices, enables Gemini to independently carry out multi-step actions on third-party apps such as Uber or DoorDash [&hellip;]",
     "date": "2026-02-28T23:02:57Z",
     "categories": [
       {
@@ -978,8 +978,8 @@
     "id": 375,
     "slug": "mena-region-2026-technology-and-artificial-intelligence-trends",
     "sourceSlug": "mena-bolgesi-2026-teknoloji-ve-yapay-zeka-trendleri",
-    "title": "MENA Region 2026 Technology and Artificial Intelligence Trends",
-    "excerpt": "Industrial Digitalization in the MENA Region The Middle East and North Africa (MENA) technology ecosystem, following a high volume of investment in 2025, is transitioning in 2026 to a phase of industrial maturity where technology—through autonomous systems and physical digitalization—dominates the economy. Infrastructure investments, led particularly by Saudi Arabia and the UAE, are elevating the region’s technology capacity to a global scale in production and R&D [&hellip;]",
+    "title": "MENA Region 2026 Technology and AI Trends",
+    "excerpt": "Industrial Digitalization in the MENA Region Following the high investment volume in 2025, the Middle East and North Africa (MENA) technology ecosystem is moving in 2026 into a phase of industrial maturity in which technology dominates the economy through autonomous systems and physical digitalization. Infrastructure investments led especially by Saudi Arabia and the UAE are turning regional technology capacity into a global-scale production and R&D [&hellip;]",
     "date": "2026-02-28T23:01:59Z",
     "categories": [
       {
@@ -1054,7 +1054,7 @@
     "slug": "third-party-ai-support-is-coming-to-apple-carplay",
     "sourceSlug": "apple-carplaye-ucuncu-taraf-ai-destegi-geliyor",
     "title": "Third-Party AI Support Is Coming to Apple CarPlay",
-    "excerpt": "The CarPlay Ecosystem Is Expanding According to a report from Bloomberg, Apple is making a significant strategic shift for its in-car interface, CarPlay. The company is preparing to open the platform to third-party AI providers such as OpenAI (ChatGPT), Google (Gemini), and Anthropic (Claude). While voice interactions are currently limited to Siri, the new update will allow developers to make their own AI assistants compatible with CarPlay. [&hellip;]",
+    "excerpt": "The CarPlay Ecosystem Is Expanding According to a Bloomberg-sourced report, Apple is making a major strategic shift for its in-car interface, CarPlay. The company is preparing to open the platform to third-party AI providers such as OpenAI (ChatGPT), Google (Gemini), and Anthropic (Claude). While voice interactions in the current system are limited to Siri, the new update will allow developers to make their own AI assistants compatible with CarPlay. [&hellip;]",
     "date": "2026-02-14T23:04:22Z",
     "categories": [
       {
@@ -1128,8 +1128,8 @@
     "id": 369,
     "slug": "openai-announces-gpt-5-3-spark-which-writes-code-in-real-time",
     "sourceSlug": "openai-gercek-zamanli-kod-yazan-gpt-5-3-sparki-duyurdu",
-    "title": "OpenAI Announces GPT-5.3 Spark, Which Writes Code in Real Time",
-    "excerpt": "OpenAI announced the GPT-5.3-Codex-Spark model, developed to increase speed and minimize wait times in software development processes. A product of a strategic partnership with Cerebras, this model runs on specialized hardware instead of standard GPU clusters, promising real-time interaction. Technical Specifications and Speed: With the capacity to generate over 1,000 tokens (approximately 750 words) per second, GPT-5.3-Codex-Spark is the fastest to date [&hellip;]",
+    "title": "OpenAI Announced GPT-5.3 Spark, Which Writes Code in Real Time",
+    "excerpt": "OpenAI announced the GPT-5.3-Codex-Spark model, developed to increase speed in software development processes and minimize wait times. A product of the strategic partnership with Cerebras, this model promises real-time interaction by running on specialized hardware instead of standard GPU clusters. Technical Features and Speed GPT-5.3-Codex-Spark can generate more than 1,000 tokens per second (about 750 words), making it the fastest so far [&hellip;]",
     "date": "2026-02-14T23:03:37Z",
     "categories": [
       {
@@ -1203,8 +1203,8 @@
     "id": 366,
     "slug": "openai-unveils-gpt-5-3-codex-spark-powered-by-cerebras",
     "sourceSlug": "openai-cerebras-destekli-gpt-5-3-codex-sparki-sundu",
-    "title": "OpenAI Unveils GPT-5.3-Codex-Spark, Powered by Cerebras",
-    "excerpt": "New Model Focused on Fast Inference OpenAI has announced GPT-5.3-Codex-Spark, a lighter and faster version of its agentic coding model, GPT-5.3-Codex. The company stated that it has optimized this new model for development processes requiring rapid iteration and real-time collaboration. Cerebras Wafer Scale Engine 3 Integration The model’s infrastructure utilizes Wafer Scale Engine 3 (WSE-3) chips from OpenAI’s hardware partner, Cerebras [&hellip;]",
+    "title": "OpenAI Introduced Cerebras-Powered GPT-5.3-Codex-Spark",
+    "excerpt": "New Model Focused on Fast Inference OpenAI announced GPT-5.3-Codex-Spark, a lighter and faster version of its agentic coding model GPT-5.3-Codex. The company stated that it optimized this new model for development processes requiring rapid iteration and real-time collaboration. Cerebras Wafer Scale Engine 3 Integration In the model's infrastructure, OpenAI's hardware partner Cerebras's Wafer Scale Engine 3 (WSE-3) chips [&hellip;]",
     "date": "2026-02-14T23:02:46Z",
     "categories": [
       {
@@ -1268,8 +1268,8 @@
     "id": 363,
     "slug": "ios-26-4-siri-gets-a-makeover-with-llm-and-gemini",
     "sourceSlug": "ios-26-4-siri-llm-ve-gemini-ile-yenileniyor",
-    "title": "iOS 26.4: Siri Gets a Makeover with LLM and Gemini",
-    "excerpt": "New LLM-Based Siri Architecture Apple is making a fundamental change to the infrastructure of its voice assistant, Siri, with iOS 26.4, scheduled for release in the spring of 2026. The current keyword-based recognition system is being replaced by a generative AI architecture built on Large Language Models (LLMs). This update aims to fundamentally change the way Siri processes commands and its ability to understand user intent. Google [&hellip;]",
+    "title": "iOS 26.4: Siri Renewed with LLM and Gemini",
+    "excerpt": "New LLM-Based Siri Architecture Apple is making a radical change to the infrastructure of its voice assistant Siri with the iOS 26.4 release planned for spring 2026. The current keyword-based detection system is being replaced by a generative AI architecture built on Large Language Models (LLM). This update aims to fundamentally change how Siri processes commands and its capacity to detect user intent. Google […]",
     "date": "2026-02-14T23:02:03Z",
     "categories": [
       {
@@ -1338,8 +1338,8 @@
     "id": 360,
     "slug": "new-models-and-investments-in-the-world-of-artificial-intelligence",
     "sourceSlug": "yapay-zeka-dunyasinda-yeni-modeller-ve-yatirimlar",
-    "title": "New Models and Investments in the World of Artificial Intelligence",
-    "excerpt": "Strategic Moves by Tech Giants Competition in the AI sector is gaining momentum in both product development and financing. OpenAI has begun testing ad placements in the free versions of ChatGPT in the U.S. market. The company also announced that its Codex macOS app surpassed 1 million downloads in its first week and that the new GPT-5.3-Codex-Spark model is powered by Cerebras chips. Meanwhile, Anthropic has introduced features for free users, including file creation and [&hellip;]",
+    "title": "New Models and Investments in the AI World",
+    "excerpt": "Strategic Moves from Tech Giants Competition in the AI sector has accelerated on both the product development and financing sides. OpenAI began ad display tests in the free versions of ChatGPT in the US market. The company also announced that the Codex macOS app surpassed 1 million downloads in its first week and that the new GPT-5.3-Codex-Spark model is powered by Cerebras chips. Meanwhile, Anthropic is offering free users file creation and [&hellip;]",
     "date": "2026-02-14T23:01:14Z",
     "categories": [
       {
@@ -1428,8 +1428,8 @@
     "id": 357,
     "slug": "the-turkish-ai-ecosystem-2025-report-has-been-published",
     "sourceSlug": "turk-yapay-zeka-ekosistemi-2025-raporu-yayinlandi",
-    "title": "The \"Turkish AI Ecosystem 2025\" Report Has Been Published",
-    "excerpt": "Ecosystem Data and Investment Trends: The findings of the \"Turkish AI Ecosystem and Global Impact Report,\" prepared in collaboration with AI Factory, Endeavor, and Startups.Watch, have been released. According to the data, there are 1,188 active AI startups in Turkey, and approximately 70 percent of them were founded in 2020 or later. On the corporate side, efforts to adopt AI through partnerships with startups [&hellip;]",
+    "title": "Turkish AI Ecosystem 2025 Report Published",
+    "excerpt": "Ecosystem Data and Investment Trends The results of the \"Turkish AI Ecosystem and Global Impact Report,\" prepared in collaboration with Yapay Zeka Fabrikası, Endeavor, and Startups.Watch, were shared. According to the data, there are 1,188 AI startups actively operating in Turkey, and about 70 percent of them were founded in 2020 or later. On the corporate side, companies are collaborating with startups for AI adoption [&hellip;]",
     "date": "2026-02-07T23:04:37Z",
     "categories": [
       {
@@ -1494,7 +1494,7 @@
     "slug": "anthropic-opus-4-6-and-ai-agents-announced",
     "sourceSlug": "anthropic-opus-4-6-ve-yapay-zeka-ajanlari-duyuruldu",
     "title": "Anthropic Opus 4.6 and AI Agents Announced",
-    "excerpt": "Anthropic has updated its flagship language model series and released Opus 4.6. Following the previous version, Opus 4.5, this update includes technical improvements specifically designed for enterprise workflows and software development processes. Multi-Agent Architecture The most significant feature introduced with Opus 4.6 is a system called “agent teams.” This structure enables complex operations [&hellip;]",
+    "excerpt": "Anthropic released version Opus 4.6 by updating its flagship language model series. This update, following the previous version Opus 4.5, includes technical improvements especially for enterprise workflows and software development processes. Multi-Agent Architecture The most important feature introduced with Opus 4.6 is the system called \"agent teams\". This structure handles complex operations [&hellip;]",
     "date": "2026-02-07T23:03:39Z",
     "categories": [
       {
@@ -1573,8 +1573,8 @@
     "id": 351,
     "slug": "google-gemini-reaches-750-million-active-users",
     "sourceSlug": "google-gemini-750-milyon-aktif-kullaniciya-ulasti",
-    "title": "Google Gemini Reaches 750 Million Active Users",
-    "excerpt": "Rapid Growth in User Base Google has reached a significant milestone with the mobile app for its AI assistant, Gemini. According to the latest data shared by the company, the app has surpassed the 750 million monthly active users (MAU) mark. These figures demonstrate that Google has strengthened its leadership position not only in its search engine infrastructure but also in the personal AI assistant market. Android Integration and the Impact of Gemini 3 [&hellip;]",
+    "title": "Google Gemini Reached 750 Million Active Users",
+    "excerpt": "Rapid Growth in the User Base Google has passed a major milestone in the mobile app of its AI assistant Gemini. According to the latest data shared by the company, the app exceeded the threshold of 750 million monthly active users (MAU). These figures show that Google is strengthening its leadership position not only in search engine infrastructure but also in the personal AI assistant market. Android Integration and the Gemini 3 Effect [&hellip;]",
     "date": "2026-02-07T23:02:50Z",
     "categories": [
       {
@@ -1644,7 +1644,7 @@
     "slug": "anthropic-claude-opus-4-6-1-million-token-support",
     "sourceSlug": "anthropic-claude-opus-4-6-1-milyon-token-destegi",
     "title": "Anthropic Claude Opus 4.6: 1 Million Token Support",
-    "excerpt": "Anthropic has announced Claude Opus 4.6, the latest version of Opus, its most powerful language model series. Equipped with \"AI agent\" capabilities that go beyond those of a typical language model, this version focuses on end-to-end management of complex projects and autonomous debugging processes. 1 Million Tokens and Adaptive Thinking Claude Opus 4.6 features a 1 million-token context window, available in beta, [&hellip;]",
+    "excerpt": "Anthropic announced Claude Opus 4.6, the new version of Opus, its most powerful language model series. Equipped with \"AI agent\" capabilities beyond being a language model, this version focuses on end-to-end management of complex projects and autonomous debugging processes. 1 Million Tokens and Adaptive Thinking Claude Opus 4.6, with its 1 million token context window offered in beta, [&hellip;]",
     "date": "2026-02-07T23:02:05Z",
     "categories": [
       {
@@ -1718,8 +1718,8 @@
     "id": 345,
     "slug": "ai-agenda-42-openai-nvidia-and-intel",
     "sourceSlug": "yapay-zeka-gundemi-42-openai-nvidia-ve-intel",
-    "title": "AI Agenda 42: OpenAI, Nvidia, and Intel",
-    "excerpt": "OpenAI and Nvidia Investment Process Negotiations regarding Nvidia’s expected investment in OpenAI have stalled due to disagreements over the business model and reservations among Nvidia employees. Although Sam Altman is exploring alternative chip manufacturers, he stated that the collaboration with Nvidia continues. Bloomberg reports that the investment could amount to $20 billion, which is below previous expectations. Intel and Market Turbulence in the Chip Industry Apple, due to rising costs [&hellip;]",
+    "title": "AI Agenda 42: OpenAI, Nvidia and Intel",
+    "excerpt": "OpenAI and Nvidia Investment Process Talks on Nvidia's expected investment in OpenAI stalled due to disagreements over the business model and concerns from Nvidia employees. Although Sam Altman is seeking alternative chip manufacturers, he stated that cooperation with Nvidia continues. Bloomberg reports that the investment could come in below previous expectations, at around $20 billion. Intel and Activity in the Chip Market Apple, due to rising costs [&hellip;]",
     "date": "2026-02-07T23:01:17Z",
     "categories": [
       {
@@ -1803,8 +1803,8 @@
     "id": 342,
     "slug": "openai-is-removing-the-gpt-4o-model-from-chatgpt",
     "sourceSlug": "openai-chatgptden-gpt-4o-modelini-kaldiriyor",
-    "title": "OpenAI Is Removing the GPT-4o Model from ChatGPT",
-    "excerpt": "The GPT-4o Era Is Coming to an End OpenAI has decided to streamline the variety of models on the ChatGPT platform. In a statement released by the company, it was noted that certain older versions, including GPT-4o, will be removed from the platform as of February 13. The primary reason cited for the decision was a shift in user habits. According to the data, a large portion of ChatGPT users are conducting their tasks through the GPT-5.2 model, which features a newer architecture [&hellip;]",
+    "title": "OpenAI Removes the GPT-4o Model from ChatGPT",
+    "excerpt": "The GPT-4o Era Is Ending OpenAI decided to simplify model diversity on the ChatGPT platform. In a statement by the company, it was stated that some older versions, including GPT-4o, will be removed from the platform as of February 13. The main reason behind the decision was cited as changing user habits. According to the data, a large majority of ChatGPT users carry out their operations through the GPT-5.2 model, which has a newer architecture [&hellip;]",
     "date": "2026-01-31T23:04:24Z",
     "categories": [
       {
@@ -1873,8 +1873,8 @@
     "id": 339,
     "slug": "openai-is-removing-its-gpt-4o-and-gpt-5-models",
     "sourceSlug": "openai-gpt-4o-ve-gpt-5-modellerini-kaldiriyor",
-    "title": "OpenAI Is Removing Its GPT-4o and GPT-5 Models",
-    "excerpt": "Major Change to OpenAI Models OpenAI has announced that it will end support for some popular versions by updating the model lifecycles in its AI infrastructure. According to the company’s official statement, certain models available to developers and end users will be retired as of Friday, February 13. While it is a standard process in the tech world for older models to be replaced by newer ones, this list includes GPT-4o and [&hellip;]",
+    "title": "OpenAI Is Removing GPT-4o and GPT-5 Models",
+    "excerpt": "Major change in OpenAI models OpenAI announced that it will end support for some popular versions by updating model life cycles in its AI infrastructure. According to the company’s official statement, certain models available to developers and end users will be retired as of Friday, February 13. Although it is a standard process in the tech world for outdated models to give way to new ones, this list includes GPT-4o and [&hellip;]",
     "date": "2026-01-31T23:03:42Z",
     "categories": [
       {
@@ -1948,8 +1948,8 @@
     "id": 336,
     "slug": "apple-announces-gemini-and-a-dedicated-cloud-infrastructure-for-siri",
     "sourceSlug": "apple-siri-icin-gemini-ve-ozel-bulut-altyapisini-duyurdu",
-    "title": "Apple Announces Gemini and a Dedicated Cloud Infrastructure for Siri",
-    "excerpt": "Siri and Gemini Integration Confirmed Apple CEO Tim Cook confirmed the strategic partnership with Google and announced that the Gemini model will be integrated into the iPhone ecosystem and Siri. This move is part of Apple’s strategy to bolster its own AI vision, Apple Intelligence, with powerful third-party LLM (Large Language Model) capabilities. Private Cloud Compute (PCC) Architecture Partnership [&hellip;]",
+    "title": "Apple Announced Gemini and Private Cloud Infrastructure for Siri",
+    "excerpt": "Siri and Gemini Integration Confirmed Apple CEO Tim Cook confirmed the strategic partnership with Google and announced that the Gemini model will be integrated into the iPhone ecosystem and Siri. This step is being implemented as part of Apple's strategy to support its own AI vision, Apple Intelligence, with externally sourced powerful LLM (Large Language Model) capabilities. Private Cloud Compute (PCC) Architecture The partnership [&hellip;]",
     "date": "2026-01-31T23:02:55Z",
     "categories": [
       {
@@ -2023,8 +2023,8 @@
     "id": 333,
     "slug": "redesigning-business-processes-with-artificial-intelligence",
     "sourceSlug": "yapay-zeka-ile-is-sureclerinin-yeniden-insasi",
-    "title": "Redesigning Business Processes with Artificial Intelligence",
-    "excerpt": "While 2025 is marked by pilot projects in the tech world, 2026 stands out as a period when these experiments translate into operational results. Businesses now view artificial intelligence technologies not merely as a tool, but as a strategic necessity at the heart of their business processes. Technological Transformation and Agent Systems Artificial intelligence systems are evolving from screen-based applications to entities capable of making decisions in the physical world. This [&hellip;]",
+    "title": "Rebuilding Business Processes with AI",
+    "excerpt": "While 2025 passes in the tech world with trial processes, 2026 stands out as a period when these experiences turn into operational results. Businesses now view AI technologies not only as a tool but as a strategic necessity at the center of business processes. Technological Transformation and Agent Systems AI systems are evolving from screen-based applications into structures that can make decisions in the physical world. This [&hellip;]",
     "date": "2026-01-31T23:02:12Z",
     "categories": [
       {
@@ -2093,8 +2093,8 @@
     "id": 330,
     "slug": "apple-s-acquisition-of-q-ai-and-this-week-s-ai-news-roundup",
     "sourceSlug": "apple-q-ai-satin-alimi-ve-haftanin-yapay-zeka-gundemi",
-    "title": "Apple's Acquisition of Q.ai and This Week's AI News Roundup",
-    "excerpt": "Product and Integration Developments Integration efforts and new product launches gained momentum in the AI ecosystem this week. As Apple prepares to unveil the new Gemini-powered Siri in February, it stated that it will use a dedicated cloud infrastructure to ensure the security of user data. Meanwhile, OpenAI announced Prism, a LaTeX-based tool for scientific research, and it was discovered that ChatGPT has begun using Grokipedia data owned by xAI [&hellip;]",
+    "title": "Apple’s Q.ai Acquisition and the Week’s AI Agenda",
+    "excerpt": "Product and Integration Developments This week, integration and new product launches accelerated in the AI ecosystem. Apple stated that it will use a dedicated cloud infrastructure for user data security as it prepares to introduce the new Gemini-powered Siri in February. Meanwhile, OpenAI announced the LaTeX-based Prism tool for scientific research, and it was found that ChatGPT has started using xAI-owned Grokipedia data [&hellip;]",
     "date": "2026-01-31T23:01:23Z",
     "categories": [
       {
@@ -2173,8 +2173,8 @@
     "id": 328,
     "slug": "with-ios-27-apple-is-turning-siri-into-a-chatbot",
     "sourceSlug": "apple-ios-27-ile-siri-sohbet-botuna-donusuyor",
-    "title": "With iOS 27, Apple Is Turning Siri Into a Chatbot",
-    "excerpt": "New Infrastructure for Siri: Campos Apple is undergoing a comprehensive transformation of its voice assistant, Siri, with the release of iOS 27. Developed under the code name \"Campos,\" this new framework aims to transform Siri from a simple command-executing assistant into an advanced chatbot capable of understanding context. According to information cited from Bloomberg sources, this move is a response to competitors such as OpenAI and Google’s ecosystems [&hellip;]",
+    "title": "Apple Turns Siri into a Chatbot with iOS 27",
+    "excerpt": "New Infrastructure for Siri: Campos Apple is putting its voice assistant Siri through a comprehensive transformation with the iOS 27 version. This new structure, developed under the code name \"Campos,\" aims to turn Siri from an assistant that carries out simple commands into an advanced chatbot that can understand context. According to information based on Bloomberg sources, this move is the ecosystem of competitors such as OpenAI and Google [&hellip;]",
     "date": "2026-01-24T23:05:44Z",
     "categories": [
       {
@@ -2242,8 +2242,8 @@
     "id": 325,
     "slug": "allegations-that-google-is-involved-in-apple-s-next-generation-siri-infrastructu",
     "sourceSlug": "applein-yeni-nesil-siri-altyapisinda-google-iddiasi",
-    "title": "Allegations That Google Is Involved in Apple's Next-Generation Siri Infrastructure",
-    "excerpt": "Infrastructure Talks Between Apple and Google According to a new report from Bloomberg, Apple is in talks with Google regarding infrastructure for future versions of its digital assistant, Siri. The reports suggest that Apple may use servers equipped with Google’s Tensor Processing Units (TPUs)—which are specifically designed for AI processing—instead of its own “Private Cloud Compute” architecture. This potential collaboration could, in particular, [&hellip;]",
+    "title": "Claim of Google in Apple's Next-Generation Siri Infrastructure",
+    "excerpt": "Infrastructure Talks Between Apple and Google According to a new Bloomberg-sourced report, Apple is holding infrastructure talks with Google for future versions of its digital assistant Siri. The claims indicate that Apple may use servers equipped with Google's Tensor Processing Units (TPU), specially designed for AI processing, instead of its self-developed \"Private Cloud Compute\" architecture. This potential collaboration, especially [&hellip;]",
     "date": "2026-01-24T23:04:55Z",
     "categories": [
       {
@@ -2317,8 +2317,8 @@
     "id": 322,
     "slug": "craig-federighi-takes-over-as-head-of-apple-s-ai-division",
     "sourceSlug": "apple-yapay-zeka-yonetimini-craig-federighi-devraldi",
-    "title": "Craig Federighi Takes Over as Head of Apple's AI Division",
-    "excerpt": "Organizational Restructuring: Apple has made a fundamental shift in its AI strategy, placing all AI operations under the direct oversight of Chief Software Officer Craig Federighi. According to a report by The Information, delays in the development of Siri and Apple Intelligence features played a role in this decision to centralize management. The Siri team, which was previously part of a separate AI group, is now under Federighi’s software department [&hellip;]",
+    "title": "Craig Federighi Took Over Apple AI Management",
+    "excerpt": "Organizational Restructuring Apple made a fundamental change in its AI strategy and put all AI operations under the direct oversight of Software Chief Craig Federighi. According to The Information report, delays in the development processes of Siri and Apple Intelligence features were effective in this decision on centralized management. The Siri team, which was previously under a separate AI group, is now in Federighi's software department [&hellip;]",
     "date": "2026-01-24T23:04:08Z",
     "categories": [
       {
@@ -2387,8 +2387,8 @@
     "id": 319,
     "slug": "ebay-has-banned-ai-shopping-bots",
     "sourceSlug": "ebay-yapay-zeka-alisveris-botlarini-yasakladi",
-    "title": "eBay Has Banned AI Shopping Bots",
-    "excerpt": "Legal Barriers to Automated Shopping Agents The e-commerce platform eBay has imposed restrictions on third-party automation tools and AI-powered shopping bots through an update to its user agreement. The company is specifically targeting “buy for me” agents—which can place orders without human intervention—and LLM-based bots. This technology, known in the industry as “agentic commerce,” allows users [&hellip;]",
+    "title": "eBay Banned AI Shopping Bots",
+    "excerpt": "Legal barrier to automated shopping agents E-commerce platform eBay, with an update to its user agreement, imposed restrictions on third-party automation tools and AI-powered shopping bots. The company is specifically targeting “buy for me” agents that can create orders without human intervention and LLM-based bots. This technology, defined in the industry as “agentic commerce,” users [&hellip;]",
     "date": "2026-01-24T23:02:46Z",
     "categories": [
       {
@@ -2462,8 +2462,8 @@
     "id": 316,
     "slug": "ai-news-hardware-lawsuits-and-investments",
     "sourceSlug": "yapay-zeka-gundemi-donanim-dava-ve-yatirimlar",
-    "title": "AI News: Hardware, Lawsuits, and Investments",
-    "excerpt": "The Legal Dispute Between OpenAI and Elon Musk Elon Musk is seeking up to $134 billion in damages from OpenAI and Microsoft, alleging a deviation from their nonprofit mission. OpenAI, however, is contesting this claim, arguing that Musk’s allegations are based on incomplete information. Hardware-Focused Developments AI companies are moving beyond software and preparing to take concrete steps in the hardware space: OpenAI: [&hellip;]",
+    "title": "AI Agenda: Hardware, Lawsuit, and Investments",
+    "excerpt": "Legal Process Between OpenAI and Elon Musk Elon Musk is seeking up to $134 billion in damages from OpenAI and Microsoft, arguing that they deviated from the non-profit mission. OpenAI, for its part, opposes this claim, arguing that Musk's allegations contain incomplete information. Hardware-Focused Developments AI companies are preparing to take concrete steps on the hardware side as well, going beyond software: OpenAI: […]",
     "date": "2026-01-24T23:01:50Z",
     "categories": [
       {
@@ -2547,8 +2547,8 @@
     "id": 306,
     "slug": "i10x-a-platform-that-brings-together-ai-tools-in-a-single-dashboard",
     "sourceSlug": "i10x-yapay-zeka-araclarini-tek-panelde-toplayan-platform",
-    "title": "i10X: A platform that brings together AI tools in a single dashboard",
-    "excerpt": "All Models on a Single Screen: i10X offers a unified workspace designed to eliminate the challenge users face in managing different AI subscriptions. The platform brings together leading Large Language Models (LLMs)—such as GPT, Claude, Gemini, and Grok—into a single interface called “Chat Arena.” This structure allows users to test the same prompt across different models to compare results in terms of accuracy and creativity [&hellip;]",
+    "title": "i10X: Platform that brings AI tools together in one panel",
+    "excerpt": "All Models on One Screen i10X offers a unified workspace aimed at removing the difficulty of managing different AI subscriptions. The platform brings together leading Large Language Models (LLM) such as GPT, Claude, Gemini and Grok in a single interface called \"Chat Arena\". This structure lets users test the same prompt across different models and compare the results for accuracy and creativity [&hellip;]",
     "date": "2026-01-17T23:04:43Z",
     "categories": [
       {
@@ -2632,8 +2632,8 @@
     "id": 303,
     "slug": "uipath-is-transforming-automation-with-its-agentic-ai-model",
     "sourceSlug": "uipath-agentic-ai-modeli-ile-otomasyonu-degistiriyor",
-    "title": "UiPath Is Transforming Automation with Its Agentic AI Model",
-    "excerpt": "The Transition from Classic Automation to the Era of Agentic AI UiPath, which operates in more than 50 countries worldwide and serves approximately 11,000 enterprise customers, is making a significant shift in its automation strategy. The company is accelerating its transition to a new model called “Agentic Automation” by expanding beyond traditional task automation processes. This new approach goes beyond simply having robots perform defined tasks to address more complex [&hellip;]",
+    "title": "UiPath Is Changing Automation with the Agentic AI Model",
+    "excerpt": "Transition from Classical Automation to the Agentic AI Era Operating in more than 50 countries globally and serving about 11,000 enterprise customers, UiPath is making a major change in its automation strategy. The company is accelerating the transition to a new model called \"Agentic Automation\" by expanding traditional task automation processes. This new approach involves not only robots performing defined tasks, but also more complex [&hellip;]",
     "date": "2026-01-17T23:03:54Z",
     "categories": [
       {
@@ -2707,8 +2707,8 @@
     "id": 300,
     "slug": "apple-is-adding-google-gemini-models-to-its-devices",
     "sourceSlug": "apple-cihazlarina-google-gemini-modellerini-ekliyor",
-    "title": "Apple Is Adding Google Gemini Models to Its Devices",
-    "excerpt": "Strategic Infrastructure Agreement Between Google and Apple Apple has made a significant shift in its AI strategy by entering into a comprehensive partnership with Google. Under the terms of the agreement, Apple will leverage Google’s Gemini models and cloud infrastructure to support AI features on its devices, particularly Siri. In a joint statement issued by the two companies, Google’s technology will form the foundation of Apple’s AI [&hellip;]",
+    "title": "Apple Adds Google Gemini Models to Its Devices",
+    "excerpt": "Strategic Infrastructure Agreement Between Google and Apple Apple made a major change in its AI strategy and entered into a comprehensive partnership with Google. Under the agreement, Apple will use Google's Gemini models and cloud infrastructure to support AI features on its devices, especially Siri. In a joint statement by the two companies, Google's technology was said to support Apple's core AI [&hellip;]",
     "date": "2026-01-17T23:03:05Z",
     "categories": [
       {
@@ -2787,8 +2787,8 @@
     "id": 297,
     "slug": "the-25-companies-that-received-the-most-investment-in-europe-in-2025",
     "sourceSlug": "2025te-avrupada-en-cok-yatirim-alan-25-sirket",
-    "title": "The 25 Companies That Received the Most Investment in Europe in 2025",
-    "excerpt": "Outlook for the European Technology Ecosystem in 2025: According to data from the Europe & Turkey Technology and Investment Report, Europe-based technology companies received a total of 72 billion euros in investment in 2025. This figure marks the second-highest investment volume in the past three years. While more than 3,740 deals were closed throughout the year, investor interest focused particularly on economic resilience, industrial competitiveness, and long-term [&hellip;]",
+    "title": "Top 25 Most Funded Companies in Europe in 2025",
+    "excerpt": "2025 Outlook for the European Technology Ecosystem According to the Europe &#038; Türkiye Technology and Investment Report, Europe-based technology companies received a total of 72 billion euros in funding in 2025. This figure was recorded as the second-highest funding volume of the last three years. While more than 3,740 deals were completed throughout the year, investor interest focused especially on economic resilience, industrial competitiveness, and long [&hellip;]",
     "date": "2026-01-17T23:02:21Z",
     "categories": [
       {
@@ -2867,8 +2867,8 @@
     "id": 294,
     "slug": "health-and-agent-transformation-in-the-artificial-intelligence-ecosystem",
     "sourceSlug": "yapay-zeka-ekosisteminde-saglik-ve-ajan-donusumu",
-    "title": "Health and Agent Transformation in the Artificial Intelligence Ecosystem",
-    "excerpt": "Integration of Artificial Intelligence in Healthcare Major tech companies are deepening the integration of AI models into the healthcare sector. While Anthropic added a medical record analysis feature to its Claude model, OpenAI acquired the healthcare startup Torch to expand its data processing capabilities. Google is focusing on medical text and image analysis with its MedGemma 1.5 and MedASR models. Additionally, Nvidia and Lilly are collaborating on a joint [&hellip;] to accelerate drug discovery processes.",
+    "title": "Health and Agent Transformation in the AI Ecosystem",
+    "excerpt": "AI Integration in Healthcare Major technology companies are deepening AI models in the healthcare sector. While Anthropic added a medical record analysis feature to the Claude model, OpenAI increased its data processing capacity by acquiring health startup Torch. Google focuses on medical text and image analysis with the MedGemma 1.5 and MedASR models. In addition, Nvidia and Lilly formed a partnership to accelerate drug discovery processes [&hellip;]",
     "date": "2026-01-17T23:01:08Z",
     "categories": [
       {
@@ -2947,8 +2947,8 @@
     "id": 291,
     "slug": "msi-ai-edge-126-tops-of-ai-performance-in-a-4-liter-case",
     "sourceSlug": "msi-ai-edge-4-litre-kasada-126-tops-ai-performansi",
-    "title": "MSI AI Edge: 126 TOPS of AI Performance in a 4-Liter Case",
-    "excerpt": "Compact Infrastructure for Edge AI MSI has announced a new series of desktop computers optimized for Edge AI (edge artificial intelligence) computations. Featuring a compact 4-liter form factor, the AI Edge model is specifically designed for AI projects, engineering work, and development processes that require data to be processed locally on the device. Hardware Architecture and Memory Management At the core of the system [&hellip;]",
+    "title": "MSI AI Edge: 126 TOPS AI Performance in a 4-Liter Chassis",
+    "excerpt": "Compact Infrastructure for Edge AI MSI announced its new desktop series optimized for Edge AI computations. Featuring a compact 4-liter form factor, the AI Edge model is designed especially for AI projects, engineering work, and development processes that require data to be processed on the local device. Hardware Architecture and Memory Management At the core of the system [&hellip;]",
     "date": "2026-01-10T23:05:16Z",
     "categories": [
       {
@@ -3032,8 +3032,8 @@
     "id": 288,
     "slug": "apple-is-entering-5-new-hardware-categories-in-2026",
     "sourceSlug": "apple-2026-yilinda-5-yeni-donanim-kategorisine-giriyor",
-    "title": "Apple Is Entering 5 New Hardware Categories in 2026",
-    "excerpt": "According to Apple’s 2026 product roadmap, the company is focusing on five different hardware categories beyond its current portfolio. While the company is expected to unveil more than 20 products this year, the strategy centers on artificial intelligence integration, home automation (IoT), and new form factors. Foldable iPhone and Display Technology The foldable iPhone (iPhone Fold) model, known to have been in the R&D phase for quite some time, is expected to be unveiled this year [&hellip;]",
+    "title": "Apple Enters 5 New Hardware Categories in 2026",
+    "excerpt": "According to Apple's 2026 product planning, the company is focusing on five different hardware categories beyond its current portfolio. While the company is expected to introduce more than 20 products this year, the strategy centers on AI integration, home automation (IoT), and new form factors. Foldable iPhone and Display Technology The foldable iPhone (iPhone Fold), long known to be in the R&D stage, is expected to be introduced this year [&hellip;]",
     "date": "2026-01-10T23:04:25Z",
     "categories": [
       {
@@ -3107,8 +3107,8 @@
     "id": 285,
     "slug": "the-gemini-3-effect-chatgpt-traffic-is-down",
     "sourceSlug": "gemini-3-etkisi-chatgpt-trafiginde-dusus-var",
-    "title": "The Gemini 3 Effect: ChatGPT Traffic Is Down",
-    "excerpt": "Changes in AI Traffic Data According to recent data shared by Similarweb, a decline in traffic was observed on OpenAI’s ChatGPT service following the launch of Google’s Gemini 3 model in November. Looking at the data for December, Gemini traffic increased by 28 percent compared to the previous month, while ChatGPT traffic decreased by 5.6 percent. Despite this decline, ChatGPT still had 5.5 billion monthly visitors [&hellip;]",
+    "title": "Gemini 3 Effect: There Is a Drop in ChatGPT Traffic",
+    "excerpt": "Change in AI Traffic Data According to current data shared by Similarweb, a drop in traffic was observed in OpenAI's ChatGPT service after November, when Google launched its Gemini 3 model. Looking at December data, Gemini traffic increased by 28 percent compared to the previous month, while ChatGPT traffic decreased by 5.6 percent. Despite this drop, ChatGPT, with 5.5 billion monthly visitors, [&hellip;]",
     "date": "2026-01-10T23:03:34Z",
     "categories": [
       {
@@ -3177,8 +3177,8 @@
     "id": 282,
     "slug": "ces-2026-announcements-and-this-week-s-ai-roundup",
     "sourceSlug": "ces-2026-duyurulari-ve-haftanin-yapay-zeka-ozeti",
-    "title": "CES 2026 Announcements and This Week's AI Roundup",
-    "excerpt": "New AI Models This week, new foundational models focused on various use cases were introduced. Developments in on-device inference and the healthcare sector are particularly noteworthy: Falcon H1R 7B: Developed by TII, this compact hybrid inference engine delivers higher performance than its peers in its size class on math and coding tasks and doubles inference speed. LFM [&hellip;]",
+    "title": "CES 2026 Announcements and the Week's AI Summary",
+    "excerpt": "New AI Models This week, new foundation models focused on different use cases were introduced. In particular, advances in on-device inference and healthcare stand out: Falcon H1R 7B: Developed by TII, this small and hybrid reasoning model delivers higher performance than same-size rivals on math and coding tasks and doubles inference speed. LFM […]",
     "date": "2026-01-10T23:02:46Z",
     "categories": [
       {
@@ -3262,8 +3262,8 @@
     "id": 279,
     "slug": "enterprise-artificial-intelligence-and-technology-trends-for-2025",
     "sourceSlug": "kurumsal-yapay-zeka-ve-2025-teknoloji-trendleri",
-    "title": "Enterprise Artificial Intelligence and Technology Trends for 2025",
-    "excerpt": "Rapid Growth in the Enterprise AI Market The year 2025 marked a period of accelerated integration of AI technologies into enterprise business processes. The enterprise AI market grew from $1.7 billion in 2023 to $37 billion, accounting for 6 percent of the SaaS market. This increase clearly demonstrates companies’ demand for generative AI and automation solutions [&hellip;]",
+    "title": "Enterprise AI and 2025 Technology Trends",
+    "excerpt": "Rapid Growth in the Enterprise AI Market 2025 was a period when the integration of AI technologies into corporate business processes accelerated. The enterprise AI market rose from 1.7 billion dollars in 2023 to 37 billion dollars, accounting for 6 percent of the SaaS market. This increase clearly revealed companies' demand for generative AI and automation solutions [...]",
     "date": "2026-01-10T23:01:45Z",
     "categories": [
       {
@@ -3337,8 +3337,8 @@
     "id": 276,
     "slug": "nvidia-is-preparing-to-acquire-ai21-labs",
     "sourceSlug": "nvidia-ai21-labsi-satin-almaya-hazirlaniyor",
-    "title": "Nvidia Is Preparing to Acquire AI21 Labs",
-    "excerpt": "Acquisition Talks and Valuation Nvidia has begun talks to acquire AI21 Labs, an Israel-based company working on large language models (LLMs) and AI agents. According to industry sources, the potential deal is estimated to be worth between $2 billion and $3 billion. If this acquisition goes through, it will significantly expand Nvidia’s ecosystem on the software and model side. AI21 [&hellip;]",
+    "title": "Nvidia Prepares to Acquire AI21 Labs",
+    "excerpt": "Acquisition Talks and Valuation Nvidia has begun talks to acquire Israel-based AI21 Labs, which works on large language models (LLM) and AI agents. According to information based on industry sources, the potential deal is estimated at between $2 billion and $3 billion. If this acquisition takes place, Nvidia’s ecosystem on the software and model side will expand significantly. AI21 […]",
     "date": "2026-01-03T23:05:05Z",
     "categories": [
       {
@@ -3417,8 +3417,8 @@
     "id": 273,
     "slug": "openai-is-developing-audio-focused-hardware-and-models",
     "sourceSlug": "openai-ses-odakli-donanim-ve-model-gelistiriyor",
-    "title": "OpenAI Is Developing Audio-Focused Hardware and Models",
-    "excerpt": "OpenAI is undergoing a restructuring that places voice at the center of its AI strategy. The company is merging its engineering, product, and research teams to overhaul its voice models from the ground up. The primary goal of this operational change is to develop a voice-focused personal hardware device scheduled for release in about a year. Screen-Independent Interaction and the Jony Ive Effect The new architecture being developed is not limited to ChatGPT’s [&hellip;]",
+    "title": "OpenAI Develops Voice-Focused Hardware and Models",
+    "excerpt": "OpenAI is moving to a new structure that puts voice at the center of its AI strategy. The company is fully revising its voice models by combining engineering, product, and research teams. The main goal of this operational change is to develop a voice-focused personal hardware device planned to be released in about a year. Screen-Independent Interaction and the Jony Ive Effect The new architecture being developed is not only ChatGPT’s [&hellip;]",
     "date": "2026-01-03T23:04:16Z",
     "categories": [
       {
@@ -3482,8 +3482,8 @@
     "id": 270,
     "slug": "medo-a-text-based-application-development-platform",
     "sourceSlug": "medo-metin-komutuyla-uygulama-gelistirme-platformu",
-    "title": "MeDo: A Text-Based Application Development Platform",
-    "excerpt": "From Text to Application: MeDo’s Infrastructure Developed within the Baidu ecosystem, MeDo uses natural language processing capabilities to transform text commands into functioning web applications. Aimed at accelerating the MVP (Minimum Viable Product) creation process for startups and developers, the platform can automatically generate and deploy frontend, backend, database, and integration layers. The platform allows users to define concepts such as an “income and expense tracker” or an “e-commerce storefront” [&hellip;]",
+    "title": "MeDo: Application Development Platform with Text Commands",
+    "excerpt": "From Text to Application: MeDo's Infrastructure Developed within the Baidu ecosystem, MeDo uses natural language processing capabilities to turn text commands into working web applications. The platform, which aims to speed up the MVP (Minimum Packaged Product) creation process for startups and developers, can automatically create and deploy frontend, backend, database, and integration layers. The platform can turn users' descriptions such as \"income and expense tracking tool\" or \"e-commerce storefront\" into [&hellip;]",
     "date": "2026-01-03T23:03:32Z",
     "categories": [
       {
@@ -3552,8 +3552,8 @@
     "id": 267,
     "slug": "10-ai-verticals-set-to-take-off-in-2025",
     "sourceSlug": "2025-yilinda-yukselise-gecen-10-yapay-zeka-dikeyi",
-    "title": "10 AI Verticals Set to Take Off in 2025",
-    "excerpt": "As of 2025, artificial intelligence has moved beyond the category of standalone applications to become a foundational technology layer integrated into the business world and public sector processes. During this period, in which autonomous agents have gained operational capabilities, video production has accelerated, and corporate efficiency has been redefined, the 10 key verticals that stand out are listed below. 1. Autonomous AI Agents: Replacing chatbots with agents capable of planning and [&hellip;]",
+    "title": "10 AI Verticals Rising in 2025",
+    "excerpt": "As of 2025, AI has moved beyond a standalone application category and become a core technology layer integrated into business and public processes. In this period, when autonomous agents gained operational capability, video generation accelerated, and enterprise productivity was redefined, the 10 key verticals that stand out are below. 1. Autonomous AI Agents Replacing bots that only chat are those that can plan and [&hellip;]",
     "date": "2026-01-03T23:02:41Z",
     "categories": [
       {
@@ -3628,7 +3628,7 @@
     "slug": "llm-management-and-observability-platform-helicone",
     "sourceSlug": "llm-yonetimi-ve-gozlemlenebilirlik-platformu-helicone",
     "title": "LLM Management and Observability Platform: Helicone",
-    "excerpt": "Centralized LLM Management Designed for teams developing AI-based products, Helicone serves as an open-source gateway and observability platform. The Y Combinator-backed startup enables the management of large language models (LLMs) distributed across different providers from a single hub. The platform aims to allow developers to focus on their product rather than spending time on integration processes. Technical Infrastructure and Integration [&hellip;]",
+    "excerpt": "LLM Management from a Single Center Designed for teams developing AI-based products, Helicone serves as an open-source gateway and observability platform. The Y Combinator-backed startup enables large language models (LLM) spread across different providers to be managed from a single center. The platform aims to help developers focus on the product instead of spending time on integration processes. Technical Infrastructure and Integration [&hellip;]",
     "date": "2026-01-03T23:01:48Z",
     "categories": [
       {
@@ -3697,8 +3697,8 @@
     "id": 261,
     "slug": "2025-technology-overview-artificial-intelligence-and-industry-specific-changes",
     "sourceSlug": "2025-teknoloji-ozeti-yapay-zeka-ve-sektorel-degisimler",
-    "title": "2025 Technology Overview: Artificial Intelligence and Industry-Specific Changes",
-    "excerpt": "Industry Mergers and Acquisitions The year 2025 saw a wave of consolidation among media and technology giants. Netflix initiated the process of acquiring Warner Bros. for $82.7 billion. With this deal, expected to be finalized in the third quarter of 2026, intellectual property such as HBO Max, Harry Potter, and Game of Thrones will come under the Netflix umbrella. However, regulatory agencies are investigating antitrust claims [&hellip;]",
+    "title": "2025 Technology Summary: AI and Sectoral Changes",
+    "excerpt": "Sectoral Mergers and Acquisitions 2025 saw the consolidation of media and technology giants. Netflix began the process of acquiring Warner Bros. for $82.7 billion. With this deal, expected to be completed in the third quarter of 2026, intellectual properties such as HBO Max, Harry Potter, and Game of Thrones will come under the Netflix umbrella. However, regulatory bodies’ reviews of monopoly claims [&hellip;]",
     "date": "2025-12-27T23:05:12Z",
     "categories": [
       {
@@ -3772,8 +3772,8 @@
     "id": 258,
     "slug": "statcounter-november-2025-artificial-intelligence-market-share-data",
     "sourceSlug": "statcounter-kasim-2025-yapay-zeka-pazar-payi-verileri",
-    "title": "Statcounter November 2025 Artificial Intelligence Market Share Data",
-    "excerpt": "Global Market Leadership Rankings Data for November 2025 shared by Statcounter has clarified user preferences in the AI market. On a global scale, ChatGPT continues to maintain its lead by a wide margin with an 81.84% market share. Despite competitors’ aggressive marketing strategies and integrations, no significant shift in user habits has been observed. The global market share rankings are as follows: ChatGPT: 81.84% Perplexity: 11.06% Copilot: 3.06% Gemini: 2.97% [&hellip;]",
+    "title": "Statcounter November 2025 AI Market Share Data",
+    "excerpt": "Global Market Leadership Ranking The November 2025 data shared by Statcounter clarified user preferences in the AI market. Globally, ChatGPT continues its lead by a wide margin with an 81.84% market share. Despite competitors’ aggressive marketing strategies and integrations, no deep-rooted change is observed in user habits. The worldwide market share ranking is as follows: ChatGPT: 81.84% Perplexity: 11.06% Copilot: 3.06% Gemini: 2.97% […]",
     "date": "2025-12-27T23:04:25Z",
     "categories": [
       {
@@ -3852,8 +3852,8 @@
     "id": 255,
     "slug": "artificial-intelligence-news-new-models-and-investments",
     "sourceSlug": "yapay-zeka-gundemi-yeni-modeller-ve-yatirimlar",
-    "title": "Artificial Intelligence News: New Models and Investments",
-    "excerpt": "In the AI ecosystem this week, infrastructure investments—particularly new models focused on coding and interface development—are taking center stage. Competition in the sector is shaped by increases in technical capacity and hardware strategies. New AI Models: Three major announcements were made regarding models aimed at enhancing technical capabilities and specialized task performance: MiniMax M2.1: This model, focused on multilingual software and interface development, [&hellip;]",
+    "title": "AI Agenda: New Models and Investments",
+    "excerpt": "In the AI ecosystem this week, new models and infrastructure investments, especially focused on coding and interface development, stand out. Competition in the sector is taking shape through increases in technical capacity and hardware strategies. New AI Models On the model side, three major announcements took place targeting technical capacity and specialized task performance: MiniMax M2.1: This multilingual software and interface development-focused [&hellip;]",
     "date": "2025-12-27T23:03:37Z",
     "categories": [
       {
@@ -3938,7 +3938,7 @@
     "slug": "the-most-important-ai-developments-and-tools-of-2025",
     "sourceSlug": "2025in-en-onemli-yapay-zeka-gelismeleri-ve-araclari",
     "title": "The Most Important AI Developments and Tools of 2025",
-    "excerpt": "The Shift from Generative AI to Action-Oriented Agents The year 2025 marked a period in which AI technologies evolved from being merely tools that generate text or images to systems capable of autonomously performing complex tasks. Large Language Models (LLMs) have gradually given way to Large Action Models. Visual and Video Processing Technologies Models released this year, [&hellip;]",
+    "excerpt": "The Shift from Generative AI to Action-Oriented Agents The year 2025 became a period in which AI technologies evolved from being only tools that produce text or visuals into systems that can autonomously carry out complex tasks. Large Language Models (LLM) gradually gave way to Large Action Models. Visual and Video Processing Technologies The models released this year, [&hellip;]",
     "date": "2025-12-27T23:02:41Z",
     "categories": [
       {
@@ -4012,8 +4012,8 @@
     "id": 249,
     "slug": "prompt-engineering-fundamental-principles-and-methods",
     "sourceSlug": "prompt-muhendisligi-temel-ilkeler-ve-yontemler",
-    "title": "Prompt Engineering: Fundamental Principles and Methods",
-    "excerpt": "In artificial intelligence systems, prompt engineering is the process of optimizing prompts to ensure that the desired result is obtained from language models (LLMs) with the highest possible accuracy. When interacting with models such as ChatGPT, GPT-4, and similar ones, the quality of the inputs directly determines the success of the outputs. This discipline serves as a bridge between natural language processing and technical guidance. Prompt Structure and Key Components A prompt consists of a task description, [&hellip;]",
+    "title": "Prompt Engineering: Core Principles and Methods",
+    "excerpt": "In AI systems, prompt engineering is the process of optimizing instructions to obtain the requested result from language models (LLM) with the highest accuracy. In interaction with ChatGPT, GPT-4, and similar models, the quality of the inputs directly determines the success of the outputs. This discipline serves as a bridge between natural language processing and technical guidance. Prompt Structure and Core Components A prompt consists of the task definition, […]",
     "date": "2025-12-27T23:01:48Z",
     "categories": [
       {
@@ -4087,8 +4087,8 @@
     "id": 246,
     "slug": "openai-announces-gpt-5-2-codex-an-autonomous-coding-model",
     "sourceSlug": "openai-otonom-kodlama-modeli-gpt-5-2-codexi-duyurdu",
-    "title": "OpenAI Announces GPT-5.2 Codex, an Autonomous Coding Model",
-    "excerpt": "A New Standard in Autonomous Coding: GPT-5.2 Codex OpenAI has introduced its new Codex model, built on the GPT-5.2 architecture, with the aim of accelerating software development processes. Featuring more advanced autonomous capabilities compared to previous generations, the system promises high performance, particularly in long-term context management and complex system setups. The model’s most notable feature is its built-in context compression technology. Thanks to this, [&hellip;]",
+    "title": "OpenAI Announced the Autonomous Coding Model GPT-5.2 Codex",
+    "excerpt": "New Standard in Autonomous Coding: GPT-5.2 Codex OpenAI introduced the new Codex model built on the GPT-5.2 architecture to accelerate software development processes. Compared to previous generations, the system has more advanced autonomous capabilities and promises high performance especially in long-term context management and complex system setups. The model’s most notable feature is its built-in context compression technology. Thanks to this, [&hellip;]",
     "date": "2025-12-20T23:04:26Z",
     "categories": [
       {
@@ -4158,7 +4158,7 @@
     "slug": "speed-and-editing-update-for-openai-chatgpt-images",
     "sourceSlug": "openai-chatgpt-images-icin-hiz-ve-duzenleme-guncellemesi",
     "title": "Speed and Editing Update for OpenAI ChatGPT Images",
-    "excerpt": "Speed and Performance Improvements OpenAI has released a new update for its image generation model, ChatGPT Images. Thanks to the technical improvements made, the model is reported to run up to four times faster than previous versions. This performance boost is designed to increase efficiency, particularly in scenarios requiring rapid concept development and near-real-time image generation. Advanced Editing and Consistency The update enables image generation from scratch [&hellip;]",
+    "excerpt": "Speed and Performance Improvements OpenAI released a new update for the image generation model ChatGPT Images. With the technical improvements made, the model is stated to run up to four times faster than previous versions. This performance increase aims to improve efficiency, especially in scenarios requiring rapid concept work and near real-time image generation. Advanced Editing and Consistency The update, from-scratch image [&hellip;]",
     "date": "2025-12-20T23:03:40Z",
     "categories": [
       {
@@ -4222,8 +4222,8 @@
     "id": 240,
     "slug": "openai-releases-new-coding-model-gpt-5-2-codex",
     "sourceSlug": "openai-yeni-kodlama-modeli-gpt-5-2-codexi-yayinladi",
-    "title": "OpenAI Releases New Coding Model, GPT-5.2-Codex",
-    "excerpt": "GPT-5.2-Codex Architecture and Performance OpenAI has announced the GPT-5.2-Codex model, which is based on the GPT-5.2 infrastructure and optimized for complex software engineering processes. The new model includes significant improvements, particularly in context compression, code refactoring, and performance in Windows environments. In tests, the model outperformed previous versions, achieving a 56.4% improvement on the SWE-Bench Pro test and a [&hellip;]% improvement on the Terminal-Bench 2.0 test.",
+    "title": "OpenAI Released the New Coding Model GPT-5.2-Codex",
+    "excerpt": "GPT-5.2-Codex Architecture and Performance OpenAI announced the GPT-5.2-Codex model, based on the GPT-5.2 infrastructure and optimized for complex software engineering processes. The new model includes significant improvements especially in context compression, code refactoring, and Windows environment performance. In tests, the model outperformed previous versions, scoring 56.4 percent on the SWE-Bench Pro test and percent [&hellip;] on the Terminal-Bench 2.0 test.",
     "date": "2025-12-20T23:02:49Z",
     "categories": [
       {
@@ -4298,7 +4298,7 @@
     "slug": "10-ai-powered-marketing-automation-tools",
     "sourceSlug": "yapay-zeka-destekli-10-pazarlama-otomasyon-araci",
     "title": "10 AI-Powered Marketing Automation Tools",
-    "excerpt": "AI-powered marketing solutions enhance operational efficiency by reducing the manual workload in data analysis, segmentation, and content planning processes. The technical capabilities of 10 different automation tools designed to increase return on investment (ROI) by processing customer data are listed below. Boost Space Boost Space aims to create a “Single Source of Truth” by consolidating disparate marketing data into a single cloud infrastructure. Through its no-code interface [&hellip;]",
+    "excerpt": "AI-powered marketing solutions provide operational efficiency by reducing manual workload in data analysis, segmentation, and content planning processes. Below are the technical capabilities of 10 different automation tools that aim to increase return on investment (ROI) by processing customer data. Boost Space Boost Space aims to create a \"Single Source of Truth\" by combining scattered marketing data in a single cloud infrastructure. Through its no-code interface [&hellip;]",
     "date": "2025-12-20T23:02:02Z",
     "categories": [
       {
@@ -4373,7 +4373,7 @@
     "slug": "ai-agenda-36-new-models-and-investments",
     "sourceSlug": "yapay-zeka-gundemi-36-yeni-modeller-ve-yatirimlar",
     "title": "AI Agenda #36: New Models and Investments",
-    "excerpt": "New Models and Protocols This week in the AI ecosystem, new models were announced, with a particular focus on multi-agent systems and multimodal capabilities. Highlights include: Nvidia Nemotron 3: A new family of open-source models optimized for multi-agent systems was introduced. OpenAI GPT Image 1.5 & GPT-5.2-Codex: While visual generation capabilities for ChatGPT were updated, the software engineering-focused Codex [&hellip;]",
+    "excerpt": "New Models and Protocols This week in the AI ecosystem, new models were announced, especially focused on multi-agent systems and multimodal capabilities. Key developments are: Nvidia Nemotron 3: A new open-source model family optimized for multi-agent systems was introduced. OpenAI GPT Image 1.5 &#038; GPT-5.2-Codex: While image generation capabilities for ChatGPT were updated, the software engineering-focused Codex [&hellip;]",
     "date": "2025-12-20T23:01:09Z",
     "categories": [
       {
@@ -4457,8 +4457,8 @@
     "id": 231,
     "slug": "openai-announces-its-business-focused-gpt-5-2-model",
     "sourceSlug": "openai-is-odakli-gpt-5-2-modelini-duyurdu",
-    "title": "OpenAI Announces Its Business-Focused GPT-5.2 Model",
-    "excerpt": "New Work-Focused Model Architecture The AI ecosystem has entered a new phase. OpenAI has officially unveiled its GPT-5.2 model, developed for professional use. The new model aims to offer higher accuracy, expanded context handling, and more stable performance in multi-step tasks compared to previous versions. GPT-5.2 is available in three different versions: Instant, Thinking, and Pro [&hellip;]",
+    "title": "OpenAI Announced the Business-Focused GPT-5.2 Model",
+    "excerpt": "New Business-Focused Model Architecture A new stage has been reached in the AI ecosystem. OpenAI officially introduced its GPT-5.2 model developed for professional use. Compared with previous versions, the new model aims to offer a higher accuracy rate, expanded context management, and more stable performance in multi-step tasks. GPT-5.2 comes in three different versions: Instant, Thinking, and Pro [&hellip;]",
     "date": "2025-12-13T23:05:08Z",
     "categories": [
       {
@@ -4527,8 +4527,8 @@
     "id": 228,
     "slug": "tiiny-ai-pocket-lab-a-pocket-sized-computer-with-120-billion-parameters",
     "sourceSlug": "tiiny-ai-pocket-lab-120-milyar-parametreli-cep-bilgisayari",
-    "title": "Tiiny AI Pocket Lab: A Pocket-Sized Computer with 120 Billion Parameters",
-    "excerpt": "Cloud-Independent Local AI Solution U.S.-based startup Tiiny AI has unveiled Pocket Lab, a pocket-sized computer capable of running large language models (LLMs) without the need for cloud servers. The device has been recognized by the Guinness World Records as the “smallest Mini PC capable of running an LLM with 100 billion parameters.” Pocket Lab offers the ability to perform local processing while maintaining data privacy without requiring an internet connection. [&hellip;]",
+    "title": "Tiiny AI Pocket Lab: 120 Billion-Parameter Pocket Computer",
+    "excerpt": "Cloud-Independent Local AI Solution US-based startup Tiiny AI introduced Pocket Lab, a pocket-sized computer that can run large language models (LLMs) without needing cloud servers. The device was certified by Guinness World Records as the \"smallest Mini PC capable of running a 100 billion-parameter LLM.\" Pocket Lab offers the ability to perform local processing while preserving data privacy without requiring an internet connection. [&hellip;]",
     "date": "2025-12-13T23:04:15Z",
     "categories": [
       {
@@ -4602,8 +4602,8 @@
     "id": 225,
     "slug": "openai-2025-update-details-on-operator-and-gpt-5",
     "sourceSlug": "openai-2025-guncellemesi-operator-ve-gpt-5-detaylari",
-    "title": "OpenAI 2025 Update: Details on Operator and GPT-5",
-    "excerpt": "The Era of Agents in Artificial Intelligence and Operator: As of 2025, OpenAI has made a strategic shift in its AI models, transitioning from traditional chatbot architecture to “Agent” systems. At the heart of this transformation is the Operator feature, which enables autonomous actions on behalf of the user via a web browser. Within the scope of its granted permissions, Operator can manage end-to-end processes such as searching for tickets, filling out forms, and making reservations. [&hellip;]",
+    "title": "OpenAI 2025 Update: Operator and GPT-5 Details",
+    "excerpt": "The Agent Era in AI and Operator As of 2025, OpenAI made a strategic shift in AI models, moving from the traditional chatbot structure to \"Agent\" systems. At the center of this transformation is the Operator feature, which can autonomously perform actions through the browser on behalf of the user. Within the granted permissions, Operator can manage processes such as ticket search, form filling, and reservations end to end. […]",
     "date": "2025-12-13T23:03:25Z",
     "categories": [
       {
@@ -4677,8 +4677,8 @@
     "id": 222,
     "slug": "openai-announces-its-new-ai-model-gpt-5-2",
     "sourceSlug": "openai-yeni-yapay-zeka-modeli-gpt-5-2-yi-duyurdu",
-    "title": "OpenAI Announces Its New AI Model, GPT-5.2",
-    "excerpt": "GPT-5.2 Models and Technical Capabilities OpenAI has launched the GPT-5.2 model, designed for developers and professional use cases. Described by the company as its most advanced model to date, this new version is available in three different variants tailored to specific use cases: Instant, Thinking, and Pro. Instant: Low latency and speed for routine tasks such as information retrieval, text generation, and translation [&hellip;]",
+    "title": "OpenAI Announced the New AI Model GPT-5.2",
+    "excerpt": "GPT-5.2 Models and Technical Capabilities OpenAI released the GPT-5.2 model designed for developers and professional use cases. Presented by the company as its most advanced model to date, this new version is offered in three different variations customized by intended use (Instant, Thinking, and Pro). Instant: Low latency and speed for routine queries such as information search, text writing, and translation [&hellip;]",
     "date": "2025-12-13T23:02:27Z",
     "categories": [
       {
@@ -4747,8 +4747,8 @@
     "id": 219,
     "slug": "gpt-5-2-devstral-2-and-notable-ai-developments",
     "sourceSlug": "gpt-5-2-devstral-2-ve-one-cikan-ai-gelismeleri",
-    "title": "GPT-5.2, Devstral 2, and Notable AI Developments",
-    "excerpt": "New Language Models and Open-Source Developments This week saw major model launches in the AI ecosystem on both the proprietary and open-source sides. OpenAI announced GPT-5.2, its most advanced model designed for developers and professional use. At the same time, Mistral introduced the Devstral 2 model—a coding-focused model with 123B parameters—and its Small 2 variant with 24B parameters. Devstral [&hellip;]",
+    "title": "GPT-5.2, Devstral 2 and Featured AI Developments",
+    "excerpt": "New Language Models and Open Source Developments This week, major model launches took place in the AI ecosystem on both the closed-source and open-source sides. OpenAI announced GPT-5.2, its most advanced model designed for developers and professional use. At the same time, Mistral introduced the coding-focused 123B-parameter Devstral 2 model and the 24B-parameter Small 2 variant. Devstral [&hellip;]",
     "date": "2025-12-13T23:01:39Z",
     "categories": [
       {
@@ -4827,8 +4827,8 @@
     "id": 201,
     "slug": "paycell-trendyol-and-dogus-group-fintech-panel",
     "sourceSlug": "paycell-trendyol-ve-dogus-grubu-fintech-paneli",
-    "title": "Paycell, Trendyol, and Doğuş Group Fintech Panel",
-    "excerpt": "Strategic Partnerships in the Fintech Ecosystem: At a panel discussion held during the Webrazzi Fintech 2025 conference, Paycell CEO Serhat Dolaz, Doğuş Group Executive Esra Adalı Ayas, and Trendyol Group CFO Yasin Canki came together. The panel discussed the integration of financial technologies within e-commerce and holding company structures, as well as the development process over the past 10 years. Paycell noted that it has surpassed the 10-million-user mark over the past 10 years [&hellip;]",
+    "title": "Paycell, Trendyol and Doğuş Group Fintech Panel",
+    "excerpt": "Strategic Partnerships in the Fintech Ecosystem At the panel held at the Webrazzi Fintech 2025 conference, Paycell CEO Serhat Dolaz, Doğuş Group Executive Esra Adalı Ayas, and Trendyol Group CFO Yasin Canki came together. The panel discussed the integration of financial technologies into e-commerce and holding structures, and the development process over the last 10 years. Paycell stated that it surpassed the 10 million user threshold over the 10-year period [&hellip;]",
     "date": "2025-12-10T13:27:36Z",
     "categories": [
       {
@@ -4897,8 +4897,8 @@
     "id": 198,
     "slug": "70-million-euros-for-the-humanoid-robot-startup-generative-bionics",
     "sourceSlug": "insansi-robot-girisimi-generative-bionics-e-70-milyon-euro",
-    "title": "70 Million Euros for the Humanoid Robot Startup Generative Bionics",
-    "excerpt": "Details of the Funding Round Generative Bionics, a subsidiary of the Italian Institute of Technology, raised 70 million euros in a funding round led by CDP Venture Capital’s Artificial Intelligence Fund. The round included strategic partners such as Tether, the issuer of USDT, as well as AMD Ventures, Duferco, Eni Next, and RoboIT. Technological Goals and Production Plan The company plans to use the funding to develop physical artificial intelligence [&hellip;]",
+    "title": "70 Million Euros for Humanoid Robot Venture Generative Bionics",
+    "excerpt": "Investment Round Details Generative Bionics, a subsidiary of the Italian Institute of Technology, received a 70 million euro investment in the round led by CDP Venture Capital's AI Fund. Strategic partners such as USDT issuer Tether, as well as AMD Ventures, Duferco, Eni Next, and RoboIT, participated in the round. Technology Targets and Production Plan The company will use the funding obtained for physical AI [&hellip;]",
     "date": "2025-12-10T13:26:39Z",
     "categories": [
       {
@@ -4967,8 +4967,8 @@
     "id": 195,
     "slug": "a-value-driven-approach-to-artificial-intelligence-projects",
     "sourceSlug": "yapay-zeka-projelerinde-deger-odakli-yaklasim",
-    "title": "A Value-Driven Approach to Artificial Intelligence Projects",
-    "excerpt": "The Gap Between Expectations and Reality Zeynep Erdoğan, who presented on behalf of Architecht at the Webrazzi Fintech 2025 event, analyzed the root causes of the disappointments organizations face in their AI projects. The presentation, which cited Gartner data, highlighted the adoption timelines of technologies. The fact that ChatGPT reached the same audience that the automobile took 33 years to reach and the telephone took 15 years to reach in just 2 months has created expectations that are difficult to manage on the corporate side [&hellip;]",
+    "title": "Value-Focused Approach in AI Projects",
+    "excerpt": "The Gap Between Expectation and Reality In a presentation on behalf of Architecht at the Webrazzi Fintech 2025 event, Zeynep Erdoğan analyzed the main reasons behind the disappointments institutions experience in AI projects. The presentation, which referred to Gartner data, drew attention to the adoption periods of technologies. ChatGPT reaching in just 2 months the audience that the automobile reached in 33 years and the telephone in 15 years created an expectation on the corporate side that is hard to manage [&hellip;]",
     "date": "2025-12-10T13:25:41Z",
     "categories": [
       {
@@ -5032,8 +5032,8 @@
     "id": 192,
     "slug": "fal-ai-raised-140-million-in-a-series-d-funding-round",
     "sourceSlug": "fal-ai-seri-d-turunda-140-milyon-dolar-yatirim-aldi",
-    "title": "Fal.ai Raised $140 Million in a Series D Funding Round",
-    "excerpt": "Investment Details and Participants Fal.ai, a San Francisco-based provider of multimodal AI infrastructure, raised $140 million in a Series D funding round led by Sequoia. With this round, the company’s valuation reached $4.5 billion. Participants in the funding round included Kleiner Perkins, NVIDIA’s investment arm NVentures, and Alkeon Capital. Also participating were Andreessen Horowitz (a16z), Kindred Ventures, and [&hellip;]",
+    "title": "Fal.ai Raised $140 Million in Series D Funding",
+    "excerpt": "Investment Details and Participants San Francisco-based multimodal AI infrastructure provider Fal.ai secured $140 million in funding in a Series D round led by Sequoia. With this round, the company’s valuation reached $4.5 billion. Kleiner Perkins, NVIDIA’s investment arm NVentures, and Alkeon Capital participated in the round. In addition, Andreessen Horowitz (a16z), Kindred Ventures and [&hellip;]",
     "date": "2025-12-10T13:24:29Z",
     "categories": [
       {
@@ -5107,8 +5107,8 @@
     "id": 189,
     "slug": "anthropic-claude-code-slack-integration-has-begun",
     "sourceSlug": "anthropic-claude-code-slack-entegrasyonu-basladi",
-    "title": "Anthropic Claude Code Slack Integration Has Begun",
-    "excerpt": "Claude Code Will Work on Slack Anthropic has launched the Claude Code feature on Slack. Released as a beta version as part of a research preview, this new integration allows developers to delegate coding tasks to AI directly through team chats. Unlike previous integrations, which offered only basic code snippet generation or superficial debugging support, the new version provides full-scale [&hellip;]",
+    "title": "Anthropic Claude Code Slack Integration Launched",
+    "excerpt": "Claude Code Will Run on Slack Anthropic made the Claude Code feature available on Slack. Released in beta as a research preview, this new integration lets developers hand off coding tasks to AI directly through team chats. Unlike simple code snippet writing or superficial debugging support offered in earlier integrations, the new version is full-scope [&hellip;]",
     "date": "2025-12-10T13:23:34Z",
     "categories": [
       {

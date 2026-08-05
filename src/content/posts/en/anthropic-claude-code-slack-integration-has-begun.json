@@ -2,9 +2,9 @@
   "id": 189,
   "slug": "anthropic-claude-code-slack-integration-has-begun",
   "lang": "en",
-  "title": "Anthropic Claude Code Slack Integration Has Begun",
-  "excerpt": "Claude Code Will Work on Slack Anthropic has launched the Claude Code feature on Slack. Released as a beta version as part of a research preview, this new integration allows developers to delegate coding tasks to AI directly through team chats. Unlike previous integrations, which offered only basic code snippet generation or superficial debugging support, the new version provides full-scale [&hellip;]",
-  "content": "<h2>Claude Code Will Work on Slack</h2>\n<p>Anthropic has launched the Claude Code feature on Slack. Released as a beta version as part of a research preview, this new integration allows developers to delegate coding tasks to AI directly through team chats.</p>\n<p>Unlike previous integrations, which offered only basic code snippet generation or superficial debugging support, the new version provides full-scale workflow automation. When Slack users tag Claude in a relevant message or thread, the system scans the content and automatically detects whether it constitutes a coding task.</p>\n<h2>Technical Capabilities of the Integration</h2>\n<p>Claude Code’s Slack integration can perform the following core functions:</p>\n<ul>\n<li>Identify the issue by analyzing the context in the Slack thread and error reports.</li>\n<li>Locating the correct files by accessing authenticated code repositories (repos).</li>\n<li>Initiating coding tasks and displaying progress updates in the chat window.</li>\n<li>Reviewing work and creating pull requests.</li>\n</ul>\n<p>This development is part of Anthropic’s strategy to bring Claude Code to web and desktop (including Mac) applications. Other AI coding tools in the industry, such as Cursor and GitHub Copilot, are similarly moving beyond the boundaries of IDEs and focusing on integrating into the collaboration tools teams already use.</p>\n",
+  "title": "Anthropic Claude Code Slack Integration Launched",
+  "excerpt": "Claude Code Will Run on Slack Anthropic made the Claude Code feature available on Slack. Released in beta as a research preview, this new integration lets developers hand off coding tasks to AI directly through team chats. Unlike simple code snippet writing or superficial debugging support offered in earlier integrations, the new version is full-scope [&hellip;]",
+  "content": "<h2>Claude Code Will Work on Slack</h2>\n<p>Anthropic made the Claude Code feature available on Slack. Released in beta as a research preview, this new integration lets developers delegate coding tasks to AI directly through internal team chats.</p>\n<p>Unlike simple code snippet writing or superficial debugging support offered in earlier integrations, the new version provides full workflow automation. When Slack users tag Claude&#8217; in the relevant message or thread, the system scans the content and automatically determines whether it is a coding task.</p>\n<h2>Technical Capabilities of the Integration</h2>\n<p>Claude Code&#8217;s Slack integration can perform the following core functions:</p>\n<ul>\n<li>Analyze the context and error reports in the Slack thread title to identify the issue.</li>\n<li>Access authenticated code repositories (repo) to find the correct files.</li>\n<li>Start coding tasks and reflect progress updates in the chat window.</li>\n<li>Review the work done and create pull requests.</li>\n</ul>\n<p>This development continues Anthropic&#8217;s strategy of bringing Claude Code to web and desktop (including Mac) applications. In the industry, other AI coding tools such as Cursor and GitHub Copilot are similarly focused on moving beyond IDE boundaries and integrating into the collaboration tools teams already use.</p>",
   "date": "2025-12-10T13:23:34Z",
   "modified": "2025-12-10T13:23:35Z",
   "categories": [
@@ -75,5 +75,6 @@
   },
   "author": "kadirmertozden",
   "sourceSlug": "anthropic-claude-code-slack-entegrasyonu-basladi",
-  "sourceHash": "ab4b94a656edad1d"
+  "sourceHash": "ab4b94a656edad1d",
+  "translatedBy": "openai/gpt-5.4"
 }

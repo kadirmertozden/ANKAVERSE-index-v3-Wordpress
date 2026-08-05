@@ -2,9 +2,9 @@
   "id": 422,
   "slug": "siri-will-offer-support-for-multiple-ai-models-with-ios-27",
   "lang": "en",
-  "title": "Siri will offer support for multiple AI models with iOS 27",
-  "excerpt": "Selectable LLM Infrastructure for Siri Apple has decided to diversify the AI infrastructure behind its voice assistant, Siri. By expanding its existing integration with OpenAI, the company is said to be offering users alternative large language models (LLMs). Expected to roll out with iOS 27, this new architecture will allow users to choose which AI model will process requests made through Siri [&hellip;]",
-  "content": "<h2>Selectable LLM Infrastructure for Siri</h2>\n<p>Apple has decided to diversify the AI infrastructure behind its voice assistant, Siri. By expanding its existing integration with OpenAI, the company is said to be planning to offer users alternative large language models (LLMs).</p>\n<p>Expected to roll out with iOS 27, this new architecture will allow users to choose which AI model processes their requests via Siri. The core models to be integrated into the system are listed as follows:</p>\n<ul>\n<li><strong>ChatGPT:</strong> The current infrastructure provided by OpenAI.</li>\n<li><strong>Gemini:</strong> Google’s AI model with ecosystem integration.</li>\n<li><strong>Claude:</strong> Anthropic’s model featuring a wide context window and a focus on security.</li>\n</ul>\n<p>This infrastructure change loosens the traditional closed structure of the Apple ecosystem in terms of AI services, while providing a more modular assistant experience for tech enthusiasts and developers.</p>\n",
+  "title": "Siri will offer multi-AI model support with iOS 27",
+  "excerpt": "Selectable LLM Infrastructure for Siri Apple has decided to diversify the AI infrastructure behind the voice assistant Siri. It is stated that by loosening its current integration with OpenAI, the company will offer users alternative large language models (LLMs). This new architecture, expected to go live with iOS 27, will let users choose which AI model will process requests coming through Siri [&hellip;]",
+  "content": "<h2>Selectable LLM Infrastructure for Siri</h2>\n<p>Apple has decided to diversify the AI infrastructure behind its voice assistant Siri. It is stated that by loosening its current integration with OpenAI, the company will offer users alternative large language models (LLMs).</p>\n<p>This new architecture, expected to go live with iOS 27, will allow users to choose which AI model will process requests coming through Siri. The core models to be integrated into the system are listed as follows:</p>\n<ul>\n<li><strong>ChatGPT:</strong> The current infrastructure provided by OpenAI.</li>\n<li><strong>Gemini:</strong> Google&#8217;s AI model with ecosystem integration.</li>\n<li><strong>Claude:</strong> Anthropic&#8217;s model with a broad context window and a security focus.</li>\n</ul>\n<p>This infrastructure change loosens the traditional closed structure of the Apple ecosystem in terms of AI services, while providing a more modular assistant experience for technology enthusiasts and developers.</p>",
   "date": "2026-03-28T23:03:36Z",
   "modified": "2026-03-28T23:03:36Z",
   "categories": [
@@ -70,5 +70,6 @@
   },
   "author": "kadirmertozden",
   "sourceSlug": "siri-ios-27-ile-coklu-yapay-zeka-modeli-destegi-sunacak",
-  "sourceHash": "5d5521dbef39d2d1"
+  "sourceHash": "5d5521dbef39d2d1",
+  "translatedBy": "openai/gpt-5.4"
 }
