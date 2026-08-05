@@ -15,12 +15,11 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   createClient,
-  DEEPL_TARGETS,
-  assertQuota,
-  assertTargetsSupported,
+  assertBudget,
+  assertModelAvailable,
   countCharacters,
   restoreProtectedTerms,
-} from './deepl.js';
+} from './openrouter.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const LOCALES_DIR = resolve(__dirname, '../src/locales');
@@ -72,8 +71,8 @@ async function readJson(path) {
 const placeholders = (text) => (text.match(/\{\{[^}]+\}\}/g) ?? []).sort().join('|');
 
 async function main() {
-  const client = createClient();
-  await assertTargetsSupported(client, TARGET_LOCALES);
+  const client = createClient({ model: process.env.OPENROUTER_MODEL });
+  await assertModelAvailable(client);
 
   const namespaces = (await readdir(resolve(LOCALES_DIR, SOURCE_LOCALE))).filter((name) =>
     name.endsWith('.json'),
@@ -101,12 +100,14 @@ async function main() {
     (total, job) => total + countCharacters(job.missing.map((entry) => entry.value)),
     0,
   );
-  await assertQuota(client, required);
+  await assertBudget(client, required);
 
   let warnings = 0;
   for (const job of jobs) {
     const sources = job.missing.map((entry) => entry.value);
-    const translations = await client.translate(sources, DEEPL_TARGETS[job.locale]);
+    const translations = await client.translate(sources, job.locale, {
+      label: `${job.locale}/${job.namespace}`,
+    });
 
     const output = structuredClone(job.existing);
     job.missing.forEach((entry, index) => {
