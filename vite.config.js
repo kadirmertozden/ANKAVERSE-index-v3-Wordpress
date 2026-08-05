@@ -254,6 +254,41 @@ export default defineConfig({
 		// only content is a redirect; the real 301 lives in deploy/nginx.conf.
 		includedRoutes: (paths) =>
 			paths.filter((path) => !['/giris', '/giris.html', '/kurumsal'].includes(path)),
+		/**
+		 * Drop vite-react-ssg's server-rendered marker from the published HTML.
+		 *
+		 * The client reads that attribute in exactly two places. One picks
+		 * hydrate over render, and a production build hydrates either way. The
+		 * other decides whether to replace every route loader with a lookup
+		 * into static-loader-data-manifest-<buildHash>.json -- a single file
+		 * holding the loader data for all 210 routes, 411 KB gzipped, fetched
+		 * on every page view including the home page, which has no loader and
+		 * whose entry in it is null.
+		 *
+		 * Without the marker the real loaders run instead, and they read the
+		 * content from `import.meta.glob` chunks that are already in the
+		 * bundle: one small chunk for the route being viewed rather than the
+		 * data for all of them. Client-side navigation gets more correct too,
+		 * since it stops depending on a file named after a build that a tab
+		 * left open across a deploy no longer matches.
+		 *
+		 * The manifest is still written to dist. Nothing requests it now, and
+		 * leaving it means a future break in this replacement costs a slow page
+		 * rather than a broken one.
+		 */
+		onPageRendered(path, html) {
+			const marker = ' data-server-rendered="true"';
+			// If the attribute is ever renamed upstream, a silent no-op here
+			// would put the 411 KB back with nobody watching. Fail instead.
+			if (!html.includes(marker)) {
+				throw new Error(
+					`[ssg] ${path} has no ${marker.trim()} to remove. vite-react-ssg has ` +
+						'changed how it marks server-rendered output; re-check whether the ' +
+						'static loader manifest is being fetched again before removing this hook.',
+				);
+			}
+			return html.replace(marker, '');
+		},
 	},
 	server: {
 		cors: true,
