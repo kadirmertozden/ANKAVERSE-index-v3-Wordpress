@@ -12,13 +12,22 @@
 		<link rel="preconnect" href="https://wordpress.ankaverse.com.tr" crossorigin />
 		<!-- Google AdSense -->
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8018604164128885" crossorigin="anonymous"></script>
-		<!-- Google Tag Manager -->
+		<!--
+			Google tag. One gtag.js serves both properties: the library takes a
+			config per property, so loading it again for the second one would only
+			add a request and more render-blocking script to every page.
+
+			AW- is Ads conversion tracking. G- is GA4, added 2026-08-05 -- until
+			then the site had no traffic measurement at all, so an SEO rebuild had
+			no way to show whether it worked.
+		-->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18324882869"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 			gtag('config', 'AW-18324882869');
+			gtag('config', 'G-G242C7TQGR');
 		</script>
 	</head>
 	<body>
