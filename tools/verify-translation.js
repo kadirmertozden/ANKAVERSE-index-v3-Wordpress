@@ -11,6 +11,7 @@
 import assert from 'node:assert/strict';
 
 import {
+  ModelOutputError,
   TranslationError,
   UNTRANSLATED_MIN_LENGTH,
   assertHtmlIntact,
@@ -126,6 +127,29 @@ test('a brand name absent from the source is left alone', () => {
 test('characters are counted across a set of strings', () => {
   assert.equal(countCharacters(['abc', 'de']), 5);
   assert.equal(countCharacters([]), 0);
+});
+
+test('a bad generation is distinguishable from a bad request', () => {
+  // Everything the model got wrong is worth generating again; a 400 or a
+  // missing key is not. The client retries on this type alone, so the guards
+  // have to raise it rather than the base error.
+  const badGenerations = [
+    () => orderedBatch(['bir'], { 0: 'one', 1: 'two' }),
+    () => orderedBatch(['bir'], null),
+    () => assertTranslated('Yazılım geliştirme ve yapay zekâ çözümleri.', 'Yazılım geliştirme ve yapay zekâ çözümleri.', 'de/x'),
+    () => assertHtmlIntact('<p>a <b>b</b></p>', '<p>a b</p>', 'en/x'),
+  ];
+  for (const fn of badGenerations) {
+    assert.throws(fn, ModelOutputError);
+    // Still a TranslationError, so existing handling keeps working.
+    assert.throws(fn, TranslationError);
+  }
+});
+
+test('a price that cannot be read is not a bad generation', () => {
+  // Retrying it would ask the same catalogue the same question forever.
+  assert.throws(() => estimateCostUsd(3000, {}), TranslationError);
+  assert.throws(() => estimateCostUsd(3000, {}), (error) => !(error instanceof ModelOutputError));
 });
 
 test('cost is estimated from the real per-token price', () => {

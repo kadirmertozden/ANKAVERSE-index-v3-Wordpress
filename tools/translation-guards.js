@@ -12,6 +12,22 @@
 export class TranslationError extends Error {}
 
 /**
+ * Something the model produced is wrong: unparseable JSON, a batch that came
+ * back the wrong shape, untranslated text, mangled markup.
+ *
+ * Separated from TranslationError because it is the one class of failure worth
+ * asking for again. Generation is not deterministic even at temperature 0 --
+ * the same post translated twice comes back differently worded -- so a fault
+ * that appears once in a hundred calls will still appear in most runs of a
+ * hundred and forty. A bad request or an unreadable price is not like that and
+ * must not be retried.
+ *
+ * Retrying costs nothing in safety: every regenerated response goes through the
+ * same guards before it is accepted.
+ */
+export class ModelOutputError extends TranslationError {}
+
+/**
  * Names that must survive translation verbatim.
  *
  * Longest first: restoreProtectedTerms rewrites in order, and "ANKAVERSE"
@@ -45,7 +61,7 @@ export const UNTRANSLATED_MIN_LENGTH = 20;
  */
 export function orderedBatch(sent, received) {
   if (received === null || typeof received !== 'object' || Array.isArray(received)) {
-    throw new TranslationError(
+    throw new ModelOutputError(
       `Model returned ${Array.isArray(received) ? 'an array' : typeof received}, ` +
         'expected a JSON object keyed by index.',
     );
@@ -53,7 +69,7 @@ export function orderedBatch(sent, received) {
 
   const keys = Object.keys(received);
   if (keys.length !== sent.length) {
-    throw new TranslationError(
+    throw new ModelOutputError(
       `Model returned ${keys.length} translations for ${sent.length} strings.`,
     );
   }
@@ -61,10 +77,10 @@ export function orderedBatch(sent, received) {
   return sent.map((_, index) => {
     const value = received[String(index)];
     if (typeof value !== 'string') {
-      throw new TranslationError(`Model returned no string at index ${index}.`);
+      throw new ModelOutputError(`Model returned no string at index ${index}.`);
     }
     if (value.trim() === '') {
-      throw new TranslationError(`Model returned an empty string at index ${index}.`);
+      throw new ModelOutputError(`Model returned an empty string at index ${index}.`);
     }
     return value;
   });
@@ -88,7 +104,7 @@ export function assertTranslated(source, translated, label) {
   if (source.trim().length < UNTRANSLATED_MIN_LENGTH) return;
   if (isOnlyProtectedTerms(source)) return;
 
-  throw new TranslationError(
+  throw new ModelOutputError(
     `Model returned the source text unchanged for ${label}: ${JSON.stringify(source.slice(0, 80))}`,
   );
 }
@@ -110,7 +126,7 @@ export function assertHtmlIntact(source, translated, label) {
   const after = tagSequence(translated).join(',');
   if (before === after) return;
 
-  throw new TranslationError(
+  throw new ModelOutputError(
     `Model changed the HTML structure of ${label}.\n` +
       `  source:     ${before}\n  translated: ${after}`,
   );

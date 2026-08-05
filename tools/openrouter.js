@@ -7,6 +7,7 @@
  * the VPS at all.
  */
 import {
+  ModelOutputError,
   TranslationError,
   assertHtmlIntact,
   assertTranslated,
@@ -16,7 +17,7 @@ import {
   restoreProtectedTerms,
 } from './translation-guards.js';
 
-export { countCharacters, restoreProtectedTerms, TranslationError };
+export { countCharacters, restoreProtectedTerms, ModelOutputError, TranslationError };
 
 const BASE = 'https://openrouter.ai/api/v1';
 
@@ -37,6 +38,16 @@ export const TARGET_LANGUAGES = {
 const MAX_TEXTS_PER_REQUEST = 20;
 
 const MAX_RETRIES = 3;
+
+/**
+ * How many times a batch is generated again after the model got it wrong.
+ *
+ * Generation is not deterministic even at temperature 0, and a fault that
+ * shows up in one call out of a hundred will show up in most runs of a hundred
+ * and forty. Aborting the whole archive over one malformed response wastes
+ * everything translated before it.
+ */
+const GENERATION_RETRIES = 2;
 
 const sleep = (ms) => new Promise((done) => setTimeout(done, ms));
 
@@ -114,9 +125,8 @@ export function createClient({ apiKey = process.env.OPENROUTER_API_KEY, model } 
         throw new TranslationError(`No language name configured for locale "${targetLocale}".`);
       }
 
-      const results = [];
-      for (let offset = 0; offset < texts.length; offset += MAX_TEXTS_PER_REQUEST) {
-        const batch = texts.slice(offset, offset + MAX_TEXTS_PER_REQUEST);
+      /** One generation of one batch, validated. Throws ModelOutputError. */
+      const generate = async (batch, offset) => {
         const payload = Object.fromEntries(batch.map((text, index) => [String(index), text]));
 
         const data = await call('/chat/completions', {
@@ -129,17 +139,32 @@ export function createClient({ apiKey = process.env.OPENROUTER_API_KEY, model } 
           ],
         });
 
-        const content = data?.choices?.[0]?.message?.content;
+        const choice = data?.choices?.[0];
+        const content = choice?.message?.content;
         if (typeof content !== 'string') {
-          throw new TranslationError(`OpenRouter returned no message content for ${label}.`);
+          throw new ModelOutputError(`OpenRouter returned no message content for ${label}.`);
+        }
+
+        // A response cut off at the output limit is still valid-looking at the
+        // start, which is what made the first occurrence of this read as a
+        // plain JSON fault. Naming it is the difference between "retry" and
+        // "send less at a time".
+        if (choice.finish_reason === 'length') {
+          throw new ModelOutputError(
+            `OpenRouter truncated the response for ${label} at the output limit ` +
+              `(${data?.usage?.completion_tokens} completion tokens, provider ${data?.provider}).`,
+          );
         }
 
         let parsed;
         try {
           parsed = JSON.parse(content);
-        } catch {
-          throw new TranslationError(
-            `OpenRouter returned content that is not JSON for ${label}: ${content.slice(0, 200)}`,
+        } catch (error) {
+          // The end, not the beginning: malformed JSON breaks where it stops.
+          throw new ModelOutputError(
+            `OpenRouter returned content that is not JSON for ${label} ` +
+              `(provider ${data?.provider}, finish ${choice.finish_reason}): ${error.message}\n` +
+              `  ...ends with: ${JSON.stringify(content.slice(-160))}`,
           );
         }
 
@@ -149,8 +174,28 @@ export function createClient({ apiKey = process.env.OPENROUTER_API_KEY, model } 
           assertTranslated(batch[index], value, itemLabel);
           if (html) assertHtmlIntact(batch[index], value, itemLabel);
         });
+        return translated;
+      };
 
-        results.push(...translated);
+      const results = [];
+      for (let offset = 0; offset < texts.length; offset += MAX_TEXTS_PER_REQUEST) {
+        const batch = texts.slice(offset, offset + MAX_TEXTS_PER_REQUEST);
+
+        for (let attempt = 0; ; attempt += 1) {
+          try {
+            results.push(...(await generate(batch, offset)));
+            break;
+          } catch (error) {
+            // Only the model's own mistakes are worth asking again. A bad
+            // request stays bad, and the guards run on every regeneration, so
+            // nothing unvalidated is ever accepted.
+            if (!(error instanceof ModelOutputError) || attempt >= GENERATION_RETRIES) throw error;
+            console.warn(
+              `  ! ${label}: ${error.message.split('\n')[0]} ` +
+                `-- generating again (${attempt + 1}/${GENERATION_RETRIES})`,
+            );
+          }
+        }
       }
       return results;
     },
